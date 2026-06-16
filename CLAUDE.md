@@ -24,6 +24,7 @@ Invoke the skill when the trigger phrase appears:
 | "add this resume" / "ingest" | `/ingest` |
 | "apply for this" + JD | `/apply` |
 | "finalise" | `/finalise` |
+| "render PDFs" / "generate PDFs" | `/render` |
 | "lint" | `/lint` |
 | Drafting any resume or cover letter prose | `/resume-style` first |
 
@@ -44,4 +45,4 @@ Invoke the skill when the trigger phrase appears:
 
 - Windows / PowerShell
 - PDFs: `Read` tool with `pages` parameter. `.md` files: `Read` without `pages`
-- PDF export: `node claude-code-resume-template/build.js applications/<folder>/` — see `/finalise` for full detail
+- PDF export: `node claude-code-resume-template/build.js applications/<folder>/` — see `/render` for full detail

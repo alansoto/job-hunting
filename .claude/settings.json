@@ -31,10 +31,16 @@
       "Edit(/.claude/skills/lint/**)",
       "Edit(/.claude/skills/resume-style/**)",
       "Edit(/.claude/skills/finalise/**)",
-      "Bash(Remove-Item \"c:\\\\job-hunting\\\\.claude\\\\commands\\\\resume-style.md\")"
+      "Bash(Remove-Item \"c:\\\\job-hunting\\\\.claude\\\\commands\\\\resume-style.md\")",
+      "Bash(mkdir -p \"c:/job-hunting/.claude/skills/render\")",
+      "Edit(/.claude/skills/render/**)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ],
     "additionalDirectories": [
-      "c:\\job-hunting\\.claude\\commands"
+      "c:\\job-hunting\\.claude\\commands",
+      "c:\\job-hunting\\.claude\\skills"
     ]
   }
 }
