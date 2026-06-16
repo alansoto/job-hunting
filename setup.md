@@ -126,15 +126,17 @@ When you say "finalise" or "ready to send":
    - Run: `node claude-code-resume-template/generate-pdf.js cover-letter.html cover-letter.pdf`
    - Move the PDF to `applications/<folder>/cover-letter-final.pdf`.
 
-3. Copy the final resume back to `raw/resumes/<YYYY-MM-DD>-<company>-<role>-final.md` so any new details feed the wiki on next ingest.
-4. Run Ingest on that final resume to capture any newly surfaced details into the wiki.
+3. Copy the markdown sources to `raw/resumes/` for wiki ingest (PDFs stay in `applications/<folder>/` for recruiters):
+   - `applications/<folder>/resume-draft.md` → `raw/resumes/Alan-Soto-<YYYY-MM-DD>-<Company>-<Role>-Resume.md`
+   - `applications/<folder>/cover-letter-draft.md` → `raw/resumes/Alan-Soto-<YYYY-MM-DD>-<Company>-<Role>-Cover-Letter.md`
+4. Run Ingest on both archived markdown files to capture positioning variants, ATS keywords, and gap-bridging language into the wiki.
 5. Write `meta.md`:
    ```
    company: <name>
    role: <title>
    date_sent: <YYYY-MM-DD>
-   resume_used: raw/resumes/<filename>
-   cover_letter_used: applications/<folder>/cover-letter-draft.md
+   resume_used: raw/resumes/Alan-Soto-<YYYY-MM-DD>-<Company>-<Role>-Resume.md
+   cover_letter_used: raw/resumes/Alan-Soto-<YYYY-MM-DD>-<Company>-<Role>-Cover-Letter.md
    status: sent
    outcome: (fill in later)
    notes: (fill in later)
@@ -205,7 +207,7 @@ Plain markdown. Long-form and exhaustive — do not truncate. Use `[[wikilinks]]
 - `gap analysis` — Re-run or deepen the gap analysis for the current application.
 - `draft resume` — (Re-)generate the tailored resume draft.
 - `draft cover letter` — (Re-)generate the cover letter draft.
-- `finalise` — Export PDF, archive final resume, update tracker.
+- `finalise` — Export PDFs (stay in `applications/<folder>/`), archive `-Resume.md` and `-Cover-Letter.md` to `raw/resumes/`, ingest both, update tracker.
 - `what do I know about <topic>` — Query the wiki.
 - `lint` — On-demand health check.
 
@@ -216,6 +218,6 @@ Plain markdown. Long-form and exhaustive — do not truncate. Use `[[wikilinks]]
 - `raw/` is never edited. If a past resume contains an error, note the correction in the relevant wiki page — don't touch the source file.
 - The wiki is exhaustive by design. When in doubt, keep more detail, not less. Brevity belongs in tailored resumes, not in the wiki.
 - Every Ingest and every Apply MUST append a line to `wiki/log.md`.
-- Tailored resumes are derived from the wiki, never edited back into it directly — the final resume file archived in `raw/resumes/` is what gets ingested.
+- Tailored resumes are derived from the wiki, never edited back into it directly — the markdown sources archived in `raw/resumes/` (`-Resume.md` and `-Cover-Letter.md`) are what get ingested. PDFs are for recruiters only and never copied to `raw/`.
 - Update `meta.md` and `tracker.md` whenever application status changes, not just on send.
 - This schema co-evolves. Append new conventions here as they prove useful.
