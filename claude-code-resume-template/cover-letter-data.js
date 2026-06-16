@@ -4,20 +4,17 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Delivery Lead",
-  "date": "16 June 2026",
+  "title": "Engineering Technical Lead",
+  "date": "17 June 2026",
   "recipient": {},
-  "salutation": "Dear Auto & General Hiring Team,",
+  "salutation": "Dear Stake team,",
   "paragraphs": [
-    "When I read the description for the Delivery Lead role, your focus on agile delivery within a high-performing, collaborative environment stood out immediately. It directly mirrors my work at Suncorp Group, where I led a compliance-critical platform migration across all brands while navigating a complex regulatory environment.",
-    "Here is how my background translates to what you need next:",
-    [
-      "At Xero, I manage the end-to-end delivery of an API modernization program spanning more than 40 engineering teams. I will bring this experience in handling complex dependencies and forecasting to your major initiatives, ensuring leadership always has clear, reliable status tracking.",
-      "While at Go1, I built a structured operating model from scratch by setting up clean sprint practices, planning rhythms, and backlog refinement. I can use this exact playbook to help your teams lift their delivery pace and build strong stakeholder confidence quickly.",
-      "With a Masters in Project Management and a CSM, I have facilitated ceremonies across Virgin Australia, Xero, Console Group, and Go1 to shift engineering teams from reactive to predictable delivery rhythms. My focus is heavily on collaboration, creating a healthy team environment where people understand their goals and deliver together."
-    ],
-    "I am Brisbane-based and ready for the Toowong hybrid model. If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
+    "When I read the description for the Engineering Technical Lead - Payments role, your team's focus on scaling payments while bridging engineering, product, and compliance stood out immediately. It directly mirrors the work I do at Xero, where I run our company-wide API Program and previously delivered our US Bills payments integration.",
+    "I can help you scale Stake's payments infrastructure securely because I have owned this full lifecycle before. At Console/Reapit, I built a new payments capability end-to-end, managing internal delivery and external partner integrations. This hands-on experience means I can hit the ground running.",
+    "Navigating the intersection of product, risk, and compliance is a core part of my background. At Xero and Suncorp, I aligned technical delivery with tight regulatory frameworks across multiple engineering workstreams. I know how to partner effectively with your finance, risk, and operations teams to ship features that are both intuitive and compliant.",
+    "On the people leadership side, I focus on building high-performing engineering cultures that improve over time. At 2sol and Go1, I managed squads through rapid organizational changes and led full practice transformations covering CI/CD, automated testing, and code reviews. I will bring this same focus to Stake to mentor your developers and maintain engineering excellence as the team grows.",
+    "If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
   ],
-  "signOff": "Kind regards,",
+  "signOff": "Sincerely,",
   "signature": ""
 };

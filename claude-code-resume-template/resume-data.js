@@ -1,23 +1,23 @@
 window.RESUME = {
   "name": "Alan Soto",
-  "title": "Delivery Lead",
+  "title": "Engineering Technical Lead",
   "location": "Brisbane, QLD, Australia",
   "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
-  "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
-  "summary": "Delivery Lead with 15+ years of experience driving agile delivery across SaaS, financial services, and highly regulated enterprise environments. Proven track record of transforming chaotic, fast-moving environments into predictable, high-performing delivery operations without adding friction. A hands-on practitioner who balances deep technical team engagement with high-level stakeholder alignment.\n\nSpecialist in standing up clear delivery operating models, facilitating agile ceremonies, removing systemic impediments, and giving teams and leaders the visibility they need to move fast with confidence. Industry background spans insurance and financial services (Suncorp Group), global SaaS (Xero, Go1), and large regulated enterprise (Virgin Australia).",
+  "linkedinUrl": "",
+  "summary": "Engineering Leader with 15+ years of experience spanning software architecture, cross-functional leadership, and high-availability platform delivery. Proven track record of scaling engineering organizations and delivering mission-critical initiatives including highly regulated fintech environments.\n\nCurrently leading Xero’s API Program, overseeing enterprise-wide governance across dozens of teams to serve 3M+ global customers. Expert in payment integrations, with a history of aligning product, engineering, and compliance to deliver end-to-end payment platforms for major players including Xero (US BILL.com integration), Suncorp, and Console/Reapit.",
   "skills": [
     {
-      "label": "Agile delivery",
-      "items": "End-to-end agile delivery · Scrum · Kanban · Continuous improvement · Agile transformation"
+      "label": "Engineering leadership",
+      "items": "Squad management · Architectural decision-making · Coaching engineering managers and tech leads · Engineering and product operating rhythms"
     },
     {
-      "label": "Delivery governance",
-      "items": "Risk and dependency management · Delivery metrics & KPIs · SDLC · Release management · CI/CD · Impediment removal"
+      "label": "Payments and platform",
+      "items": "Payments capability delivery · External payments-provider integration · Compliance and risk alignment · High-availability platform leadership · API and integration delivery"
     },
     {
-      "label": "Leadership & Stakeholder management",
-      "items": "EGM & GM-level reporting · Cross-functional team leadership · Team coaching · Self-organising team development"
+      "label": "Delivery and process",
+      "items": "Cross-functional program management · Dependency and risk management · Delivery forecasting · Agile ways of working"
     }
   ],
   "experience": [
@@ -28,24 +28,22 @@ window.RESUME = {
       "place": "Brisbane (remote)",
       "context": "Global cloud accounting platform · 4,500+ employees",
       "bullets": [
-        "Own end-to-end agile delivery across Xero's company-wide API Program, spanning 40+ engineering teams; manage roadmaps, forecasts, and delivery tracking, and keep work flowing at a sustainable pace.",
-        "Identify and mitigate cross-team delivery risks and dependencies early, removing impediments and escalating where needed across a federated model of dozens of teams.",
-        "Build data-led delivery metrics that give teams and leaders clear visibility of capacity, timelines, and flow, and report milestone and trade-off status to GM and EGM level.",
-        "Facilitate planning, reviews, and retrospectives, and coach engineering managers and tech leads across 10+ teams on cycle time, capacity planning, forecasting, and healthy delivery rhythms.",
-        "Drove a company-wide ways-of-working program embedding continuous improvement and a shared delivery framework across every team in the organisation."
+        "Lead the API Program: a company-wide initiative to build a single, federated API surface across all of Xero's product capabilities, enabling AI agents and third-party integrations. The platform spans dozens of engineering teams, requires high availability, and is the infrastructure underpinning Xero's AI-agent strategy. Provide EGM-level visibility on milestones, risks, and trade-offs.",
+        "Delivered the US Bills Integration: a cross-functional payments platform delivery aligning product, engineering, and compliance teams across multiple workstreams; managed risk and kept delivery on track through complex dependencies.",
+        "Previously led AI for Customers - embedding ML and AI capabilities into products used by 3M+ customers; coordinated ML engineers, data scientists, and product teams across multiple business areas.",
+        "Coached 10+ engineering managers and tech leads across the business on delivery rhythms, cycle time, capacity planning, and forecasting - building a shared, data-led view of what needs attention across the system."
       ]
     },
     {
       "company": "Go1",
-      "role": "Technical Program Manager / Scrum Master",
+      "role": "Technical Program Manager",
       "dates": "Nov 2020 — Mar 2022",
       "place": "Brisbane",
-      "context": "Global e-learning SaaS platform · hyper-growth scale-up",
+      "context": "Global e-learning SaaS · hyper-growth scale-up",
       "bullets": [
-        "Led a cross-functional squad of 8 as Scrum Master and team lead, owning end-to-end delivery of a new content-creator product from discovery through production.",
-        "Facilitated sprint planning, stand-ups, reviews, and retrospectives; ran day-to-day direction setting, coaching, and team health through rapid organisational change.",
-        "Established a common operating model from scratch - standardising sprint practices, planning rhythms, backlog refinement, and delivery reporting - lifting delivery pace and giving stakeholders confidence in quality and predictability.",
-        "Managed complex dependencies across distributed engineering, product, data, and marketing teams."
+        "Led a cross-functional squad of 8 (6 engineers, 1 designer, 1 PO) with direct responsibility for hiring, onboarding, performance, and team health through rapid organisational change.",
+        "Owned full delivery lifecycle from discovery through production: scoped MVPs, managed technical trade-offs, ran planning and backlog refinement, and coordinated releases.",
+        "Established a common operating model across the squad and broader org - standardising sprint practices, planning rhythms, and delivery reporting - increasing pace and making timelines predictable for stakeholders."
       ]
     },
     {
@@ -53,23 +51,10 @@ window.RESUME = {
       "role": "Delivery Coach",
       "dates": "Nov 2019 — Nov 2020",
       "place": "Brisbane",
-      "context": "ASX-listed financial services and insurance · APRA-regulated",
+      "context": "ASX-listed financial services and insurance",
       "bullets": [
-        "Managed delivery of a large-scale telephony and data platform migration across the entire Suncorp organisation and all affiliate brands, coordinating four engineering teams including offshore contractors.",
-        "Partnered with Infrastructure, Security, business units, and external vendors through a compliance-critical program; verified solutions met data governance standards, identified data risks, and escalated issues.",
-        "Introduced delivery governance into the program - dependency management, cross-team communication patterns, visual progress reporting, and sprint rhythms - keeping delivery on track through COVID-19, corporate restructuring, and a shifting regulatory environment."
-      ]
-    },
-    {
-      "company": "Virgin Australia",
-      "role": "Enterprise Agile Coach (via Neu21)",
-      "dates": "Jun 2019 — Nov 2019",
-      "place": "Brisbane",
-      "context": "Aviation · large regulated enterprise",
-      "bullets": [
-        "Coached four Product Owners and led quarterly planning workshops with 70+ people across digital delivery, surfacing technical dependencies early.",
-        "Facilitated a single product backlog and physical Kanban boards giving end-to-end visibility of all work in flight; improved stand-ups, planning, and retrospectives through hands-on coaching.",
-        "Delivered measurable improvement in delivery performance across all products in scope within a 5-month engagement."
+        "Coordinated 4 engineering teams - including offshore contractors - through a compliance-critical telephony and data-platform migration across all Suncorp brands; verified technical solutions met data-governance and regulatory standards.",
+        "Introduced delivery governance frameworks keeping the programme on track through COVID-19, corporate restructuring, and a shifting regulatory environment."
       ]
     },
     {
@@ -77,10 +62,10 @@ window.RESUME = {
       "role": "Head of Product",
       "dates": "Feb 2018 — Jun 2019",
       "place": "Brisbane",
-      "context": "HR SaaS startup",
+      "context": "HR SaaS growth-stage startup · ~20 developers",
       "bullets": [
-        "Built the product management function from scratch; directly managed a team of 5, establishing discovery rhythms, roadmapping, and prioritisation frameworks.",
-        "Led delivery of AI-powered people-analytics features using NLP, running internal pilots with ethical and compliance guardrails before launch."
+        "Built the product management function from scratch; managed a team of 5 and established discovery rhythms, roadmapping, and prioritisation frameworks.",
+        "Led delivery of AI-powered people-analytics features using NLP; coordinated engineering and data scientists; ran internal pilots before external launch."
       ]
     },
     {
@@ -88,10 +73,11 @@ window.RESUME = {
       "role": "Iteration Manager",
       "dates": "Feb 2017 — Feb 2018",
       "place": "Brisbane",
-      "context": "Real-estate management SaaS platform",
+      "context": "Real-estate management SaaS",
       "bullets": [
-        "Led a cross-functional engineering team to deliver a new payments capability including a deep integration with an external payments provider, owning delivery from scope through release.",
-        "Facilitated agile ceremonies, coached product owners and designers on discovery, and drove continuous improvement across the team."
+        "Led end-to-end delivery of a new payments capability, including a deep integration with an external payments provider - owned technical delivery through scope shaping, timelines, capacity planning, and release coordination from scope to production.",
+        "Worked closely with architects, engineers, and the external payments partner to resolve technical blockers early and keep the integration reliable and secure.",
+        "Ran product discovery alongside technical delivery - customer interviews, user story maps, user journeys - to validate scope before building."
       ]
     },
     {
@@ -99,34 +85,35 @@ window.RESUME = {
       "role": "Projects Lead",
       "dates": "Nov 2012 — Jan 2017",
       "place": "Brisbane",
-      "context": "Primary engineering partner to Flight Centre Travel Group",
+      "context": "Digital agency · primary engineering partner to Flight Centre Travel Group",
       "bullets": [
-        "Owned end-to-end delivery of Flight Centre's online booking platform - a core digital business generating over $5M in monthly revenue - leading a team of 5 developers across 10+ products and 20+ APIs.",
-        "Ran a multi-year agile transformation introducing CI/CD, automated testing, code review, Kanban, and delivery metrics, turning a reactive team into a predictable one."
+        "Directly led a team of 5 developers delivering Flight Centre's hotel and accommodation booking platform ($5M+ monthly revenue); managed 10+ customer-facing products and 20+ APIs.",
+        "Drove a multi-year engineering practice transformation: introduced modern source control, automated testing, CI/CD, pair programming, code review culture, and coding standards - shifting the team from reactive to predictable.",
+        "Built Kanban-based delivery rhythms, planning cadences, and delivery metrics that gave leadership visibility and confidence in quality and timelines."
       ]
     }
   ],
   "education": [
     {
-      "qualification": "Masters of Project Management",
-      "org": "Queensland University of Technology",
-      "note": "2012-2013 · Dean's Award, 7.0 GPA"
+      "qualification": "Master of Project Management",
+      "org": "QUT",
+      "note": "Dean's Award, 7.0 GPA"
     },
     {
-      "qualification": "Bachelor of Systems Engineering",
+      "qualification": "BSc Systems Engineering",
       "org": "Universidad de Lima",
-      "note": "1998-2002"
+      "note": ""
     },
     {
-      "qualification": "Certified ScrumMaster (CSM)",
+      "qualification": "Certified Scrum Master (CSM)",
       "org": "Scrum Alliance",
-      "note": "2012"
+      "note": ""
     },
     {
       "qualification": "PMP",
       "org": "Project Management Institute",
-      "note": "2012"
+      "note": ""
     }
   ],
-  "earlier": ""
+  "earlier": "Emedia Campaigns (2006-2012) - Systems Architect: designed and built payment and booking systems for major events across Australia and New Zealand."
 };

@@ -137,6 +137,18 @@ Expert (current).
 
 ---
 
+## [2026-06-17] apply (finalised + submitted) — Stake, Engineering Technical Lead - Payments
+- JD fetched from stake.breezy.hr; saved to `applications/2026-06-16-stake-engineering-technical-lead-payments/job-description.md`
+- Gap analysis: fit score 72/100. Strong on three payments touchpoints (Console/Reapit end-to-end payments capability, Xero US Bills, Emedia payment/booking systems), Xero API Program as HA/mission-critical platform anchor, fintech-adjacent credibility (Suncorp ASX-listed, Xero). Partial: current title is Lead TPM not Engineering Manager; reconciliation and fraud controls not directly evidenced.
+- Positioning: "Engineering Technical Lead" framing; software-engineer-to-engineering-leader arc; Console/Reapit and 2sol given full expanded entries for payments depth and technical credibility. Emedia in "Earlier" section only. API Program as HA anchor (not Emedia — per Alan's reframing).
+- Rendered `Alan Soto - Engineering Technical Lead - Stake - Resume.pdf` + `Alan Soto - Engineering Technical Lead - Stake - Cover Letter.pdf` via `claude-code-resume-template`.
+- Archived markdown sources to `raw/resumes/Alan-Soto-2026-06-17-Stake-Engineering-Technical-Lead-Payments-Resume.md` + `…-Cover-Letter.md`; ingested both.
+- Wrote `meta.md`; appended `outputs/tracker.md`; status: Submitted — awaiting response.
+- **Wiki updates from ingest:** [[positioning]] — new "Engineering Technical Lead" + "Payments / fintech engineering lead" headline variant, professional summary, and cheat-sheet entry; Xero API Program as HA anchor note. [[keywords]] — payment processing, reconciliation, banking integrations, fraud controls, operational tooling, operational resilience added to engineering/technical section.
+- Pages touched: [[positioning]], [[keywords]], [[processed]], [[log]]
+
+---
+
 ## [2026-06-16] ingest — Alan Soto - Head of Delivery - Halosoft - Resume.pdf + Cover Letter.pdf
 - 2 new files: tailored final resume + cover letter for the Halosoft Head of Delivery application.
 - Both derived from the wiki — no new biographical facts or metrics.

@@ -27,6 +27,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Ops/strategy | Technical Program & Operations Leader (→ Chief of Staff) | Strategic thinking + hands-on execution |
 | Delivery leadership (SaaS/AI) | Head of Delivery | Delivery rhythm/cadence design; clear structure for teams to ship with confidence; EGM-level alignment; fintech-adjacent framing |
 | Delivery Lead / Insurance & regulated | Delivery Lead | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing |
+| Payments / fintech engineering lead | Engineering Technical Lead | Software-engineer-to-engineering-leader arc; three payments touchpoints (Console/Reapit, Xero US Bills, Emedia); Xero API Program as HA/mission-critical anchor; regulated finserv credibility (Suncorp, Xero) |
 
 ## Professional-summary angles (reusable openers)
 
@@ -86,6 +87,8 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
 - **Agile / Scrum Master role** → expand Virgin *coaching/70+ planning*, Go1 *Scrum Master*,
   Suncorp *delivery rhythms*; lead with CSM (PMP is lapsed — see [[education]]).
 - **Data-governance / regulated role** → expand Suncorp *compliance-critical migration*.
+- **Payments / fintech engineering lead role** → lead with the software-engineer-to-engineering-leader arc; anchor on three payments touchpoints: Console/Reapit (end-to-end payments capability delivery with deep external provider integration), Xero US Bills (cross-functional payments platform aligning product, engineering, and compliance), Emedia (payment/booking systems architecture — use for payments evidence, not for HA claim); use Xero API Program as the high-availability / mission-critical platform anchor; fintech-adjacent cluster: Suncorp (ASX-listed financial services) + Xero + multi-platform payment integrations. Acknowledge investment-platform domain as new but pivot to environment match (regulated, HA, payments). Do NOT use Emedia as the HA story — that is the Xero API Program.
+
 - **Head of Delivery role (SaaS/AI)** → lead with Xero *API Program* (dozens of teams, delivery
   structure at scale, EGM-level visibility) + Xero *AI for Customers* (ML engineers + data scientists,
   R&D timelines, adaptive guardrails) + Go1 *common operating model* (built from scratch in

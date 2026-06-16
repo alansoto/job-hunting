@@ -37,9 +37,10 @@ visual management · physical Kanban boards.
 ## Engineering / technical
 Software development · systems architecture · CI/CD · automated testing · pair programming ·
 code review · coding standards · release management · SDLC · cloud-based systems ·
-high-availability · service stability · operational excellence · payments integration ·
-API · federated API surface · booking systems · ticketing systems · e-commerce · security
-protocols · capacity planning · performance tuning.
+high-availability · service stability · operational excellence · operational resilience ·
+payments integration · payment processing · reconciliation · banking integrations ·
+fraud controls · operational tooling · API · federated API surface · booking systems ·
+ticketing systems · e-commerce · security protocols · capacity planning · performance tuning.
 
 ## AI / data
 AI · machine learning (ML) · AI for Customers · AI agents · NLP (natural language processing) ·
