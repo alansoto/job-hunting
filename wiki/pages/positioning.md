@@ -26,6 +26,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Engineering leadership | Engineering Manager / Head of Engineering | People management, technical depth, CI/CD, team building |
 | Ops/strategy | Technical Program & Operations Leader (→ Chief of Staff) | Strategic thinking + hands-on execution |
 | Delivery leadership (SaaS/AI) | Head of Delivery | Delivery rhythm/cadence design; clear structure for teams to ship with confidence; EGM-level alignment; fintech-adjacent framing |
+| Delivery Lead / Insurance & regulated | Delivery Lead | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing |
 
 ## Professional-summary angles (reusable openers)
 
@@ -58,6 +59,13 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
   self-organising teams that deliver effectively at a sustainable pace… confident jumping into the
   code, shaping good engineering practices, and driving clear results through simple metrics and
   straight communication."
+- **Delivery Lead (insurance/regulated):** "Delivery Lead with 15+ years of experience driving agile
+  delivery across SaaS, financial services, and highly regulated enterprise environments. Proven track
+  record of transforming chaotic, fast-moving environments into predictable, high-performing delivery
+  operations without adding friction. A hands-on practitioner who balances deep technical team
+  engagement with high-level stakeholder alignment. Specialist in standing up clear delivery operating
+  models, facilitating agile ceremonies, removing systemic impediments, and giving teams and leaders
+  the visibility they need to move fast with confidence."
 
 ## Years-of-experience note
 Summaries use both **"10+ years"** and **"15+ years."** The engineering career started in **2003**
@@ -85,6 +93,14 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   Emphasise delivery rhythm/cadence design as a specialism, not project execution. Lead with
   "delivery leader" voice, not "program manager." Fintech-adjacent framing: name Suncorp
   (ASX-listed), Xero, and payments integrations together when targeting fintech-adjacent roles.
+- **Delivery Lead / Insurance & regulated role** → expand Suncorp *APRA-regulated telephony
+  migration* (compliance-critical, four teams, COVID adversity) as primary insurance-industry anchor
+  + Xero *API Program* (40+ teams, dependency management, EGM-level forecasting/reporting) for
+  delivery scale + Go1 *operating model built from scratch* (sprint practices, planning rhythms,
+  backlog refinement) for hands-on practitioner credibility. Lead with "Delivery Lead" title, NOT
+  "Head of" framing — role is explicitly an individual contributor. Individual contributor voice
+  throughout; weave in APRA compliance awareness naturally. Insurance/financial-services angle in
+  summary. "Delivery Lead" title itself is an industry-standard role title in insurance/finserv.
 
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.

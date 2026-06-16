@@ -113,10 +113,29 @@ Expert (current).
 
 ---
 
+## [2026-06-16] apply (started) — Stake, Engineering Technical Lead - Payments
+- JD fetched from SEEK (job/92695393); saved to `applications/2026-06-16-stake-engineering-technical-lead-payments/job-description.md`
+- Gap analysis written: fit score 70/100. Strong on payments experience (Console/Reapit integration, Xero US Bills, Emedia high-availability systems), high-availability/mission-critical architecture, cross-functional alignment, team leadership, and fintech-adjacent credibility (Suncorp, Xero). Partial gaps: named payment processors not in wiki, current title is TPM not EM, observability tooling not named, no fraud-specific work. Open questions: named processors from Console/Xero; observability tooling; Sydney hybrid travel; salary target.
+- Status: gap analysis drafted — pending discussion before resume draft
+
+---
+
 ## [2026-06-16] apply — Halosoft, Head of Delivery
 - JD fetched from SEEK (job/92644597); saved to `applications/2026-06-16-halosoft-head-of-delivery/job-description.md`
 - Gap analysis written: fit score 9/10 — exceptional match. No hard-requirement gaps. Soft gaps: mobile app delivery (not evidenced), QA as named discipline (implied only). Strong differentiators: AI product delivery (Xero AI for Customers + intelliHR NLP), API program, fintech-adjacent (Suncorp, Xero, payments delivery), Go1/intelliHR startup experience.
 - Status: gap analysis drafted — pending review and discussion before resume draft
+
+## [2026-06-16] apply (finalised + submitted) — Auto & General, Delivery Lead
+- Created `applications/2026-06-16-auto-and-general-delivery-lead/`
+- Saved JD verbatim as `job-description.md`; gap analysis: very strong fit (~9.0/10). Closest single-role match to Alan's actual day-to-day work — APRA-regulated insurance, Scrum/Kanban, ceremony facilitation, impediment removal, delivery metrics/KPIs, continuous improvement, and stakeholder management all directly evidenced. Suncorp bridged the named-APRA gap.
+- Resume tailored with individual contributor voice ("Delivery Lead" — not "Head of"); Suncorp as primary insurance anchor; Xero API Program for scale + dependency management; Go1 for operating model built from scratch. Cover letter addressed to "Auto & General Hiring Team" (no named hiring manager).
+- Rendered `Alan Soto - Delivery Lead - Auto - Resume.pdf` + `Alan Soto - Delivery Lead - Auto - Cover Letter.pdf` via `claude-code-resume-template`.
+- Archived markdown sources to `raw/resumes/Alan-Soto-2026-06-16-Auto-and-General-Delivery-Lead-Resume.md` + `…-Cover-Letter.md`; ingested both.
+- Wrote `meta.md`; appended `outputs/tracker.md`; status: Submitted — awaiting response.
+- **Wiki updates from ingest:** [[keywords]] — "Delivery Lead" added to roles; "APRA compliance · APRA audit · impediment removal" added to program/delivery. [[positioning]] — new "Delivery Lead / Insurance & regulated" headline variant + professional summary + cheat-sheet entry.
+- Pages touched: [[keywords]], [[positioning]], [[processed]], [[log]]
+
+---
 
 ## [2026-06-16] ingest — Alan Soto - Head of Delivery - Halosoft - Resume.pdf + Cover Letter.pdf
 - 2 new files: tailored final resume + cover letter for the Halosoft Head of Delivery application.

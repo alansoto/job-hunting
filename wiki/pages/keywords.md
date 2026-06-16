@@ -11,7 +11,7 @@ optimisation. All keywords below are **evidenced** in [[skills]] / [[experience]
 
 ## Roles / titles used as positioning
 Technical Program Manager · Lead / Senior / Staff Technical Program Manager · Programme Manager ·
-Project Manager · Principal Project Manager · Digital Delivery Manager · Delivery Coach ·
+Project Manager · Principal Project Manager · Digital Delivery Manager · Delivery Coach · Delivery Lead ·
 Iteration Manager · Agile Coach · Enterprise Agile Coach · Scrum Master · Head of Product ·
 Head of Engineering · Head of Delivery · Engineering Manager · Technical Program & Operations Leader ·
 Product & Delivery Manager · Chief of Staff (aspirational, named in one summary). See [[positioning]].
@@ -26,7 +26,7 @@ cycle time · throughput · WIP limits · flow · delivery predictability · del
 delivery cadence design · release management · operating model · operating model design ·
 operating rhythms · systems of work · milestones · quarterly planning · cross-functional ·
 multi-team · multi-phase programs · EGM-level · governance · hybrid governance ·
-ICT transformation · business transformation · regulated enterprise · high-velocity team.
+ICT transformation · business transformation · regulated enterprise · high-velocity team
 
 ## Agile / ways of working
 Agile · Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog
