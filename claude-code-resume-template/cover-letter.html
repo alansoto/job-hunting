@@ -86,6 +86,9 @@
   .cl-salutation{ margin:0 0 calc(16px * var(--clf)); font-size:calc(14px * var(--clf)); line-height:1.6; color:var(--ink-2); font-weight:500; }
   .cl-body p{ margin:0 0 calc(13px * var(--clf)); font-size:calc(13.5px * var(--clf)); line-height:1.62; color:#333; text-wrap:pretty; }
   .cl-body p:last-child{ margin-bottom:0; }
+  .cl-body ul{ margin:0 0 calc(13px * var(--clf)); padding-left:1.5em; }
+  .cl-body ul li{ font-size:calc(13.5px * var(--clf)); line-height:1.62; color:#333; margin-bottom:calc(4px * var(--clf)); }
+  .cl-body ul:last-child{ margin-bottom:0; }
 
   /* ---- sign-off ---- */
   .cl-signoff{ margin-top:calc(26px * var(--clf)); }
@@ -230,7 +233,15 @@ function render(){
   // body
   const body = el('div','cl-body');
   body.appendChild(el('p','cl-salutation', esc(deriveSalutation(d))));
-  (d.paragraphs || []).forEach(p => body.appendChild(el('p', null, esc(p))));
+  (d.paragraphs || []).forEach(p => {
+    if (Array.isArray(p)) {
+      const ul = el('ul', null, null);
+      p.forEach(item => ul.appendChild(el('li', null, esc(item))));
+      body.appendChild(ul);
+    } else {
+      body.appendChild(el('p', null, esc(p)));
+    }
+  });
   letter.appendChild(body);
 
   // sign-off

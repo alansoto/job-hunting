@@ -56,6 +56,10 @@ Skeleton scaffolded; **no resumes ingested yet** — all wiki pages are seeded b
 
 All resume bullets, cover letter prose, summaries, and bios must follow the rules in `.claude/commands/resume-style.md` (available as the `/resume-style` skill). That file is the authoritative style guide — consult it before drafting any application output.
 
+## Personal details
+
+- **Personal email: me@alansoto.info** — use this on all resume headers and cover letters. `alan.soto@xero.com` is the work email; never use it in application documents.
+
 ## Environment notes
 
 - Windows / PowerShell. Repo is **not** a git repo.

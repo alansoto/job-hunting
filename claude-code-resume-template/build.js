@@ -245,6 +245,14 @@ function parseCoverLetterDraft(content, role) {
 
     if (!t) {
       if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
+    } else if (t.startsWith('- ')) {
+      if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
+      const last = paragraphs[paragraphs.length - 1];
+      if (Array.isArray(last)) {
+        last.push(t.slice(2));
+      } else {
+        paragraphs.push([t.slice(2)]);
+      }
     } else {
       cur.push(t);
     }

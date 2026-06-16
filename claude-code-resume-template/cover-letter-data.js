@@ -4,19 +4,20 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Head of Delivery",
+  "title": "Delivery Lead",
   "date": "16 June 2026",
   "recipient": {},
-  "salutation": "Dear Halosoft Hiring Team,",
+  "salutation": "Dear Auto & General Hiring Team,",
   "paragraphs": [
-    "For the past six years, I have scaled delivery structures within fast-moving SaaS and AI product environments. At Xero, I lead delivery programs spanning dozens of engineering teams across web, API, and AI streams. Collaborating directly at the EGM level, I translate product strategy into execution, establishing the sprint rhythms, forecasting, and risk frameworks that provide leadership with absolute operational visibility.",
-    "My distinct value lies in navigating the unique friction of AI product delivery:",
-    "- Scale: At Xero, I spearheaded the AI for Customers program, aligning ML engineers, data scientists, and product teams to ship capabilities to 3 million users. - Zero-to-One: At intelliHR, I guided NLP-powered people-analytics features from internal pilot to successful external launch. - I know firsthand how AI delivery departs from standard feature work, it requires managing unpredictable R&D timelines, complex data dependencies, and adaptive guardrails.",
-    "I also bring a proven track record of establishing operating models from scratch:",
-    "- Go1 (Hyper-growth SaaS): Restructured a fragmented squad by implementing sprint rhythms, backlog readiness, and delivery reporting, turning a chaotic process into a predictable engine. - intelliHR (Startup): Built and scaled the product management function for a fast-moving 20-developer startup. - Fintech & Integrations: Deep operational exposure across Suncorp Group (ASX-listed), Xero, and various multi-platform payment integrations.",
-    "While the advice-industry vertical represents a new landscape for me, the core environment at Halosoft, managing multiple product streams, scaling AI automation, and leading a high-velocity remote team, is exactly the ecosystem I have spent my career mastering.",
-    "I would welcome a conversation about where Halosoft’s delivery structure needs the most support and how my background can help your teams scale predictably."
+    "When I read the description for the Delivery Lead role, your focus on agile delivery within a high-performing, collaborative environment stood out immediately. It directly mirrors my work at Suncorp Group, where I led a compliance-critical platform migration across all brands while navigating a complex regulatory environment.",
+    "Here is how my background translates to what you need next:",
+    [
+      "At Xero, I manage the end-to-end delivery of an API modernization program spanning more than 40 engineering teams. I will bring this experience in handling complex dependencies and forecasting to your major initiatives, ensuring leadership always has clear, reliable status tracking.",
+      "While at Go1, I built a structured operating model from scratch by setting up clean sprint practices, planning rhythms, and backlog refinement. I can use this exact playbook to help your teams lift their delivery pace and build strong stakeholder confidence quickly.",
+      "With a Masters in Project Management and a CSM, I have facilitated ceremonies across Virgin Australia, Xero, Console Group, and Go1 to shift engineering teams from reactive to predictable delivery rhythms. My focus is heavily on collaboration, creating a healthy team environment where people understand their goals and deliver together."
+    ],
+    "I am Brisbane-based and ready for the Toowong hybrid model. If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
   ],
-  "signOff": "Sincerely,",
+  "signOff": "Kind regards,",
   "signature": ""
 };

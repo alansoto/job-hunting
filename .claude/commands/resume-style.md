@@ -109,3 +109,44 @@ Avoid: furthermore, moreover, in addition to this, it is important to note that.
 Break long complex sentences into short plain ones.
 
 - "The multifaceted nature of contemporary paradigms... necessitates a comprehensive reevaluation of traditional methodologies." -> "Things have changed. We need to rethink our approach."
+
+---
+
+## Cover Letter Structure & Tone
+
+These rules override general prose defaults for cover letters specifically.
+
+### Tone
+
+Write in a style that is easy to read, simple, casual but professional, and highly direct. The output must sound like a real, conversational human being - not a polished AI or a generic template. No dry corporate jargon. No "Dear Sir or Madam." No "I am writing to express my interest." Avoid sounding desperate. Focus confidently on "what I can do for you."
+
+### Structure (non-negotiable)
+
+**Opening hook (Direct Alignment)** - Start with a conversational, direct alignment hook. Identify a specific focus or goal mentioned in the job description, and immediately connect it to a highly relevant project or achievement from recent experience. Template: "When I read the description for the [Title] role, your team's focus on [Specific Goal] stood out immediately. It directly mirrors the work I just finished at [Company], where I..." Adapt freely - the point is a concrete, named connection, not a boilerplate opener.
+
+**Body bullets (Future-Focused with Fallback)** - 3 to 4 high-impact, scannable bullet points. Use a hybrid mix:
+- At least one cultural or teamwork win
+- At least two technical or hard-skill wins
+- Dynamically weight the mix toward what the JD values most
+
+Formatting within bullets: keep text clean and unformatted. Do NOT use internal bolding for metrics or skills - rely on short, crisp, punchy sentences for readability.
+
+Primary rule: connect each past achievement directly to how it will help solve a future need, pain point, or project explicitly mentioned in the job description.
+
+Fallback rule: if the JD does not provide enough specific context about the company's future projects, revert to presenting high-impact, relevant past achievements that prove capability in the required skills.
+
+**Closing CTA** - Low-pressure, collaborative. Use a variation of: "If this alignment sounds like what you're looking for, I'd welcome the chance to connect." Never beg, never oversell.
+
+### Length scaling
+
+Dynamically scale based on the level of the role, but aggressively prioritise brevity. The letter must fit on one page and respect the hiring manager's limited time.
+
+- Entry/mid-level roles: brief and punchy - one tight paragraph + bullets + one-line close
+- Senior/lead roles: slightly expanded hook and bullets, but still prioritise directness over length
+
+### Additional banned words (cover letter specific)
+
+On top of the corporate jargon rules above, do NOT use:
+synergy, leverage, utilize, passionate, dynamic, paradigm shift, delve, foster, testament, bespoke, thrilled, landscape, multi-faceted, look no further, deeply, dramatically, perfect fit, love.
+
+Replace any of these with plain, specific English - describe the actual thing, not the adjective around it.
