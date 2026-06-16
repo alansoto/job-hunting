@@ -90,7 +90,7 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
 - "🔴 relevant experience" inline flags next to roles matching the JD.
 - Adding company descriptors (e.g., "Global cloud accounting software, 4,500+ employees") for
   context.
-- Switching spelling **Program ↔ Programme** to match the employer's locale/convention.
+- Always use **Program** instead of **Programme**.
 - Naming a specific division/program (Partner Hub, API Program) when it strengthens fit.
 - **New-industry gap + environment match pivot** (used in Halosoft cover letter): acknowledge the
   new vertical explicitly ("While the [industry] vertical represents a new landscape for me, the core
