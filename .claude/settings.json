@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node _render.mjs resume.pdf cover-letter.pdf)",
+      "Bash(copy \"c:\\\\job-hunting\\\\claude-code-resume-template\\\\resume.pdf\" \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\resume-final.pdf\")",
+      "Bash(copy \"c:\\\\job-hunting\\\\claude-code-resume-template\\\\cover-letter.pdf\" \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\cover-letter-final.pdf\")",
+      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\claude-code-resume-template\\\\resume.pdf\" \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\resume-final.pdf\")",
+      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\claude-code-resume-template\\\\cover-letter.pdf\" \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\cover-letter-final.pdf\")",
+      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\claude-code-resume-template\\\\cover-letter.pdf\" \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\cover-letter-final.pdf\" -Force)",
+      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\applications\\\\2026-06-16-sharp-and-carter-principal-project-manager\\\\resume-final.pdf\" \"c:\\\\job-hunting\\\\raw\\\\resumes\\\\Alan-Soto-2026-06-16-Sharp-and-Carter-Principal-Project-Manager.pdf\")",
+      "PowerShell(New-Item *)",
+      "Edit(c:\\job-hunting\\*)",
+      "Write(c:\\job-hunting\\*)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(node claude-code-resume-template/generate-pdf.js resume.html \"applications/2026-06-16-halosoft-head-of-delivery/resume-final.pdf\")",
+      "Bash(node claude-code-resume-template/generate-pdf.js cover-letter.html \"applications/2026-06-16-halosoft-head-of-delivery/cover-letter-final.pdf\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); const files = fs.readdirSync\\('raw/resumes'\\); console.log\\(files.join\\('\\\\n'\\)\\);\")",
+      "Bash(node -e ' *)",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\" 2>&1)",
+      "PowerShell(python -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\" 2>&1)",
+      "PowerShell(python -c \"import pypdf; print\\('pypdf ok'\\)\" 2>&1)",
+      "PowerShell(python -c \"import fitz; print\\('fitz ok'\\)\" 2>&1)",
+      "PowerShell(python -m pip install pypdf --quiet 2>&1)",
+      "PowerShell(python -m pip install pypdf 2>&1)",
+      "PowerShell(python -c \"import pypdf; print\\('ok'\\)\" 2>&1)",
+      "Bash(node claude-code-resume-template/build.js applications/2026-06-16-halosoft-head-of-delivery/)"
+    ]
+  }
+}

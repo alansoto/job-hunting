@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume</title>
+
+<!--
+  ============================================================================
+  SWISS GRID RESUME TEMPLATE  (portable, single-file, no build step)
+  ----------------------------------------------------------------------------
+  - Content comes from `window.RESUME` (loaded from resume-data.js).
+    If that file is missing, the inline SAMPLE below is used instead.
+  - A small JS paginator lays the content into A4 sheets:
+      * Page 1  -> two columns  (sidebar: contact/skills/education | main: profile + experience)
+      * Page 2+ -> single full-width column ("Experience (continued)")
+    It auto-flows for ANY resume length. You do not hand-place page breaks.
+  - Print / PDF: A4, margins handled by the page padding (set @page margin 0).
+  Styling knobs live in :root and CONFIG. See README.md for the full guide.
+  ============================================================================
+-->
+
+<style>
+/* Self-hosted fonts (latin, woff2) — no network needed at render time. */
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/HankenGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/HankenGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/HankenGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/HankenGrotesk-700.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/SpaceGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/SpaceGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/SpaceGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/SpaceGrotesk-700.woff2') format('woff2');}
+</style>
+
+<style>
+  :root{
+    /* ---- palette (black & white) ---- */
+    --ink:        #111111;
+    --ink-2:      #1a1a1a;
+    --muted:      #444444;
+    --muted-2:    #666666;
+    --muted-3:    #777777;
+    --muted-4:    #999999;
+    --rule:       #dcdcdc;
+    --rule-strong:#111111;
+    --desk:       #ECEAE3;  /* on-screen "desk" behind the paper */
+
+    /* ---- type ---- */
+    --font-head: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-body: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--desk);
+    font-family:var(--font-body);
+    color:var(--ink-2);
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  /* ---- stage / paper ---- */
+  .stage{ display:flex; flex-direction:column; align-items:center; gap:30px; padding:40px 24px 80px; }
+  .page{
+    position:relative;
+    width:794px;            /* A4 width  @96dpi */
+    height:1123px;          /* A4 height @96dpi */
+    background:#fff;
+    box-shadow:0 12px 44px rgba(0,0,0,.13);
+    border-radius:3px;
+    padding:54px 56px;      /* keep in sync with CONFIG.padTop / padBottom / padX */
+    overflow:hidden;
+  }
+
+  /* ---- header ---- */
+  .r-header{ border-bottom:2px solid var(--rule-strong); padding-bottom:13px; margin-bottom:18px; }
+  .r-name{ margin:0; font-family:var(--font-head); font-weight:700; font-size:42px; line-height:.95; letter-spacing:-.02em; color:var(--ink); }
+  .r-title{ margin:11px 0 0; font-family:var(--font-head); font-weight:500; font-size:13px; line-height:1; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); }
+
+  /* ---- columns ---- */
+  .cols{ display:flex; gap:38px; align-items:flex-start; }
+  .aside{ width:206px; flex:none; }
+  .maincol{ flex:1; min-width:0; }
+  .flowcol{ width:100%; }
+
+  /* ---- section label ---- */
+  .label{ font-family:var(--font-head); font-weight:600; font-size:10.5px; line-height:1; letter-spacing:.2em; text-transform:uppercase; color:var(--ink); border-bottom:1px solid var(--rule); padding-bottom:7px; margin-bottom:10px; }
+
+  .block{ margin-bottom:18px; }
+  .aside .block{ margin-bottom:24px; }
+  .aside .block:last-child{ margin-bottom:0; }
+
+  /* ---- contact ---- */
+  .contact-line{ font-size:13px; line-height:1.65; color:var(--muted); }
+  .contact-line a{ color:var(--ink); text-decoration:none; }
+
+  /* ---- skills ---- */
+  .skill-group{ margin-bottom:9px; }
+  .skill-group:last-child{ margin-bottom:0; }
+  .skill-label{ font-weight:600; font-size:12.5px; line-height:1.3; color:var(--ink); margin-bottom:3px; }
+  .skill-items{ font-size:12px; line-height:1.5; color:var(--muted-2); }
+
+  /* ---- education ---- */
+  .edu-item{ margin-bottom:8px; }
+  .edu-item:last-child{ margin-bottom:0; }
+  .edu-q{ font-weight:600; font-size:12.5px; line-height:1.35; color:var(--ink); }
+  .edu-meta{ font-size:11.5px; line-height:1.4; color:var(--muted-3); }
+
+  /* ---- profile ---- */
+  .profile-text{ margin:0; font-size:13px; line-height:1.45; color:#333; text-wrap:pretty; }
+
+  /* ---- experience ---- */
+  .entry{ margin-bottom:11px; }
+  .entry-head{ display:flex; justify-content:space-between; align-items:flex-start; gap:14px; }
+  .entry-company{ margin:0; font-family:var(--font-head); font-weight:600; font-size:15.5px; line-height:1.25; color:var(--ink); }
+  .entry-dates{ font-family:var(--font-head); font-weight:500; font-size:11px; line-height:1.25; letter-spacing:.06em; color:var(--muted-3); white-space:nowrap; }
+  .entry-role{ font-weight:500; font-size:13px; line-height:1.3; color:var(--muted); margin:3px 0 1px; }
+  .entry-meta{ font-size:11.5px; line-height:1.4; color:var(--muted-4); margin-bottom:5px; }
+  .bullets{ margin:0; padding:0; list-style:none; }
+  .bullets li{ position:relative; padding-left:16px; font-size:12.5px; line-height:1.4; color:#333; margin-bottom:2px; text-wrap:pretty; }
+  .bullets li::before{ content:""; position:absolute; left:0; top:8px; width:5px; height:5px; background:var(--ink); }
+  .earlier{ margin:6px 0 0; font-size:12px; line-height:1.5; color:var(--muted-3); }
+
+  /* ---- print ---- */
+  @media print{
+    @page{ size:A4; margin:0; }
+    html,body{ background:#fff; }
+    .stage{ padding:0; gap:0; }
+    .page{ box-shadow:none; border-radius:0; break-after:page; }
+    .page:last-child{ break-after:auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage"></div>
+
+<!-- Content data. Replace resume-data.js to change the resume. -->
+<script src="resume-data.js" onerror="console.warn('resume-data.js not found; using inline SAMPLE')"></script>
+
+<script>
+/* ============================ CONFIG ============================
+   Page geometry, in CSS px @96dpi. Keep padX/padTop/padBottom in
+   sync with the .page padding above. SAFETY is slack (px) left at
+   the bottom of every page so descenders never clip. SIDEBAR_W /
+   COL_GAP match the CSS so the measuring matches the layout.       */
+const CONFIG = {
+  pageH: 1123,
+  padBottom: 54,
+  safety: 10
+};
+
+/* ============================ SAMPLE ============================
+   Fallback content so this file renders on its own. resume-data.js
+   (window.RESUME) overrides this when present.                     */
+const SAMPLE = {
+  name: 'Alan Soto',
+  title: 'Senior Technical Program Manager',
+  location: 'Brisbane, QLD, Australia',
+  email: 'me@alansoto.info',
+  linkedinLabel: 'linkedin.com/in/alansoto',
+  linkedinUrl: 'https://www.linkedin.com/in/alansoto/',
+  summary: 'Senior Technical Program Manager with 15+ years delivering high-complexity, cross-functional programs end to end. Combines technical literacy, including code-level understanding and architecture, with the ability to align product vision and engineering execution. Proficient at driving data-informed decisions and providing clarity across matrixed organizations.',
+  skills: [
+    { label: 'Program management', items: 'Cross-functional program delivery · Roadmaps · Dependency & risk management · Governance & compliance · Data-driven decisions · Stakeholder management · Influence without authority' },
+    { label: 'AI & technical', items: 'AI/ML program delivery · Software architecture · API platforms · CI/CD · Cloud-based systems' },
+    { label: 'Ways of working', items: 'Capacity planning · Forecasting · Cycle time & flow · Agile · Scrum · Kanban · Product analytics' }
+  ],
+  experience: [
+    { company:'Xero', role:'Lead Technical Program Manager', dates:'Mar 2022 — Present', place:'Brisbane (remote)', context:'Global cloud accounting platform · 4,500+ employees', bullets:[
+      'Lead a company-wide API program delivering a single federated API surface across virtually every engineering team, so AI agents and third-party partners can reach Xero’s product capabilities. Own program roadmaps and delivery tracking, and report milestones, risks, and trade-offs to EGM-level stakeholders.',
+      'Led AI for Customers, a large program embedding AI and machine-learning capabilities into core products used by more than 3 million customers, coordinating ML engineers, data scientists, product, platform, and design teams and managing dependencies across them.',
+      'Drive clarity and data-driven decisions across engineering, product, and design without direct authority, aligning stakeholders across a federated model of dozens of teams.',
+      'Partner with executive leadership to define and champion the AI roadmap and align program initiatives with long-term product strategy.',
+      'Led US Bills, a major payments-platform integration, aligning product, engineering, and compliance teams, mitigating risk, and clearing blockers across workstreams.',
+      'Coach engineering managers and tech leads across 10+ teams on cycle time, capacity planning, forecasting, and delivery rhythms, improving flow and predictability.'
+    ]},
+    { company:'Go1', role:'Technical Program Manager', dates:'Nov 2020 — Mar 2022', place:'Brisbane', context:'Global e-learning SaaS · hyper-growth scale-up', bullets:[
+      'Led a cross-functional squad of 8 (six engineers, a designer, and a product owner) that owned a new content-creator product end to end, letting creators optimise and distribute content across Go1’s global learning network.',
+      'Owned the full delivery lifecycle in a fast-moving, ambiguous environment: scoped MVPs, managed technical trade-offs, ran planning, and coordinated releases.',
+      'Ran an internal incubator with a designer, PM, and commercial lead, using prototypes and technical spikes to validate ideas with behavioural data before committing to build.',
+      'Built a common operating model that lifted delivery pace and gave stakeholders confidence in quality and predictability.'
+    ]},
+    { company:'Suncorp Group', role:'Delivery Coach (Data Engineering)', dates:'Nov 2019 — Nov 2020', place:'Brisbane', context:'ASX-listed financial services & insurance · highly regulated', bullets:[
+      'Ran delivery for a large-scale, compliance-critical data-platform migration across the enterprise and its affiliate brands, coordinating four engineering teams including offshore contractors, plus Infrastructure, Security, and external vendors.',
+      'Verified technical solutions met data-governance and compliance standards, identified data risks, and escalated issues on a regulated program.',
+      'Kept the program on track through COVID-19, corporate restructuring, and a shifting regulatory environment.'
+    ]},
+    { company:'intelliHR', role:'Head of Product', dates:'Feb 2018 — Jun 2019', place:'Brisbane', context:'HR SaaS startup · ~20 engineers', bullets:[
+      'Led design and delivery of AI-powered people-analytics features built on NLP, working with engineering and data scientists to align the AI with customer needs and bake value, usability, and ethical considerations into the product.',
+      'Ran internal pilot programs to validate AI-driven features before launch, coordinating cross-functional feedback loops to refine UX and confirm compliance.',
+      'Built the product-management function from scratch, directly managed a team of five, and introduced behavioural analytics (Pendo, FullStory) to move decisions from assumption-driven to evidence-driven.'
+    ]},
+    { company:'Console Group / Reapit', role:'Iteration Manager', dates:'Feb 2017 — Feb 2018', place:'Brisbane', context:'Real-estate management SaaS', bullets:[
+      'Led a cross-functional team to deliver a new payments capability with a deep external payments-provider integration, owning technical delivery from scope to release and keeping the integration reliable and secure.'
+    ]},
+    { company:'2sol Software Studios', role:'Projects Lead', dates:'Nov 2012 — Jan 2017', place:'Brisbane', context:'Engineering partner to Flight Centre Travel Group', bullets:[
+      'Owned end-to-end delivery of Flight Centre’s online hotel and accommodation platform, a core digital business generating $5M+ in monthly revenue, across 10+ customer-facing products and 20+ APIs.',
+      'Ran a multi-year transformation across technical excellence (CI/CD, automated testing, code review, coding standards), ways of working, and outcome-driven product delivery.'
+    ]},
+    { company:'Emedia Campaigns', role:'Systems Architect / Software Engineer', dates:'Feb 2006 — Jul 2012', place:'Brisbane', context:'Digital agency & online ticketing', bullets:[
+      'Designed and maintained high-availability ticketing, booking, and payment architecture for major events, built to stay stable under very high simultaneous traffic, with security hardening and capacity planning (V8 Supercars, Byron Bay Blues Festival, Bridge to Brisbane).'
+    ]}
+  ],
+  education: [
+    { qualification:'Master of Project Management', org:'Queensland University of Technology', note:'Dean’s Award · 7.0 GPA' },
+    { qualification:'Bachelor of Systems Engineering', org:'Universidad de Lima, Peru', note:'' },
+    { qualification:'Project Management Professional (PMP)', org:'Project Management Institute', note:'' },
+    { qualification:'Certified ScrumMaster (CSM)', org:'Scrum Alliance', note:'' }
+  ],
+  earlier: 'Earlier — Software Engineer in Canada (including Barrick Gold) and Peru, 2003–2006, specialising in high-availability e-commerce systems.'
+};
+
+/* ============================ helpers ============================ */
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (html != null) n.innerHTML = html;
+  return n;
+}
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function joinDot(parts){ return parts.filter(Boolean).join(' · '); }
+
+/* ============================ builders ============================ */
+function buildHeader(d){
+  const h = el('div','r-header');
+  h.appendChild(el('h1','r-name', esc(d.name)));
+  if (d.title) h.appendChild(el('p','r-title', esc(d.title)));
+  return h;
+}
+
+function buildSidebar(d){
+  const aside = el('div','aside');
+
+  // contact
+  const c = el('div','block');
+  c.appendChild(el('div','label','Contact'));
+  if (d.location) c.appendChild(el('div','contact-line', esc(d.location)));
+  if (d.email)    c.appendChild(el('div','contact-line', '<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>'));
+  if (d.linkedinUrl || d.linkedinLabel){
+    const label = esc(d.linkedinLabel || d.linkedinUrl);
+    const href  = esc(d.linkedinUrl || ('https://'+d.linkedinLabel));
+    c.appendChild(el('div','contact-line', '<a href="'+href+'">'+label+'</a>'));
+  }
+  aside.appendChild(c);
+
+  // skills
+  if (d.skills && d.skills.length){
+    const s = el('div','block');
+    s.appendChild(el('div','label','Skills'));
+    d.skills.forEach(g=>{
+      const grp = el('div','skill-group');
+      grp.appendChild(el('div','skill-label', esc(g.label)));
+      grp.appendChild(el('div','skill-items', esc(g.items)));
+      s.appendChild(grp);
+    });
+    aside.appendChild(s);
+  }
+
+  // education
+  if (d.education && d.education.length){
+    const e = el('div','block');
+    e.appendChild(el('div','label','Education'));
+    d.education.forEach(ed=>{
+      const item = el('div','edu-item');
+      item.appendChild(el('div','edu-q', esc(ed.qualification)));
+      const meta = joinDot([ed.org, ed.note]);
+      if (meta) item.appendChild(el('div','edu-meta', esc(meta)));
+      e.appendChild(item);
+    });
+    aside.appendChild(e);
+  }
+
+  return aside;
+}
+
+function buildProfile(d){
+  const b = el('div','block');
+  b.appendChild(el('div','label','Profile'));
+  b.appendChild(el('p','profile-text', esc(d.summary)));
+  return b;
+}
+
+function buildEntry(job){
+  const e = el('div','entry');
+  const head = el('div','entry-head');
+  head.appendChild(el('h3','entry-company', esc(job.company)));
+  if (job.dates) head.appendChild(el('span','entry-dates', esc(job.dates)));
+  e.appendChild(head);
+  if (job.role) e.appendChild(el('div','entry-role', esc(job.role)));
+  const meta = joinDot([job.place, job.context]);
+  if (meta) e.appendChild(el('div','entry-meta', esc(meta)));
+  if (job.bullets && job.bullets.length){
+    const ul = el('ul','bullets');
+    job.bullets.forEach(b=> ul.appendChild(el('li', null, esc(b))));
+    e.appendChild(ul);
+  }
+  return e;
+}
+
+function buildEarlier(d){ return el('p','earlier', esc(d.earlier)); }
+
+/* ============================ paginator ============================ */
+function pageBottomLimit(pageEl){
+  return pageEl.getBoundingClientRect().top + CONFIG.pageH - CONFIG.padBottom - CONFIG.safety;
+}
+function overflows(node, pageEl){
+  return node.getBoundingClientRect().bottom > pageBottomLimit(pageEl);
+}
+
+async function paginate(){
+  const d = (window.RESUME && typeof window.RESUME === 'object') ? window.RESUME : SAMPLE;
+  document.title = (d.name ? d.name + ' — ' : '') + 'Resume';
+
+  // wait for fonts so measurements reflect the real metrics
+  if (document.fonts && document.fonts.ready) { try { await document.fonts.ready; } catch(e){} }
+
+  const stage = document.getElementById('stage');
+  stage.innerHTML = '';
+  const newPage = ()=>{ const p = el('div','page'); stage.appendChild(p); return p; };
+
+  // ---- PAGE 1: header + (sidebar | main) ----
+  let page = newPage();
+  page.appendChild(buildHeader(d));
+  const cols = el('div','cols');
+  cols.appendChild(buildSidebar(d));
+  let col = el('div','maincol');
+  cols.appendChild(col);
+  page.appendChild(cols);
+
+  if (d.summary) col.appendChild(buildProfile(d));
+  col.appendChild(el('div','label','Experience'));
+
+  const entries = (d.experience || []).map(buildEntry);
+
+  // fill page 1 main column until the next entry would overflow
+  let i = 0;
+  for (; i < entries.length; i++){
+    col.appendChild(entries[i]);
+    if (overflows(entries[i], page)){ col.removeChild(entries[i]); break; }
+  }
+
+  // ---- PAGE 2+: single column ----
+  if (i < entries.length){
+    page = newPage();
+    col = el('div','flowcol'); page.appendChild(col);
+    col.appendChild(el('div','label','Experience (continued)'));
+    for (; i < entries.length; i++){
+      col.appendChild(entries[i]);
+      if (overflows(entries[i], page)){
+        col.removeChild(entries[i]);
+        page = newPage();
+        col = el('div','flowcol'); page.appendChild(col);
+        col.appendChild(el('div','label','Experience (continued)'));
+        col.appendChild(entries[i]); // place on the fresh page
+      }
+    }
+  }
+
+  // ---- earlier note, after the last entry ----
+  if (d.earlier){
+    const note = buildEarlier(d);
+    col.appendChild(note);
+    if (overflows(note, page)){
+      col.removeChild(note);
+      page = newPage();
+      col = el('div','flowcol'); page.appendChild(col);
+      col.appendChild(el('div','label','Experience (continued)'));
+      col.appendChild(note);
+    }
+  }
+
+  window.__paginated = true;            // PDF tools can wait on this flag
+  document.documentElement.dataset.paginated = 'true';
+}
+
+window.addEventListener('load', paginate);
+</script>
+</body>
+</html>

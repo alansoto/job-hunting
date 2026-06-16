@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cover Letter</title>
+
+<!--
+  ============================================================================
+  SWISS GRID COVER LETTER TEMPLATE  (matches resume.html)
+  ----------------------------------------------------------------------------
+  - Content comes from `window.COVER_LETTER` (loaded from cover-letter-data.js).
+    If that file is missing, the inline SAMPLE below is used instead.
+  - Single A4 page of prose. Same letterhead, fonts, rule and colours as the
+    resume so an application reads as one consistent set.
+  - Render to PDF with the shared script:
+        node generate-pdf.js cover-letter.html cover-letter.pdf
+  Keep a cover letter to ONE page (3–4 short paragraphs). See README.md.
+  ============================================================================
+-->
+
+<style>
+/* Self-hosted fonts (latin, woff2) — no network needed at render time. */
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/HankenGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/HankenGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/HankenGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/HankenGrotesk-700.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/SpaceGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/SpaceGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/SpaceGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/SpaceGrotesk-700.woff2') format('woff2');}
+</style>
+
+<style>
+  :root{
+    --ink:        #111111;
+    --ink-2:      #1a1a1a;
+    --muted:      #444444;
+    --muted-2:    #666666;
+    --muted-3:    #777777;
+    --rule:       #dcdcdc;
+    --rule-strong:#111111;
+    --desk:       #ECEAE3;
+    --font-head: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-body: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--desk);
+    font-family:var(--font-body);
+    color:var(--ink-2);
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .stage{ display:flex; flex-direction:column; align-items:center; gap:30px; padding:40px 24px 80px; }
+  .page{
+    position:relative;
+    width:794px;            /* A4 width  @96dpi */
+    height:1123px;          /* A4 height @96dpi — the letter is forced to ONE page */
+    --clf:1;                /* auto-fit factor; the fitter lowers this if needed */
+    background:#fff;
+    box-shadow:0 12px 44px rgba(0,0,0,.13);
+    border-radius:3px;
+    padding:62px 64px 70px;
+    overflow:hidden;
+  }
+
+  /* ---- letterhead (mirrors the resume header) ---- */
+  .r-header{ border-bottom:2px solid var(--rule-strong); padding-bottom:13px; margin-bottom:calc(30px * var(--clf)); }
+  .r-name{ margin:0; font-family:var(--font-head); font-weight:700; font-size:42px; line-height:.95; letter-spacing:-.02em; color:var(--ink); }
+  .r-title{ margin:11px 0 0; font-family:var(--font-head); font-weight:500; font-size:13px; line-height:1; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); }
+  .cl-contact{ margin-top:12px; font-size:12.5px; line-height:1; color:var(--muted-2); display:flex; flex-wrap:wrap; gap:14px; }
+  .cl-contact a{ color:var(--ink); text-decoration:none; }
+  .cl-contact .sep{ color:var(--rule); }
+
+  /* ---- date + recipient ---- */
+  .cl-date{ font-family:var(--font-head); font-weight:500; font-size:11.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--muted-3); margin-bottom:calc(26px * var(--clf)); }
+  .cl-recipient{ margin-bottom:calc(26px * var(--clf)); font-size:13px; line-height:1.6; color:var(--muted); }
+  .cl-recipient .to-name{ font-weight:600; color:var(--ink); }
+  .cl-recipient .to-company{ font-weight:600; color:var(--ink-2); }
+
+  /* ---- body ---- */
+  .cl-salutation{ margin:0 0 calc(16px * var(--clf)); font-size:calc(14px * var(--clf)); line-height:1.6; color:var(--ink-2); font-weight:500; }
+  .cl-body p{ margin:0 0 calc(13px * var(--clf)); font-size:calc(13.5px * var(--clf)); line-height:1.62; color:#333; text-wrap:pretty; }
+  .cl-body p:last-child{ margin-bottom:0; }
+
+  /* ---- sign-off ---- */
+  .cl-signoff{ margin-top:calc(26px * var(--clf)); }
+  .cl-signoff .off{ margin:0; font-size:calc(13.5px * var(--clf)); line-height:1.6; color:#333; }
+  .cl-signoff .sign{ margin:calc(18px * var(--clf)) 0 0; font-family:var(--font-head); font-weight:600; font-size:calc(17px * var(--clf)); color:var(--ink); }
+
+  @media print{
+    @page{ size:A4; margin:0; }
+    html,body{ background:#fff; }
+    .stage{ padding:0; gap:0; }
+    .page{ box-shadow:none; border-radius:0; break-after:page; }
+    .page:last-child{ break-after:auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage"></div>
+
+<script src="cover-letter-data.js" onerror="console.warn('cover-letter-data.js not found; using inline SAMPLE')"></script>
+
+<script>
+/* ============================ SAMPLE ============================
+   Fallback so this file renders on its own. cover-letter-data.js
+   (window.COVER_LETTER) overrides this when present.              */
+const SAMPLE = {
+  name: 'Alan Soto',
+  title: 'Senior Technical Program Manager',
+  location: 'Brisbane, QLD, Australia',
+  email: 'me@alansoto.info',
+  linkedinLabel: 'linkedin.com/in/alansoto',
+  linkedinUrl: 'https://www.linkedin.com/in/alansoto/',
+
+  date: '16 June 2026',
+  recipient: {
+    name: 'Hiring Team',
+    title: '',
+    company: 'Acme Technology',
+    location: 'Sydney, NSW'
+  },
+  salutation: '',          // leave blank to auto-derive from recipient
+  paragraphs: [
+    'I’m writing to express my interest in the Senior Technical Program Manager role at Acme Technology. Over the past fifteen years I’ve made a career of taking ambiguous, high-stakes programs and turning them into predictable, well-governed delivery — most recently leading a company-wide API platform program at Xero that gives AI agents and partners a single federated surface across dozens of engineering teams.',
+    'What I bring is the combination of technical depth and program leadership your role calls for. I read architecture and code, so I can hold credible conversations with staff engineers, while also aligning product, design, and executive stakeholders around a roadmap. At Xero I led "AI for Customers," embedding machine-learning capabilities into products used by more than three million customers, and drove clarity across a federated model without relying on direct authority.',
+    'I work through data and rhythm rather than heroics: capacity planning, cycle-time and flow, and clear risk and dependency management. I’ve coached engineering managers and tech leads across more than ten teams to improve predictability, and I’ve kept regulated, compliance-critical programs on track through significant organisational change.',
+    'I’d welcome the chance to discuss how I can help Acme Technology ship its most complex initiatives with confidence. Thank you for your time and consideration.'
+  ],
+  signOff: 'Sincerely,',
+  signature: ''            // defaults to name
+};
+
+/* ============================ helpers ============================ */
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (html != null) n.innerHTML = html;
+  return n;
+}
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function todayLong(){
+  try {
+    return new Date().toLocaleDateString('en-AU', { day:'numeric', month:'long', year:'numeric' });
+  } catch(e){ return ''; }
+}
+function deriveSalutation(d){
+  if (d.salutation) return d.salutation;
+  const r = d.recipient || {};
+  if (r.name && !/team|committee|manager$/i.test(r.name)) {
+    const first = r.name.split(/\s+/)[0];
+    return 'Dear ' + first + ',';
+  }
+  if (r.name) return 'Dear ' + r.name + ',';
+  return 'Dear Hiring Team,';
+}
+
+/* ============================ auto-fit ============================
+   Force the letter onto one A4 page. If the content is too tall, lower
+   the --clf factor (which scales type + vertical spacing via calc()) in
+   small steps down to a readable floor. The .page is clipped to A4 as a
+   final guard, so it is ALWAYS exactly one page.                       */
+function autofit(page, inner){
+  const AVAIL = 1123 - 62 - 70;   // page height minus top/bottom padding = 991px
+  const FLOOR = 0.82;             // don't shrink below this (stays legible)
+  let f = 1;
+  for (let i = 0; i < 24; i++){
+    page.style.setProperty('--clf', f.toFixed(3));
+    if (inner.scrollHeight <= AVAIL) return;
+    f -= 0.02;
+    if (f < FLOOR){ page.style.setProperty('--clf', String(FLOOR)); break; }
+  }
+  if (inner.scrollHeight > AVAIL){
+    console.warn('[cover-letter] Content still exceeds one page at minimum scale; the page is clipped. Shorten the letter — aim for 3–4 short paragraphs.');
+  }
+}
+
+/* ============================ render ============================ */
+function render(){
+  const d = (window.COVER_LETTER && typeof window.COVER_LETTER === 'object') ? window.COVER_LETTER : SAMPLE;
+  document.title = (d.name ? d.name + ' — ' : '') + 'Cover Letter';
+
+  const stage = document.getElementById('stage');
+  stage.innerHTML = '';
+  const page = el('div','page');
+  stage.appendChild(page);
+  const letter = el('div'); letter.id = 'letter';
+  page.appendChild(letter);
+
+  // letterhead
+  const head = el('div','r-header');
+  head.appendChild(el('h1','r-name', esc(d.name)));
+  if (d.title) head.appendChild(el('p','r-title', esc(d.title)));
+  const contact = el('div','cl-contact');
+  const bits = [];
+  if (d.location) bits.push(esc(d.location));
+  if (d.email)    bits.push('<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>');
+  if (d.linkedinUrl || d.linkedinLabel){
+    const label = esc(d.linkedinLabel || d.linkedinUrl);
+    const href  = esc(d.linkedinUrl || ('https://'+d.linkedinLabel));
+    bits.push('<a href="'+href+'">'+label+'</a>');
+  }
+  contact.innerHTML = bits.join('<span class="sep">·</span>');
+  if (bits.length) head.appendChild(contact);
+  letter.appendChild(head);
+
+  // date
+  letter.appendChild(el('div','cl-date', esc(d.date || todayLong())));
+
+  // recipient
+  const r = d.recipient || {};
+  if (r.name || r.title || r.company || r.location){
+    const rec = el('div','cl-recipient');
+    if (r.name)     rec.appendChild(el('div','to-name', esc(r.name)));
+    if (r.title)    rec.appendChild(el('div',null, esc(r.title)));
+    if (r.company)  rec.appendChild(el('div','to-company', esc(r.company)));
+    if (r.location) rec.appendChild(el('div',null, esc(r.location)));
+    letter.appendChild(rec);
+  }
+
+  // body
+  const body = el('div','cl-body');
+  body.appendChild(el('p','cl-salutation', esc(deriveSalutation(d))));
+  (d.paragraphs || []).forEach(p => body.appendChild(el('p', null, esc(p))));
+  letter.appendChild(body);
+
+  // sign-off
+  const so = el('div','cl-signoff');
+  so.appendChild(el('p','off', esc(d.signOff || 'Sincerely,')));
+  so.appendChild(el('p','sign', esc(d.signature || d.name)));
+  letter.appendChild(so);
+
+  autofit(page, letter);
+
+  window.__paginated = true;   // shared done-flag used by generate-pdf.js
+}
+
+window.addEventListener('load', render);
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Obsidian workspace
+.obsidian/
+
+# Raw source PDFs (wiki pages are the extracted knowledge)
+raw/resumes/*.pdf
+
+# Generated PDF outputs in applications
+applications/**/*.pdf
+
+# PDF generator — runtime artifacts and per-application data files
+claude-code-resume-template/node_modules/
+
+# Claude Code local settings
+.claude/settings.local.json
