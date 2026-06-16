@@ -25,7 +25,16 @@
       "PowerShell(python -m pip install pypdf --quiet 2>&1)",
       "PowerShell(python -m pip install pypdf 2>&1)",
       "PowerShell(python -c \"import pypdf; print\\('ok'\\)\" 2>&1)",
-      "Bash(node claude-code-resume-template/build.js applications/2026-06-16-halosoft-head-of-delivery/)"
+      "Bash(node claude-code-resume-template/build.js applications/2026-06-16-halosoft-head-of-delivery/)",
+      "Edit(/.claude/skills/ingest/**)",
+      "Edit(/.claude/skills/apply/**)",
+      "Edit(/.claude/skills/lint/**)",
+      "Edit(/.claude/skills/resume-style/**)",
+      "Edit(/.claude/skills/finalise/**)",
+      "Bash(Remove-Item \"c:\\\\job-hunting\\\\.claude\\\\commands\\\\resume-style.md\")"
+    ],
+    "additionalDirectories": [
+      "c:\\job-hunting\\.claude\\commands"
     ]
   }
 }
