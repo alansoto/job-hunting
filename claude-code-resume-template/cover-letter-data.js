@@ -1,6 +1,6 @@
 window.COVER_LETTER = {
   "name": "Alan Soto",
-  "email": "alan.soto@xero.com",
+  "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
