@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 21
+last-updated: 2026-06-17
+source-count: 23
 ---
 
 # Positioning
@@ -31,6 +31,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Infrastructure/data migration PM (contract) | Project Manager | System replacement delivery, data migration governance, vendor coordination, Waterfall/Agile; Suncorp telephony migration as primary anchor; Console/Reapit vendor integration as supporting evidence |
 | Website/digital platform PM (contract) | Senior Project Manager | CMS/digital platform implementation within a program; Suncorp as data migration + vendor management anchor; Xero API Program for integrations + governance at scale; Console/Reapit for integration scope-to-go-live; 2sol for digital platform delivery |
 | Engineering / people-first startup (EM) | Software Engineering Manager | People-first engineering culture, team health, delivery rhythms, cycle time, capacity planning; Go1 (squad of 10), intelliHR (team of 5), 2sol (team of 5) as primary EM anchors; Xero for coaching EM/tech-leads at scale |
+| Senior Product Owner / Delivery Lead (insurance) | Senior Product Owner - Delivery Lead | Product definition + delivery execution intersection; intelliHR (built PM function from scratch, product+engineering intersection) as primary PO anchor; Go1 (PO+Scrum Master in one person, end-to-end backlog); Suncorp (regulated financial services/insurance) for domain credibility; Xero API Program for delivery at scale |
 
 ## Professional-summary angles (reusable openers)
 
@@ -70,6 +71,11 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
   engagement with high-level stakeholder alignment. Specialist in standing up clear delivery operating
   models, facilitating agile ceremonies, removing systemic impediments, and giving teams and leaders
   the visibility they need to move fast with confidence."
+- **PO / Delivery Lead:** "Delivery leader and product practitioner with 15+ years bridging product
+  definition and delivery execution across SaaS platforms, financial services, and regulated enterprise
+  environments. Experienced operating across squads and programs simultaneously - converting business
+  objectives into clear backlogs, keeping delivery moving through complex dependencies, and giving
+  stakeholders at every level the visibility they need to make decisions with confidence."
 
 ## Years-of-experience note
 Summaries use both **"10+ years"** and **"15+ years."** The engineering career started in **2003**
@@ -111,6 +117,16 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   "Head of" framing — role is explicitly an individual contributor. Individual contributor voice
   throughout; weave in APRA compliance awareness naturally. Insurance/financial-services angle in
   summary. "Delivery Lead" title itself is an industry-standard role title in insurance/finserv.
+
+- **Senior Product Owner / Delivery Lead (insurance/regulated) role** → lead intelliHR (built
+  product management function from scratch, intersection of product and engineering — discovery
+  rhythms, backlog management, outcome-driven squads, AI features shipped hand-in-hand with
+  developers) as the single closest analogue + Go1 (ran as both team lead and Scrum Master
+  simultaneously, end-to-end backlog ownership from discovery through production) for the PO+delivery
+  hybrid + Suncorp (ASX-listed financial services & insurance, APRA-regulated) for regulated/
+  insurance credibility + Xero (API Program, dependency management at scale, EGM-level) for delivery
+  scale. Headline: "Senior Product Owner - Delivery Lead" (hyphen not slash — slash breaks filenames
+  on Windows). Summary: see "PO / Delivery Lead" angle above. Do not use Head-of or TPM framings.
 
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.

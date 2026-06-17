@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 22
+last-updated: 2026-06-17
+source-count: 23
 ---
 
 # Keywords
@@ -30,8 +30,9 @@ multi-team · multi-phase programs · EGM-level · governance · hybrid governan
 ICT transformation · business transformation · digital transformation · regulated enterprise · high-velocity team ·
 enterprise system replacement · system replacement · infrastructure programme delivery ·
 data migration delivery · data migration governance · migration sequencing · compliance-critical delivery · vendor oversight ·
-APRA compliance · APRA audit ·
-RAID management · website redevelopment · digital platform delivery · CMS platform · platform implementation
+APRA compliance · APRA audit · APRA-adjacent ·
+RAID management · website redevelopment · digital platform delivery · CMS platform · platform implementation ·
+product ownership · outcome-driven delivery · adviser platforms · customer-adviser platforms · business and technology bridging · intersection of product and delivery
 
 ## Agile / ways of working
 Agile · Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog
@@ -100,6 +101,10 @@ Engineering · bilingual (English/Spanish) · full working rights.
 - **2026-06-16–17 — Randstad Digital (Project Manager):**
   - `Prince2` — required as the named formal methodology. Not held (PMP lapsed; Prince2 not mentioned in any resume). Bridge: PMP + Masters of Project Management as equivalent frameworks. Acknowledge gap and frame PMP + Masters as substitute.
   - `budgeting / resource management` — Randstad JD explicitly requires budgeting and resource allocation competency. Not named in wiki (implied by end-to-end PM ownership of $5M+ platform, but never stated as a skill).
+
+- **2026-06-17 — Resolution Life (Senior Product Owner / Delivery Lead):**
+  - `CIAM` (Customer Identity and Access Management) — named in JD under "familiarity with digital platforms, CRM, or CIAM systems." No direct experience. Bridge: API/integration work at Xero. "Familiarity" language — not a deal-breaker; don't claim in resume.
+  - `adviser platforms` — life insurance specific (financial advisers recommending insurance products). No direct bridge. Closest analogue: Xero accounting practices as an adviser-relationship equivalent.
 
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), SAFe, specific
 > languages/frameworks, OKRs.

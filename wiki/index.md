@@ -21,7 +21,9 @@ Catalog of every wiki page. Updated on every Ingest. Entry format: `[[page-name]
 ---
 
 **Subject:** Alan Soto — Brisbane, QLD · Technical Program / Delivery / Engineering leader.
-**State (2026-06-17):** 44 raw files ingested (18 resume variants + 11 tailored resumes + 9 cover
-letters + 6 other). [[cover-letter-examples]] holds 4 entries: Amber EM, Clipchamp Senior TPM,
-Stake Engineering Technical Lead, Robert Walters Senior PM. [[positioning]] holds 13 headline
-variants and 10 tailoring devices. See [[positioning]] for the full career-reframing library.
+**State (2026-06-17):** 46 raw files ingested (18 resume variants + 12 tailored resumes + 10 cover
+letters + 6 other). [[cover-letter-examples]] holds 5 entries: Amber EM, Clipchamp Senior TPM,
+Stake Engineering Technical Lead, Robert Walters Senior PM, Resolution Life Senior PO/Delivery Lead.
+[[positioning]] holds 14 headline variants and 10 tailoring devices. See [[positioning]] for the full
+career-reframing library. Preferred cover letter formula confirmed: "JD interpretation + match claim"
+(Robert Walters / Resolution Life format).

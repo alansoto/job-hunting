@@ -49,3 +49,14 @@ Entry format is maintained by `/ingest`.
 **What worked:** structure, conversational/casual tone
 
 ---
+
+### Resolution Life — Senior Product Owner / Delivery Lead (2026-06-17)
+
+**Role level:** senior  
+**Hook pattern:** Two-paragraph "JD interpretation + match claim" opener (same structure as Robert Walters). Para 1 states the role plainly ("I am applying for..."). Para 2 paraphrases what the role requires in own words ("the role comes down to finding someone who can own both sides: the product priorities and backlogs; and the execution through complex dependencies, without dropping either") + direct match claim ("That's exactly the profile I've spent most of my career building.").  
+**Body format:** Three role-specific bullets (intelliHR first and longest - leading with "built from scratch" and product+engineering intersection; Go1 second - PO+delivery hybrid, closing with "One person holding both sides simultaneously"; Suncorp third - regulated financial services/insurance credibility) + synthesis sentence + gap paragraph + close. ~220 words.  
+**Tone markers:** "One person holding both sides simultaneously." - punchy self-contained line closing the Go1 bullet. "In essence, my key contribution will be holding the product priorities and the delivery execution in the same hands, removing the friction that usually lives between those two roles." - synthesis sentence naming the specific value-add. "I have not worked in life insurance specifically. But the core environment, regulated stakeholders, complex platform dependencies, digital and adviser-facing products, is what I have been working across throughout my career." - plain gap statement with comma-list environment pivot.  
+**Gap acknowledgement:** Life insurance domain gap stated in one plain sentence, immediately pivoted to environment match. See [[positioning]] "new-industry gap + environment match pivot."  
+**What worked:** User confirmed this format (same as Robert Walters) is the preferred cover letter formula for senior roles - JD interpretation + match claim opener, three role-specific bullets, synthesis sentence, gap para, close.
+
+---

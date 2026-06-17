@@ -212,6 +212,19 @@ Expert (current).
 
 ---
 
+## [2026-06-17] apply (finalised) — Resolution Life, Senior Product Owner / Delivery Lead
+- Created `applications/2026-06-17-resolution-life-senior-po-delivery-lead/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: 8/10 — strong. All core PO/delivery requirements directly evidenced. Life insurance domain is the only meaningful gap; Suncorp (ASX-listed financial services & insurance) is the bridge.
+- Positioning: "Senior Product Owner - Delivery Lead" framing; intelliHR as primary PO anchor (built product function from scratch, intersection of product and engineering); Go1 for PO+delivery hybrid; Suncorp for regulated/insurance credibility; Xero API Program for delivery at scale.
+- PDFs generated via `build.js` ("Resolution Life" passed as second arg); archived resume and cover letter markdown to `raw/resumes/`
+- Wrote `meta.md`; appended `outputs/tracker.md`; status: Ready to send
+- **Wiki updates from ingest:**
+  - [[positioning]] — new "Senior Product Owner / Delivery Lead (insurance)" headline variant, "PO / Delivery Lead" professional summary, cheat-sheet entry.
+  - [[keywords]] — product ownership · outcome-driven delivery · adviser platforms · customer-adviser platforms · business and technology bridging · intersection of product and delivery · APRA-adjacent added to program/delivery; CIAM + adviser platforms added to gap-watch.
+  - [[cover-letter-examples]] — new Resolution Life entry; user confirmed the Robert Walters "JD interpretation + match claim" format as preferred cover letter formula for senior roles.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]], [[log]]
+
 ## [2026-06-17] lint — full wiki health check (7 applications in scope)
 - **Ingest step:** all 34 raw files already registered in [[processed]]; no new files to ingest.
 - **Auto-fixed:**

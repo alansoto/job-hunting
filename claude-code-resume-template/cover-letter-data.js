@@ -4,23 +4,23 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Senior Project Manager",
+  "title": "Senior Product Owner - Delivery Lead",
   "date": "17 June 2026",
   "recipient": {},
   "salutation": "Dear Hiring Manager,",
   "paragraphs": [
-    "I am applying for the Project Manager role to lead a large website CMS rebuild.",
-    "As I understand it, the jobs comes down to delivering a CMS implementation with heavy integrations and data migration, all while keeping several groups of stakeholders in alignment. That's exactly the profile I've spent most of my career building.",
+    "I am applying for the Senior Product Owner / Delivery Lead role at Resolution Life.",
+    "As I read the description, the role comes down to finding someone who can own both sides: the product priorities and backlogs; and the execution through complex dependencies, without dropping either. That's exactly the profile I've spent most of my career building.",
     "Key similar engagements include:",
     [
-      "At Xero: I currently run a company-wide program across dozens of engineering teams. I handle the high-level risk and milestone reporting, and I manage complex platform integrations—including a major payments integration across product, tech, compliance teams, and external vendors.",
-      "At Suncorp: I led a massive data platform migration across the enterprise. I coordinated four engineering teams, offshore contractors, and multiple external vendors through a tricky, compliance-heavy transition, and kept things moving right through COVID-19 and a company restructure.",
-      "At Console/Reapit: I took a deep external vendor payments integration all the way from scoping it out through to testing and going live."
+      "At intelliHR: I built the product management function from scratch, leading a small team  across product managers, designers, and engineers. The role sat directly at the intersection of product and engineering. I set up discovery rhythms, roadmapping, backlog management, and prioritisation frameworks, while working hand-in-hand with engineers to design and deliver AI-powered analytics features. I ran internal pilots, introduced outcome-driven squad structures, and shifted the organisation away from a feature factory. Building that function from the ground up while staying close to the engineering work is the closest single engagement I have to what this role is describing.",
+      "At Go1: I ran a cross-functional squad of eight as both team lead and Scrum Master, owning the backlog end-to-end from discovery through production, scoping MVPs, managing technical trade-offs, and facilitating ceremonies. One person holding both sides simultaneously.",
+      "At Suncorp: I coordinated a compliance-critical data migration across four engineering teams including offshore contractors and vendors, in a regulated financial services and insurance environment, through COVID-19 and corporate restructuring."
     ],
-    "In essence, my key contribution will be bridging the gap between business, tech, and outside vendors to deliver the website.",
-    "I want to be upfront: I haven’t worked with Optimizely directly. But what I do know inside and out is how to manage the delivery side of these big, integration-heavy platform rollouts. I can pick up the specifics of a new CMS in no time; it’s the ability to actually drive a project and keep everyone aligned that takes years to learn.",
-    "If that profile fits what you are looking for, I would love to connect and learn more about the role."
+    "In essence, my key contribution will be holding the product priorities and the delivery execution in the same hands, removing the friction that usually lives between those two roles.",
+    "I have not worked in life insurance specifically. But the core environment, regulated stakeholders, complex platform dependencies, digital and adviser-facing products, is what I have been working across throughout my career.",
+    "I am Brisbane-based and open to a hybrid arrangement in Sydney. If this looks like a match, I would welcome the chance to connect."
   ],
-  "signOff": "Sincerely,",
+  "signOff": "Kind regards,",
   "signature": ""
 };
