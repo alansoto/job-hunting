@@ -91,12 +91,17 @@ window.RESUME = {
     },
     {
       "qualification": "Bachelor of Systems Engineering",
-      "org": "Ricardo Palma University, Lima",
+      "org": "Universidad de Lima (Peru)",
       "note": ""
     },
     {
       "qualification": "Certified ScrumMaster (CSM)",
       "org": "Scrum Alliance",
+      "note": ""
+    },
+    {
+      "qualification": "PMP (Project Management Professional)",
+      "org": "PMI",
       "note": ""
     }
   ],

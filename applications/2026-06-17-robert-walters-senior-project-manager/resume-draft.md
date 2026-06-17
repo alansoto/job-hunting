@@ -76,5 +76,5 @@ Head of Product at intelliHR, Brisbane (2018-2019) - built the product function 
 ## Education
 
 Masters of Project Management (Dean's Award, 7.0 GPA) · QUT · Brisbane
-Bachelor of Systems Engineering · Ricardo Palma University · Lima, Peru
+Bachelor of Systems Engineering · Universidad de Lima · Peru
 Certified ScrumMaster (CSM) · Scrum Alliance

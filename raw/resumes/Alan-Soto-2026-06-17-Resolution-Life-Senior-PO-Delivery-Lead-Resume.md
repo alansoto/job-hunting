@@ -74,5 +74,5 @@ Iteration Manager at Console Group/Reapit (2017-2018), leading delivery of a new
 ## Education
 
 Masters of Project Management (Dean's Award, 7.0 GPA) · Queensland University of Technology
-Bachelor of Systems Engineering · Ricardo Palma University, Lima
+Bachelor of Systems Engineering · Universidad de Lima · Peru
 Certified ScrumMaster (CSM) · Scrum Alliance
