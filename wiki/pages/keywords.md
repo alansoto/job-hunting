@@ -30,13 +30,14 @@ multi-team · multi-phase programs · EGM-level · governance · hybrid governan
 ICT transformation · business transformation · digital transformation · regulated enterprise · high-velocity team ·
 enterprise system replacement · system replacement · infrastructure programme delivery ·
 data migration delivery · data migration governance · migration sequencing · compliance-critical delivery · vendor oversight ·
+APRA compliance · APRA audit ·
 RAID management · website redevelopment · digital platform delivery · CMS platform · platform implementation
 
 ## Agile / ways of working
 Agile · Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog
 refinement · backlog prioritisation · user story maps · user journeys · continuous improvement ·
 working agreements · tell-show-do-review coaching · value-vs-effort prioritisation · facilitation ·
-visual management · physical Kanban boards.
+visual management · physical Kanban boards · impediment removal · agile transformation.
 
 ## Engineering / technical
 Software development · systems architecture · CI/CD · automated testing · pair programming ·
@@ -44,7 +45,7 @@ code review · coding standards · release management · SDLC · cloud-based sys
 high-availability · service stability · operational excellence · operational resilience ·
 payments integration · payment processing · reconciliation · banking integrations ·
 fraud controls · operational tooling · API · federated API surface · booking systems ·
-ticketing systems · e-commerce · security protocols · capacity planning · performance tuning.
+ticketing systems · e-commerce · security protocols · capacity planning · performance tuning · DevOps · scalability.
 
 ## AI / data
 AI · machine learning (ML) · AI for Customers · AI agents · NLP (natural language processing) ·
@@ -91,6 +92,14 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `Deployment Safety Board (DSB)` — Microsoft-specific governance process. No direct experience; bridge via Suncorp governance + intelliHR pre-launch pilots.
   - `video technologies` / `video editing` — genuine domain gap. No evidence. Closest adjacency: Go1 content-creator product (creation/distribution tooling).
   - `generative AI` — present as *coordination/enablement* (API program enabling AI agents; AI for Customers), not as hands-on genAI build.
+
+- **2026-06-16 — Halosoft (Head of Delivery):**
+  - `mobile app delivery` — preferred experience. Not evidenced in wiki. No direct bridge.
+  - `QA / quality assurance` — "software delivery and QA understanding" required. Implied by delivery practice (Console/Reapit "reliable and secure"; Go1 production releases) but never named as a standalone skill in any resume.
+
+- **2026-06-16–17 — Randstad Digital (Project Manager):**
+  - `Prince2` — required as the named formal methodology. Not held (PMP lapsed; Prince2 not mentioned in any resume). Bridge: PMP + Masters of Project Management as equivalent frameworks. Acknowledge gap and frame PMP + Masters as substitute.
+  - `budgeting / resource management` — Randstad JD explicitly requires budgeting and resource allocation competency. Not named in wiki (implied by end-to-end PM ownership of $5M+ platform, but never stated as a skill).
 
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), SAFe, specific
 > languages/frameworks, OKRs.

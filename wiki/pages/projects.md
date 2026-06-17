@@ -42,7 +42,7 @@ dependencies; owned the execution roadmap, forecasts, and operating cadence.
 ## Go1 — Content-creator product
 **Role context:** Technical Program Manager. → [[experience]]
 New product enabling content creators to **optimise and distribute content across Go1's global
-learning network**. Led a cross-functional squad of 10 end-to-end. Ran an internal incubator
+learning network**. Led a cross-functional squad of 8 (6 engineers, 1 designer, 1 PO) end-to-end. *(Confirmed 2026-06-16; "squad of 10" in some source documents is inaccurate.)* Ran an internal incubator
 (designer, PM, commercial lead) with experimentation-led discovery — mockups, prototypes,
 technical spikes — defined MVP scope, managed trade-offs, drove fast iteration. Established the
 delivery operating model. Stack/domain: e-learning SaaS, content distribution.

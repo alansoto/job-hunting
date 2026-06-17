@@ -4,7 +4,7 @@ Append-only history of every Ingest, Apply, Lint, and Query. Newest at the botto
 
 ## Open lint findings
 
-Last full lint: 2026-06-16. Confirmation pass with Alan completed 2026-06-16 — seven items
+Last full lint: 2026-06-17. Previous confirmation pass with Alan: 2026-06-16 — seven items
 resolved (see lint log entry below). Remaining open items:
 
 **Still open — would improve the wiki when you have a moment:**
@@ -16,6 +16,10 @@ resolved (see lint log entry below). Remaining open items:
   claim hands-on cloud-platform expertise. → [[skills]]
 - **CSM renewal** — held since 2012; modern CSM requires renewal. Verify only if a role hinges on a
   live cert. → [[education]]
+- **Amber cover letter inaccurate team sizes** — `raw/resumes/amber-cover-letter.md` quotes
+  "Go1/squad of 10" and "2sol/team of 6"; both are wrong per confirmed wiki data (Go1=8, 2sol=5,
+  confirmed 2026-06-16). No applications folder exists for this letter — unclear if it was
+  submitted. If submitted, the figures were incorrect in that letter. FYI only.
 
 **Raw-file housekeeping:**
 - `Alan-Soto-Lead Technical Program Manager.pdf` and `…(1).pdf` are byte-identical duplicates.
@@ -205,3 +209,17 @@ Expert (current).
   - Keywords added to [[keywords]]: "Head of Delivery", "delivery cadence design", "high-velocity team", "fintech-adjacent", "advice industry".
 - PDF extraction via Python/pypdf (pdftoppm unavailable in this session).
 - Pages touched: [[positioning]], [[keywords]], [[processed]]
+
+---
+
+## [2026-06-17] lint — full wiki health check (7 applications in scope)
+- **Ingest step:** all 34 raw files already registered in [[processed]]; no new files to ingest.
+- **Auto-fixed:**
+  - [[projects]] Go1 squad size corrected: "squad of 10" → "squad of 8 (6 engineers, 1 designer, 1 PO)" — confirmed 2026-06-16 but projects.md was never updated.
+  - [[keywords]] APRA compliance · APRA audit — log said these were added during Auto & General apply but were absent from the file; added to program/delivery section.
+  - [[keywords]] impediment removal · agile transformation — evidenced (Agile coaching roles throughout career); added to agile section.
+  - [[keywords]] DevOps · scalability — evidenced (CI/CD and HA architecture); added to engineering/technical section.
+  - [[keywords]] gap-watch — added new entries for Halosoft (mobile app delivery, QA) and Randstad Digital (Prince2, budgeting/resource management).
+- **Checks that passed:** no orphan pages; no thin roles (Emedia has 3 meaningful bullets — borderline but acceptable); all JD gap-watch entries now recorded; cross-page [[wikilinks]] resolve; no title/date/metric contradictions remaining (Go1 team size was the last outstanding contradiction, now fixed).
+- **Flagged for review:** 5 items under `## Open lint findings` — see above.
+- Pages touched: [[projects]], [[keywords]], [[log]]
