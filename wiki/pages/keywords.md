@@ -26,7 +26,9 @@ cycle time · throughput · WIP limits · flow · delivery predictability · del
 delivery cadence design · release management · operating model · operating model design ·
 operating rhythms · systems of work · milestones · quarterly planning · cross-functional ·
 multi-team · multi-phase programs · EGM-level · governance · hybrid governance ·
-ICT transformation · business transformation · regulated enterprise · high-velocity team
+ICT transformation · business transformation · regulated enterprise · high-velocity team ·
+enterprise system replacement · system replacement · infrastructure programme delivery ·
+data migration delivery · migration sequencing · compliance-critical delivery · vendor oversight
 
 ## Agile / ways of working
 Agile · Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog

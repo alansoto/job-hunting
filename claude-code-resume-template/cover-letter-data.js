@@ -4,15 +4,19 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Engineering Technical Lead",
+  "title": "Project Manager",
   "date": "17 June 2026",
   "recipient": {},
-  "salutation": "Dear Stake team,",
+  "salutation": "Dear Hiring Manager,",
   "paragraphs": [
-    "When I read the description for the Engineering Technical Lead - Payments role, your team's focus on scaling payments while bridging engineering, product, and compliance stood out immediately. It directly mirrors the work I do at Xero, where I run our company-wide API Program and previously delivered our US Bills payments integration.",
-    "I can help you scale Stake's payments infrastructure securely because I have owned this full lifecycle before. At Console/Reapit, I built a new payments capability end-to-end, managing internal delivery and external partner integrations. This hands-on experience means I can hit the ground running.",
-    "Navigating the intersection of product, risk, and compliance is a core part of my background. At Xero and Suncorp, I aligned technical delivery with tight regulatory frameworks across multiple engineering workstreams. I know how to partner effectively with your finance, risk, and operations teams to ship features that are both intuitive and compliant.",
-    "On the people leadership side, I focus on building high-performing engineering cultures that improve over time. At 2sol and Go1, I managed squads through rapid organizational changes and led full practice transformations covering CI/CD, automated testing, and code reviews. I will bring this same focus to Stake to mentor your developers and maintain engineering excellence as the team grows.",
+    "When I read the description for the Project Manager role for en Enterprise Historian project, the focus on leading an enterprise system replacement with a clean data migration stood out immediately. It directly mirrors my work at Suncorp Group, where I was the delivery lead for a large-scale telephony and data platform replacement across the entire organisation.",
+    "That experience taught me exactly how to handle the delivery challenges this project will face. Here is how I can help your team execute:",
+    [
+      "I can help you sequence the upcoming system replacement from day one. At Suncorp, I kept a compliance-critical migration on track by mapping a formal structured delivery model to the fast, sprint-based cadences of individual engineering teams.",
+      "Managing external vendors and offshore teams is a regular part of how I work. Across past roles at Xero, Reapit and 2sol, I kept multiple third-party partners accountable to strict delivery milestones while keeping our day-to-day working relationships productive and collaborative.",
+      "I know how to keep senior stakeholders confident without draining the energy of the delivery teams. At Xero, I currently manage multiple concurrent programs and handle the reporting cadence for EGM-level leadership so they always have clear visibility into risks and trade-offs."
+    ],
+    "While Enterprise Historian systems are a new technical domain for me, I know this role is really about driving the delivery side. My focus is on setting up the governance, managing the migration phases, and coordinating the vendors so the project lands smoothly.",
     "If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
   ],
   "signOff": "Sincerely,",

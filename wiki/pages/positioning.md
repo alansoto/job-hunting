@@ -28,6 +28,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Delivery leadership (SaaS/AI) | Head of Delivery | Delivery rhythm/cadence design; clear structure for teams to ship with confidence; EGM-level alignment; fintech-adjacent framing |
 | Delivery Lead / Insurance & regulated | Delivery Lead | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing |
 | Payments / fintech engineering lead | Engineering Technical Lead | Software-engineer-to-engineering-leader arc; three payments touchpoints (Console/Reapit, Xero US Bills, Emedia); Xero API Program as HA/mission-critical anchor; regulated finserv credibility (Suncorp, Xero) |
+| Infrastructure/data migration PM (contract) | Project Manager | System replacement delivery, data migration governance, vendor coordination, Waterfall/Agile; Suncorp telephony migration as primary anchor; Console/Reapit vendor integration as supporting evidence |
 
 ## Professional-summary angles (reusable openers)
 
@@ -89,6 +90,8 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
 - **Data-governance / regulated role** → expand Suncorp *compliance-critical migration*.
 - **Payments / fintech engineering lead role** → lead with the software-engineer-to-engineering-leader arc; anchor on three payments touchpoints: Console/Reapit (end-to-end payments capability delivery with deep external provider integration), Xero US Bills (cross-functional payments platform aligning product, engineering, and compliance), Emedia (payment/booking systems architecture — use for payments evidence, not for HA claim); use Xero API Program as the high-availability / mission-critical platform anchor; fintech-adjacent cluster: Suncorp (ASX-listed financial services) + Xero + multi-platform payment integrations. Acknowledge investment-platform domain as new but pivot to environment match (regulated, HA, payments). Do NOT use Emedia as the HA story — that is the Xero API Program.
 
+- **Infrastructure/data migration PM (contract) role** → expand Suncorp *telephony data-platform migration* (system replacement, vendor coordination, compliance, COVID adversity) as primary anchor + Xero *API Program* (concurrent programme management, EGM-level stakeholder reporting) + Console/Reapit *payments integration* (external vendor deep integration, scope-to-release delivery). Acknowledge technical domain gap directly and pivot to delivery competency. Summary: "15+ years delivering complex infrastructure, data migration, and technology programs... system replacement and migration programs from initiation through to delivery, coordinating multi-team execution across vendors, contractors, and internal stakeholders."
+
 - **Head of Delivery role (SaaS/AI)** → lead with Xero *API Program* (dozens of teams, delivery
   structure at scale, EGM-level visibility) + Xero *AI for Customers* (ML engineers + data scientists,
   R&D timelines, adaptive guardrails) + Go1 *common operating model* (built from scratch in
@@ -116,6 +119,13 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   environment — managing multiple product streams, scaling AI automation, leading a high-velocity
   remote team — is exactly the ecosystem I have spent my career mastering"), then invite a
   conversation about where they need the most help.
+- **Technical domain gap + delivery-focus pivot** (used in Randstad Digital cover letter): when the
+  role requires niche technical domain knowledge (e.g. Enterprise Historian / SCADA) but is
+  fundamentally a PM delivery role, acknowledge the gap plainly and pivot: "While X systems are a
+  new technical domain for me, this role is about driving the delivery side. My focus is on setting
+  up the governance, managing the migration phases, and coordinating the vendors so the project
+  lands smoothly." Distinct from the new-industry pivot — this one separates delivery competency
+  from technical domain expertise.
 - **Fintech-adjacent cluster** (for fintech-adjacent roles): name Suncorp Group (ASX-listed
   financial services), Xero (global accounting platform), and "various multi-platform payment
   integrations" (US Bills, Console/Reapit payments, Emedia booking/payment systems) together to

@@ -22,7 +22,69 @@ Discuss the gap analysis conversationally before drafting.
 
 ## Step 3 — Draft resume
 
-Pull from the wiki to write `resume-draft.md`. Rules:
+Pull from the wiki to write `resume-draft.md`. The file **must** use the exact format below — `build.js` parses it structurally and any deviation causes the PDF filename to be wrong or the render to fail.
+
+### Required format
+
+```
+# Alan Soto
+{Role Title}
+Brisbane, QLD, Australia
+me@alansoto.info
+linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
+
+---
+
+## Profile
+
+{One or more summary paragraphs — plain prose, no bullets}
+
+---
+
+## Core skills
+
+{Label}: {item · item · item}
+{Label}: {item · item · item}
+
+---
+
+## Experience
+
+### {Company} - {Role Title}
+{Start} - {End} · {Location}
+{Optional one-line context (company descriptor)}
+
+- {Bullet}
+- {Bullet}
+
+### {Next Company} - {Role Title}
+...
+
+---
+
+## Earlier
+
+{Single plain-text paragraph summarising older or less-relevant roles.}
+
+---
+
+## Education
+
+{Qualification} · {Institution} · {Note}
+{Qualification} · {Institution}
+```
+
+### Format rules
+
+- **Preamble** (lines before the first `---`): must be exactly name, role, location, email, linkedin — in that order, no `#` prefix except on the name line. Line 2 (the role) becomes the PDF filename — must not contain `|`, `:`, `*`, `?`, `"`, `<`, `>`, or `\`.
+- **Section names** must match exactly (case-insensitive): `## Profile`, `## Core skills`, `## Experience`, `## Education`. `## Earlier` is optional but must use that exact heading if present.
+- **Experience entries**: `### Company - Role` (company first, then ` - `, then role). The line immediately after is `dates · location`. The optional third line is a plain-text context descriptor. Bullets follow after a blank line.
+- **Core skills**: each line is `Label: item · item · item` — not a grid, not a bullet list.
+- **Education**: each line is `qualification · org · note` using ` · ` as the separator.
+- Do NOT use `## Professional Summary`, `## Core Competencies`, or `## Employment History` — these are not recognised by `build.js`.
+
+### Content rules
+
 - Lead with the strongest matches for this specific role
 - Rewrite bullets to echo the JD's language where truthful
 - Include only experience relevant to this role — cut ruthlessly

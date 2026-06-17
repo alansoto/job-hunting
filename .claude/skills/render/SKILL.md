@@ -40,3 +40,34 @@ Run from the project root; then verify the PDFs appeared in `claude-code-resume-
 - Company name is auto-inferred from the folder name (strips the date prefix, takes the first hyphen-separated segment, capitalises it). Only pass the second argument when that inference would be wrong — e.g. multi-word names (`"Sharp & Carter"`), abbreviations, or names with punctuation.
 - `resume-data.js` and `cover-letter-data.js` are auto-generated — never edit them manually; re-running `build.js` regenerates them.
 - PDFs require the fonts in `claude-code-resume-template/fonts/` to be present; do not move or delete that folder.
+
+## Required `resume-draft.md` format
+
+`build.js` parses the file structurally — wrong section names or a malformed preamble will silently produce an empty PDF or an illegal filename. Before running, verify the file matches this structure:
+
+```
+# Alan Soto          ← name (# prefix OK here only)
+{Role Title}         ← becomes the PDF filename — no | : * ? " < > \ allowed
+Brisbane, QLD, Australia
+me@alansoto.info
+linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
+
+---
+
+## Profile          ← NOT "Professional Summary"
+
+## Core skills      ← NOT "Core Competencies" — each line: Label: item · item
+
+## Experience       ← NOT "Employment History"
+### Company - Role  ← company first, then " - ", then role title
+dates · location
+Optional context line
+
+- Bullet
+
+## Earlier          ← optional; plain paragraph for old/brief roles
+
+## Education        ← each line: qualification · org · note
+```
+
+The full format spec (with all rules) lives in `/apply` Step 3.

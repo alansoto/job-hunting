@@ -149,6 +149,27 @@ Expert (current).
 
 ---
 
+## [2026-06-17] status update — Randstad Digital, Project Manager submitted
+- Application submitted via recruiter portal. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
+
+---
+
+## [2026-06-17] apply (finalised) — Randstad Digital, Project Manager
+- Created `applications/2026-06-17-randstad-digital-project-manager/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: moderate-to-strong. Strong on infrastructure migration delivery, vendor management, multi-team coordination, formal governance, and stakeholder engagement. Partial gaps: Prince2 not held (PMP + Masters framed instead); no Enterprise Historian domain experience (mitigated by "or infrastructure projects" clause — Suncorp telephony/data platform replacement as primary analogue).
+- Positioning: "Project Manager" framing; Suncorp as primary credibility anchor; Xero for scale and EGM-level stakeholder credibility; Console/Reapit for vendor integration story.
+- PDFs generated via `build.js`; archived resume and cover letter markdown to `raw/resumes/`
+- Wrote `meta.md`; appended `outputs/tracker.md`; status: Ready to send
+- Pages touched: [[positioning]], [[keywords]]
+
+## [2026-06-17] ingest — Alan-Soto-2026-06-17-Randstad-Digital-Project-Manager-Resume.md + Cover-Letter.md
+- Both files derived from wiki — no new biographical facts or metrics.
+- New "Infrastructure/data migration PM (contract)" headline variant + summary angle + role-emphasis cheat-sheet entry added to [[positioning]].
+- New tailoring device added to [[positioning]]: "technical domain gap + delivery-focus pivot" (distinct from the new-industry pivot used in Halosoft — separates delivery competency from niche technical domain knowledge).
+- New keywords added to [[keywords]]: enterprise system replacement · infrastructure programme delivery · data migration delivery · migration sequencing · compliance-critical delivery · vendor oversight.
+- Pages touched: [[positioning]], [[keywords]], [[processed]]
+
 ## [2026-06-16] ingest — Alan Soto - Head of Delivery - Halosoft - Resume.pdf + Cover Letter.pdf
 - 2 new files: tailored final resume + cover letter for the Halosoft Head of Delivery application.
 - Both derived from the wiki — no new biographical facts or metrics.
