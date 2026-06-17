@@ -122,20 +122,22 @@ Write in a style that is easy to read, simple, casual but professional, and high
 
 ### Structure (non-negotiable)
 
-**Opening hook (Direct Alignment)** - Start with a conversational, direct alignment hook. Identify a specific focus or goal mentioned in the job description, and immediately connect it to a highly relevant project or achievement from recent experience. Template: "When I read the description for the [Title] role, your team's focus on [Specific Goal] stood out immediately. It directly mirrors the work I just finished at [Company], where I..." Adapt freely - the point is a concrete, named connection, not a boilerplate opener.
+**Opening hook (Direct Alignment)** - Open with the most specific connection you can make between something in the JD and a named project or achievement. The sentence should feel like you wrote it for this job, not that you filled in blanks. "When I read..." works well for mid-level roles; for senior roles, a direct context-setting statement often lands better. What matters is: concrete, named, specific - not boilerplate.
 
-**Body bullets (Future-Focused with Fallback)** - 3 to 4 high-impact, scannable bullet points. Use a hybrid mix:
+**Body (Future-Focused with Fallback)** - 3 to 4 high-impact points covering a mix of:
 - At least one cultural or teamwork win
 - At least two technical or hard-skill wins
-- Dynamically weight the mix toward what the JD values most
+- Weighted toward what the JD values most
 
-Formatting within bullets: keep text clean and unformatted. Do NOT use internal bolding for metrics or skills - rely on short, crisp, punchy sentences for readability.
+**Format:** Use bullets for mid-level roles (easier to scan, suits shorter letters). Use prose paragraphs for senior/head-level roles (better for showing judgment and narrative coherence). Never mix both in the same letter. Keep text clean and unformatted — no internal bolding.
 
 Primary rule: connect each past achievement directly to how it will help solve a future need, pain point, or project explicitly mentioned in the job description.
 
-Fallback rule: if the JD does not provide enough specific context about the company's future projects, revert to presenting high-impact, relevant past achievements that prove capability in the required skills.
+Fallback rule: if the JD does not provide enough specific context, present high-impact relevant past achievements that prove capability in the required skills.
 
 **Closing CTA** - Low-pressure, collaborative. Use a variation of: "If this alignment sounds like what you're looking for, I'd welcome the chance to connect." Never beg, never oversell.
+
+**Plain language test:** Before finalising, read each sentence aloud. If it sounds like a template, a corporate document, or something you wouldn't say to a colleague - rewrite it. The test: could you say this sentence in a conversation without sounding strange? If not, simplify it.
 
 ### Length scaling
 

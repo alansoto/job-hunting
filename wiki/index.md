@@ -11,6 +11,7 @@ Catalog of every wiki page. Updated on every Ingest. Entry format: `[[page-name]
 - [[projects]] — notable projects across all roles, with stack and outcome
 - [[keywords]] — recurring terms, buzzwords, and domain language for ATS optimisation
 - [[positioning]] — how the one career is reframed per target role (title variants, summary angles)
+- [[cover-letter-examples]] — annotated archive of past cover letters: hook patterns, tone markers, what worked
 
 ## Registries
 

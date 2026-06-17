@@ -9,7 +9,7 @@ Save the job description verbatim as `job-description.md`. Do not modify it afte
 
 ## Step 2 — Gap analysis
 
-Read the full wiki (`wiki/pages/skills.md`, `experience.md`, `achievements.md`, `projects.md`, `keywords.md`, `positioning.md`). Compare systematically against every requirement and preference in the JD.
+Read the full wiki (`wiki/pages/skills.md`, `experience.md`, `achievements.md`, `projects.md`, `keywords.md`, `positioning.md`, `cover-letter-examples.md`). Compare systematically against every requirement and preference in the JD.
 
 Write `gap-analysis.md` with:
 - **Strong matches** — requirements directly evidenced in the wiki (cite specific entries)
@@ -96,6 +96,19 @@ linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
 Iterate conversationally until approved.
 
 ## Step 4 — Draft cover letter
+
+### Before drafting — JD Analysis
+
+Read the JD with fresh eyes and extract:
+1. **Primary pain point** — what problem is this team hiring to solve? Look past the bullet list to the underlying need.
+2. **Top 3 priorities** — which requirements appear first, repeat, or feel most emphasised?
+3. **Culture signals** — what does the JD's tone and word choices reveal about the team?
+4. **Best hook angle** — which single achievement from the gap analysis makes the sharpest direct connection to priority #1? Check `cover-letter-examples.md` for a similar role level or hook pattern to use as a reference.
+5. **Gap trigger** — is there a genuine domain or industry gap worth acknowledging? (Yes/No + what it is)
+
+Write this as a brief note (5-10 lines) before drafting. It drives every decision in the letter.
+
+---
 
 Write `cover-letter-draft.md`. Use this exact format (required for `build.js` to parse correctly):
 
