@@ -41,7 +41,8 @@
       "Bash(ls)",
       "Bash(node claude-code-resume-template/build.js applications/2026-06-17-randstad-digital-project-manager/ \"Randstad Digital\")",
       "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\applications\\\\2026-06-17-randstad-digital-project-manager\\\\resume-draft.md\" \"c:\\\\job-hunting\\\\raw\\\\resumes\\\\Alan-Soto-2026-06-17-Randstad-Digital-Project-Manager-Resume.md\")",
-      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\applications\\\\2026-06-17-randstad-digital-project-manager\\\\cover-letter-draft.md\" \"c:\\\\job-hunting\\\\raw\\\\resumes\\\\Alan-Soto-2026-06-17-Randstad-Digital-Project-Manager-Cover-Letter.md\")"
+      "PowerShell(Copy-Item \"c:\\\\job-hunting\\\\applications\\\\2026-06-17-randstad-digital-project-manager\\\\cover-letter-draft.md\" \"c:\\\\job-hunting\\\\raw\\\\resumes\\\\Alan-Soto-2026-06-17-Randstad-Digital-Project-Manager-Cover-Letter.md\")",
+      "Bash(node claude-code-resume-template/build.js applications/2026-06-17-robert-walters-senior-project-manager/ \"Robert Walters\")"
     ],
     "additionalDirectories": [
       "c:\\job-hunting\\.claude\\commands",

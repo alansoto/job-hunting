@@ -170,6 +170,31 @@ Expert (current).
 - New keywords added to [[keywords]]: enterprise system replacement · infrastructure programme delivery · data migration delivery · migration sequencing · compliance-critical delivery · vendor oversight.
 - Pages touched: [[positioning]], [[keywords]], [[processed]]
 
+## [2026-06-17] ingest — amber-cover-letter.md + clipchamp-cover-letter.md + stake-cover-letter-draft.md
+- 3 cover letters ingested. All are Branch B (cover letter) ingests.
+- **What worked (user-confirmed):** structure, conversational/casual tone — applies to all three.
+- **Amber (Software Engineering Manager):** "curious-and-honest gap play" tailoring device extracted — plain domain-gap acknowledgement reframed as character trait; added to [[positioning]]. New headline variant "Software Engineering Manager" added to [[positioning]] table and [[keywords]] roles section.
+- **Clipchamp (Senior TPM):** "accountability-without-hierarchy" line extracted — "useful to each team rather than sitting above them"; added to [[positioning]] as a reusable device. "AI-powered video" added to [[keywords]] AI/data section.
+- **Stake (draft):** "When I read the description..." hook pattern documented in [[positioning]]. This is the draft source file; the finalised version was ingested separately on 2026-06-17.
+- All 3 entries added to [[cover-letter-examples]] (page was previously empty — first population).
+- Energy tech domain terms added to [[keywords]] (energy tech · home energy automation · IoT).
+- Pages touched: [[cover-letter-examples]], [[keywords]], [[positioning]], [[processed]]
+
+---
+
+## [2026-06-17] apply (finalised) — Robert Walters, Senior Project Manager
+- Created `applications/2026-06-17-robert-walters-senior-project-manager/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: moderate-strong. Strong on program governance (RAID, milestones, EGM-level reporting), integrations/API delivery (Xero API Program, US Bills), data migration (Suncorp), vendor management (Suncorp + Console/Reapit + 2sol). Partial: Optimizely/CMS not directly evidenced (acknowledged in cover letter); website-redevelopment framing is a slight stretch from enterprise SaaS delivery. No public sector experience (preferred not required; Suncorp as regulated-enterprise analogue).
+- Positioning: "Project Manager" / "digital delivery" framing; Suncorp as primary data migration + vendor anchor; Xero for scale and governance; Console/Reapit for integration scope-to-go-live story.
+- PDFs generated via `build.js`; archived resume and cover letter markdown to `raw/resumes/`
+- Wrote `meta.md`; appended `outputs/tracker.md`; status: Ready to send
+
+## [2026-06-17] ingest — Alan-Soto-2026-06-17-Robert-Walters-Senior-Project-Manager-Resume.md + Cover-Letter.md
+- Resume: derived from wiki — no new biographical facts. New "Website/digital platform PM (contract)" headline variant + cheat-sheet entry added to [[positioning]]; new keywords (digital transformation, data migration governance, RAID management, website redevelopment, digital platform delivery, CMS platform, platform implementation) added to [[keywords]]; Optimizely + public sector added to gap-watch in [[keywords]].
+- Cover letter: three new tailoring devices added to [[positioning]] — "JD interpretation + match claim" opener (two-para hook: role statement + JD interpretation + match claim); "capability-hierarchy gap reframe" (contrast easy-to-learn tool gap vs hard-to-learn delivery mechanics); "synthesis sentence after bullet block" (names the value-add after evidence bullets). New entry added to [[cover-letter-examples]].
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]]
+
 ## [2026-06-16] ingest — Alan Soto - Head of Delivery - Halosoft - Resume.pdf + Cover Letter.pdf
 - 2 new files: tailored final resume + cover letter for the Halosoft Head of Delivery application.
 - Both derived from the wiki — no new biographical facts or metrics.

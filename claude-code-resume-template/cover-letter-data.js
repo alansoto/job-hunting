@@ -4,20 +4,22 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Project Manager",
+  "title": "Senior Project Manager",
   "date": "17 June 2026",
   "recipient": {},
   "salutation": "Dear Hiring Manager,",
   "paragraphs": [
-    "When I read the description for the Project Manager role for en Enterprise Historian project, the focus on leading an enterprise system replacement with a clean data migration stood out immediately. It directly mirrors my work at Suncorp Group, where I was the delivery lead for a large-scale telephony and data platform replacement across the entire organisation.",
-    "That experience taught me exactly how to handle the delivery challenges this project will face. Here is how I can help your team execute:",
+    "I am applying for the Project Manager role to lead a large website CMS rebuild.",
+    "As I understand it, the jobs comes down to delivering a CMS implementation with heavy integrations and data migration, all while keeping several groups of stakeholders in alignment. That's exactly the profile I've spent most of my career building.",
+    "Key similar engagements include:",
     [
-      "I can help you sequence the upcoming system replacement from day one. At Suncorp, I kept a compliance-critical migration on track by mapping a formal structured delivery model to the fast, sprint-based cadences of individual engineering teams.",
-      "Managing external vendors and offshore teams is a regular part of how I work. Across past roles at Xero, Reapit and 2sol, I kept multiple third-party partners accountable to strict delivery milestones while keeping our day-to-day working relationships productive and collaborative.",
-      "I know how to keep senior stakeholders confident without draining the energy of the delivery teams. At Xero, I currently manage multiple concurrent programs and handle the reporting cadence for EGM-level leadership so they always have clear visibility into risks and trade-offs."
+      "At Xero: I currently run a company-wide program across dozens of engineering teams. I handle the high-level risk and milestone reporting, and I manage complex platform integrations—including a major payments integration across product, tech, compliance teams, and external vendors.",
+      "At Suncorp: I led a massive data platform migration across the enterprise. I coordinated four engineering teams, offshore contractors, and multiple external vendors through a tricky, compliance-heavy transition, and kept things moving right through COVID-19 and a company restructure.",
+      "At Console/Reapit: I took a deep external vendor payments integration all the way from scoping it out through to testing and going live."
     ],
-    "While Enterprise Historian systems are a new technical domain for me, I know this role is really about driving the delivery side. My focus is on setting up the governance, managing the migration phases, and coordinating the vendors so the project lands smoothly.",
-    "If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
+    "In essence, my key contribution will be bridging the gap between business, tech, and outside vendors to deliver the website.",
+    "I want to be upfront: I haven’t worked with Optimizely directly. But what I do know inside and out is how to manage the delivery side of these big, integration-heavy platform rollouts. I can pick up the specifics of a new CMS in no time; it’s the ability to actually drive a project and keep everyone aligned that takes years to learn.",
+    "If that profile fits what you are looking for, I would love to connect and learn more about the role."
   ],
   "signOff": "Sincerely,",
   "signature": ""

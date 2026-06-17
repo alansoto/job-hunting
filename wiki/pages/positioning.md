@@ -29,6 +29,8 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Delivery Lead / Insurance & regulated | Delivery Lead | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing |
 | Payments / fintech engineering lead | Engineering Technical Lead | Software-engineer-to-engineering-leader arc; three payments touchpoints (Console/Reapit, Xero US Bills, Emedia); Xero API Program as HA/mission-critical anchor; regulated finserv credibility (Suncorp, Xero) |
 | Infrastructure/data migration PM (contract) | Project Manager | System replacement delivery, data migration governance, vendor coordination, Waterfall/Agile; Suncorp telephony migration as primary anchor; Console/Reapit vendor integration as supporting evidence |
+| Website/digital platform PM (contract) | Senior Project Manager | CMS/digital platform implementation within a program; Suncorp as data migration + vendor management anchor; Xero API Program for integrations + governance at scale; Console/Reapit for integration scope-to-go-live; 2sol for digital platform delivery |
+| Engineering / people-first startup (EM) | Software Engineering Manager | People-first engineering culture, team health, delivery rhythms, cycle time, capacity planning; Go1 (squad of 10), intelliHR (team of 5), 2sol (team of 5) as primary EM anchors; Xero for coaching EM/tech-leads at scale |
 
 ## Professional-summary angles (reusable openers)
 
@@ -90,6 +92,8 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
 - **Data-governance / regulated role** → expand Suncorp *compliance-critical migration*.
 - **Payments / fintech engineering lead role** → lead with the software-engineer-to-engineering-leader arc; anchor on three payments touchpoints: Console/Reapit (end-to-end payments capability delivery with deep external provider integration), Xero US Bills (cross-functional payments platform aligning product, engineering, and compliance), Emedia (payment/booking systems architecture — use for payments evidence, not for HA claim); use Xero API Program as the high-availability / mission-critical platform anchor; fintech-adjacent cluster: Suncorp (ASX-listed financial services) + Xero + multi-platform payment integrations. Acknowledge investment-platform domain as new but pivot to environment match (regulated, HA, payments). Do NOT use Emedia as the HA story — that is the Xero API Program.
 
+- **Website/digital platform PM (contract) role** → expand Suncorp *telephony data-platform migration* (data migration, vendor coordination, compliance governance) as primary delivery credibility anchor + Xero *API Program* (integrations at scale, RAID, EGM-level milestone reporting) + Console/Reapit *payments integration* (deep vendor integration scope-to-go-live) + 2sol *Flight Centre hotel platform* (digital platform delivery, $5M+ revenue, 10+ products). Acknowledge CMS/Optimizely gap directly in cover letter using the "technical domain gap + delivery-focus pivot" device. Summary angle: "15+ years delivering complex digital programs... experienced managing platform delivery and implementation projects within larger program structures."
+
 - **Infrastructure/data migration PM (contract) role** → expand Suncorp *telephony data-platform migration* (system replacement, vendor coordination, compliance, COVID adversity) as primary anchor + Xero *API Program* (concurrent programme management, EGM-level stakeholder reporting) + Console/Reapit *payments integration* (external vendor deep integration, scope-to-release delivery). Acknowledge technical domain gap directly and pivot to delivery competency. Summary: "15+ years delivering complex infrastructure, data migration, and technology programs... system replacement and migration programs from initiation through to delivery, coordinating multi-team execution across vendors, contractors, and internal stakeholders."
 
 - **Head of Delivery role (SaaS/AI)** → lead with Xero *API Program* (dozens of teams, delivery
@@ -130,3 +134,21 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   financial services), Xero (global accounting platform), and "various multi-platform payment
   integrations" (US Bills, Console/Reapit payments, Emedia booking/payment systems) together to
   establish a coherent fintech thread without overclaiming.
+- **"JD interpretation + match claim" opener** (used in Robert Walters cover letter): Two-paragraph hook. Para 1 names the role and states you are applying. Para 2 paraphrases what the role actually requires in your own words, then claims direct alignment ("That's exactly the profile I've spent most of my career building."). Shows comprehension before claiming fit — more grounded than a mission-first opener. Works well for contract/execution roles where the brief is concrete and narrow.
+- **Capability-hierarchy gap reframe** (used in Robert Walters cover letter): When acknowledging a tool or platform gap, contrast what is easy to acquire (the specific tool) against what takes years to build (delivery mechanics, alignment, project execution). "I can pick up the specifics of a new CMS in no time; it's the ability to actually drive a project and keep everyone aligned that takes years to learn." Distinct from the "technical domain gap + delivery-focus pivot" — this one makes an explicit hierarchy argument, not just a pivot. Use when the gap is a named tool/platform and the core delivery competency is strong.
+- **Synthesis sentence after bullet block** (used in Robert Walters cover letter): After listing role-specific evidence as bullets, add one sentence naming the specific contribution before moving to the gap or close. "In essence, my key contribution will be bridging the gap between business, tech, and outside vendors to deliver the website." Gives the bullet list a landing point and frames the value-add explicitly.
+- **Curious-and-honest gap play** (used in Amber cover letter): when there is a genuine domain gap
+  with no adjacent bridge, acknowledge it plainly and reframe it as a character trait rather than a
+  capability gap. "I don't have a background in [domain], and I want to be straightforward about
+  that… I'd rather come in curious and honest about what I don't know than overstate familiarity I
+  don't have." Distinct from the new-industry and technical-domain pivots — those offer a bridge;
+  this one leads with intellectual honesty and lets the hiring team draw their own conclusion. Use
+  when the domain gap is genuine and unbridgeable, and when the culture signals it would value candour.
+- **Accountability-without-hierarchy line** (used in Clipchamp cover letter): when influence without
+  authority is a core requirement, use: "I do most of this without direct authority, so I have
+  learned to drive clarity and keep people aligned by being useful to each team rather than by
+  sitting above them." Adaptable to any cross-functional TPM or program lead role.
+- **"When I read the description..." hook** (used in Stake cover letter): opens with the specific JD
+  signal that resonated, then immediately maps it to current work. Structure: (1) name the JD theme,
+  (2) connect to the current role by name, (3) pivot to why you're the person for it. Effective for
+  roles with a clear, nameable intersection with existing work.
