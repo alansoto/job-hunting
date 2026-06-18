@@ -119,6 +119,7 @@ const SAMPLE = {
   title: 'Senior Technical Program Manager',
   location: 'Brisbane, QLD, Australia',
   email: 'me@alansoto.info',
+  phone: '04 3040 4307',
   linkedinLabel: 'linkedin.com/in/alansoto',
   linkedinUrl: 'https://www.linkedin.com/in/alansoto/',
 
@@ -207,6 +208,7 @@ function render(){
   const bits = [];
   if (d.location) bits.push(esc(d.location));
   if (d.email)    bits.push('<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>');
+  if (d.phone)    bits.push(esc(d.phone));
   if (d.linkedinUrl || d.linkedinLabel){
     const label = esc(d.linkedinLabel || d.linkedinUrl);
     const href  = esc(d.linkedinUrl || ('https://'+d.linkedinLabel));

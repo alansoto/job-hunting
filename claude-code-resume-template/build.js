@@ -24,6 +24,7 @@ const { execSync } = require('child_process');
 const CONTACT = {
   name:          'Alan Soto',
   email:         'me@alansoto.info',
+  phone:         '04 3040 4307',
   linkedinLabel: 'linkedin.com/in/alansoto',
   linkedinUrl:   'https://www.linkedin.com/in/alansoto/',
   location:      'Brisbane, QLD, Australia',
@@ -293,7 +294,7 @@ const company = process.argv[3] || inferCompany(appDir);
 const resumeMd = readFile(path.join(appDir, 'resume-draft.md'));
 if (!resumeMd) { console.error('resume-draft.md not found in ' + appDir); process.exit(1); }
 
-const resumeData = parseResumeDraft(resumeMd);
+const resumeData = { ...parseResumeDraft(resumeMd), phone: CONTACT.phone };
 writeDataFile('resume-data.js', 'RESUME', resumeData);
 
 const role          = resumeData.title;

@@ -159,6 +159,7 @@ const SAMPLE = {
   title: 'Senior Technical Program Manager',
   location: 'Brisbane, QLD, Australia',
   email: 'me@alansoto.info',
+  phone: '04 3040 4307',
   linkedinLabel: 'linkedin.com/in/alansoto',
   linkedinUrl: 'https://www.linkedin.com/in/alansoto/',
   summary: 'Senior Technical Program Manager with 15+ years delivering high-complexity, cross-functional programs end to end. Combines technical literacy, including code-level understanding and architecture, with the ability to align product vision and engineering execution. Proficient at driving data-informed decisions and providing clarity across matrixed organizations.',
@@ -241,6 +242,7 @@ function buildSidebar(d){
   c.appendChild(el('div','label','Contact'));
   if (d.location) c.appendChild(el('div','contact-line', esc(d.location)));
   if (d.email)    c.appendChild(el('div','contact-line', '<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>'));
+  if (d.phone)    c.appendChild(el('div','contact-line', esc(d.phone)));
   if (d.linkedinUrl || d.linkedinLabel){
     const label = esc(d.linkedinLabel || d.linkedinUrl);
     const href  = esc(d.linkedinUrl || ('https://'+d.linkedinLabel));

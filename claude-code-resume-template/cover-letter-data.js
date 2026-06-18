@@ -1,25 +1,23 @@
 window.COVER_LETTER = {
   "name": "Alan Soto",
   "email": "me@alansoto.info",
+  "phone": "04 3040 4307",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Technology Delivery Manager",
+  "title": "Delivery Lead",
   "date": "18 June 2026",
   "recipient": {},
-  "salutation": "Dear Hiring Manager,",
+  "salutation": "Dear Auto & General Hiring Team,",
   "paragraphs": [
-    "I am applying for the Technology Delivery Manager role at ARN.",
-    "As I understand it, the role comes down to one thing: turning strategy into reliable, predictable delivery, across your data, software work and content platforms, all while keeping multiple engineering teams, offshore partners, and vendors moving in the same direction. That is exactly the profile I have spent most of my career building.",
-    "A few things I would bring on day one:",
+    "When I read the description for the Delivery Lead role, your focus on agile delivery within a high-performing, collaborative environment stood out immediately. It directly mirrors my work at Suncorp Group, where I led a compliance-critical platform migration across all brands while navigating a complex regulatory environment.",
+    "Here is how my background translates to what you need next:",
     [
-      "Xero: I lead end-to-end delivery of a company-wide API program spanning dozens of engineering teams across every major division, including Data & Science and Payments. I build the integrated delivery plan, sequence the dependencies, run the governance cadence, and report progress, risks, and trade-offs up to executive level.",
-      "Suncorp: I ran delivery for a large-scale data-platform migration across the whole organisation and all its brands. I coordinated four engineering teams including offshore contractors, drove vendor performance, and owned the data governance and validation on a compliance-critical program, keeping it on track through COVID-19 and a corporate restructure.",
-      "2sol: I owned end-to-end delivery of Flight Centre's hotel booking platform, a $5M-a-month digital business, and lifted release readiness by introducing CI/CD, automated testing, and code review. Speed and stability in the same hands."
+      "At Xero, I manage the end-to-end delivery of an API modernization program spanning more than 40 engineering teams. I will bring this experience in handling complex dependencies and forecasting to your major initiatives, ensuring leadership always has clear, reliable status tracking.",
+      "While at Go1, I built a structured operating model from scratch by setting up clean sprint practices, planning rhythms, and backlog refinement. I can use this exact playbook to help your teams lift their delivery pace and build strong stakeholder confidence quickly.",
+      "With a Masters in Project Management and a CSM, I have facilitated ceremonies across Virgin Australia, Xero, Console Group, and Go1 to shift engineering teams from reactive to predictable delivery rhythms. My focus is heavily on collaboration, creating a healthy team environment where people understand their goals and deliver together."
     ],
-    "In short, my contribution would be holding the planning, the cadence, and the vendor coordination together so data and technology initiatives land on time and at high quality, with leadership always able to see where things stand.",
-    "I have not worked in broadcast or media specifically. But high-availability content and ticketing platforms for very large audiences are where I started, I spent six years building the systems behind events like V8 Supercars and the Byron Bay Blues Festival. I am very comfortable in high-pressure environments where platforms simply cannot go down.",
-    "If this sounds like the kind of delivery you are looking for, I'd love to connect."
+    "I am Brisbane-based and ready for the Toowong hybrid model. If this alignment sounds like what you're looking for, I'd welcome the chance to connect."
   ],
   "signOff": "Kind regards,",
   "signature": ""
