@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-17
-source-count: 23
+last-updated: 2026-06-18
+source-count: 24
 ---
 
 # Keywords
@@ -48,6 +48,14 @@ payments integration · payment processing · reconciliation · banking integrat
 fraud controls · operational tooling · API · federated API surface · booking systems ·
 ticketing systems · e-commerce · security protocols · capacity planning · performance tuning · DevOps · scalability.
 
+## GraphQL / Supergraph / API platform
+Supergraph · federated graph · subgraph · graph contract · GraphQL · domain modelling ·
+thin-slice use cases · Practice domain · domain ownership · domain handover · bootstrap subgraph ·
+GetSessionDetails (GSD) · GSD migration · shadow-mode traffic testing · tracer-bullet use case ·
+burndown plan · deprecation plan · Unified Burndown · domain engagement timelines ·
+migration deprecation · domain dependency intake · onboarding readiness · API platform adoption ·
+consumer migration · domain migration sequencing.
+
 ## AI / data
 AI · machine learning (ML) · AI for Customers · AI agents · NLP (natural language processing) ·
 AI-powered people analytics · AI-powered video · data scientists · ML engineers · AI & data governance ·
@@ -66,7 +74,13 @@ coaching · engineering-manager coaching · vendor & contractor management · of
 coordination · emotional intelligence.
 
 ## Tools
-Jira · Confluence · Pendo · FullStory.
+Jira · Confluence · Pendo · FullStory · Asana · Miro.
+
+## Delivery tooling / governance
+Jira Data Quality Score · Jira health dashboards · tooling standardisation · delivery tooling ·
+Jira optimisation · initiative/epic-level Jira · self-help dashboards · data quality scoring ·
+cross-functional ways of working · team operating model · roadmap vs execution separation ·
+communication norms · documentation norms · delivery operating system.
 
 ## Domains / industries
 Cloud accounting · e-learning SaaS · financial services & insurance · fintech-adjacent ·
@@ -81,6 +95,10 @@ Engineering · bilingual (English/Spanish) · full working rights.
 ---
 
 ## Keywords seen in JDs but NOT yet evidenced (gap-watch)
+
+- **2026-06-18 — ARN Media (Technology Delivery Manager):**
+  - `broadcast` / `media` / `entertainment` industry — new vertical. Not required (JD names no industry). Bridge: Emedia high-availability ticketing for major entertainment/sporting events (V8 Supercars, Byron Bay Blues Festival); Go1 content-creation/distribution platform. Strong adjacency, handle with one light line.
+  - All other JD requirements (end-to-end delivery, dependency/sequencing/resourcing, governance cadence, offshore + vendor management, Product Owner partnership, release readiness, data validation, data & analytics delivery via pipelines/BI/APIs) fully evidenced — no real gaps. One of the cleanest matches in the wiki.
 
 - **2026-06-17 — Robert Walters (Senior Project Manager / website redevelopment):**
   - `Optimizely` — CMS platform named explicitly in JD. No direct experience. Bridge: delivery of integrations-heavy platform implementations (Suncorp data migration, Xero API/US Bills, Console/Reapit vendor integration). Acknowledge gap in cover letter; do not claim in resume.

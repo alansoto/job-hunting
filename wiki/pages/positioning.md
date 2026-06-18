@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-17
-source-count: 23
+last-updated: 2026-06-18
+source-count: 24
 ---
 
 # Positioning
@@ -32,6 +32,44 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Website/digital platform PM (contract) | Senior Project Manager | CMS/digital platform implementation within a program; Suncorp as data migration + vendor management anchor; Xero API Program for integrations + governance at scale; Console/Reapit for integration scope-to-go-live; 2sol for digital platform delivery |
 | Engineering / people-first startup (EM) | Software Engineering Manager | People-first engineering culture, team health, delivery rhythms, cycle time, capacity planning; Go1 (squad of 10), intelliHR (team of 5), 2sol (team of 5) as primary EM anchors; Xero for coaching EM/tech-leads at scale |
 | Senior Product Owner / Delivery Lead (insurance) | Senior Product Owner - Delivery Lead | Product definition + delivery execution intersection; intelliHR (built PM function from scratch, product+engineering intersection) as primary PO anchor; Go1 (PO+Scrum Master in one person, end-to-end backlog); Suncorp (regulated financial services/insurance) for domain credibility; Xero API Program for delivery at scale |
+| Technology Delivery Manager (media/broadcast) | Technology Delivery Manager | Data + software delivery with offshore/vendor coordination; Suncorp as the offshore + vendor + data-platform anchor (one role covering all three JD priorities); Xero API Program for delivery scale + governance cadence; 2sol for end-to-end ownership + quality/release readiness; Emedia kept full for high-availability content/entertainment-events adjacency. Senior-manager altitude (reports to Head of Technology), NOT Head-of |
+
+## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
+
+This is the most precise framing for Alan's contribution at Xero and across his career. Use it
+verbatim or adapt it for any senior TPM, Head of Delivery, or program leadership role:
+
+> "I have consistently operated above pure delivery coordination by building the operating systems
+> that let teams move faster. Earlier in my Xero tenure, that showed up in cross-functional ways
+> of working and Jira/tooling standardisation that improved visibility, discipline, and alignment
+> across teams. More recently, it has shown up in the Supergraph/API Program, where I helped define
+> the Practice-domain thin slice, unblock UK Tax and BlueNav as early consumer migrations, raise
+> and track cross-domain dependencies, and build the Unified Burndown and onboarding model that
+> turns a platform initiative into an executable multi-domain migration program."
+
+Supporting statement variants (individual):
+- "I established practical ways of working that improved coordination across product, engineering,
+  design, and delivery by clarifying where planning, execution, decisions, and communication should
+  live." (Quokkas / cross-functional WoW)
+- "I turned local delivery/tooling improvements into a broader organisational capability by helping
+  define a consistent Jira planning and reporting model, associated dashboards, and rollout thinking
+  that could scale beyond one team." (Jira optimisation)
+- "I defined the minimal Practice-domain slice that could satisfy real consumers quickly, while also
+  creating a credible ownership and handover path for the long-term domain team." (Practice domain)
+- "I reduced ambiguity in the BlueNav migration by aligning technical scope, clarifying ownership
+  boundaries between API Platform and Practice, and converting unresolved discussions into concrete
+  dependencies, sessions, and dates." (BlueNav)
+- "I helped turn UK Tax from a theoretical adopter into the first production-backed consumer path
+  for the Supergraph by aligning the graph contract around currentPracticeId and connecting the
+  consumer need to platform readiness." (UK Tax)
+- "I created the program machinery that let Supergraph adoption scale beyond a few thin slices:
+  domain dependency intake, a single burndown view, and a time-sequenced migration path that leaders
+  could act on." (Unified Burndown)
+- "I acted as the connective layer between consumer teams, owning domains, and platform leadership
+  by translating strategy into concrete dependency asks, ownership decisions, and migration work
+  packages." (cross-team influence)
+- "I reduced onboarding friction for future domain teams by simplifying the modelling entry point
+  and aligning the artefacts teams use to move from discovery into delivery." (onboarding model)
 
 ## Professional-summary angles (reusable openers)
 
@@ -60,6 +98,12 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
   structure they need to ship software with confidence. Currently Lead Technical Program Manager at
   Xero, directing large-scale programs across dozens of engineering teams — including a major AI
   product program and the federated API initiative that powers Xero's AI-agent strategy."
+- **Platform / API program TPM:** "Technical Program Manager specialising in turning platform
+  initiatives into executable adoption programs. At Xero, I am currently driving a company-wide
+  API/Supergraph program — defining thin-slice consumer paths, sequencing cross-domain migrations,
+  building the governance layer (Unified Burndown, dependency intake, deprecation plans), and
+  simplifying the operating model so domain teams can self-serve their way through onboarding and
+  migration."
 - **Head of Engineering (voice):** "I lead in a practical and empathetic way. I build strong,
   self-organising teams that deliver effectively at a sustainable pace… confident jumping into the
   code, shaping good engineering practices, and driving clear results through simple metrics and
@@ -83,6 +127,12 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
 2012–13 onward). Both are conservative and defensible — pick to match the role's seniority.
 
 ## Role-emphasis cheat-sheet (which past roles to expand per target)
+
+- **API platform / federated graph / developer platform TPM role** → lead with Xero *Supergraph
+  adoption program* (thin-slice consumer path, Practice domain definition, UK Tax as first
+  production consumer, BlueNav tracer-bullet migration, Unified Burndown as enterprise migration
+  governance layer, domain onboarding simplification). Use "operating system builder" framing.
+  Anchor the scale claim on the Unified Burndown covering all major Xero engineering divisions.
 
 - **Government / Principal PM role** → expand Xero *API Programme* (EGM-level governance, dozens of teams) + Suncorp *regulated enterprise migration* (compliance-critical, COVID adversity, four teams); lead with "Programme" spelling; Core Competencies grid instead of skills list; acknowledge government-sector gap briefly and frame Suncorp as analogue.
 

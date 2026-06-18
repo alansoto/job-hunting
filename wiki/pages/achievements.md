@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 19
+last-updated: 2026-06-18
+source-count: 20
 ---
 
 # Achievements
@@ -11,6 +11,7 @@ Each ties back to a role in [[experience]]. Metrics in **bold**.
 ## Scale & scope (quantified)
 
 - Led delivery of products used by **over 3 million customers** (Xero, AI for Customers). → Xero
+- Drove cross-domain migration program spanning **all major Xero engineering divisions** (Product Engineering, Data & Science, Small Business & Growth, Payments, Accountants & Bookkeepers, and more) via the Unified Burndown. → Xero API Program
 - Drove a company-wide API program spanning **dozens of engineering teams** / virtually every
   engineering team at Xero, with **EGM-level** stakeholder visibility. → Xero
 - Coached engineering managers and tech leads across **10+ teams** on cycle time, capacity
@@ -29,6 +30,40 @@ Each ties back to a role in [[experience]]. Metrics in **bold**.
 - Led **quarterly planning workshops with 70+ people** across digital delivery; coached
   **4 Product Owners**. → Virgin Australia
 - Academic: **Dean's Award, 7.0 GPA**, Masters of Project Management (QUT). → [[education]]
+
+## Supergraph / API Program — specific wins (Xero, 2025–2026)
+
+- Defined the minimal Practice-domain thin slice that enabled the **first production-backed
+  Supergraph query at Xero** — UK Tax Capital Allowances (`query { me { currentPractice { id } } }`),
+  going live in the approved GA Release. → Xero API Program
+- Turned UK Tax from a theoretical Supergraph adopter into its **first production consumer path**
+  by aligning the graph contract around `currentPracticeId` and connecting the consumer need to
+  platform readiness — allowing the MFE to begin replacing its custom BFF. → Xero API Program
+- Unblocked BlueNav's migration off GetSessionDetails (GSD) — a **high-risk, high-volume traffic**
+  path — by defining technical scope, clarifying ownership boundaries between API Platform and
+  Practice, and converting unresolved discussions into concrete dependencies, sessions, and dates.
+  BlueNav acted as the tracer-bullet use case for proving the Supergraph at scale; proposed 1%
+  traffic test to de-risk the high-volume cutover. → Xero API Program
+- Built the **Unified Burndown** — a single migration management view covering domain-by-domain
+  plans, owners, statuses, quarters, and follow-up actions across all major Xero engineering
+  divisions. GMs submit deprecation and burndown plans; the API Platform team consolidates into
+  the master calendar; the Unified Burndown becomes the agreed launch schedule and retirement
+  tracker. → Xero API Program
+- Created the **program machinery for Supergraph adoption at scale**: domain dependency intake,
+  single burndown view, time-sequenced migration path with leadership-actionable milestones.
+  Dependencies raised against all domain teams; details and communications tracked in Jira. → Xero API Program
+- Reduced onboarding friction for future domain teams by **simplifying the domain-modelling entry
+  point** — updated the Miro guide to cover only Discovery and Prioritisation (steps 0–2), keeping
+  Miro and Confluence in sync and making the operating model teachable for the next domains. → Xero API Program
+- **Launched a Xero-wide Jira optimisation initiative** (2023) — consistent Jira use at
+  initiative/epic level, shareback material on health and dashboards, and a division-wide
+  **Jira Data Quality Score** — turning a local tooling improvement into a broader organisational
+  capability reducing planning and reporting toil. → Xero
+- **Designed cross-functional ways of working for the Quokkas team** (Payroll / Connected
+  Workplaces): separated roadmap tracking from execution tracking; made Confluence the discovery
+  home; required linked work between Asana and Jira; set explicit expectations for communication
+  and feedback loops. Evidence of designing team operating systems rather than only coordinating
+  delivery. → Xero
 
 ## Transformation & impact (qualifiable)
 
@@ -73,3 +108,5 @@ Each ties back to a role in [[experience]]. Metrics in **bold**.
 > Xero programs (beyond "10+/12+ teams"); revenue/customer impact of Go1 content-creator product;
 > adoption/retention lift from intelliHR analytics features; cycle-time or predictability deltas
 > from the 2sol and Go1 operating-model work; uptime/traffic figures for Emedia event systems.
+> Supergraph additions (2026-06-18): BlueNav traffic volume; number of domain teams in Unified
+> Burndown; timeline from Practice-domain bootstrap to UK Tax GA; Jira Data Quality Score delta.

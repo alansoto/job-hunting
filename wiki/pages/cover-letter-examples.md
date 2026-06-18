@@ -60,3 +60,14 @@ Entry format is maintained by `/ingest`.
 **What worked:** User confirmed this format (same as Robert Walters) is the preferred cover letter formula for senior roles - JD interpretation + match claim opener, three role-specific bullets, synthesis sentence, gap para, close.
 
 ---
+
+### ARN Media — Technology Delivery Manager (2026-06-18)
+
+**Role level:** senior
+**Hook pattern:** Two-paragraph "JD interpretation + match claim" opener (the confirmed senior formula). Para 1 states the role plainly ("I am applying for the Technology Delivery Manager role at ARN."). Para 2 paraphrases what the role really is ("turning strategy into reliable, predictable delivery, across your data, software work and content platforms, all while keeping multiple engineering teams, offshore partners, and vendors moving in the same direction") + direct match claim ("That is exactly the profile I have spent most of my career building.").
+**Body format:** Three role-specific bullets (Xero - scale + governance cadence + data/payments; Suncorp - the offshore + vendor + data-platform anchor hitting the JD's emphasised priority; 2sol - end-to-end ownership + release readiness) + synthesis sentence + light gap paragraph + close. ~250 words.
+**Tone markers:** "Speed and stability in the same hands." - punchy self-contained line closing the 2sol bullet (mirrors the Resolution Life "One person holding both sides simultaneously" device). "In short, my contribution would be holding the planning, the cadence, and the vendor coordination together so data and technology initiatives land on time and at high quality, with leadership always able to see where things stand." - synthesis sentence naming the value-add. "I have not worked in broadcast or media specifically. But high-availability content and ticketing platforms for very large audiences are where I started..." - plain gap statement pivoting to Emedia entertainment-events history (V8 Supercars, Byron Bay Blues Festival).
+**Gap acknowledgement:** Media/broadcast domain gap stated in one plain sentence, immediately pivoted to Emedia high-availability entertainment-events platform history + environment match. See [[positioning]] "new-industry gap + environment match pivot."
+**What worked:** User confirmed the whole thing - reaffirms the senior cover-letter formula (JD interpretation + match claim opener, three role-specific bullets, synthesis sentence, light gap pivot, close).
+
+---

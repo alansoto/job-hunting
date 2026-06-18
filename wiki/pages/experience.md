@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 19
+last-updated: 2026-06-18
+source-count: 20
 ---
 
 # Experience
@@ -30,11 +30,27 @@ Technical Program Manager" on any document where the literal Xero title matters;
 summary/headline only.
 
 **Programs led (the work has shifted over time across these initiatives):**
-- **API Program** (most recent / current focus) — a company-wide initiative to deliver a
-  single, **federated API surface** across all of Xero's product capabilities, enabling AI
-  agents and third parties to access them. Spans virtually every engineering team at Xero
-  (dozens of teams). Owns program-level roadmaps and delivery tracking with EGM-level
-  stakeholder visibility on milestones, risks, and trade-offs.
+- **API Program / Supergraph** (most recent / current focus) — a company-wide initiative to
+  deliver a single, **federated API surface** across all of Xero's product capabilities, enabling
+  AI agents and third parties to access them. Spans virtually every engineering team at Xero
+  (dozens of teams). Owns program-level roadmaps and delivery tracking with EGM-level stakeholder
+  visibility on milestones, risks, and trade-offs.
+  *Supergraph sub-program specifics:* Defined the **Practice-domain thin slice** as the entry point
+  for two showcase use cases — UK Tax Capital Allowance and BlueNav/GSD migration. Bootstrapped the
+  initial Practice subgraph via the API Program team, then planned ownership handover to the Practice
+  team. Shaped the minimal graph contract (exposing `currentPracticeId` under `me`; deliberately
+  narrow implementation avoiding brittle GSD logic replication; validated load expectations; planned
+  pair-programming and handover). UK Tax Capital Allowances became the **first GA production query**
+  (`query { me { currentPractice { id } } }`). Unblocked the **BlueNav migration off GSD** (high-risk,
+  high-volume traffic path) — proposed 1% traffic test; confirmed Supergraph goal as "everything
+  BlueNav needs is in the Supergraph"; organised scoping with the Practice owner; converted
+  unresolved discussions into concrete dependencies, sessions, and dates. Built the **Unified
+  Burndown** covering all major engineering divisions (Product Engineering, Data & Science, Small
+  Business & Growth, Payments, Accountants & Bookkeepers, and more) — GMs submit deprecation and
+  burndown plans; the Unified Burndown is the agreed launch schedule and retirement tracker.
+  Simplified the **domain onboarding model** (updated Miro guide to cover only steps 0–2 of
+  Discovery and Prioritisation, keeping Miro and Confluence in sync). Teams influenced: API
+  Platform, UK Tax, BlueNav/Patronus, Practice team leadership, broader domain leadership.
 - **AI for Customers** (previously led) — large program embedding **AI and machine learning**
   capabilities into core products used by small businesses (SBs) and accounting/bookkeeping
   practices (ABs) — products used by **over 3 million customers**. Coordinated ML engineers,
@@ -47,10 +63,19 @@ summary/headline only.
   in the Senior TPM resume). Led three critical programs in that division, keeping 12+
   engineering teams and stakeholders aligned across technical and go-to-market dependencies.
 - **Organisation-wide ways-of-working program** — aimed to increase consistency and reduce toil in
-  how all teams at Xero plan and deliver work; included hands-on
-  coaching, training, and development of tools to help teams track work at multiple levels
-  (executive, portfolio, project, team). Created not just a process but a shared way of working
-  giving leaders a common view of what needs attention to improve the system as a whole.
+  how all teams at Xero plan and deliver work; included hands-on coaching, training, and development
+  of tools to help teams track work at multiple levels (executive, portfolio, project, team).
+  Created not just a process but a shared way of working giving leaders a common view of what needs
+  attention to improve the system as a whole.
+- **Quokkas team (Payroll / Connected Workplaces) — ways of working** — documented and embedded a
+  cross-functional delivery model: separated roadmap tracking from execution tracking; made
+  Confluence the discovery home; required linked work between Asana and Jira; set explicit
+  expectations for communication and feedback loops. Evidence of designing team operating systems,
+  not only coordinating delivery.
+- **Jira optimisation initiative (2023)** — helped launch a Xero-wide programme for consistent Jira
+  use at initiative/epic level; delivered shareback material on health and dashboards; drove a
+  division-wide Jira Data Quality Score. Turned a local tooling problem into an organisational
+  capability improving visibility, alignment, and planning/reporting toil across the division.
 
 **Recurring responsibilities across framings:**
 - Own end-to-end program roadmaps, forecasts, and delivery tracking; surface risks early; keep
@@ -69,7 +94,8 @@ summary/headline only.
 - Build simple, data-led models giving teams clarity on capacity, timelines, and flow.
 
 Linked: [[skills]] (Technical Program Management, AI & Data Governance), [[projects]]
-(API Program, AI for Customers, US Bills Integration, Xero Partner Hub).
+(API Program / Supergraph, AI for Customers, US Bills Integration, Xero Partner Hub,
+Quokkas ways-of-working, Jira Optimisation Initiative).
 
 ---
 

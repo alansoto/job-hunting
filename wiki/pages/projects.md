@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 19
+last-updated: 2026-06-18
+source-count: 20
 ---
 
 # Projects
@@ -10,7 +10,7 @@ and related wins in [[achievements]].
 
 ---
 
-## Xero — API Program
+## Xero — API Program / Supergraph
 **Role context:** Lead Technical Program Manager (current focus). → [[experience]]
 Company-wide initiative to deliver a single, **federated API surface** across all of Xero's
 product capabilities, **enabling AI agents and third parties** to access them. Spans virtually
@@ -18,6 +18,46 @@ every engineering team (dozens of teams). Owned program roadmaps and delivery tr
 EGM-level visibility; drove cross-team dependency management across a federated delivery model;
 established systems of work giving every contributing team a shared understanding of scope and
 their role.
+
+*Supergraph adoption program (2025–2026):* Turned the Supergraph from a platform concept into an
+executable multi-domain migration program. Key deliverables:
+- **Practice Domain Alignment Plan** — defined the minimal Practice-domain thin slice (exposing
+  `currentPracticeId` under `me`; narrow and intentionally non-brittle implementation; load
+  validation; pair-programming handover to owning team). Tied to two showcase use cases: UK Tax
+  Capital Allowance and BlueNav/GSD migration.
+- **UK Tax as first GA consumer** — the approved Supergraph GA Release states the first enabled
+  production query supports UK Tax (`query { me { currentPractice { id } } }`). UK Capital
+  Allowances team began replacing BFF usage with Supergraph data via `currentPractice.practiceId`.
+- **BlueNav migration off GSD** — tracer-bullet use case proving the platform at scale.
+  High-risk, high-volume traffic path; proposed 1% traffic test. Scope confirmed, ownership
+  boundaries between API Platform and Practice clarified, unresolved discussions converted to
+  concrete dependencies and dates. Target for org-subgraph PRs tracked in the program schedule.
+- **Unified Burndown** — single migration management view: domain-by-domain plans, owners,
+  statuses, quarters across Product Engineering, Data & Science, Small Business & Growth,
+  Payments, Accountants & Bookkeepers, and more. GMs submit deprecation and burndown plans;
+  Unified Burndown is the agreed launch schedule and retirement tracker.
+- **Domain onboarding simplification** — updated Miro guide to cover only Discovery and
+  Prioritisation (steps 0–2); kept Miro and Confluence in sync; made the operating model
+  teachable and reusable for next domains.
+
+Teams influenced: API Platform / Tech Strategy API Program, UK Tax, BlueNav / Patronus,
+Practice team leadership and engineering, broader domain leadership across Xero.
+
+## Xero — Quokkas ways-of-working
+**Role context:** Lead Technical Program Manager. → [[experience]]
+Designed and embedded a **cross-functional delivery operating model** for the Quokkas team
+(Payroll / Connected Workplaces). Separated roadmap tracking from execution tracking; made
+Confluence the discovery home; required linked work between Asana and Jira; set explicit norms
+for communication, feedback loops, and documentation. Evidence of designing team operating
+systems — not just coordinating delivery.
+
+## Xero — Jira Optimisation Initiative (2023)
+**Role context:** Lead Technical Program Manager. → [[experience]]
+Helped **launch a Xero-wide initiative** for consistent Jira use at initiative/epic level.
+Delivered shareback material on health and dashboards; drove a division-wide **Jira Data Quality
+Score**. Turned a local tooling and visibility problem into an organisational capability — making
+work easier for leadership to see, connecting it to goals, and reducing planning/reporting toil
+at scale. Outcome: consistent self-help and dashboarding patterns adoptable beyond one team.
 
 ## Xero — AI for Customers
 **Role context:** Lead Technical Program Manager (previously led). → [[experience]]

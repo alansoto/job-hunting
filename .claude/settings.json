@@ -14,7 +14,8 @@
       "Edit(c:\\job-hunting\\*)",
       "Write(c:\\job-hunting\\*)",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "WebFetch(domain:careers.arn.com.au)"
     ],
     "additionalDirectories": [
       "c:\\job-hunting\\.claude\\commands",

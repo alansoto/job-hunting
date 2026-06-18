@@ -4,22 +4,22 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Senior Product Owner - Delivery Lead",
-  "date": "17 June 2026",
+  "title": "Technology Delivery Manager",
+  "date": "18 June 2026",
   "recipient": {},
   "salutation": "Dear Hiring Manager,",
   "paragraphs": [
-    "I am applying for the Senior Product Owner / Delivery Lead role at Resolution Life.",
-    "As I read the description, the role comes down to finding someone who can own both sides: the product priorities and backlogs; and the execution through complex dependencies, without dropping either. That's exactly the profile I've spent most of my career building.",
-    "Key similar engagements include:",
+    "I am applying for the Technology Delivery Manager role at ARN.",
+    "As I understand it, the role comes down to one thing: turning strategy into reliable, predictable delivery, across your data, software work and content platforms, all while keeping multiple engineering teams, offshore partners, and vendors moving in the same direction. That is exactly the profile I have spent most of my career building.",
+    "A few things I would bring on day one:",
     [
-      "At intelliHR: I built the product management function from scratch, leading a small team  across product managers, designers, and engineers. The role sat directly at the intersection of product and engineering. I set up discovery rhythms, roadmapping, backlog management, and prioritisation frameworks, while working hand-in-hand with engineers to design and deliver AI-powered analytics features. I ran internal pilots, introduced outcome-driven squad structures, and shifted the organisation away from a feature factory. Building that function from the ground up while staying close to the engineering work is the closest single engagement I have to what this role is describing.",
-      "At Go1: I ran a cross-functional squad of eight as both team lead and Scrum Master, owning the backlog end-to-end from discovery through production, scoping MVPs, managing technical trade-offs, and facilitating ceremonies. One person holding both sides simultaneously.",
-      "At Suncorp: I coordinated a compliance-critical data migration across four engineering teams including offshore contractors and vendors, in a regulated financial services and insurance environment, through COVID-19 and corporate restructuring."
+      "Xero: I lead end-to-end delivery of a company-wide API program spanning dozens of engineering teams across every major division, including Data & Science and Payments. I build the integrated delivery plan, sequence the dependencies, run the governance cadence, and report progress, risks, and trade-offs up to executive level.",
+      "Suncorp: I ran delivery for a large-scale data-platform migration across the whole organisation and all its brands. I coordinated four engineering teams including offshore contractors, drove vendor performance, and owned the data governance and validation on a compliance-critical program, keeping it on track through COVID-19 and a corporate restructure.",
+      "2sol: I owned end-to-end delivery of Flight Centre's hotel booking platform, a $5M-a-month digital business, and lifted release readiness by introducing CI/CD, automated testing, and code review. Speed and stability in the same hands."
     ],
-    "In essence, my key contribution will be holding the product priorities and the delivery execution in the same hands, removing the friction that usually lives between those two roles.",
-    "I have not worked in life insurance specifically. But the core environment, regulated stakeholders, complex platform dependencies, digital and adviser-facing products, is what I have been working across throughout my career.",
-    "I am Brisbane-based and open to a hybrid arrangement in Sydney. If this looks like a match, I would welcome the chance to connect."
+    "In short, my contribution would be holding the planning, the cadence, and the vendor coordination together so data and technology initiatives land on time and at high quality, with leadership always able to see where things stand.",
+    "I have not worked in broadcast or media specifically. But high-availability content and ticketing platforms for very large audiences are where I started, I spent six years building the systems behind events like V8 Supercars and the Byron Bay Blues Festival. I am very comfortable in high-pressure environments where platforms simply cannot go down.",
+    "If this sounds like the kind of delivery you are looking for, I'd love to connect."
   ],
   "signOff": "Kind regards,",
   "signature": ""

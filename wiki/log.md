@@ -225,6 +225,31 @@ Expert (current).
   - [[cover-letter-examples]] — new Resolution Life entry; user confirmed the Robert Walters "JD interpretation + match claim" format as preferred cover letter formula for senior roles.
 - Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]], [[log]]
 
+## [2026-06-18] ingest — Alan-Soto-2026-06-18-Xero-Achievement-Evidence.md
+- Source: structured achievement evidence synthesised from cross-app Xero evidence (Jira, Confluence,
+  Glean). Not a resume — a narrative evidence document covering 8 achievement themes at Xero.
+- **Key new content added:**
+  - **Supergraph / API Program specifics** — Practice Domain Alignment Plan; UK Tax as first GA
+    production consumer (`query { me { currentPractice { id } } }`); BlueNav migration off GSD
+    (tracer-bullet, 1% traffic test, high-risk/high-volume); Unified Burndown (all major Xero
+    engineering divisions); domain onboarding simplification (Miro guide steps 0–2).
+  - **Quokkas ways-of-working** — documented cross-functional delivery model for Payroll/Connected
+    Workplaces team; separated roadmap vs execution tracking; Asana + Jira linkage; Confluence as
+    discovery home; communication norms. New project entry added.
+  - **Jira Optimisation Initiative (2023)** — Xero-wide programme for consistent Jira use at
+    initiative/epic level; Jira Data Quality Score; dashboards and shareback material. New project
+    entry added.
+  - **"Operating system builder" framing** — verbatim reusable summary capturing what Alan does
+    above pure delivery coordination; added to [[positioning]] as a named framing block.
+  - **Platform/API TPM professional summary** — new summary angle for federated graph/developer
+    platform roles. New role-emphasis cheat-sheet entry added.
+  - **New supporting statement variants** — 8 bullet-ready statements extracted and added to
+    [[achievements]] as their own section "Supergraph / API Program — specific wins."
+- Pages touched: [[achievements]], [[experience]], [[projects]], [[keywords]], [[positioning]],
+  [[processed]], [[index]]
+
+---
+
 ## [2026-06-17] lint — full wiki health check (7 applications in scope)
 - **Ingest step:** all 34 raw files already registered in [[processed]]; no new files to ingest.
 - **Auto-fixed:**
@@ -236,3 +261,18 @@ Expert (current).
 - **Checks that passed:** no orphan pages; no thin roles (Emedia has 3 meaningful bullets — borderline but acceptable); all JD gap-watch entries now recorded; cross-page [[wikilinks]] resolve; no title/date/metric contradictions remaining (Go1 team size was the last outstanding contradiction, now fixed).
 - **Flagged for review:** 5 items under `## Open lint findings` — see above.
 - Pages touched: [[projects]], [[keywords]], [[log]]
+
+---
+
+## [2026-06-18] apply (finalised) — ARN Media Technology Delivery Manager
+- Saved JD, gap analysis (fit: strong), and jd-analysis note
+- Drafted resume (Head of Delivery / Delivery Lead angle retitled to "Technology Delivery Manager"; Suncorp as offshore+vendor+data anchor, Emedia kept full for media/entertainment adjacency) and cover letter (JD-interpretation + match-claim opener, 3 role bullets, synthesis sentence, light media-gap pivot)
+- PDFs generated via /render; archived resume and cover letter to raw/resumes/
+- Ingested both markdown sources
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]], [[log]]
+
+## [2026-06-18] ingest — ARN Media Technology Delivery Manager (resume + cover letter)
+- Resume: added "Technology Delivery Manager" title variant (media/broadcast angle) to [[positioning]]; content derived from existing wiki, no new history
+- Cover letter: new entry in [[cover-letter-examples]] (reaffirms senior formula; "Speed and stability in the same hands" closer device); user confirmed "the whole thing" worked
+- Keywords gap-watch: broadcast/media vertical (bridged by Emedia + Go1); no real gaps otherwise
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]]
