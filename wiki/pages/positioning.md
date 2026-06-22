@@ -15,24 +15,24 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 
 ## Headline title variants (target roles applied for)
 
-| Target framing | Headline used | Angle / what it emphasises |
-|---|---|---|
-| Principal PM / Government ICT | Principal Project Manager | Programme governance at scale, regulated enterprise (Suncorp analogue), EGM/board stakeholder engagement, AO8-level |
-| TPM (core) | Technical Program Manager / Lead / Senior / Staff TPM | Cross-functional program delivery, dependencies, EGM alignment |
-| Project delivery | Project Manager / Digital Delivery Manager | End-to-end execution, risk, stakeholder alignment, scope/time/cost |
-| AI-focused | Senior AI Project Manager / Project Manager AI | AI for Customers, NLP people analytics, ML coordination |
-| Product | Product & Delivery Manager / Head of Product | Product strategy, discovery, analytics, scaling SaaS |
-| Agile | Scrum Master / Agile Coach / Iteration Manager | Ceremonies, coaching, flow/predictability, team culture |
-| Engineering leadership | Engineering Manager / Head of Engineering | People management, technical depth, CI/CD, team building |
-| Ops/strategy | Technical Program & Operations Leader (→ Chief of Staff) | Strategic thinking + hands-on execution |
-| Delivery leadership (SaaS/AI) | Head of Delivery | Delivery rhythm/cadence design; clear structure for teams to ship with confidence; EGM-level alignment; fintech-adjacent framing |
-| Delivery Lead / Insurance & regulated | Delivery Lead | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing |
-| Payments / fintech engineering lead | Engineering Technical Lead | Software-engineer-to-engineering-leader arc; three payments touchpoints (Console/Reapit, Xero US Bills, Emedia); Xero API Program as HA/mission-critical anchor; regulated finserv credibility (Suncorp, Xero) |
-| Infrastructure/data migration PM (contract) | Project Manager | System replacement delivery, data migration governance, vendor coordination, Waterfall/Agile; Suncorp telephony migration as primary anchor; Console/Reapit vendor integration as supporting evidence |
-| Website/digital platform PM (contract) | Senior Project Manager | CMS/digital platform implementation within a program; Suncorp as data migration + vendor management anchor; Xero API Program for integrations + governance at scale; Console/Reapit for integration scope-to-go-live; 2sol for digital platform delivery |
-| Engineering / people-first startup (EM) | Software Engineering Manager | People-first engineering culture, team health, delivery rhythms, cycle time, capacity planning; Go1 (squad of 10), intelliHR (team of 5), 2sol (team of 5) as primary EM anchors; Xero for coaching EM/tech-leads at scale |
-| Senior Product Owner / Delivery Lead (insurance) | Senior Product Owner - Delivery Lead | Product definition + delivery execution intersection; intelliHR (built PM function from scratch, product+engineering intersection) as primary PO anchor; Go1 (PO+Scrum Master in one person, end-to-end backlog); Suncorp (regulated financial services/insurance) for domain credibility; Xero API Program for delivery at scale |
-| Technology Delivery Manager (media/broadcast) | Technology Delivery Manager | Data + software delivery with offshore/vendor coordination; Suncorp as the offshore + vendor + data-platform anchor (one role covering all three JD priorities); Xero API Program for delivery scale + governance cadence; 2sol for end-to-end ownership + quality/release readiness; Emedia kept full for high-availability content/entertainment-events adjacency. Senior-manager altitude (reports to Head of Technology), NOT Head-of |
+| Target framing                                   | Headline used                                            | Angle / what it emphasises                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------ | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Principal PM / Government ICT                    | Principal Project Manager                                | Programme governance at scale, regulated enterprise (Suncorp analogue), EGM/board stakeholder engagement, AO8-level                                                                                                                                                                                                                                                                                                                       |
+| TPM (core)                                       | Technical Program Manager / Lead / Senior / Staff TPM    | Cross-functional program delivery, dependencies, EGM alignment                                                                                                                                                                                                                                                                                                                                                                            |
+| Project delivery                                 | Project Manager / Digital Delivery Manager               | End-to-end execution, risk, stakeholder alignment, scope/time/cost                                                                                                                                                                                                                                                                                                                                                                        |
+| AI-focused                                       | Senior AI Project Manager / Project Manager AI           | AI for Customers, NLP people analytics, ML coordination                                                                                                                                                                                                                                                                                                                                                                                   |
+| Product                                          | Product & Delivery Manager / Head of Product             | Product strategy, discovery, analytics, scaling SaaS                                                                                                                                                                                                                                                                                                                                                                                      |
+| Agile                                            | Scrum Master / Agile Coach / Iteration Manager           | Ceremonies, coaching, flow/predictability, team culture                                                                                                                                                                                                                                                                                                                                                                                   |
+| Engineering leadership                           | Engineering Manager / Head of Engineering                | People management, technical depth, CI/CD, team building                                                                                                                                                                                                                                                                                                                                                                                  |
+| Ops/strategy                                     | Technical Program & Operations Leader (→ Chief of Staff) | Strategic thinking + hands-on execution                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Delivery leadership (SaaS/AI)                    | Head of Delivery                                         | Delivery rhythm/cadence design; clear structure for teams to ship with confidence; EGM-level alignment; fintech-adjacent framing                                                                                                                                                                                                                                                                                                          |
+| Delivery Lead / Insurance & regulated            | Delivery Lead                                            | Suncorp as primary delivery credibility anchor; hands-on individual contributor voice; agile practitioner framing                                                                                                                                                                                                                                                                                                                         |
+| Payments / fintech engineering lead              | Engineering Technical Lead                               | Software-engineer-to-engineering-leader arc; three payments touchpoints (Console/Reapit, Xero US Bills, Emedia); Xero API Program as HA/mission-critical anchor; regulated finserv credibility (Suncorp, Xero)                                                                                                                                                                                                                            |
+| Infrastructure/data migration PM (contract)      | Project Manager                                          | System replacement delivery, data migration governance, vendor coordination, Waterfall/Agile; Suncorp telephony migration as primary anchor; Console/Reapit vendor integration as supporting evidence                                                                                                                                                                                                                                     |
+| Website/digital platform PM (contract)           | Senior Project Manager                                   | CMS/digital platform implementation within a program; Suncorp as data migration + vendor management anchor; Xero API Program for integrations + governance at scale; Console/Reapit for integration scope-to-go-live; 2sol for digital platform delivery                                                                                                                                                                                  |
+| Engineering / people-first startup (EM)          | Software Engineering Manager                             | People-first engineering culture, team health, delivery rhythms, cycle time, capacity planning; Go1 (squad of 10), intelliHR (team of 5), 2sol (team of 5) as primary EM anchors; Xero for coaching EM/tech-leads at scale                                                                                                                                                                                                                |
+| Senior Product Owner / Delivery Lead (insurance) | Senior Product Owner - Delivery Lead                     | Product definition + delivery execution intersection; intelliHR (built PM function from scratch, product+engineering intersection) as primary PO anchor; Go1 (PO+Scrum Master in one person, end-to-end backlog); Suncorp (regulated financial services/insurance) for domain credibility; Xero API Program for delivery at scale                                                                                                         |
+| Technology Delivery Manager (media/broadcast)    | Technology Delivery Manager                              | Data + software delivery with offshore/vendor coordination; Suncorp as the offshore + vendor + data-platform anchor (one role covering all three JD priorities); Xero API Program for delivery scale + governance cadence; 2sol for end-to-end ownership + quality/release readiness; Emedia kept full for high-availability content/entertainment-events adjacency. Senior-manager altitude (reports to Head of Technology), NOT Head-of |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
 
@@ -177,6 +177,45 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   insurance credibility + Xero (API Program, dependency management at scale, EGM-level) for delivery
   scale. Headline: "Senior Product Owner - Delivery Lead" (hyphen not slash — slash breaks filenames
   on Windows). Summary: see "PO / Delivery Lead" angle above. Do not use Head-of or TPM framings.
+
+## Performance review insights (Xero, 2026-06)
+
+Source: formal Xero performance review provided 2026-06-19. Useful for self-awareness in
+interviews, for calibrating which strengths to lead with, and for understanding the honest gap
+at the Lead → Staff/Principal step.
+
+### Externally validated strengths (exact phrases from the review)
+
+- **"Force multiplier"** — EQ and relationship-building described as a force multiplier; use this
+  framing to justify influence-without-authority claims in cover letters and interviews.
+- **"Drive to do the right thing" + "follows through on feedback"** — ownership and accountability;
+  validates the "high ownership" and "operating system builder" framings already in this page.
+- **"Strong optimizer of team processes"** and **"improves cycle time"** — third-party confirmation
+  of the Jira / facilitation / WoW angle; strong evidence base for any Delivery Lead or Agile Coach framing.
+- **"Centralized information and created sources of truth"** — directly matches the Unified Burndown
+  and practice-tools program narrative; use as evidence when claiming operational clarity.
+- **"Willingness to lean into new, difficult areas"** — validates the adaptability angle used in
+  gap acknowledgements (AI + API modernization specifically called out).
+
+### Honest growth areas (use for interview prep and gap framing — do not hide from)
+
+- **Technical fluency at the ecosystem level** — the review notes strength at lower-level technical
+  detail but a gap at complex cross-domain technical alignment. When targeting Staff/Principal TPM
+  or architect-adjacent roles, use the "delivery-focus pivot" device rather than overclaiming
+  technical depth. This is the clearest Lead → Staff gap.
+- **Executive verbal communication** — verbal summaries in high-stakes meetings (weekly strategy
+  reviews) can be unfocused; stakeholders must do "heavy lifting." Prepare structured verbal
+  summaries for interviews and panel presentations. Written artifacts (burndowns, RAID, milestone
+  reports) are a strength — lean on those. In cover letters, avoid verbose opener paragraphs.
+
+### Level calibration note
+
+The review confirms Alan is operating at "Lead" level with strong execution credentials. When
+targeting roles above Lead (Staff TPM, Principal PM, Head of Delivery), the honest framing is:
+strong at execution-layer program design and cross-team facilitation, actively building
+ecosystem-level technical fluency and senior-stakeholder communication density.
+
+---
 
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.

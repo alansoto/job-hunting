@@ -276,3 +276,16 @@ Expert (current).
 - Cover letter: new entry in [[cover-letter-examples]] (reaffirms senior formula; "Speed and stability in the same hands" closer device); user confirmed "the whole thing" worked
 - Keywords gap-watch: broadcast/media vertical (bridged by Emedia + Go1); no real gaps otherwise
 - Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]]
+
+## [2026-06-22] outcome — Stake, Engineering Technical Lead - Payments: Rejected
+- Application submitted 2026-06-17; rejection received 2026-06-22.
+- `outputs/tracker.md` updated to Closed / Rejected.
+
+---
+
+## [2026-06-19] ingest — Xero Performance Review (2026-06)
+- Source: formal Xero mid-year performance review, provided inline by Alan
+- Validated strengths captured: "force multiplier" EQ, ownership/follows-through, process optimisation/cycle-time, centralised sources of truth, adaptability into AI + API modernization
+- Honest growth areas recorded: ecosystem-level technical alignment (Lead → Staff gap), executive verbal communication density in high-stakes reviews
+- Level calibration note added: confirms Lead-level designation; frames the honest gap for Staff/Principal targeting
+- Pages touched: [[positioning]] (new "Performance review insights" section), [[processed]]
