@@ -5,23 +5,23 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Senior Delivery Lead",
+  "title": "Technology Delivery Manager",
   "date": "23 June 2026",
   "recipient": {},
-  "salutation": "Dear Magentus Team!",
+  "salutation": "Dear Hiring Manager,",
   "paragraphs": [
-    "I am applying for the Senior Delivery Lead role.",
-    "When I read the description for the role, the focus on having someone embedded inside a cross-functional  team to remove blockers and drive execution stood out immediately. It directly mirrors how I have run delivery for the last 15+ years, most recently at Xero and Go1, where I partnered closely with Product, Engineering, and Design to turn complex roadmaps into predictable releases.",
-    "Here is how I can help your team ship value consistently:",
+    "I am applying for the Technology Delivery Manager role at ARN.",
+    "As I understand it, the role comes down to one thing: turning strategy into reliable, predictable delivery, across your data, software work and content platforms, all while keeping multiple engineering teams, offshore partners, and vendors moving in the same direction. That is exactly the profile I have spent most of my career building.",
+    "A few things I would bring on day one:",
     [
-      "At Xero, I led a Jira optimization initiative that standardized workflows across the division, building automated health dashboards and data quality metrics. I can bring this experience to Magentus to help providing your teams and leadership with an accurate view of delivery.",
-      "During a major CI/CD improvement project at Xero, I managed the implementation of observability tooling to track DORA metrics and built automated dashboards to measure flow. I can bring this engineering awareness to your teams to help them balance delivery pace with software quality, and technical health.",
-      "At Go1, I was the embedded squad lead and Scrum Master for a cross-functional team of eight, building our operating model from scratch and aligning engineers, designers, and product managers. I can help your squads establish the right ceremonies and coordinate cross-team dependencies so everyone can move fast without surprises."
+      "Xero: I lead end-to-end delivery of a company-wide API program spanning dozens of engineering teams across every major division, including Data & Science and Payments. I build the integrated delivery plan, sequence the dependencies, run the governance cadence, and report progress, risks, and trade-offs up to executive level.",
+      "Suncorp: I ran delivery for a large-scale data-platform migration across the whole organisation and all its brands. I coordinated four engineering teams including offshore contractors, drove vendor performance, and owned the data governance and validation on a compliance-critical program, keeping it on track through COVID-19 and a corporate restructure.",
+      "2sol: I owned end-to-end delivery of Flight Centre's hotel booking platform, a $5M-a-month digital business, and lifted release readiness by introducing CI/CD, automated testing, and code review. Speed and stability in the same hands."
     ],
-    "While I have not worked in healthcare technology specifically, the core delivery challenge is the same. I know how to navigate complex SaaS workflows, cross-team dependencies, and the constant need to balance execution speed with high product quality.",
-    "If this sounds like the right fit, I would love to chat and learn more about the role.",
-    "Thank you,"
+    "In short, my contribution would be holding the planning, the cadence, and the vendor coordination together so data and technology initiatives land on time and at high quality, with leadership always able to see where things stand.",
+    "I have not worked in broadcast or media specifically. But high-availability content and ticketing platforms for very large audiences are where I started, I spent six years building the systems behind events like V8 Supercars and the Byron Bay Blues Festival. I am very comfortable in high-pressure environments where platforms simply cannot go down.",
+    "If this sounds like the kind of delivery you are looking for, I'd love to connect."
   ],
-  "signOff": "Sincerely,",
+  "signOff": "Kind regards,",
   "signature": ""
 };
