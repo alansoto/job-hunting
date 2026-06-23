@@ -12,3 +12,6 @@ claude-code-resume-template/node_modules/
 
 # Claude Code local settings
 .claude/settings.local.json
+
+#graphify stuff
+graphify-out/
