@@ -283,6 +283,42 @@ Expert (current).
 
 ---
 
+## [2026-06-23] status update — Auto & General, Development Manager: Submitted
+- Application submitted 2026-06-23. `outputs/tracker.md` updated to Submitted / Awaiting response.
+
+---
+
+## [2026-06-23] apply (started) — Magentus, Senior Delivery Lead
+
+- Created `applications/2026-06-23-magentus-senior-delivery-lead/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: Strong (8.5/10). Core role is end-to-end delivery execution ownership embedded in a
+  product team - maps directly to Alan's actual Xero work and mirrors Go1 (Scrum Master + squad
+  lead) precisely. Atlassian/Jira expertise very well evidenced (Jira optimisation initiative,
+  Data Quality Score, health dashboards). Engineering practices awareness (CI/CD, SDLC) partially
+  evidenced via 2sol transformation and systems architecture background. Genuine gaps: cloud
+  platform specifics (AWS/Azure/GCP - confirmed wiki gap), Atlassian JPD/Compass/Analytics
+  (strong Jira base bridges this), healthcare domain (new vertical - standard environment pivot).
+- Positioning: "Senior Delivery Lead" framing, individual contributor voice. Xero leads (Jira
+  optimisation, ways-of-working, dependency management at scale); Go1 (Scrum Master + operating
+  model built from scratch) as hands-on credibility anchor; Suncorp (multi-team, compliance-critical);
+  2sol (CI/CD transformation, $5M+ platform).
+- Cover letter: confirmed senior formula (JD interpretation + match claim opener, three role
+  bullets, synthesis sentence, healthcare domain gap pivot, close).
+- **[2026-06-23] Positioning update:** Alan provided new evidence of DevOps/CI/CD/observability
+  work at Xero ("Code Red" initiative). Added to wiki ([[experience]], [[achievements]],
+  [[projects]], [[keywords]]). Key facts: embedded in division-wide CI/CD capability uplift;
+  implemented observability tooling for DORA metrics (deployment frequency, lead time for changes,
+  change failure rate, time to restore); personally built automated lead time for changes
+  dashboards; facilitated team sessions for SLOs, on-call practices, and progressive delivery;
+  participated in DX pilot program. Resume updated (Code Red bullet replaces Unified Burndown in
+  Xero section). Cover letter updated (Code Red bullet replaces 2sol bullet - two Xero bullets
+  now, Go1 third).
+- **[2026-06-23] Apply (finalised)** — Magentus, Senior Delivery Lead. Rendered `Alan Soto - Senior Delivery Lead - Magentus - Resume.pdf` (2pp) + `Alan Soto - Senior Delivery Lead - Magentus - Cover Letter.pdf` (1pp) via `build.js`. Archived resume and cover letter markdown to `raw/resumes/`; ingested both. Wrote `meta.md`; appended `outputs/tracker.md` (status: Ready to send). Key tailoring: full 7-role experience section (Virgin Australia, intelliHR, Console/Reapit restored from Earlier); Code Red CI/CD/DORA bullet in Xero section bridging the DevOps gap. Cover letter: casual opener, two Xero bullets (Jira governance + Code Red/DORA), Go1 operating model third. Healthcare domain gap acknowledged plainly. Pages touched: [[cover-letter-examples]], [[processed]], [[log]].
+- **[2026-06-23] Status update** — Magentus Senior Delivery Lead application submitted. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
+
+---
+
 ## [2026-06-19] ingest — Xero Performance Review (2026-06)
 - Source: formal Xero mid-year performance review, provided inline by Alan
 - Validated strengths captured: "force multiplier" EQ, ownership/follows-through, process optimisation/cycle-time, centralised sources of truth, adaptability into AI + API modernization

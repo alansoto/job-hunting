@@ -48,6 +48,13 @@ payments integration · payment processing · reconciliation · banking integrat
 fraud controls · operational tooling · API · federated API surface · booking systems ·
 ticketing systems · e-commerce · security protocols · capacity planning · performance tuning · DevOps · scalability.
 
+## DevOps / CI/CD / observability
+
+DORA metrics · Deployment Frequency · Lead Time for Changes · Change Failure Rate ·
+Time to Restore · observability · SLOs (Service Level Objectives) · on-call practices ·
+progressive delivery · developer experience (DX) · developer productivity · system health ·
+Code Red · CI/CD capability uplift · engineering practice uplift.
+
 ## GraphQL / Supergraph / API platform
 Supergraph · federated graph · subgraph · graph contract · GraphQL · domain modelling ·
 thin-slice use cases · Practice domain · domain ownership · domain handover · bootstrap subgraph ·

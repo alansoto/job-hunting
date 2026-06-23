@@ -31,6 +31,17 @@ Each ties back to a role in [[experience]]. Metrics in **bold**.
   **4 Product Owners**. → Virgin Australia
 - Academic: **Dean's Award, 7.0 GPA**, Masters of Project Management (QUT). → [[education]]
 
+## Code Red / DevOps / CI/CD — specific wins (Xero)
+
+- Embedded in the **"Code Red" division-wide CI/CD capability initiative** — implementing
+  observability tooling and facilitating engineering practice uplift across the division. → Xero
+- **Personally built automated Lead Time for Changes dashboards** tracking DORA metrics
+  (Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore). → Xero
+- **Facilitated team sessions to establish SLOs, on-call practices, and progressive delivery**
+  practices as part of the Code Red initiative. → Xero
+- Participated in a pilot program to launch **DX** (developer experience tooling) to measure
+  developer productivity and system health. → Xero
+
 ## Supergraph / API Program — specific wins (Xero, 2025–2026)
 
 - Defined the minimal Practice-domain thin slice that enabled the **first production-backed

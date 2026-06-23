@@ -71,3 +71,15 @@ Entry format is maintained by `/ingest`.
 **What worked:** User confirmed the whole thing - reaffirms the senior cover-letter formula (JD interpretation + match claim opener, three role-specific bullets, synthesis sentence, light gap pivot, close).
 
 ---
+
+### Magentus — Senior Delivery Lead (2026-06-23)
+
+**Role level:** senior
+**Hook pattern:** "When I read the description..." opener - names the specific JD signal (embedded cross-functional role, removing blockers, driving execution), then maps it to 15+ years at Xero and Go1. Casual opener ("Hi Magentus Team!") sets a less formal tone than prior senior letters.
+**Body format:** Three bullets with forward-looking "I can bring this..." sentences connecting evidence to future value. Gap paragraph. Close. ~200 words.
+**Tone markers:** "Here is how I can help your team ship value consistently:" - direct transition into evidence. Each bullet links past achievement to a named future contribution. "While I have not worked in healthcare technology specifically" - plain gap. Close is low-pressure and collaborative.
+**Gap acknowledgement:** Healthcare domain stated plainly, pivoted to environment match (SaaS, cross-team dependencies, pace vs quality). Standard "new-industry gap + environment match pivot" device. See [[positioning]].
+**Positioning note:** Two Xero bullets used deliberately - Jira/governance and Code Red/DORA/observability - to directly address the DevOps requirement from the JD without the 2sol CI/CD intro story.
+**What worked:** n/a - not yet confirmed.
+
+---

@@ -76,6 +76,13 @@ summary/headline only.
   use at initiative/epic level; delivered shareback material on health and dashboards; drove a
   division-wide Jira Data Quality Score. Turned a local tooling problem into an organisational
   capability improving visibility, alignment, and planning/reporting toil across the division.
+- **Code Red — CI/CD capability uplift** — embedded in a division-wide initiative to increase
+  organisational CI/CD capabilities. Implemented observability tooling to track **DORA metrics**:
+  Deployment Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore.
+  **Personally built automated Lead Time for Changes dashboards.** Facilitated team sessions to
+  establish engineering practices including **SLOs (Service Level Objectives), on-call practices,
+  and progressive delivery**. Also participated in a pilot program to launch **DX** (developer
+  experience tooling) to measure developer productivity and system health.
 
 **Recurring responsibilities across framings:**
 - Own end-to-end program roadmaps, forecasts, and delivery tracking; surface risks early; keep

@@ -43,6 +43,17 @@ executable multi-domain migration program. Key deliverables:
 Teams influenced: API Platform / Tech Strategy API Program, UK Tax, BlueNav / Patronus,
 Practice team leadership and engineering, broader domain leadership across Xero.
 
+## Xero — Code Red (CI/CD Capability Uplift)
+**Role context:** Lead Technical Program Manager. → [[experience]]
+Division-wide initiative to increase organisational CI/CD capabilities. Embedded in the program
+to implement **observability tooling** tracking four **DORA metrics**: Deployment Frequency,
+Lead Time for Changes, Change Failure Rate, and Time to Restore. **Personally built automated
+Lead Time for Changes dashboards.** Facilitated team sessions establishing engineering practices:
+**SLOs (Service Level Objectives), on-call practices, and progressive delivery**. Also
+participated in a pilot program to launch **DX** (developer experience tooling) to measure
+developer productivity and system health across the division. Evidence of hands-on DevOps/
+observability delivery leadership, not only coordination.
+
 ## Xero — Quokkas ways-of-working
 **Role context:** Lead Technical Program Manager. → [[experience]]
 Designed and embedded a **cross-functional delivery operating model** for the Quokkas team
