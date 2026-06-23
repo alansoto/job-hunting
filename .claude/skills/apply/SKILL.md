@@ -18,7 +18,7 @@ Write `gap-analysis.md` with:
 - **ATS keywords** — high-value terms from the JD that must appear in the resume
 - **Fit score** — qualitative summary (strong / moderate / stretch) with reasoning, or a numeric score
 
-Discuss the gap analysis conversationally before drafting.
+Proceed directly to Step 3 without waiting for confirmation.
 
 ## Step 3 — Draft resume
 
@@ -93,8 +93,6 @@ linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
 - Keep to 1-2 pages unless the role explicitly calls for more
 - Apply `/resume-style` rules to every bullet and sentence
 
-Iterate conversationally until approved.
-
 ## Step 4 — Draft cover letter
 
 ### Before drafting — JD Analysis
@@ -130,8 +128,6 @@ Rules:
 - Sign-off must be on its own line: `Sincerely,` / `Regards,` / `Kind regards,`
 - Structure: hook → strongest evidence → gap acknowledgement (if any) → close (3-4 paragraphs)
 - Apply `/resume-style` rules to every paragraph
-
-Iterate conversationally until approved.
 
 ## Step 5 — Finalise
 

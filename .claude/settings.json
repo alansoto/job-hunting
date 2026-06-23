@@ -17,7 +17,8 @@
       "Skill(update-config:*)",
       "WebFetch(domain:careers.arn.com.au)",
       "WebFetch(domain:www.linkedin.com)",
-      "WebFetch(domain:au.linkedin.com)"
+      "WebFetch(domain:au.linkedin.com)",
+      "Edit(/.claude/skills/apply/**)"
     ],
     "additionalDirectories": [
       "c:\\job-hunting\\.claude\\commands",
