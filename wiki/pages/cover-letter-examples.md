@@ -83,3 +83,14 @@ Entry format is maintained by `/ingest`.
 **What worked:** n/a - not yet confirmed.
 
 ---
+
+### Lime Recruitment — Delivery Lead | HR Transformation Program (2026-06-24)
+
+**Role level:** senior
+**Hook pattern:** Named-focus opener — "When I saw your post for the role, the focus on setting up the initial delivery structure, tools, and team rhythms really caught my eye." Names the specific JD signal (setup phase + tooling) and connects it directly to what the candidate has been doing. More casual and personal than the "JD interpretation + match claim" formula; reads as a genuine response to reading the ad.
+**Body format:** Three role-specific bullets (Xero Jira/Confluence tooling + Quokkas operating model; Go1 setup-phase operating model from scratch; Suncorp governance frameworks through adversity) each ending with a forward-looking contribution sentence. Synthesis paragraph. Gap paragraph. Close. ~220 words.
+**Tone markers:** "It sounds exactly like what I've spent the last few years doing" - direct personal connection, no corporate framing. Each bullet ends with a forward-looking "I can bring this same approach..." sentence naming the future contribution explicitly. "I would to chat and learn more about the role." - casual, conversational close. Addressed "Dear Lime Recruitment team - Attn. Daniel" - personal, named.
+**Gap acknowledgement:** HR transformation domain stated plainly ("I have not delivered an enterprise HR transformation specifically"), bridged via intelliHR (18 months at HR SaaS platform). Environment-match pivot closes the para. Standard [[positioning]] "new-industry gap + environment match pivot" device.
+**What worked:** n/a - not yet confirmed.
+
+---

@@ -115,6 +115,14 @@ Supporting statement variants (individual):
   engagement with high-level stakeholder alignment. Specialist in standing up clear delivery operating
   models, facilitating agile ceremonies, removing systemic impediments, and giving teams and leaders
   the visibility they need to move fast with confidence."
+- **Delivery Lead (transformation / setup phase):** "Delivery Lead with 15+ years establishing
+  governance frameworks, operating models, and delivery cadence across complex transformation programs.
+  Specialist in joining programs at the setup phase - defining team rhythms, implementing Jira and
+  Confluence tooling, and building the coordination structures that keep multiple workstreams moving in
+  the same direction. Experienced working across business and technical teams simultaneously, managing
+  risks and dependencies, and maintaining stakeholder alignment from team level through to executive
+  reporting. A hands-on practitioner who builds delivery capability without adding unnecessary process,
+  and consistently shifts environments from ambiguous to predictable."
 - **PO / Delivery Lead:** "Delivery leader and product practitioner with 15+ years bridging product
   definition and delivery execution across SaaS platforms, financial services, and regulated enterprise
   environments. Experienced operating across squads and programs simultaneously - converting business

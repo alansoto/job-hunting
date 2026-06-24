@@ -1,27 +1,28 @@
 window.COVER_LETTER = {
   "name": "Alan Soto",
   "email": "me@alansoto.info",
-  "phone": "04 3040 4307",
+  "phone": "0430 404 307",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Technology Delivery Manager",
-  "date": "23 June 2026",
+  "title": "Delivery Lead",
+  "date": "24 June 2026",
   "recipient": {},
-  "salutation": "Dear Hiring Manager,",
+  "salutation": "Dear Lime Recruitment team - Attn. Daniel,",
   "paragraphs": [
-    "I am applying for the Technology Delivery Manager role at ARN.",
-    "As I understand it, the role comes down to one thing: turning strategy into reliable, predictable delivery, across your data, software work and content platforms, all while keeping multiple engineering teams, offshore partners, and vendors moving in the same direction. That is exactly the profile I have spent most of my career building.",
-    "A few things I would bring on day one:",
+    "I am applying for the Delivery Lead role in the HR transformation program.",
+    "When I saw your post for the role, the focus on setting up the initial delivery structure, tools, and team rhythms really caught my eye. It sounds exactly like what I've spent the last few years doing and building consistent ways of working from scratch so teams can deliver in a sustainable and predictable way.",
+    "Here is how my background connects to the role:",
     [
-      "Xero: I lead end-to-end delivery of a company-wide API program spanning dozens of engineering teams across every major division, including Data & Science and Payments. I build the integrated delivery plan, sequence the dependencies, run the governance cadence, and report progress, risks, and trade-offs up to executive level.",
-      "Suncorp: I ran delivery for a large-scale data-platform migration across the whole organisation and all its brands. I coordinated four engineering teams including offshore contractors, drove vendor performance, and owned the data governance and validation on a compliance-critical program, keeping it on track through COVID-19 and a corporate restructure.",
-      "2sol: I owned end-to-end delivery of Flight Centre's hotel booking platform, a $5M-a-month digital business, and lifted release readiness by introducing CI/CD, automated testing, and code review. Speed and stability in the same hands."
+      "At Xero, I built the delivery model for the Payroll division from scratch, separating roadmap planning from daily execution tracking. At the entire engineering division level, I standarised how we used our tools (Jira/Confluence/Asana) to make them the single source of truth, which cut out a massive amount of manual reporting. I can bring this same approach to keep your workstreams organized.",
+      "At Go1, I joined a hyper-growth company with no delivery structure and built the operating model from the ground up: sprint practices, planning rhythms, backlog refinement, delivery reporting. Within months, stakeholders had confidence in quality and predictability where none had existed. This is the closest parallel to what this program needs in its establishment phase.",
+      "At Suncorp, I introduced delivery governance frameworks for a large-scale data platform migration across all Suncorp brands including dependency management, cross-team coordination, progress reporting, across four engineering teams including offshore contractors and external vendors. The program ran through COVID-19 and corporate restructuring without losing alignment across Infrastructure, Security, Business units, or vendors."
     ],
-    "In short, my contribution would be holding the planning, the cadence, and the vendor coordination together so data and technology initiatives land on time and at high quality, with leadership always able to see where things stand.",
-    "I have not worked in broadcast or media specifically. But high-availability content and ticketing platforms for very large audiences are where I started, I spent six years building the systems behind events like V8 Supercars and the Byron Bay Blues Festival. I am very comfortable in high-pressure environments where platforms simply cannot go down.",
-    "If this sounds like the kind of delivery you are looking for, I'd love to connect."
+    "In short, my contribution would be building the governance and delivery machinery so the program team and the PM have a clear operating model, the workstreams stay coordinated, and the organisation always knows where things stand.",
+    "I have not delivered an enterprise HR transformation specifically. But I spent 18 months at intelliHR building and shipping product on an HR SaaS platform, so I understand the people systems domain and the challenges HR platform users face. The program mechanics, standing up governance, managing multi-workstream dependencies, keeping stakeholders aligned through ambiguity are exactly where I have been operating.",
+    "If this sounds like a good fit, I would to chat and learn more about the role.",
+    "Thank you,"
   ],
-  "signOff": "Kind regards,",
+  "signOff": "Sincerely,",
   "signature": ""
 };

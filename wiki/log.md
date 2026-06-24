@@ -319,6 +319,25 @@ Expert (current).
 
 ---
 
+## [2026-06-24] apply (finalised) — Lime Recruitment, Delivery Lead | HR Transformation Program
+- PDFs generated via /render: `Alan Soto - Delivery Lead - Lime Recruitment - Resume.pdf` + `Alan Soto - Delivery Lead - Lime Recruitment - Cover Letter.pdf`
+- Archived resume and cover letter markdown to `raw/resumes/`; ingested both
+- New "Delivery Lead (transformation / setup phase)" professional summary added to [[positioning]]
+- Cover letter entry added to [[cover-letter-examples]]: named-focus opener + forward-looking bullet endings (new pattern variant)
+- Wrote `meta.md`; appended `outputs/tracker.md` (status: Ready to send)
+- Pages touched: [[positioning]], [[cover-letter-examples]], [[processed]], [[log]]
+
+## [2026-06-24] apply (started) — Lime Recruitment, Delivery Lead | HR Transformation Program
+
+- Created `applications/2026-06-24-lime-recruitment-delivery-lead/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: Strong (8.5/10). Core ask - establishing delivery frameworks, operating cadence, and Jira/Confluence tooling from scratch for a complex multi-workstream HR transformation - maps directly to Go1 (operating model built from scratch), Xero Quokkas (cross-functional WoW design), Xero Jira optimisation initiative, and Suncorp (governance frameworks for multi-team migration). Iteration Manager title is an exact credential match. Only gap: client-side HRIS transformation delivery; intelliHR (HR SaaS, 18 months as Head of Product) and Xero Quokkas/Payroll team provide the adjacency. Gap is "highly regarded" not required.
+- Drafted `resume-draft.md`: "Delivery Lead" framing; Xero (Jira optimisation, Quokkas WoW, API Program multi-workstream, ways-of-working program), Go1 (established operating model from scratch), Suncorp (governance frameworks, multi-team coordination through COVID/restructuring), Virgin Australia (70+ facilitation, PO coaching), intelliHR (HR SaaS domain anchor), Console/Reapit (Iteration Manager title match), Earlier (2sol, Emedia).
+- Drafted `cover-letter-draft.md`: confirmed senior formula (JD interpretation + match claim opener, three role bullets, synthesis sentence, HR/HRIS gap pivot via intelliHR, close). Three bullets: (1) Xero Jira + Quokkas operating model design; (2) Go1 setup-phase operating model; (3) Suncorp multi-team governance through ambiguity.
+- Pages touched: [[log]]
+
+---
+
 ## [2026-06-19] ingest — Xero Performance Review (2026-06)
 - Source: formal Xero mid-year performance review, provided inline by Alan
 - Validated strengths captured: "force multiplier" EQ, ownership/follows-through, process optimisation/cycle-time, centralised sources of truth, adaptability into AI + API modernization
