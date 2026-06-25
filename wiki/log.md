@@ -344,3 +344,15 @@ Expert (current).
 - Honest growth areas recorded: ecosystem-level technical alignment (Lead → Staff gap), executive verbal communication density in high-stakes reviews
 - Level calibration note added: confirms Lead-level designation; frames the honest gap for Staff/Principal targeting
 - Pages touched: [[positioning]] (new "Performance review insights" section), [[processed]]
+
+## [2026-06-25] apply (started) — Mining Technology (via recruiter), Scrum Master - DevSecOps
+
+- Created `applications/2026-06-25-mining-tech-scrum-master-devsecops/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: Strong. Primary hiring driver (reactive → proactive transformation) is Alan's career signature. Scrum Master / coaching / offshore-team / DevOps-adjacent profile is a very tight match. Genuine gaps: SAFe/SSM certification (CSM held; SSM listed as bonus); IaC hands-on experience (frame as delivery-level infra context); DevSec security-pipeline specifics (bridge via Suncorp compliance + Emedia security-hardened architecture). Mining vertical new except early Barrick Gold (2003).
+- Drafted `resume-draft.md`: Scrum Master framing; Xero (Code Red CI/CD, DORA metrics, SLOs, coaching 10+ EMs, Quokkas operating model, Jira optimisation), Go1 (Scrum Master, squad of 8, operating model from scratch), Suncorp (offshore teams, compliance, reactive→structured), Virgin Australia (Kanban, 70+ facilitation, PO coaching), Earlier (Console/Reapit, intelliHR, 2sol, Emedia).
+- Drafted `cover-letter-draft.md`: confirmed senior formula (JD interpretation + match claim opener, three role bullets, synthesis sentence, gap pivot, close). Three bullets: (1) Xero Code Red DORA/CI/CD/SLOs; (2) Go1 operating model from scratch + chaotic→predictable pattern; (3) Suncorp offshore coordination + compliance-critical.
+- Gap acknowledgements: mining vertical → Barrick Gold 2003 light touch + environment-match pivot; SAFe → CSM held, SSM actively building toward, Xero scaled delivery as operational analogue.
+- Pages touched: [[log]]
+
+- **[2026-06-25] Status update** — Mining Technology (via Clicks IT) Scrum Master - DevSecOps application **submitted**. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
