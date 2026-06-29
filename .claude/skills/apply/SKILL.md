@@ -110,22 +110,30 @@ Write this as a brief note (5-10 lines) before drafting. It drives every decisio
 
 Write `cover-letter-draft.md`. Use this exact format (required for `build.js` to parse correctly):
 
-```
-Recipient: Full Name, Job Title, Company Name, City State
+````
+``` salutation ```
+Dear Hiring Team,
 
-Dear Full Name,
-
+``` paragraphs ```
 Paragraph one...
 
 Paragraph two...
 
+- Bullet one
+- Bullet two
+
+Paragraph three...
+
+``` signOff ```
 Sincerely,
-```
+````
 
 Rules:
-- The `Recipient:` line is optional — omit if the hiring manager is unknown
+- Each section starts with a `` ``` section-name ``` `` marker on its own line
+- `salutation` — the greeting line exactly as it should appear (e.g. `Dear Hiring Team,` or `Dear Jane,`)
+- `paragraphs` — body content; blank lines separate paragraphs; `- ` lines become bullet lists
+- `signOff` — one line: `Sincerely,` / `Regards,` / `Kind regards,`
 - Do NOT include a contact header block (name/email/LinkedIn) — `build.js` injects those automatically
-- Sign-off must be on its own line: `Sincerely,` / `Regards,` / `Kind regards,`
 - Structure: hook → strongest evidence → gap acknowledgement (if any) → close (3-4 paragraphs)
 - Apply `/resume-style` rules to every paragraph
 

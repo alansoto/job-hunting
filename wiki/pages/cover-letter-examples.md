@@ -84,6 +84,17 @@ Entry format is maintained by `/ingest`.
 
 ---
 
+### Best Practice Software — Project Manager (2026-06-27)
+
+**Role level:** senior
+**Hook pattern:** Compressed "JD interpretation + match claim" — Para 1 states the role plainly. Para 2 uses a colon structure to paraphrase the core job requirement ("The main job: owning the business case, scope, and delivery; closely collaborating with engineering to validate technical and compliance aspects; all while giving stakeholders a clear, data-driven picture of progress at every stage") then closes with a direct claim ("is exactly the type of environment where I thrive"). Compresses the standard two-paragraph opener into a tighter single punch — the interpretation and claim land in one sentence rather than two.
+**Body format:** Explicit transition line ("Here is how my hands-on experience maps to the role at Best Practice:") + three role-specific bullets (Xero API modernisation program - platform migration + EGM-level visibility; Go1 - SaaS product from initiation to launch + operating model built from scratch; Suncorp - compliance-critical migration, four teams, regulatory stakeholder coordination) + synthesis sentence + gap paragraph + casual close. ~220 words.
+**Tone markers:** "The main job: [JD paraphrase] is exactly the type of environment where I thrive." - colon-structure opener; more compact than the two-sentence version. "Here is how my hands-on experience maps to the role at Best Practice:" - named explicit transition into evidence. "holding the scope, the compliance, and the delivery cadence in the same hands, so the team can move at a predictable, sustainable pace." - synthesis sentence unifying the three-bullet evidence into a single value claim. "the core elements: a regulated industry with real compliance obligations, an existing product that customers depend on..." - colon-list structure for environment match pivot. "If this sounds like the right fit I would love to chat and learn more about the role." - casual, low-pressure close.
+**Gap acknowledgement:** Healthcare domain stated plainly in one sentence ("I have not worked in clinical or health software before"), then pivoted via a colon-list of shared environmental characteristics (regulated industry, compliance obligations, existing product customers depend on, cross-functional team needing structure). Standard [[positioning]] "new-industry gap + environment match pivot" device.
+**What worked:** format and language overall.
+
+---
+
 ### Lime Recruitment — Delivery Lead | HR Transformation Program (2026-06-24)
 
 **Role level:** senior

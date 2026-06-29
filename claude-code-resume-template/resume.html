@@ -224,6 +224,9 @@ function esc(s){
   return String(s == null ? '' : s)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
+function escMd(s){
+  return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+}
 function joinDot(parts){ return parts.filter(Boolean).join(' · '); }
 
 /* ============================ builders ============================ */
@@ -304,7 +307,7 @@ function buildEntry(job){
   return e;
 }
 
-function buildEarlier(d){ return el('p','earlier', esc(d.earlier)); }
+function buildEarlier(d){ return el('p','earlier', escMd(d.earlier)); }
 
 /* ============================ paginator ============================ */
 function pageBottomLimit(pageEl){

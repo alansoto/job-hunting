@@ -357,3 +357,32 @@ Expert (current).
 
 - **[2026-06-25] Status update** — Mining Technology (via Clicks IT) Scrum Master - DevSecOps application **submitted**. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
 
+---
+
+## [2026-06-27] apply — Best Practice Software, Project Manager (SaaS transformation)
+
+- Created `applications/2026-06-27-best-practice-software-project-manager/`
+- Saved JD verbatim as `job-description.md`; wrote `gap-analysis.md`
+- Fit score: 8/10 - strong. All core delivery requirements directly evidenced. SaaS product delivery track record is deep and genuine across Xero, Go1, intelliHR, Console/Reapit. Regulated environment credibility via Suncorp (APRA-regulated, compliance-critical migration). Healthcare domain is the only meaningful gap; JD language ("exciting start to your Health IT career") signals openness to non-healthcare candidates.
+- Positioning: "Project Manager" framing; Xero API Program as the platform modernisation anchor (migrating from legacy architecture without disrupting existing products - same pattern as on-prem to cloud); Suncorp as regulated/compliance anchor; Go1 for SaaS product delivery ownership from initiation to launch.
+- Drafted `resume-draft.md`: Project Manager framing; Xero (API/Supergraph modernisation, Unified Burndown, AI for Customers, CI/CD uplift), Go1 (SaaS end-to-end ownership, operating model from scratch), Suncorp (compliance-critical delivery, APRA-regulated), intelliHR (SaaS product built from scratch, AI features, board facilitation), Console/Reapit (payments integration scope-to-release). Earlier paragraph covers 2sol, Virgin Australia, Emedia.
+- Drafted `cover-letter-draft.md`: confirmed senior formula (JD interpretation + match claim opener, three role bullets, synthesis sentence, gap pivot, close). Three bullets: (1) Xero Supergraph - platform migration without disrupting existing products, EGM-level visibility; (2) Suncorp - APRA-regulated, compliance-embedded delivery through adversity; (3) Go1 - SaaS product squad from initiation to launch, operating model from scratch. Gap acknowledgement: no clinical/health background - pivot to regulated environment match (same archetype). "Curious and honest" tone on the gap.
+- Pages touched: [[log]]
+
+## [2026-06-29] apply (finalised) — Best Practice Software, Project Manager
+
+- PDFs generated via /render: "Alan Soto - Project Manager - Best Practice - Resume.pdf" (197 KB) and "Alan Soto - Project Manager - Best Practice - Cover Letter.pdf" (77 KB)
+- Archived markdown sources to raw/resumes/: Alan-Soto-2026-06-27-Best-Practice-Software-Project-Manager-Resume.md and Alan-Soto-2026-06-27-Best-Practice-Software-Project-Manager-Cover-Letter.md
+- meta.md written; tracker row appended (status: Ready to send)
+- Pages touched: [[log]], [[processed]], [[tracker]]
+
+## [2026-06-29] ingest — Best Practice Software Project Manager resume + cover letter
+
+- Resume: no new biographical facts (derived from wiki). New items captured: Health IT / clinical SaaS transformation PM cheat-sheet entry added to [[positioning]]; Health IT domain keywords + gap-watch entry for clinical safety / TGA / on-prem-to-cloud / Health IT added to [[keywords]].
+- Cover letter: entry added to [[cover-letter-examples]] — compressed "JD interpretation + match claim" opener (colon-structure); named explicit transition into bullets; colon-list environment-match pivot for gap. User liked: format and language overall.
+- Pages touched: [[keywords]], [[positioning]], [[processed]]
+
+## [2026-06-29] status update — Best Practice Software, Project Manager
+
+- Application submitted. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
+

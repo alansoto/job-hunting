@@ -201,11 +201,72 @@ function parseEarlier(lines) {
 }
 
 // ── Cover letter parser ───────────────────────────────────────────────────────
+
+// Explicit-section format: `salutation`, `paragraphs`, `signOff` (single or triple backticks)
+const SECTION_MARKER_RE = /^`{1,3}\s*(\w+)\s*`{1,3}$/;
+
+function parseParagraphLines(lines) {
+  const paragraphs = [];
+  let cur = [];
+  for (const line of lines) {
+    const t = line.trim();
+    if (!t) {
+      if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
+    } else if (t.startsWith('- ')) {
+      if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
+      const last = paragraphs[paragraphs.length - 1];
+      if (Array.isArray(last)) last.push(t.slice(2));
+      else paragraphs.push([t.slice(2)]);
+    } else {
+      cur.push(t);
+    }
+  }
+  if (cur.length) paragraphs.push(cur.join(' '));
+  return paragraphs;
+}
+
 function parseCoverLetterDraft(content, role) {
   const lines = content.split('\n');
-  let bodyStart = 0;
 
-  // Optional "Recipient: Name, Title, Company, Location" on first line
+  // Explicit format: file contains at least one ``` section ``` marker
+  if (lines.some(l => SECTION_MARKER_RE.test(l.trim()))) {
+    const sections = {};
+    let current = null;
+    for (const line of lines) {
+      const m = line.trim().match(SECTION_MARKER_RE);
+      if (m) { current = m[1]; sections[current] = []; continue; }
+      if (current) sections[current].push(line);
+    }
+
+    const salutParagraphs = [];
+    let salutBuf = [];
+    for (const l of (sections.salutation || [])) {
+      const t = l.trim();
+      if (!t) { if (salutBuf.length) { salutParagraphs.push(salutBuf.join(' ')); salutBuf = []; } }
+      else salutBuf.push(t);
+    }
+    if (salutBuf.length) salutParagraphs.push(salutBuf.join(' '));
+    const salutation = salutParagraphs.join('\n');
+
+    const paragraphs = parseParagraphLines(sections.paragraphs || []);
+
+    const signOffRaw = (sections.signOff || []).map(l => l.trim()).filter(Boolean)[0] || 'Sincerely,';
+    const signOff = signOffRaw.endsWith(',') ? signOffRaw : signOffRaw + ',';
+
+    return {
+      ...CONTACT,
+      title: role,
+      date:  formatDate(),
+      recipient: {},
+      salutation,
+      paragraphs,
+      signOff,
+      signature: '',
+    };
+  }
+
+  // Legacy inference format (backward compat for existing drafts)
+  let bodyStart = 0;
   const recipient = {};
   const firstLine = (lines[0] || '').trim();
   if (/^recipient:/i.test(firstLine)) {
@@ -217,7 +278,6 @@ function parseCoverLetterDraft(content, role) {
     bodyStart = 1;
   }
 
-  // Parse body: salutation → paragraphs → sign-off
   const bodyLines  = lines.slice(bodyStart);
   let salutation   = '';
   let signOff      = 'Sincerely,';
@@ -228,32 +288,24 @@ function parseCoverLetterDraft(content, role) {
 
   for (const line of bodyLines) {
     const t = line.trim();
-
-    // Skip contact header lines that some drafts include
     if (t === CONTACT.name || t === CONTACT.email ||
         t.startsWith('linkedin') || t === '---') continue;
-
     if (!inBody) {
       if (/^dear /i.test(t)) { salutation = t; inBody = true; }
       continue;
     }
-
     if (SIGNOFF_RE.test(t)) {
       if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
       signOff = t.endsWith(',') ? t : t + ',';
       break;
     }
-
     if (!t) {
       if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
     } else if (t.startsWith('- ')) {
       if (cur.length) { paragraphs.push(cur.join(' ')); cur = []; }
       const last = paragraphs[paragraphs.length - 1];
-      if (Array.isArray(last)) {
-        last.push(t.slice(2));
-      } else {
-        paragraphs.push([t.slice(2)]);
-      }
+      if (Array.isArray(last)) last.push(t.slice(2));
+      else paragraphs.push([t.slice(2)]);
     } else {
       cur.push(t);
     }

@@ -19,8 +19,8 @@
       "WebFetch(domain:www.linkedin.com)",
       "WebFetch(domain:au.linkedin.com)",
       "Edit(/.claude/skills/apply/**)",
-      "PowerShell(& \"C:\\\\Users\\\\AlanSoto\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" *)"
-      
+      "PowerShell(& \"C:\\\\Users\\\\AlanSoto\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" *)",
+      "Read(//c/job-hunting/applications/2026-06-27-best-practice-software-project-manager/**)"
     ],
     "additionalDirectories": [
       "c:\\job-hunting\\.claude\\commands",

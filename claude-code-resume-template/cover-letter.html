@@ -83,6 +83,7 @@
   .cl-recipient .to-company{ font-weight:600; color:var(--ink-2); }
 
   /* ---- body ---- */
+  .cl-salutation-preamble{ margin:0 0 calc(13px * var(--clf)); font-size:calc(13px * var(--clf)); line-height:1.6; color:var(--muted); }
   .cl-salutation{ margin:0 0 calc(16px * var(--clf)); font-size:calc(14px * var(--clf)); line-height:1.6; color:var(--ink-2); font-weight:500; }
   .cl-body p{ margin:0 0 calc(13px * var(--clf)); font-size:calc(13.5px * var(--clf)); line-height:1.62; color:#333; text-wrap:pretty; }
   .cl-body p:last-child{ margin-bottom:0; }
@@ -234,7 +235,11 @@ function render(){
 
   // body
   const body = el('div','cl-body');
-  body.appendChild(el('p','cl-salutation', esc(deriveSalutation(d))));
+  const salutParts = deriveSalutation(d).split('\n').filter(Boolean);
+  salutParts.forEach((part, i) => {
+    const cls = (i === salutParts.length - 1) ? 'cl-salutation' : 'cl-salutation-preamble';
+    body.appendChild(el('p', cls, esc(part)));
+  });
   (d.paragraphs || []).forEach(p => {
     if (Array.isArray(p)) {
       const ul = el('ul', null, null);

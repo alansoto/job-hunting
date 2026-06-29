@@ -93,7 +93,8 @@ communication norms · documentation norms · delivery operating system.
 Cloud accounting · e-learning SaaS · financial services & insurance · fintech-adjacent ·
 aviation · HR SaaS · real-estate SaaS · travel / hotel & accommodation booking · marketplace ·
 events ticketing · regulated enterprise · hyper-growth scale-up · advice industry ·
-energy tech · home energy automation · IoT.
+energy tech · home energy automation · IoT · Health IT · clinical software · clinical SaaS ·
+on-premises to cloud migration · on-premises to SaaS transformation · SaaS transformation · speed-to-market.
 
 ## Certifications / credentials (ATS-valuable)
 PMP · Certified ScrumMaster (CSM) · Masters of Project Management · Bachelor of Systems
@@ -130,6 +131,12 @@ Engineering · bilingual (English/Spanish) · full working rights.
 - **2026-06-17 — Resolution Life (Senior Product Owner / Delivery Lead):**
   - `CIAM` (Customer Identity and Access Management) — named in JD under "familiarity with digital platforms, CRM, or CIAM systems." No direct experience. Bridge: API/integration work at Xero. "Familiarity" language — not a deal-breaker; don't claim in resume.
   - `adviser platforms` — life insurance specific (financial advisers recommending insurance products). No direct bridge. Closest analogue: Xero accounting practices as an adviser-relationship equivalent.
+
+- **2026-06-27 — Best Practice Software (Project Manager / SaaS transformation):**
+  - `clinical safety` / `TGA` / clinical compliance frameworks — no direct experience. Bridge: Suncorp (APRA-regulated, governance-critical delivery, working with compliance SMEs). Frame as: "I integrate compliance SMEs into delivery; I don't need to be the subject-matter expert." Do not claim TGA expertise.
+  - `on-premises to cloud migration` / `on-prem to SaaS transformation` — no direct experience leading this specific transformation type. Bridge: Xero API Program (migrating from legacy API surface to modern federated platform — same migration archetype at a different layer); Suncorp telephony/data platform replacement. Frame via "platform modernisation" language.
+  - `board-ready technology stack recommendation` — not named as a standalone skill in prior resumes. Bridge: intelliHR board workshops (Blue Ocean Framework) + Xero EGM-level program recommendations. Don't overclaim.
+  - `Health IT` / `clinical software` — genuine new vertical. JD language ("exciting start to your Health IT career") signals openness to non-healthcare candidates.
 
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), SAFe, specific
 > languages/frameworks, OKRs.

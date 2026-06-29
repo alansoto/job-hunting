@@ -5,22 +5,22 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Scrum Master - DevSecOps",
-  "date": "25 June 2026",
+  "title": "Project Manager",
+  "date": "29 June 2026",
   "recipient": {},
-  "salutation": "Dear Recruiter at Clicks IT,",
+  "salutation": "Hiring team at Best Practice Software (Attn. Alan Goodare).\nDear Alan,",
   "paragraphs": [
-    "I am applying for the Scrum Master DevSecOps role with the mining technology organisation you are partnering with.",
-    "The job ad caught my attention because it describes a team that is currently stuck in reactive mode, juggling manual processes, inconsistent environments, and early-stage DevSecOps practices. I have been helping engineering teams move past this exact operational pain point across most of my career.",
-    "Three engagements are directly relevant:",
+    "I am applying for the Project Manager role at Best Practice Software.",
+    "The main job: owning the business case, scope, and delivery; closely collaborating with engineering to validate technical and compliance aspects; all while giving stakeholders a clear, data-driven picture of progress at every stage is exactly the type of environment where I thrive.",
+    "Here is how my hands-on experience maps to the role at Best Practice:",
     [
-      "At Xero, I coached engineering managers and tech leads across ten teams on cycle time, capacity planning, and delivery rhythms, shifting the division away from reactive coordination to predictable, data-driven planning. I also set up automated DORA metrics dashboards to support our division-wide CI/CD push.",
-      "At Go1, I took over a highly chaotic fast-growing team and built the delivery operating model from scratch, standardised sprint events, backlog refinement, planning rhythms, and delivery reporting across a cross-functional squad of eight. The same pattern holds across my engagement at Virgin Australia.",
-      "At Suncorp, I managed the dependencies and risks of migrating a massive, compliance-heavy data platform across four engineering teams, including offshore contractors. I know how to coordinate across different time zones and organizations to keep a highly technical delivery timeline on track."
+      "At Xero, I am currently driving a company-wide API modernisation program. I defined the technical scope that delivered the first production release, built the agreed multi-year launch schedule spanning dozens of teams, and closely engaged with EGM-level stakeholders reporting on risk and high level program status aspects.",
+      "At Go1, I led a cross-functional SaaS product team from initiation to launch, owning discovery, scoping, release coordination, and risk management. I also built the organisation's delivery operating model from scratch, increasing pace while giving stakeholders confidence in quality.",
+      "At Suncorp Group, I coordinated four engineering teams including offshore contractors through a compliance-critical platform data migration across all Suncorp brands. Verifying solutions against regulatory standards, escalating risks, and coordinating with Infrastructure, Security, and Legal stakeholders throughout."
     ],
-    "In each case, the contribution was the same: not more process, but clearer cadence, better visibility, and genuine ownership embedded in the team.",
-    "Mining is not entirely new to me either. I started my professional engineering journey with Barrick Gold in Canada. Regarding SAFe: while my current scrum certification is a CSM rather than the SAFe SSM, my hands-on experience coordinating scaled programs at Xero means I already speak the language.",
-    "If this sounds like what you're looking for, I'd love  to connect."
+    "In short, my contribution at Best Practice Software would be holding the scope, the compliance, and the delivery cadence in the same hands, so the team can move at a predictable, sustainable pace.",
+    "I have not worked in clinical or health software before. However, the core elements: a regulated industry with real compliance obligations, an existing product that customers depend on, and a cross-functional delivery team that needs clear structure to move quickly, is the same environment I have spent my career working in.",
+    "If this sounds like the right fit I would love to chat and learn more about the role."
   ],
   "signOff": "Sincerely,",
   "signature": ""
