@@ -105,3 +105,12 @@ Entry format is maintained by `/ingest`.
 **What worked:** n/a - not yet confirmed.
 
 ---
+
+### FinXL by Randstad Digital — Scrum Master (2026-07-02)
+
+**Role level:** mid (contract Scrum Master, recruiter-placed)
+**Hook pattern:** Problem-framing / pain-point opener — a new device. Opens by naming the client's likely pain ("Getting complex cloud and data infrastructure projects across the finish line usually comes with plenty of friction"), then positions the candidate as the person who removes that friction ("I focus on removing that friction so engineering teams can ship predictably"). No "I am applying..." role-statement paragraph beyond a bare one-liner; the hook does the work by leading with the reader's problem, not the candidate's history. Distinct from "JD interpretation + match claim" (states role then claims fit) and "When I read..." (names a JD signal that resonated) — this one leads with the friction/pain the role exists to solve.
+**Body format:** One-line role statement + friction-framing hook paragraph + three role-specific bullets (Xero API infrastructure programs + coaching at scale; Suncorp Data Engineering + Infrastructure/Security coordination; Go1 Scrum Master + all ceremonies, chaotic-to-predictable) + one-line close. No gap paragraph — infrastructure/cloud adjacency treated as sufficient for a facilitation role. ~170 words, tighter than the senior letters.
+**Tone markers:** "Getting complex cloud and data infrastructure projects across the finish line usually comes with plenty of friction." - pain-point opener that reads as an observation, not a boast. "worked hand-in-hand with Infrastructure and Security" - foregrounds the infrastructure angle in the Suncorp bullet. "moved it from chaotic to predictable" - the recurring signature phrase. Casual close: "I'd welcome the chance to connect and learn more about the role."
+**Gap acknowledgement:** None. Infrastructure/cloud/database/storage adjacency (Suncorp Data Engineering + Xero API Program) treated as a match rather than a gap, appropriate for a Scrum Master facilitation role where ceremony/squad-driving skills lead over technical domain depth.
+**What worked:** User confirmed — the pain-point opener, the three bullets, and the casual/conversational tone.

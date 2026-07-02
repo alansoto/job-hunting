@@ -153,6 +153,14 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   transformation* + the early software-engineer/architect years for technical depth.
 - **Agile / Scrum Master role** → expand Virgin *coaching/70+ planning*, Go1 *Scrum Master*,
   Suncorp *delivery rhythms*; lead with CSM (PMP is lapsed — see [[education]]).
+  - *Infrastructure / cloud / banking Scrum Master variant* (FinXL 2026-07-02): lead with Go1
+    *Scrum Master* (squad of 8, all formal ceremonies end-to-end) for the pure SM credential, then
+    Suncorp as the banking-and-finance + infrastructure anchor (ASX-listed financial services;
+    embedded in Data Engineering; coordinated Infrastructure and Security on a data platform
+    migration), and reframe the Xero *API Program* as an infrastructure/migration story ("large-scale
+    migration to a federated API surface, sequencing cross-domain migrations off legacy
+    infrastructure"). Cloud/database/storage domains are met adjacently — treat as a match for a
+    facilitation role, no gap paragraph needed.
 - **Data-governance / regulated role** → expand Suncorp *compliance-critical migration*.
 - **Payments / fintech engineering lead role** → lead with the software-engineer-to-engineering-leader arc; anchor on three payments touchpoints: Console/Reapit (end-to-end payments capability delivery with deep external provider integration), Xero US Bills (cross-functional payments platform aligning product, engineering, and compliance), Emedia (payment/booking systems architecture — use for payments evidence, not for HA claim); use Xero API Program as the high-availability / mission-critical platform anchor; fintech-adjacent cluster: Suncorp (ASX-listed financial services) + Xero + multi-platform payment integrations. Acknowledge investment-platform domain as new but pivot to environment match (regulated, HA, payments). Do NOT use Emedia as the HA story — that is the Xero API Program.
 
@@ -267,3 +275,11 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
   signal that resonated, then immediately maps it to current work. Structure: (1) name the JD theme,
   (2) connect to the current role by name, (3) pivot to why you're the person for it. Effective for
   roles with a clear, nameable intersection with existing work.
+- **Pain-point / problem-framing opener** (used in FinXL cover letter): open by naming the problem
+  the role exists to solve as a neutral observation, then position the candidate as the person who
+  removes it. "Getting complex cloud and data infrastructure projects across the finish line usually
+  comes with plenty of friction... I focus on removing that friction so engineering teams can ship
+  predictably." Leads with the reader's pain, not the candidate's history. Distinct from "JD
+  interpretation + match claim" and "When I read..." — those lead with the role or a JD signal; this
+  leads with the friction. Good fit for mid-level contract/execution roles where the value is
+  unblocking delivery. Keep it short — pairs well with a tight three-bullet body and no gap paragraph.

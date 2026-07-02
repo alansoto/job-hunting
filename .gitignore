@@ -10,8 +10,6 @@ applications/**/*.pdf
 # PDF generator — runtime artifacts and per-application data files
 claude-code-resume-template/node_modules/
 
-# Claude Code local settings
-.claude/settings.local.json
 
 #graphify stuff
 graphify-out/

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/repos/job-hunting/applications/2026-07-02-finxl-randstad-scrum-master\")",
+      "Bash(node build.js \"../applications/2026-07-02-finxl-randstad-scrum-master/\" \"Finxl\")",
+      "Bash(echo \"=== build.js exit: $? ===\")",
+      "Bash(echo \"=== exit: $? ===\")"
+    ],
+    "additionalDirectories": [
+      "c:\\repos\\job-hunting\\applications"
+    ]
+  }
+}

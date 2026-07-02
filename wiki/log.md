@@ -386,3 +386,26 @@ Expert (current).
 
 - Application submitted. `meta.md` + `outputs/tracker.md` updated to Submitted / Awaiting response.
 
+## [2026-07-02] apply — FinXL by Randstad Digital, Scrum Master
+
+- Folder: `applications/2026-07-02-finxl-randstad-scrum-master/`
+- JD: Scrum Master delivering infrastructure projects (cloud, database, storage) in banking and finance. Placed by Randstad Digital / FinXL.
+- Gap analysis: moderate-strong fit. Scrum Master credentials (CSM) and banking/finance experience (Suncorp Group) are clean matches. Infrastructure/data platform experience met adjacently via Suncorp Data Engineering area. Cloud platform experience through Xero programs. No deal-breaker gaps.
+- Drafted `resume-draft.md`: Scrum Master framing. Five main experience entries: Xero (coaching at scale), Go1 (explicit Scrum Master, squad of 8, all ceremonies), Suncorp (banking/finance, data platform migration, Infrastructure/Security coordination), Virgin Australia (Agile Coach, 70+ planning workshops), Console/Reapit (Iteration Manager, ceremonies). Earlier paragraph covers intelliHR, 2sol, Emedia. CSM listed first in education.
+- Drafted `cover-letter-draft.md`: "JD interpretation + match claim" opener. Three bullets: Go1 (Scrum Master, all ceremonies, operating model from scratch), Suncorp (banking/finance, data platform migration, Infrastructure/Security teams, COVID adversity), Xero (coaching 10+ teams, cloud platform programs at scale). No explicit gap paragraph - infrastructure adjacency is sufficient for a facilitation role.
+- Pages touched: [[log]]
+
+
+## [2026-07-02] apply (finalised) — FinXL by Randstad Digital, Scrum Master
+- PDFs generated via /render (fallback _render.mjs used — Puppeteer launch timeout on primary build.js, output identical): "Alan Soto - Scrum Master - Finxl - Resume.pdf" (228 KB) and "Alan Soto - Scrum Master - Finxl - Cover Letter.pdf" (76 KB)
+- Archived markdown sources to raw/resumes/: Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md and Alan-Soto-2026-07-02-FinXL-Scrum-Master-Cover-Letter.md
+- meta.md written; tracker row appended (status: Ready to send)
+- Pages touched: [[log]], [[processed]], [[tracker]]
+
+## [2026-07-02] ingest — FinXL Scrum Master resume + cover letter
+- Resume: no new biographical facts (derived from wiki). New items captured: Infrastructure/cloud/banking Scrum Master variant added to the [[positioning]] Scrum Master cheat-sheet (lead Go1 SM + Suncorp banking/Data-Engineering + Xero API Program reframed as infra/migration). FinXL gap-watch entry added to [[keywords]] (cloud platforms portfolio / database & storage / infrastructure projects met adjacently; core SM + banking requirements cleanly evidenced).
+- Cover letter: entry added to [[cover-letter-examples]] — new "pain-point / problem-framing opener" hook device (lead with the friction the role solves, position candidate as friction-remover); also added as a tailoring device in [[positioning]]. User liked: the opener, the three bullets, and the casual tone.
+- Pages touched: [[cover-letter-examples]], [[keywords]], [[positioning]], [[processed]]
+
+## [2026-07-02] status update — FinXL by Randstad Digital, Scrum Master
+- Application submitted. meta.md + outputs/tracker.md updated to Submitted / Awaiting response.

@@ -342,23 +342,30 @@ function generatePDF(htmlFile, pdfDest) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 const company = process.argv[3] || inferCompany(appDir);
 
-// 1. Resume
+// 1. Parse both drafts and write BOTH data files first. If a later PDF step fails
+//    (e.g. a Puppeteer launch timeout), a fallback renderer will still find fresh
+//    data for both documents — never a stale data file from a previous run.
 const resumeMd = readFile(path.join(appDir, 'resume-draft.md'));
 if (!resumeMd) { console.error('resume-draft.md not found in ' + appDir); process.exit(1); }
 
 const resumeData = { ...parseResumeDraft(resumeMd), phone: CONTACT.phone };
 writeDataFile('resume-data.js', 'RESUME', resumeData);
+const role = resumeData.title;
 
-const role          = resumeData.title;
-const resumePdfName = `Alan Soto - ${role} - ${company} - Resume.pdf`;
-generatePDF('resume.html', path.join(appDir, resumePdfName));
-
-// 2. Cover letter (optional)
 const coverMd = readFile(path.join(appDir, 'cover-letter-draft.md'));
 if (coverMd) {
   const clData = parseCoverLetterDraft(coverMd, role);
   writeDataFile('cover-letter-data.js', 'COVER_LETTER', clData);
+} else {
+  // No cover letter for this application — clear any stale data from a prior run.
+  writeDataFile('cover-letter-data.js', 'COVER_LETTER', null);
+}
 
+// 2. Generate PDFs (data files are already current at this point).
+const resumePdfName = `Alan Soto - ${role} - ${company} - Resume.pdf`;
+generatePDF('resume.html', path.join(appDir, resumePdfName));
+
+if (coverMd) {
   const clPdfName = `Alan Soto - ${role} - ${company} - Cover Letter.pdf`;
   generatePDF('cover-letter.html', path.join(appDir, clPdfName));
 }

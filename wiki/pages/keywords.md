@@ -104,6 +104,12 @@ Engineering · bilingual (English/Spanish) · full working rights.
 
 ## Keywords seen in JDs but NOT yet evidenced (gap-watch)
 
+- **2026-07-02 — FinXL by Randstad Digital (Scrum Master, infrastructure/cloud/database/storage, banking & finance):**
+  - `Cloud Platforms portfolio projects` — no named cloud infra platform (AWS/Azure/GCP) evidenced. Bridge: Xero (cloud-native platform, dozens of teams); Suncorp (coordinated Infrastructure/Security on a data platform migration). Low severity for a Scrum Master facilitation role — do not claim hands-on cloud architecture.
+  - `Database and Storage projects` — no named database/storage project. Bridge: Suncorp telephony/data platform migration in the Data Engineering area. Frame as data platform migration, not database/storage specialty.
+  - `Infrastructure focused projects` — met adjacently via Suncorp (Data Engineering, Infrastructure/Security coordination) and Xero API Program (migration off legacy infrastructure). Not a named "Infrastructure" role.
+  - `Scrum Master background`, `driving squads + formal ceremonies`, `Banking and Finance industry` — all cleanly evidenced (CSM; Go1 Scrum Master; Suncorp ASX-listed financial services). No gap on the core requirements.
+
 - **2026-06-18 — ARN Media (Technology Delivery Manager):**
   - `broadcast` / `media` / `entertainment` industry — new vertical. Not required (JD names no industry). Bridge: Emedia high-availability ticketing for major entertainment/sporting events (V8 Supercars, Byron Bay Blues Festival); Go1 content-creation/distribution platform. Strong adjacency, handle with one light line.
   - All other JD requirements (end-to-end delivery, dependency/sequencing/resourcing, governance cadence, offshore + vendor management, Product Owner partnership, release readiness, data validation, data & analytics delivery via pipelines/BI/APIs) fully evidenced — no real gaps. One of the cleanest matches in the wiki.
