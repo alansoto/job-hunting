@@ -409,3 +409,48 @@ Expert (current).
 
 ## [2026-07-02] status update — FinXL by Randstad Digital, Scrum Master
 - Application submitted. meta.md + outputs/tracker.md updated to Submitted / Awaiting response.
+
+## [2026-07-03] ingest — BlackRoc Scrum Master resume + cover letter
+- Resume: no new biographical facts (derived from wiki); "Supergraph Migration" used as an
+  alternate name for the Xero API modernisation program (already tracked in [[projects]]).
+- Cover letter: entry added to [[cover-letter-examples]] — new "three-company collective framing"
+  hook device (name all anchor companies together in one sentence as a repeated-pattern proof-point,
+  before the supporting bullets). Added as a tailoring device in [[positioning]]. User confirmed
+  liked: the pod/parallel-teams collective framing paragraph.
+- Pages touched: [[cover-letter-examples]], [[positioning]], [[index]], [[processed]]
+
+## [2026-07-03] apply (finalised) — BlackRoc (recruiter), Scrum Master
+- PDFs generated via /render: "Alan Soto - Scrum Master - Blackroc - Resume.pdf" (~223 KB) and
+  "Alan Soto - Scrum Master - Blackroc - Cover Letter.pdf" (~72 KB)
+- Archived markdown sources to raw/resumes/: Alan-Soto-2026-07-03-BlackRoc-Scrum-Master-Resume.md
+  and Alan-Soto-2026-07-03-BlackRoc-Scrum-Master-Cover-Letter.md
+- Ingested both markdown sources (see ingest entry above)
+- meta.md written; tracker row appended (status: Ready to send)
+- Pages touched: [[log]], [[processed]], [[tracker]]
+
+## [2026-07-03] status update — BlackRoc (recruiter), Scrum Master
+- Application submitted. meta.md + outputs/tracker.md updated to Submitted / Awaiting response.
+
+## [2026-07-03] apply — BlackRoc (recruiter): Scrum Master, government ICT transformation program
+- Multi-pod Scrum Master role (3 delivery pods) on a government ICT transformation program in build
+  phase (customer portal, CRM, data, integration services). Recruiter-placed via BlackRoc (Nat).
+  12-month contract, ASAP start.
+- Folder: `applications/2026-07-03-blackroc-scrum-master/` with job-description.md, gap-analysis.md,
+  resume-draft.md, cover-letter-draft.md
+- Gap analysis: moderate-strong fit. Best match in the wiki for "multi-pod coordination without
+  owning technical delivery" - Suncorp (4 teams, offshore, regulated enterprise) and Xero (coaching
+  10+ teams without owning their delivery) map directly onto the JD's core ask. Gaps: Azure DevOps
+  (bridged via Jira/Confluence dashboarding and the Jira Data Quality Score work), government sector
+  specifically (bridged via Suncorp's ASX-listed regulated-enterprise governance), Dynamics
+  365/Power Platform (unbridged, "highly regarded" not required).
+- Drafted `resume-draft.md`: Scrum Master framing leading with multi-pod/multi-team coordination.
+  Five experience entries: Xero (coaching 10+ teams without owning delivery), Suncorp (4 teams incl.
+  offshore, regulated enterprise governance), Go1 (explicit Scrum Master, squad of 8, all ceremonies),
+  Virgin Australia (4 POs coached in parallel, 70+ person planning), Console/Reapit (Iteration
+  Manager, ceremonies). CSM listed first in education.
+- Drafted `cover-letter-draft.md`: bullet format, "running one pod vs three pods" framing opener.
+  Three bullets (Xero enabling-Dev-Leads angle, Suncorp multi-pod coordination, Go1 ceremonies +
+  Xero dashboarding/reporting for the Azure DevOps angle). One-line government-sector gap
+  acknowledgement pivoting to Suncorp regulated-enterprise match.
+- Pages touched: [[log]], [[keywords]] (added gap-watch entry), [[positioning]] (added role-emphasis
+  note for multi-pod/government Scrum Master variant)

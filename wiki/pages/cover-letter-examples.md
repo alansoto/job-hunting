@@ -114,3 +114,14 @@ Entry format is maintained by `/ingest`.
 **Tone markers:** "Getting complex cloud and data infrastructure projects across the finish line usually comes with plenty of friction." - pain-point opener that reads as an observation, not a boast. "worked hand-in-hand with Infrastructure and Security" - foregrounds the infrastructure angle in the Suncorp bullet. "moved it from chaotic to predictable" - the recurring signature phrase. Casual close: "I'd welcome the chance to connect and learn more about the role."
 **Gap acknowledgement:** None. Infrastructure/cloud/database/storage adjacency (Suncorp Data Engineering + Xero API Program) treated as a match rather than a gap, appropriate for a Scrum Master facilitation role where ceremony/squad-driving skills lead over technical domain depth.
 **What worked:** User confirmed — the pain-point opener, the three bullets, and the casual/conversational tone.
+
+---
+
+### BlackRoc (recruiter) — Scrum Master, Government ICT Transformation (2026-07-03)
+
+**Role level:** mid (contract Scrum Master, recruiter-placed)
+**Hook pattern:** Role-statement opener, then a "three-company collective framing" paragraph — names Xero, Go1, and Suncorp together in a single sentence as one combined "multiple parallel teams" proof-point ("At Xero, Go1, and Suncorp, I've specialized in managing delivery rhythms for multiple parallel teams...") before breaking into individual bullets. A new variant of "JD interpretation + match claim" — instead of introducing each company one at a time via the bullets, it front-loads all three as a collective claim first, then the bullets provide the supporting detail.
+**Body format:** Three bullets (Xero — coaching 10+ teams, process-enablement framing; Suncorp — four teams in parallel, dependency mapping across infrastructure/security/vendors; Xero again — dashboarding/reporting habits mapped explicitly to "your Azure DevOps environment") + one gap sentence + close. ~200 words.
+**Tone markers:** "I've specialized in managing delivery rhythms for multiple parallel teams, keeping dependencies visible across complex platforms while letting technical leads retain full ownership of their space." — the three-company collective claim sentence. "I can easily bring this same metrics focus to your Azure DevOps environment" — names the prospective employer's own tool directly rather than a generic "similar tools" hedge.
+**Gap acknowledgement:** Government-sector gap stated in one sentence, immediately pivoted to Suncorp/Xero's regulated-enterprise governance and reporting discipline as the equivalent — no separate paragraph, folded into a single sentence. Standard [[positioning]] "new-industry gap + environment match pivot" device, compressed to one sentence.
+**What worked:** User confirmed — the pod/parallel-teams framing (the paragraph naming Xero, Go1, and Suncorp together as one collective "multiple parallel teams" claim before the bullets).

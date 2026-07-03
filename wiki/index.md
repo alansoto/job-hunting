@@ -21,11 +21,13 @@ Catalog of every wiki page. Updated on every Ingest. Entry format: `[[page-name]
 ---
 
 **Subject:** Alan Soto — Brisbane, QLD · Technical Program / Delivery / Engineering leader.
-**State (2026-06-19):** 48 raw files ingested (18 resume variants + 12 tailored resumes + 10 cover
-letters + 8 other). [[cover-letter-examples]] holds 5 entries: Amber EM, Clipchamp Senior TPM,
-Stake Engineering Technical Lead, Robert Walters Senior PM, Resolution Life Senior PO/Delivery Lead.
-[[positioning]] holds 15 headline variants, 10 tailoring devices, the "operating system builder"
-framing block, and a new "Performance review insights" section (validated strengths, honest growth
-areas, level calibration note from 2026-06-19 Xero review). [[projects]] has sub-program detail for
-the Xero Supergraph adoption program plus Quokkas and Jira Optimisation entries. Preferred cover
-letter formula confirmed: "JD interpretation + match claim" (Robert Walters / Resolution Life format).
+**State (2026-07-03):** 50+ raw files ingested (18 resume variants + 14 tailored resumes + 12 cover
+letters + 8 other). [[cover-letter-examples]] holds 11 entries, most recent: BlackRoc Scrum Master
+(government ICT, "three-company collective framing" device) and FinXL Scrum Master (infra/banking,
+pain-point opener). [[positioning]] holds 18+ headline variants, 13 tailoring devices, the "operating
+system builder" framing block, and a "Performance review insights" section (validated strengths,
+honest growth areas, level calibration note from 2026-06-19 Xero review). [[projects]] has
+sub-program detail for the Xero Supergraph adoption program plus Quokkas and Jira Optimisation
+entries. Preferred cover letter formula for senior roles: "JD interpretation + match claim" (Robert
+Walters / Resolution Life format); mid-level/recruiter-placed contract roles favour tighter
+bullet-based letters with a pain-point or collective-framing opener (FinXL, BlackRoc).

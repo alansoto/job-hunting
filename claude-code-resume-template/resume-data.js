@@ -5,23 +5,23 @@ window.RESUME = {
   "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
-  "summary": "Certified ScrumMaster with 15+ years driving agile delivery across infrastructure programs, financial services, and complex cross-functional engineering environments. Proficient at removing blockers fast, and giving squads the operating rhythm they need to move with pace and predictability.\n\nBackground spans banking and financial services (Xero, Suncorp), SaaS cloud-based platforms, and large-scale data and infrastructure migration programs. Built delivery operating models from the ground up at multiple organisations, consistently shifting teams from chaotic to predictable without adding unnecessary process. Currently Lead Technical Program Manager at Xero, coaching engineering managers and tech leads across 10+ teams on delivery cadence, capacity planning, and continuous improvement.",
+  "summary": "Scrum Master with 15+ years driving agile delivery across complex, multi-team ICT environments, including regulated enterprise transformation programs. Experienced operating across multiple pods and squads in parallel, running ceremonies, managing dependencies, risks and blockers; and keeping sprint cadence and priorities clear  while leaving day-to-day technical ownership with Dev Leads and engineering teams.\n\nBackground spans coordinating four engineering teams (including offshore contractors) through a compliance-critical enterprise platform migration, and currently coaching engineering managers and tech leads across 10+ teams on delivery cadence and predictability at Xero. Consistent track record of building delivery tooling and reporting, dashboards, backlog health, data quality - that gives leadership clear visibility of progress, risk, and velocity across multiple concurrent streams.",
   "skills": [
     {
       "label": "Agile delivery",
-      "items": "Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog refinement · impediment removal · Atlassian suite (advanced)"
+      "items": "Scrum · Kanban · sprint planning · stand-ups · refinements · retrospectives · showcases · backlog management · Agile metrics · velocity and carry-over tracking"
     },
     {
-      "label": "Facilitation",
-      "items": "coaching · working agreements · value-vs-effort prioritisation · visual management · continuous improvement"
+      "label": "Multi-pod coordination",
+      "items": "dependency management · risk and blocker management · cross-team delivery discipline · Dev Lead and Product Owner enablement"
     },
     {
-      "label": "Infrastructure delivery",
-      "items": "data platform migration · cloud-based systems · vendor coordination · offshore team management"
+      "label": "Delivery tooling and reporting",
+      "items": "Jira · Confluence · delivery dashboards · data quality scoring · delivery governance · release management · executive reporting"
     },
     {
-      "label": "Stakeholder management",
-      "items": "dependency management · risk management · executive reporting · cross-functional alignment"
+      "label": "Facilitation and stakeholder engagement",
+      "items": "ceremony facilitation · coaching · stakeholder engagement · escalation management · continuous improvement"
     }
   ],
   "experience": [
@@ -32,25 +32,10 @@ window.RESUME = {
       "place": "Brisbane, QLD (Remote)",
       "context": "Global cloud accounting platform; 4,500+ employees.",
       "bullets": [
-        "Currently owning the company-wide API Modernisation Program, a large-scale migration to a single federated API surface spanning dozens of engineering teams, sequencing cross-domain migrations off legacy infrastructure with EGM-level milestone reporting",
-        "Coached engineering managers and tech leads across 10+ teams on delivery cadence, cycle time, capacity planning, and healthy sprint rhythms",
-        "Designed and embedded cross-functional ways of working for engineering squads: separated roadmap tracking from execution tracking; set explicit norms for standups, retrospectives, and backlog management",
-        "Drove a Xero-wide Jira optimisation initiative - consistent sprint and epic-level use, health dashboards, and a division-wide Jira Data Quality Score across all engineering teams",
-        "Facilitated team sessions to establish SLOs, on-call practices, and progressive delivery as part of a division-wide CI/CD capability uplift",
-        "Report program milestones, risks, and dependencies to GM and EGM-level stakeholders across dozens of engineering teams spanning cloud platform, payments, and AI programs"
-      ]
-    },
-    {
-      "company": "Go1",
-      "role": "Technical Program Manager / Scrum Master",
-      "dates": "Nov 2020 — Mar 2022",
-      "place": "Brisbane, QLD",
-      "context": "Global e-learning SaaS platform; hyper-growth scale-up.",
-      "bullets": [
-        "Led a cross-functional squad of 8 (6 engineers, 1 designer, 1 product owner) as Scrum Master - ran all formal ceremonies end-to-end: sprint planning, standups, reviews, retrospectives, and backlog refinement",
-        "Established the squad's delivery operating model from scratch: standardised sprint practices, planning rhythms, and reporting cadences that increased delivery pace and gave stakeholders confidence in predictability",
-        "Owned full delivery lifecycle from discovery through production: scoped MVPs, managed technical trade-offs, coordinated releases, and removed blockers that slowed the squad",
-        "Led day-to-day coaching, performance conversations, onboarding, and team health through rapid organisational change"
+        "Own end to end delivery of the API modernisation program (Supergraph Migration), spanning dozens of engineering teams, converting unresolved discussions into concrete dependencies, risks, or clearly prioritised backlog items.",
+        "Coach engineering managers and tech leads across 10+ teams on sprint cadence, cycle time, and delivery rhythms, enabling each team to retain ownership of its own technical delivery",
+        "Drove a company-wide Jira optimisation initiative, consistent sprint and epic-level use, health dashboards, and a division-wide Jira Data Quality Score across all engineering teams",
+        "Report program milestones, risks, dependencies, and escalations to GM and EGM-level stakeholders across a multi-stream enterprise platform program"
       ]
     },
     {
@@ -60,10 +45,23 @@ window.RESUME = {
       "place": "Brisbane, QLD",
       "context": "ASX-listed financial services and insurance enterprise; highly regulated.",
       "bullets": [
-        "Embedded in the Data Engineering area as Delivery Coach for a large-scale data platform migration across the entire Suncorp Group and all affiliate brands",
-        "Coordinated four engineering teams including offshore contractors; worked directly with Infrastructure, Security, Business units, and external vendors throughout the program",
-        "Introduced program-level delivery governance frameworks, dependency management, cross-team communication patterns, sprint rhythms, and visual progress reporting across all workstreams",
-        "Verified technical solutions met data governance and compliance standards; identified data risks and escalated issues on a compliance-critical migration"
+        "Coordinated four engineering teams in parallel, including offshore contractors, on a large-scale data platform migration across the entire organisation and all affiliate brands",
+        "Introduced program-level delivery governance: dependency management, cross-team communication patterns, sprint rhythms, and visual progress reporting across all workstreams",
+        "Worked directly with Infrastructure, Security, Business units, and external vendors to keep delivery constraints visible and blockers moving",
+        "Verified technical solutions against governance and compliance standards; identified data risks and escalated issues on a compliance-critical migration through COVID-19 and corporate restructuring"
+      ]
+    },
+    {
+      "company": "Go1",
+      "role": "Technical Program Manager / Scrum Master",
+      "dates": "Nov 2020 — Mar 2022",
+      "place": "Brisbane, QLD",
+      "context": "Global e-learning SaaS platform; hyper-growth scale-up.",
+      "bullets": [
+        "Ran all formal ceremonies end-to-end as Scrum Master for a cross-functional squad of 8: sprint planning, stand-ups, reviews, retrospectives, and backlog refinement",
+        "Established the squad's delivery operating model from scratch - standardised sprint practices, planning rhythms, and reporting cadences that increased delivery pace and predictability",
+        "Kept a sprint-ready, prioritised backlog with the Product Owner; managed technical trade-offs and removed blockers slowing the squad",
+        "Led day-to-day coaching, onboarding, and team health through rapid organisational change"
       ]
     },
     {
@@ -73,11 +71,10 @@ window.RESUME = {
       "place": "Brisbane, QLD",
       "context": "Aviation enterprise; consulting engagement through Neu21.",
       "bullets": [
-        "Coached four Product Owners on establishing operating rhythms: improved standups, planning sessions, and retrospectives across the Ancillary Sales function",
-        "Led quarterly planning workshops with 70+ people across digital delivery, surfacing technical dependencies and aligning squads before each quarter",
+        "Coached four Product Owners in parallel on establishing operating rhythms: improved stand-ups, planning sessions, and retrospectives across the Ancillary Sales function",
         "Facilitated creation of a single product backlog and physical Kanban boards for end-to-end visibility of all work in flight across squads",
-        "Introduced a value-vs-effort prioritisation framework giving POs an objective basis for managing competing stakeholder demands",
-        "Delivered measurable improvement in delivery performance across products in scope within a five-month engagement"
+        "Led quarterly planning workshops with 70+ people across digital delivery, surfacing technical dependencies and aligning squads before each quarter",
+        "Introduced a value-vs-effort prioritisation framework giving Product Owners an objective basis for managing competing stakeholder demands"
       ]
     },
     {
@@ -87,7 +84,7 @@ window.RESUME = {
       "place": "Brisbane, QLD",
       "context": "Real-estate management SaaS platform.",
       "bullets": [
-        "Facilitated all agile ceremonies for a cross-functional engineering team delivering a new payments capability with a deep external provider integration",
+        "Facilitated all Agile ceremonies for a cross-functional engineering team delivering a new payments capability with a deep external provider integration",
         "Owned timelines, capacity planning, and release coordination scope-to-release; coached the team on continuous improvement throughout"
       ]
     }
@@ -109,6 +106,6 @@ window.RESUME = {
       "note": ""
     }
   ],
-  "earlier": "**Head of Product at intelliHR (Feb 2018 - Jun 2019)**, building the product management function from scratch at a ~20-developer HR SaaS startup. // **Projects Lead at 2sol Software Studios (Nov 2012 - Jan 2017)**, primary delivery partner to Flight Centre Travel Group - managed a team of 5 developers across a $5M+ monthly revenue hotel and accommodation booking platform; introduced CI/CD, structured Kanban boards, and sprint delivery rhythms. // **Systems Architect and Software Engineer at Emedia Campaigns (Feb 2006 - Jul 2012)**, building high-availability ticketing and payment systems for major events. // Earlier software engineering roles in Canada and Peru (2003-2006).",
+  "earlier": "**Head of Product at intelliHR (Feb 2018 - Jun 2019)**, building the product management function from scratch at a ~20-developer HR SaaS startup, including discovery rhythms and backlog prioritisation. // **Projects Lead at 2sol Software Studios (Nov 2012 - Jan 2017)**, primary delivery partner to Flight Centre Travel Group - managed a team of 5 developers across a $5M+ monthly revenue hotel and accommodation booking platform; introduced CI/CD, structured Kanban boards, and sprint delivery rhythms. // **Systems Architect and Software Engineer at Emedia Campaigns (Feb 2006 - Jul 2012)**, building high-availability ticketing and payment systems for major events. // Earlier software engineering roles in Canada and Peru (2003-2006).",
   "phone": "04 3040 4307"
 };

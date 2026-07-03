@@ -144,5 +144,11 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `board-ready technology stack recommendation` — not named as a standalone skill in prior resumes. Bridge: intelliHR board workshops (Blue Ocean Framework) + Xero EGM-level program recommendations. Don't overclaim.
   - `Health IT` / `clinical software` — genuine new vertical. JD language ("exciting start to your Health IT career") signals openness to non-healthcare candidates.
 
-> Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), SAFe, specific
-> languages/frameworks, OKRs.
+- **2026-07-03 — BlackRoc (recruiter placement) (Scrum Master, government ICT transformation, multi-pod):**
+  - `Azure DevOps` — not evidenced (Jira/Confluence used throughout). Bridge: Xero Jira Data Quality Score + dashboarding work as a transferable tooling-ownership pattern. JD says "Azure DevOps or similar" — low-moderate severity.
+  - `Dynamics 365` / `Power Platform` — highly regarded, not required. Not evidenced anywhere in the wiki. No bridge; do not claim.
+  - `government` sector — not evidenced. Bridge: Suncorp (ASX-listed, APRA-adjacent regulated enterprise, compliance-critical governance). "Highly regarded," not a stated requirement.
+  - `multi-pod` / `three delivery pods` / `Dev Leads retain ownership` — cleanly evidenced: Suncorp (4 teams incl. offshore, coordinated in parallel) and Xero (coaching 10+ teams' cadence without owning their technical delivery) are the strongest matches for this exact pattern seen in the wiki to date.
+
+> Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), Azure DevOps,
+> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs.

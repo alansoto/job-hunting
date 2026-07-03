@@ -161,6 +161,17 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
     migration to a federated API surface, sequencing cross-domain migrations off legacy
     infrastructure"). Cloud/database/storage domains are met adjacently — treat as a match for a
     facilitation role, no gap paragraph needed.
+  - *Multi-pod / government ICT Scrum Master variant* (BlackRoc 2026-07-03): lead with the
+    "coordinating multiple pods without owning technical delivery" pattern - Suncorp (4 engineering
+    teams incl. offshore, coordinated in parallel across a compliance-critical migration, working
+    with Infrastructure/Security/Business/vendors) as the primary multi-pod anchor, and Xero
+    (currently coaching engineering managers/tech leads across 10+ teams on cadence *without* owning
+    their technical delivery) as the direct match for "enabling Dev Leads to retain ownership."
+    Go1 Scrum Master (squad of 8, all ceremonies end-to-end) covers the ceremony-facilitation
+    fundamentals; fold Xero's Jira Data Quality Score/dashboarding work in as the Azure-DevOps-
+    adjacent reporting angle. Government sector itself is a genuine gap - one plain sentence
+    pivoting to Suncorp's regulated-enterprise (ASX-listed) governance is enough; don't overclaim
+    Dynamics 365/Power Platform/CRM, which are "highly regarded" extras with no wiki evidence.
 - **Data-governance / regulated role** → expand Suncorp *compliance-critical migration*.
 - **Payments / fintech engineering lead role** → lead with the software-engineer-to-engineering-leader arc; anchor on three payments touchpoints: Console/Reapit (end-to-end payments capability delivery with deep external provider integration), Xero US Bills (cross-functional payments platform aligning product, engineering, and compliance), Emedia (payment/booking systems architecture — use for payments evidence, not for HA claim); use Xero API Program as the high-availability / mission-critical platform anchor; fintech-adjacent cluster: Suncorp (ASX-listed financial services) + Xero + multi-platform payment integrations. Acknowledge investment-platform domain as new but pivot to environment match (regulated, HA, payments). Do NOT use Emedia as the HA story — that is the Xero API Program.
 
@@ -275,6 +286,14 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
   signal that resonated, then immediately maps it to current work. Structure: (1) name the JD theme,
   (2) connect to the current role by name, (3) pivot to why you're the person for it. Effective for
   roles with a clear, nameable intersection with existing work.
+- **Three-company collective framing** (used in BlackRoc cover letter): instead of introducing each
+  anchor company one at a time via the bullets, name all of them together in a single sentence up
+  front as one collective proof-point - "At Xero, Go1, and Suncorp, I've specialized in managing
+  delivery rhythms for multiple parallel teams, keeping dependencies visible across complex
+  platforms while letting technical leads retain full ownership of their space." The bullets that
+  follow then supply the individual supporting detail. Good for roles where the JD's core ask is a
+  *pattern* (e.g. "multi-pod coordination") rather than a single achievement - the collective
+  sentence proves the pattern is a repeated habit, not a one-off.
 - **Pain-point / problem-framing opener** (used in FinXL cover letter): open by naming the problem
   the role exists to solve as a neutral observation, then position the candidate as the person who
   removes it. "Getting complex cloud and data infrastructure projects across the finish line usually
