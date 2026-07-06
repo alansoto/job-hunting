@@ -53,6 +53,29 @@ Resumes use a 3-tier self-rating: **Expert** > **Experienced** > **Skillful**.
   discovery and validation.
 - **Data & analytics product development** — *Experienced*.
 
+## Data / SQL / ETL skills *(confirmed 2026-07-06)*
+
+- **SQL** — *Experienced*, hands-on. Wrote and optimised production SQL queries powering
+  high-availability ticketing, booking, and payment systems at Emedia (2006-2012). Still hands-on
+  today at Xero, writing the SQL behind self-built automated reporting (e.g. Lead Time for Changes
+  / DORA metrics dashboards). → [[experience]]
+- **ETL / data pipeline delivery** — *Experienced*, mixed hands-on and delivery oversight. At Xero,
+  directed ETL/data-pipeline work as TPM while coordinating ML engineers and data scientists on the
+  AI for Customers program; managed data-flow and integration governance during Suncorp's
+  data-platform migration. → [[experience]]
+- **Data platform migration** — *Expert* at the delivery/governance layer. Suncorp: led delivery of
+  a large-scale data-platform migration (telephony + data) across an entire ASX-listed org, with
+  direct data-governance and compliance responsibility. → [[experience]]
+- **Compute / capacity planning** — *Experienced*, technical. Emedia: capacity planning and
+  failure-risk reduction for infrastructure sizing under very high simultaneous traffic (major
+  events). This is capacity/infrastructure planning, not cluster-compute cost optimisation
+  specifically — don't overclaim the latter without further evidence.
+- **Service-level practices (SLOs, on-call, uptime)** — *Experienced*. Xero Code Red initiative:
+  facilitated team sessions establishing SLOs, on-call practices, and progressive delivery; tracked
+  DORA metrics including Time to Restore. This is SLO/reliability practice, not formal
+  customer/vendor SLA contract management — flag the distinction if a role asks specifically for SLA
+  management.
+
 ## AI / data skills
 
 - **AI and Data Governance** — *Experienced*. AI for Customers (Xero); AI-powered people analytics

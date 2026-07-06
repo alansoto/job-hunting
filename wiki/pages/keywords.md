@@ -69,6 +69,13 @@ AI-powered people analytics · AI-powered video · data scientists · ML enginee
 data-driven decision making · behavioural analytics · product & data analytics · data lifecycles ·
 ethical AI considerations.
 
+## SQL / ETL / data platform *(confirmed 2026-07-06)*
+SQL · production SQL query writing and optimisation · ETL · ETL/data pipeline delivery ·
+data platform migration · data governance · compute/capacity planning · SLOs (Service Level
+Objectives) · service-level practices · uptime. Note: "compute optimisation" (cluster-level cost/
+performance tuning) and formal "SLA management" (contractual, not SLO/reliability practice) are
+**not** evidenced — use the capacity-planning and SLO framing above instead.
+
 ## Product
 Product management · product strategy · product discovery · MVP · roadmap · outcome-driven ·
 feature factory → outcomes · customer outcomes · Blue Ocean Framework · experimentation-led
@@ -94,7 +101,9 @@ Cloud accounting · e-learning SaaS · financial services & insurance · fintech
 aviation · HR SaaS · real-estate SaaS · travel / hotel & accommodation booking · marketplace ·
 events ticketing · regulated enterprise · hyper-growth scale-up · advice industry ·
 energy tech · home energy automation · IoT · Health IT · clinical software · clinical SaaS ·
-on-premises to cloud migration · on-premises to SaaS transformation · SaaS transformation · speed-to-market.
+on-premises to cloud migration · on-premises to SaaS transformation · SaaS transformation · speed-to-market ·
+state government · government ICT modernisation · fines and penalty debt systems · cross-agency data sources ·
+enterprise data and integration platform *(2026-07-06)*.
 
 ## Certifications / credentials (ATS-valuable)
 PMP · Certified ScrumMaster (CSM) · Masters of Project Management · Bachelor of Systems
@@ -150,5 +159,11 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `government` sector — not evidenced. Bridge: Suncorp (ASX-listed, APRA-adjacent regulated enterprise, compliance-critical governance). "Highly regarded," not a stated requirement.
   - `multi-pod` / `three delivery pods` / `Dev Leads retain ownership` — cleanly evidenced: Suncorp (4 teams incl. offshore, coordinated in parallel) and Xero (coaching 10+ teams' cadence without owning their technical delivery) are the strongest matches for this exact pattern seen in the wiki to date.
 
+- **2026-07-06 — Karlka Recruiting Group / state government agency (Project Manager, Stream 2: Data Platform and Integration):**
+  - `Databricks` — extensively required, named explicitly. Not evidenced anywhere in the wiki. Acknowledged plainly in the cover letter; bridged via ETL/data-pipeline delivery experience, SQL background, and SLO/governance fluency ("previous experience as a software engineer should let me pick up the Databricks specifics quickly").
+  - `government` / `state government agency` sector — not directly evidenced (Suncorp is ASX-listed/APRA-adjacent, not government). Bridge: Suncorp's regulated, compliance-critical, highly governed delivery environment as the closest analogue.
+  - `cross-agency data sources` / `fines and penalty debt systems` — genuine new domain. No bridge attempted; role is fundamentally a data-platform/integration delivery pattern already well evidenced (Xero API Program, Suncorp data migration).
+  - All core Stream 2 requirements (data integration, governance, reporting, security workstream coordination, vendor/implementation-partner management, system/API/middleware integration) cleanly evidenced via Xero API Program, Suncorp telephony/data migration, and Console/Reapit payments integration.
+
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), Azure DevOps,
-> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs.
+> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks.

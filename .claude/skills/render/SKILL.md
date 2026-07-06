@@ -8,7 +8,11 @@ You need to know which application folder is active. If unclear, ask the user be
 
 1. **Confirm prerequisites** — the application folder must contain `resume-draft.md`. A `cover-letter-draft.md` is optional but will also be rendered if present.
 
-2. **Run `build.js`** from the project root:
+2. **Proofread before rendering** — invoke the `resume-proofreader` subagent (Agent tool, `subagent_type: resume-proofreader`) against the target application folder. This is a required gate, not optional:
+   - If it reports no issues, proceed to Step 3.
+   - If it reports issues, relay them to the user verbatim and ask whether to fix the draft(s) first or proceed with rendering as-is. Do not run `build.js` until the user responds.
+
+3. **Run `build.js`** from the project root:
    ```
    node claude-code-resume-template/build.js applications/<folder>/
    ```
@@ -23,7 +27,7 @@ You need to know which application folder is active. If unclear, ask the user be
      - `applications/<folder>/Alan Soto - {Role} - {Company} - Resume.pdf`
      - `applications/<folder>/Alan Soto - {Role} - {Company} - Cover Letter.pdf` (if cover letter draft exists)
 
-3. **Verify output** — confirm the PDF file(s) exist in `applications/<folder>/`.
+4. **Verify output** — confirm the PDF file(s) exist in `applications/<folder>/`.
 
 ## Fallback
 

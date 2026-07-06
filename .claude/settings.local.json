@@ -7,7 +7,9 @@
       "Bash(git *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(mkdir -p \"c:/repos/job-hunting/applications/2026-07-06-karlka-project-manager-data-platform\")",
+      "Bash(node claude-code-resume-template/build.js applications/2026-07-06-karlka-project-manager-data-platform/ \"Karlka\")"
     ],
     "additionalDirectories": [
       "c:\\repos\\job-hunting\\applications"

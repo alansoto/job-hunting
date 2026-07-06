@@ -26,9 +26,9 @@ Execute the `/render` skill exactly as documented in the project's skill file lo
 
 1. **Read the skill file** at `.claude/skills/render/skill.md` to obtain the exact, current rendering procedure.
 2. **Identify the target application folder** from the user's request. If ambiguous or not provided, ask for clarification before proceeding.
-3. **Execute every step** in the skill file in order — do not skip or abbreviate steps.
+3. **Execute every step** in the skill file in order — do not skip or abbreviate steps. This includes the mandatory proofreading gate: invoke the `resume-proofreader` subagent against the target folder before running `build.js`. If it reports issues, relay them to the user verbatim and wait for their decision (fix first, or proceed anyway) before rendering.
 4. **Verify outputs**: confirm the expected PDF files exist and are non-zero in size after the build command completes.
-5. **Report results**: tell the user which PDF files were created, their paths, and flag any errors or warnings encountered.
+5. **Report results**: tell the user which PDF files were created, their paths, and flag any errors or warnings encountered (including any proofreading findings and how they were resolved).
 
 ## Hard rules (inherited from project CLAUDE.md)
 

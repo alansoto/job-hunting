@@ -5,20 +5,21 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Scrum Master",
-  "date": "3 July 2026",
+  "title": "Project Manager",
+  "date": "6 July 2026",
   "recipient": {},
-  "salutation": "Dear Nat,",
+  "salutation": "Dear Mitch,",
   "paragraphs": [
-    "I am applying for the Scrum Master role on the government ICT transformation program.",
-    "The requirement about operating across three distinct delivery pods matches exactly how I have been working for the last few years. At Xero, Go1, and Suncorp, I’ve specialized in managing delivery rhythms for multiple parallel teams, keeping dependencies visible across complex platforms while letting technical leads retain full ownership of their space.",
+    "I am applying for the Stream 2 (Data Platform and Integration) Project Manager role.",
+    "Setting up a modern enterprise data platform that pulls from multiple distinct sources requires getting architecture, security, and engineering teams pulling in the same direction. I've spent the last few years managing exactly these kinds of complex data and integration migrations, most recently at Xero and Suncorp.",
+    "Here is how my background maps to the role:",
     [
-      "At Xero, I coached tech leads and engineering managers across more than 10 teams on sprint cadence and delivery rhythms. Because I focus entirely on process enablement rather than technical delivery ownership",
-      "At Suncorp Group, I coordinated four engineering teams simultaneously on a major enterprise platform migration. I focused heavily on mapping dependencies across infrastructure, security, and external vendors; while managing the entire delivery rhythm.",
-      "I bring strong reporting habits from building division-wide delivery and progress dashboards. I can easily bring this same metrics focus to your Azure DevOps environment to give your project leadership clear, predictable visibility into sprint velocity and carry-over work."
+      "At Xero, I'm currently running the API Program, a federated integration platform spanning virtually every engineering team in the company. I built the Unified Burndown, a single governance view of cross-domain migration plans and dependencies that our GMs and EGM use to track delivery and migration schedules.",
+      "At Suncorp, I ran delivery for a large-scale telephony and data platform migration across the entire organisation and its affiliate brands, coordinating four engineering teams including offshore contractors, and working directly with Infrastructure, Security, Business units and external vendors.",
+      "Earlier, at Console/Reapit, I delivered a new payments capability built on a deep integration with an external provider, taking it from scope through to release while keeping architects, engineers and the vendor aligned."
     ],
-    "While I have not worked inside government specifically, the high-compliance, heavily regulated environments at Suncorp and Xero demand the exact same strict reporting and governance discipline required for a major public sector transformation.",
-    "If this sounds like the right fit, I would love to connect and learn more about the role."
+    "I haven't worked with Databricks specifically, but I've spent years managing complex data platform migrations and the ETL and data-pipeline delivery that runs through them, and I understand data governance and service-level practices such as SLOs, on-call and uptime inside out. Previous experience as a software engineer should let me pick up the Databricks specifics quickly and be useful from day one.",
+    "If that sounds like the right fit for the role, I'd welcome the chance to connect."
   ],
   "signOff": "Regards,",
   "signature": ""

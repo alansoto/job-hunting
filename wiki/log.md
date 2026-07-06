@@ -454,3 +454,80 @@ Expert (current).
   acknowledgement pivoting to Suncorp regulated-enterprise match.
 - Pages touched: [[log]], [[keywords]] (added gap-watch entry), [[positioning]] (added role-emphasis
   note for multi-pod/government Scrum Master variant)
+
+## [2026-07-06] apply — Karlka Recruiting Group (agency): Project Manager, Fine Modernisation Program (Stream 2 - Data Platform and Integration)
+- State Government Agency (Queensland, via Karlka Recruiting Group / consultant Mitch), Brisbane
+  City, 12-month contract + possible extensions, $120-$145/hr + super. Apply by 2026-07-10.
+- JD offers two streams under one Project Manager title: Stream 1 (CRM PoC + Client Portal +
+  identity management) and Stream 2 (Data Platform and Integration, Databricks + cross-agency data).
+  **Likely the same underlying program as the 2026-07-03 BlackRoc Scrum Master JD** — that JD
+  described "customer portal, CRM, modern data capabilities, and integration services" delivered via
+  multi-pod teams reporting to a "Senior Project Manager," which lines up closely with this program's
+  two streams. Flagged for Alan's awareness (possible submission-overlap risk across two recruiters
+  for the same end client) — not confirmed, no agency/program name given in the BlackRoc JD.
+- Nominated **Stream 2 only**. No CRM/case-management/identity-verification evidence anywhere in the
+  wiki for Stream 1; Stream 2 maps directly onto Suncorp's data-platform migration (data governance,
+  Infrastructure/Security/vendor coordination) and Xero's API/integration program. Databricks itself
+  is unevidenced — flagged as the primary gap, bridged via delivery-governance competency rather than
+  hands-on platform claims.
+- Folder: `applications/2026-07-06-karlka-project-manager-data-platform/` with job-description.md,
+  gap-analysis.md, resume-draft.md, cover-letter-draft.md.
+- Resume: headline "Project Manager"; three full experience entries (Xero Lead TPM, Suncorp Delivery
+  Coach, Console/Reapit Iteration Manager) with Go1/Virgin/intelliHR/2sol/Emedia folded into Earlier.
+  Core skills grid reframed around data/integration/governance keywords for Stream 2.
+- Cover letter: pain-point opener (standing up a new platform across siloed stakeholder groups),
+  three bullets (Suncorp multi-team+vendor+Infrastructure/Security coordination, Xero Unified
+  Burndown as cross-domain integration governance, Console/Reapit vendor integration), plain
+  Databricks + government-sector gap acknowledgement pivoting to delivery-governance competency.
+- Pages touched: [[log]]
+
+## [2026-07-06] correction — SQL/ETL/data-platform facts confirmed (for Karlka Stream 2 application)
+- User wanted to lead the Karlka cover letter with "proficient in SQL and ETL tools" and "compute
+  optimization... inside out" — neither was evidenced anywhere in the wiki, so asked for the source
+  before writing it in as fact.
+- Confirmed: hands-on SQL query writing/optimisation at **Emedia** (2006-2012, ticketing/booking/
+  payment systems); **Xero** SQL/ETL work is a mix of hands-on (self-built SQL reporting dashboards)
+  and delivery oversight (directing ETL/data-pipeline work as TPM on AI for Customers).
+- Did **not** confirm hands-on cluster-level "compute optimization" or formal contractual "SLA
+  management" — softened to the terms already evidenced: Emedia capacity/infrastructure planning,
+  and Xero's Code Red SLO/on-call/uptime practice. Flagged both substitutions back to the user.
+- Pages touched: [[skills]] (new "Data / SQL / ETL skills" section), [[experience]] (Emedia SQL
+  bullet, Xero AI for Customers ETL bullet), [[keywords]] (new SQL/ETL/data-platform section with
+  gap caveat).
+- Follow-up: user flagged the resume was cutting 5 of 8 roles down to a one-line "Earlier" summary.
+  Expanded to the full 8-role history (Xero, Go1, Suncorp, Virgin Australia, intelliHR,
+  Console/Reapit, 2sol, Emedia) as full dated entries with bullets, matching the depth used for the
+  2026-06-23 Magentus resume. "Earlier" section removed.
+
+## [2026-07-06] apply (finalised) — Karlka Recruiting Group / state government agency Project Manager (Data Platform and Integration)
+- Proofread via resume-proofreader subagent: fixed a double space, "Masters of" → "Master of"
+  Project Management, "Previouis" → "Previous" typo, and a stray curly apostrophe in the cover
+  letter (standardised to straight apostrophes).
+- PDFs generated via /render (company name passed explicitly as "Karlka" since the folder-name
+  inference would otherwise be ambiguous).
+- Archived resume and cover letter to raw/resumes/ as
+  Alan-Soto-2026-07-06-Karlka-Project-Manager-Resume.md and …-Cover-Letter.md.
+- Ingested both markdown sources: new "Government / Data Platform & Integration PM" cheat-sheet
+  entry (🚩 flag device) added to [[positioning]]; government/Databricks/fines-system domain terms +
+  Databricks gap-watch entry added to [[keywords]]; new cover-letter-examples entry added
+  (compressed context-setting opener, Databricks tool-gap named and bridged in the same sentence —
+  user confirmed what worked: "straight to the point").
+- Wrote meta.md (status: Ready to send) and appended a tracker.md row.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]], [[index]]
+
+## [2026-07-06] correction — Profile section rendered as plain text (Karlka resume)
+- User reported the Profile section's bullets and bold labels ("**Delivery & Governance:**" etc.)
+  came out as flat plain text in the PDF, not a bulleted/bold list.
+- Root cause: not a rendering bug. `build.js`'s `parseProfile()` joins every line in the Profile
+  section into one plain string, and `resume.html`'s `buildProfile()` renders it via `esc()` into a
+  single `<p>` — Markdown syntax (bullets, `**bold**`) is never parsed. This matches the documented
+  format spec (`/apply` Step 3): "Profile: one or more summary paragraphs — plain prose, no
+  bullets." The draft violated that spec.
+- Fix: rewrote the Profile section as a single plain-prose paragraph carrying the same content
+  (Delivery & Governance / Technical Depth / Stakeholder Management folded into flowing sentences,
+  no bold/bullet markdown), in both `applications/2026-07-06-karlka-project-manager-data-platform/
+  resume-draft.md` and the archived `raw/resumes/Alan-Soto-2026-07-06-Karlka-Project-Manager-
+  Resume.md`. Re-ran `build.js` to regenerate both PDFs.
+- Takeaway for future drafts: never use `- ` bullets or `**bold**` inside `## Profile` — write it as
+  prose from the start. Core skills' `Label: item · item` line format is the correct place for
+  labelled/structured content.

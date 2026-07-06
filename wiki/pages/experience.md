@@ -55,7 +55,9 @@ summary/headline only.
   capabilities into core products used by small businesses (SBs) and accounting/bookkeeping
   practices (ABs) — products used by **over 3 million customers**. Coordinated ML engineers,
   data scientists, and product teams across multiple business areas; aligned AI engineering,
-  domain, platform, product, and design teams; managed complex dependencies.
+  domain, platform, product, and design teams; managed complex dependencies. Directed the
+  **ETL / data-pipeline delivery** underpinning the program as TPM, combined with hands-on SQL work
+  building self-service reporting (see Code Red below). *(Confirmed 2026-07-06.)*
 - **US Bills Integration** (previously led) — cross-functional delivery of a **major payments
   platform integration**. Aligned product, engineering, and compliance teams; mitigated risk;
   removed blockers across multiple workstreams.
@@ -270,6 +272,8 @@ management services for very large events.
 - Delivered ticketing solutions for some of the biggest music/entertainment and sporting events
   in Australia and NZ: **V8 Supercars, Byron Bay Blues Festival, Gympie Music Muster, Mission
   Estate Winery Concert (NZ), Bridge to Brisbane**.
+- **Wrote and optimised production SQL queries** powering the ticketing, booking, and payment
+  systems. *(Confirmed 2026-07-06.)*
 
 Linked: [[projects]] (Emedia ticketing systems), [[skills]] (Software Development, Cloud systems).
 
