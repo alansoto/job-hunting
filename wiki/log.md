@@ -24,6 +24,15 @@ resolved (see lint log entry below). Remaining open items:
 **Raw-file housekeeping:**
 - `Alan-Soto-Lead Technical Program Manager.pdf` and `…(1).pdf` are byte-identical duplicates.
   Safe to delete one (left in place — `raw/` is never edited without explicit say-so).
+- **Karlka resume (2026-07-06) was submitted with internal 🚩 gap-analysis flag markers leaking
+  into three job-title headers** — e.g. "Xero - Lead Technical Program Manager (🚩 Data Platform
+  and Integration Experience)" — in both `resume-draft.md` and the PDF actually sent to the
+  recruiter. These were meant to stay in `wiki/pages/positioning.md` as an internal cheat-sheet
+  device, not appear in a candidate-facing document. Caught and fixed before rendering for the
+  sibling Glen Fisk application (2026-07-07), but Alan confirmed (2026-07-07) both applications had
+  already been submitted, so the Karlka copy went out uncorrected. Nothing to do retroactively —
+  **process takeaway: check any content pulled forward from a prior draft for internal-only
+  annotations (🚩, gap-analysis notes, etc.) before every render, not just the first time.**
 
 **Resolved 2026-06-16 (confirmed by Alan):** Go1 team size (8: 6 eng+designer+PO) · 2sol team size
 (5 developers) · early-career dates (Canada 2003–04 incl. Barrick Gold → Peru 2004–05 → AU 2005) ·
@@ -531,3 +540,28 @@ Expert (current).
 - Takeaway for future drafts: never use `- ` bullets or `**bold**` inside `## Profile` — write it as
   prose from the start. Core skills' `Label: item · item` line format is the correct place for
   labelled/structured content.
+
+## [2026-07-07] apply (finalised) — Glen Fisk Recruitment Project Manager (Data Platform and Integration, ref 1644056)
+- Duplicate application: same underlying two-project program as the 2026-07-06 Karlka application
+  (fines/data-platform modernisation), advertised separately by Glen Fisk Recruitment. Resume and
+  cover letter content reused near-verbatim per user request; only recruiter-facing details changed
+  (salutation → "Dear Hiring Team," since no single named contact; opener reworded from "Stream 2"
+  to "the Data Platform and Integration project (reference 1644056)").
+- Caught and fixed a defect while rendering: the resume draft had internal 🚩 gap-analysis flag
+  markers ("(🚩 Data Platform and Integration Experience)") leaking into three job-title headers,
+  copied over from the Karlka draft. Stripped before proofreading/build — see "Raw-file
+  housekeeping" note at the top of this log re: the still-unfixed Karlka copy.
+- Proofread via resume-proofreader subagent: no typos/grammar/spelling issues found.
+- PDFs generated via /render (company name passed explicitly as "Glen Fisk Recruitment").
+- Archived resume and cover letter to raw/resumes/ as
+  Alan-Soto-2026-07-07-Glen-Fisk-Recruitment-Project-Manager-Resume.md and …-Cover-Letter.md.
+- Ingest was a no-op for wiki content (near-duplicate of the already-ingested Karlka source, no new
+  biographical facts or reusable framings) — recorded in processed.md only.
+- Wrote meta.md (status: Ready to send) and appended a tracker.md row.
+- Pages touched: [[processed]], [[index]]
+
+## [2026-07-07] status update — Karlka + Glen Fisk applications submitted
+- Alan confirmed both the Karlka (2026-07-06) and Glen Fisk Recruitment (2026-07-07) Project
+  Manager / Data Platform and Integration applications have been submitted.
+- Updated `status: Submitted` / `outcome: Awaiting response` in both applications' meta.md files
+  and in the corresponding outputs/tracker.md rows.

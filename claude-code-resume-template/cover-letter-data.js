@@ -6,11 +6,11 @@ window.COVER_LETTER = {
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
   "title": "Project Manager",
-  "date": "6 July 2026",
+  "date": "7 July 2026",
   "recipient": {},
-  "salutation": "Dear Mitch,",
+  "salutation": "Dear Hiring Team,",
   "paragraphs": [
-    "I am applying for the Stream 2 (Data Platform and Integration) Project Manager role.",
+    "I am applying for the Project Manager role on the Data Platform and Integration project (reference 1644056).",
     "Setting up a modern enterprise data platform that pulls from multiple distinct sources requires getting architecture, security, and engineering teams pulling in the same direction. I've spent the last few years managing exactly these kinds of complex data and integration migrations, most recently at Xero and Suncorp.",
     "Here is how my background maps to the role:",
     [

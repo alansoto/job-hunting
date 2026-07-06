@@ -10,7 +10,7 @@ window.RESUME = {
   "experience": [
     {
       "company": "Xero",
-      "role": "Lead Technical Program Manager (🚩 Data Platform and Integration Experience)",
+      "role": "Lead Technical Program Manager",
       "dates": "Mar 2022 — Present",
       "place": "Brisbane (remote)",
       "context": "Global cloud accounting software platform, 4,500+ employees",
@@ -37,7 +37,7 @@ window.RESUME = {
     },
     {
       "company": "Suncorp Group",
-      "role": "Iteration Manager (🚩 Data Platform and Integration Experience)",
+      "role": "Iteration Manager",
       "dates": "Nov 2019 — Nov 2020",
       "place": "Brisbane, AU",
       "context": "ASX-listed financial services and insurance, highly regulated",
@@ -99,7 +99,7 @@ window.RESUME = {
     },
     {
       "company": "Emedia Campaigns",
-      "role": "Systems Architect / Software Engineer (🚩 Data Platform and Integration Experience)",
+      "role": "Systems Architect / Software Engineer",
       "dates": "Feb 2006 — Jul 2012",
       "place": "Brisbane, AU",
       "context": "Digital agency and online ticketing company",
