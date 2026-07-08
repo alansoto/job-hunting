@@ -565,3 +565,80 @@ Expert (current).
   Manager / Data Platform and Integration applications have been submitted.
 - Updated `status: Submitted` / `outcome: Awaiting response` in both applications' meta.md files
   and in the corresponding outputs/tracker.md rows.
+
+## [2026-07-07] apply (draft) — Paxus Program Analyst
+- New application folder: `applications/2026-07-07-paxus-program-analyst/`. Recruiter: Anita
+  Cunningham, Paxus. Brisbane QLD, Contract/Temp, Delivery Office / Technology & Delivery division.
+- Notable positioning challenge (first of its kind so far): this is a PMO/Program **Analyst**
+  support role, well below Alan's usual target altitude (Lead TPM / Delivery Lead / Principal PM).
+  Gap analysis concluded the risk is overqualification perception, not a capability gap — resume
+  uses a plain "Program Analyst" headline and leads with hands-on analytical/reporting work
+  (self-built SQL/DORA dashboards, Jira Data Quality Score, Unified Burndown) rather than
+  "led dozens of teams / EGM-level" scale claims.
+- Genuine partial gaps noted: no wiki evidence of financial/budget forecasting or procurement
+  process ownership specifically, and MS Project/SharePoint are not named tools (Jira/Confluence
+  are). None treated as deal-breakers — see [[gap-analysis]] in the application folder.
+- User confirmed hands-on proficiency with **Jira Analytics** specifically (not previously captured
+  in [[skills]]/[[keywords]] — worth folding into the wiki on next Ingest).
+- Cover letter uses the FinXL-style compressed bullet format (named recruiter salutation, one-line
+  role statement, short hook, four bullets, no gap paragraph, low-pressure close) — closest
+  reference for a mid-level, recruiter-placed contract role.
+- Status: draft (resume-draft.md, cover-letter-draft.md, gap-analysis.md, job-description.md
+  written). Awaiting finalise/render.
+
+## [2026-07-07] ingest — Paxus Program Analyst resume + cover letter
+- Ingested both archived sources for the Paxus application. No new biographical facts (resume/letter
+  derived from the wiki), but captured new positioning/keyword content:
+  - New "Program Analyst" headline variant + cheat-sheet entry in [[positioning]] — the first
+    application in the wiki's history to deliberately position *below* Alan's usual altitude
+    (no "dozens of teams" / "EGM-level" scale claims) to avoid reading as overqualified for an
+    analyst/support role.
+  - "Jira Analytics" added to [[keywords]] Tools section (user-confirmed proficiency, not
+    previously captured) and "Program Analyst" added to Roles/titles.
+  - New Paxus gap-watch entry in [[keywords]]: financial/budget forecasting, procurement support,
+    MS Project, SharePoint, superannuation — all soft gaps, none deal-breakers.
+  - New entry in [[cover-letter-examples]] for the letter's modest, no-gap-paragraph, scale-
+    downplaying format. User confirmed what worked: the bullet evidence choices.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[index]], [[processed]]
+
+## [2026-07-07] apply (finalised) — Paxus Program Analyst
+- Proofread via resume-proofreader subagent: found and fixed 4 issues before rendering — US/AU
+  spelling inconsistency ("artifacts" → "artefacts"), "Masters of" → "Master of" Project Management,
+  unspaced date-range hyphen in the Earlier paragraph, and inconsistent capitalisation ("Business
+  units" → "Business Units").
+- PDFs generated via /render (`Alan Soto - Program Analyst - Paxus - Resume.pdf` and
+  `... - Cover Letter.pdf`); regenerated once more after the user trimmed a phrase from the Suncorp
+  cover-letter bullet post-proofread, to keep the archived source and rendered PDF in sync.
+- Archived resume and cover letter to raw/resumes/ as
+  Alan-Soto-2026-07-07-Paxus-Program-Analyst-Resume.md and …-Cover-Letter.md; ingested both (see
+  ingest log entry above).
+- Wrote meta.md (status: Ready to send) and appended an outputs/tracker.md row.
+- Pages touched: [[processed]], [[index]]
+
+## [2026-07-07] status update — Paxus Program Analyst application submitted
+- Alan confirmed the Paxus Program Analyst application has been submitted.
+- Updated `status: Submitted` / `outcome: Awaiting response` in meta.md and the outputs/tracker.md row.
+
+## [2026-07-07] apply (draft) — HomeRepair Program Delivery Lead (12mo contract)
+- Created applications/2026-07-07-homerepair-program-delivery-lead/ with job-description.md
+  (verbatim), gap-analysis.md, jd-analysis.md, resume-draft.md, cover-letter-draft.md.
+- Standout angle: HomeRepair is a wholly owned Suncorp Group subsidiary, and Alan worked inside
+  Suncorp Group directly (Delivery Coach, 2019-20). Opened the cover letter with that parent-company
+  connection rather than a generic JD-interpretation hook — the sharpest "wrote this for this job"
+  angle in the wiki to date. Not an industry gap; a structural advantage.
+- Fit: Strong. Near-perfect capability + altitude match (a "Lead" delivery role, matching the
+  review-confirmed Lead level). Every core responsibility directly evidenced — end-to-end delivery
+  (Go1), integrated delivery plans/milestones/owners/dependencies (Xero Unified Burndown), governance
+  frameworks + reporting (Suncorp + Xero), structuring ambiguity, senior-stakeholder accountability
+  without authority. JD's written-communication emphasis plays to a review-confirmed strength.
+- Positioning: used the "Delivery Lead (transformation)" angle; headline "Program Delivery Lead"
+  (matches JD title, filename-safe). Full entries: Xero, Suncorp, Go1, intelliHR; 2sol/Console/
+  Virgin/Emedia collapsed to Earlier. Cover letter = confirmed senior formula (role statement +
+  match claim opener, three role-specific bullets, synthesis sentence, one-line gap, low-pressure
+  close) + accountability-without-hierarchy line (Clipchamp device).
+- Only caveat: transformation work has run through technology programs rather than operational ones
+  — handled as a single light gap sentence, pivoting to domain-independent delivery discipline +
+  known Suncorp environment. No missing tool/credential (Master of Project Management covers the
+  desirable qualification).
+- Not yet rendered or finalised.
+- Pages touched: none of the core wiki pages yet (draft stage); log only.

@@ -14,7 +14,7 @@ Technical Program Manager · Lead / Senior / Staff Technical Program Manager · 
 Project Manager · Principal Project Manager · Digital Delivery Manager · Delivery Coach · Delivery Lead ·
 Iteration Manager · Agile Coach · Enterprise Agile Coach · Scrum Master · Head of Product ·
 Head of Engineering · Head of Delivery · Engineering Manager · Software Engineering Manager ·
-Technical Program & Operations Leader · Product & Delivery Manager ·
+Technical Program & Operations Leader · Product & Delivery Manager · Program Analyst ·
 Chief of Staff (aspirational, named in one summary). See [[positioning]].
 
 ## Program / delivery
@@ -88,7 +88,7 @@ coaching · engineering-manager coaching · vendor & contractor management · of
 coordination · emotional intelligence.
 
 ## Tools
-Jira · Confluence · Pendo · FullStory · Asana · Miro.
+Jira · Jira Analytics · Confluence · Pendo · FullStory · Asana · Miro.
 
 ## Delivery tooling / governance
 Jira Data Quality Score · Jira health dashboards · tooling standardisation · delivery tooling ·
@@ -165,5 +165,15 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `cross-agency data sources` / `fines and penalty debt systems` — genuine new domain. No bridge attempted; role is fundamentally a data-platform/integration delivery pattern already well evidenced (Xero API Program, Suncorp data migration).
   - All core Stream 2 requirements (data integration, governance, reporting, security workstream coordination, vendor/implementation-partner management, system/API/middleware integration) cleanly evidenced via Xero API Program, Suncorp telephony/data migration, and Console/Reapit payments integration.
 
+- **2026-07-07 — Paxus (recruiter) (Program Analyst, Delivery Office / Technology & Delivery division):**
+  - `program budgets and financial forecasts` / `project spend vs forecast reporting` — no direct evidence of financial/budget forecasting in the wiki (delivery/capacity forecasting is evidenced, financial forecasting is not). Bridge: self-built SQL/DORA dashboards and Jira Data Quality Score reporting framed as directly transferable reporting/analytics competency applied to a new data domain.
+  - `procurement support for labour and non-labour requirements` — not evidenced. Bridge: Suncorp/Console-Reapit vendor and offshore-contractor coordination — adjacent, not procurement-process ownership. Acknowledge lightly if raised at interview, don't claim in resume.
+  - `MS Project` — not evidenced (Jira/Confluence/Asana/Miro are the named tools). Low-moderate severity; safe to note conceptual familiarity with integrated schedules/critical path without claiming direct tool hours.
+  - `SharePoint` / `Office 365` — not evidenced; generic enterprise tools, near-universal exposure, no need to address directly.
+  - `superannuation` — desirable only, not required; Suncorp (financial services & insurance) is the closest bridge.
+  - Genuine takeaway distinct from every prior JD to date: the friction in this application is **seniority mismatch / overqualification risk**, not a capability gap — first role in the wiki's history where the positioning problem runs in the opposite direction from usual.
+
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), Azure DevOps,
-> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks.
+> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks, MS Project,
+> SharePoint, formal procurement process ownership, financial/budget forecasting (as distinct from
+> delivery/capacity forecasting).

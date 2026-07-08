@@ -5,16 +5,11 @@
       "Bash(mkdir *)",
       "Bash(node *)",
       "Bash(git *)",
-      "Bash(git add *)",
-      "Bash(git commit -m ' *)",
-      "Bash(git push *)",
-      "Bash(mkdir -p \"c:/repos/job-hunting/applications/2026-07-06-karlka-project-manager-data-platform\")",
-      "Bash(node claude-code-resume-template/build.js applications/2026-07-06-karlka-project-manager-data-platform/ \"Karlka\")",
-      "Bash(mkdir -p \"c:/repos/job-hunting/applications/2026-07-07-glenfisk-project-manager-data-platform\")",
-      "Bash(node claude-code-resume-template/build.js applications/2026-07-07-glenfisk-project-manager-data-platform/ \"Glen Fisk Recruitment\")"
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ],
     "additionalDirectories": [
-      "c:\\repos\\job-hunting\\applications"
+      "c:\\repos\\job-hunting\\**"
     ]
   }
 }

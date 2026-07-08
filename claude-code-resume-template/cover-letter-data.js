@@ -5,21 +5,20 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Project Manager",
+  "title": "Program Analyst",
   "date": "7 July 2026",
   "recipient": {},
-  "salutation": "Dear Hiring Team,",
+  "salutation": "Dear Anita,",
   "paragraphs": [
-    "I am applying for the Project Manager role on the Data Platform and Integration project (reference 1644056).",
-    "Setting up a modern enterprise data platform that pulls from multiple distinct sources requires getting architecture, security, and engineering teams pulling in the same direction. I've spent the last few years managing exactly these kinds of complex data and integration migrations, most recently at Xero and Suncorp.",
-    "Here is how my background maps to the role:",
+    "I am applying for the Program Analyst role with the Delivery Office you're recruiting for.",
+    "A lot of this role comes down to keeping the numbers, schedules, and project artefacts clean and current, so program and project managers can spend their time on decisions rather than admin. That is exactly the kind of work I gravitate toward.",
     [
-      "At Xero, I'm currently running the API Program, a federated integration platform spanning virtually every engineering team in the company. I built the Unified Burndown, a single governance view of cross-domain migration plans and dependencies that our GMs and EGM use to track delivery and migration schedules.",
-      "At Suncorp, I ran delivery for a large-scale telephony and data platform migration across the entire organisation and its affiliate brands, coordinating four engineering teams including offshore contractors, and working directly with Infrastructure, Security, Business units and external vendors.",
-      "Earlier, at Console/Reapit, I delivered a new payments capability built on a deep integration with an external provider, taking it from scope through to release while keeping architects, engineers and the vendor aligned."
+      "At Xero, I personally built automated SQL-backed reporting dashboards tracking delivery metrics, and led a Jira optimisation initiative that produced a division-wide Jira Data Quality Score, turning inconsistent reporting into a reliable, trusted data source.",
+      "I also built the Unified Burndown at Xero, a single integrated schedule tracking cross-domain plans, owners, and dependencies across every major engineering division, the artefact leadership uses to track progress and make decisions.",
+      "At Suncorp Group, I supported a large-scale, compliance-critical platform migration, coordinating four teams including offshore contractors, and verifying technical solutions against data governance standards while working directly with Infrastructure, Security, and external vendors.",
+      "I'm hands-on across the Atlassian suite, including Jira, Jira Analytics, and Confluence, and comfortable working within PMBoK and Scrum-based delivery frameworks."
     ],
-    "I haven't worked with Databricks specifically, but I've spent years managing complex data platform migrations and the ETL and data-pipeline delivery that runs through them, and I understand data governance and service-level practices such as SLOs, on-call and uptime inside out. Previous experience as a software engineer should let me pick up the Databricks specifics quickly and be useful from day one.",
-    "If that sounds like the right fit for the role, I'd welcome the chance to connect."
+    "If this sounds like a good fit, I'd welcome the chance to connect and learn more about the role."
   ],
   "signOff": "Regards,",
   "signature": ""

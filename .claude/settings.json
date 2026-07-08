@@ -11,8 +11,8 @@
       "PowerShell(New-Item *)",
       "PowerShell(Remove-Item *)",
       "PowerShell(python *)",
-      "Edit(c:\\job-hunting\\*)",
-      "Write(c:\\job-hunting\\*)",
+      "Edit(c:\\repos\\job-hunting\\*)",
+      "Write(c:\\repos\\job-hunting\\*)",
       "Skill(update-config)",
       "Skill(update-config:*)",
       "WebFetch(domain:careers.arn.com.au)",
@@ -20,11 +20,11 @@
       "WebFetch(domain:au.linkedin.com)",
       "Edit(/.claude/skills/apply/**)",
       "PowerShell(& \"C:\\\\Users\\\\AlanSoto\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" *)",
-      "Read(//c/job-hunting/applications/2026-06-27-best-practice-software-project-manager/**)"
+      "Read(//c/repos/job-hunting/applications/**)"
     ],
     "additionalDirectories": [
-      "c:\\job-hunting\\.claude\\commands",
-      "c:\\job-hunting\\.claude\\skills"
+      "c:\\repos\\job-hunting\\.claude\\commands",
+      "c:\\repos\\job-hunting\\.claude\\skills"
     ]
   }
 }
