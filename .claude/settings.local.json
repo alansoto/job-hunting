@@ -5,8 +5,9 @@
       "Bash(mkdir *)",
       "Skill(update-config*)",
       "PowerShell(node claude-code-resume-template/build-narrative.js *)",
+      "Bash(git*)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit -m ' *)"
     ]
   }
 }
