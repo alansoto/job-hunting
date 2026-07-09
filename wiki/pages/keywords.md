@@ -173,6 +173,22 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `superannuation` — desirable only, not required; Suncorp (financial services & insurance) is the closest bridge.
   - Genuine takeaway distinct from every prior JD to date: the friction in this application is **seniority mismatch / overqualification risk**, not a capability gap — first role in the wiki's history where the positioning problem runs in the opposite direction from usual.
 
+- **2026-07-09 — Lab3 (Senior Project Manager, Azure engineering consultancy, Brisbane):**
+  - `Azure infrastructure/data/security projects` + `IaC (Terraform)` + `DevOps technologies` — flagged
+    "highly beneficial," NOT required. Azure/Terraform unevidenced (no named cloud platform anywhere).
+    Bridge: Xero cloud-native platform; **Code Red DevOps/CI/CD/DORA/observability** (genuinely strong
+    here — foreground it); Suncorp Infrastructure/Security coordination; API Program = migration off
+    legacy infrastructure. Do not claim Azure/Terraform hands-on.
+  - `project finances` / `budget reporting` — required competency, but financial/budget forecasting is
+    unevidenced (delivery/capacity forecasting is). Bridge: 2sol end-to-end ownership of a $5M+/mo
+    platform (commercial ownership); Xero roadmaps "within commercials." Frame as commercial ownership;
+    don't claim formal budget-tool hours.
+  - `vendor background` / `delivering to a client` — cleanly evidenced (rare clean match): **2sol** as
+    Flight Centre's primary delivery partner (literal vendor-to-client), Emedia agency delivery. Lead
+    into it.
+  - `Jira`, `burn down reports`, `Scrum/Agile/Kanban/DevOps`, `functional & non-functional requirements
+    workshops`, `complex enterprise governance` — all cleanly evidenced. No gap on the core requirements.
+
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), Azure DevOps,
 > Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks, MS Project,
 > SharePoint, formal procurement process ownership, financial/budget forecasting (as distinct from

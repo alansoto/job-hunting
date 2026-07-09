@@ -22,9 +22,16 @@ Proceed directly to Step 3 without waiting for confirmation.
 
 ## Step 3 — Draft resume
 
-Pull from the wiki to write `resume-draft.md`. The file **must** use the exact format below — `build.js` parses it structurally and any deviation causes the PDF filename to be wrong or the render to fail.
+Pull from the wiki to write `resume-draft.md`. First choose a format, then write the file in exactly that format — the build scripts parse structurally and any deviation causes a wrong PDF filename or a failed render.
 
-### Required format
+### Choosing a format
+
+- **Format A — Standard (bullet points).** The default. Clean, ATS-friendly, one skill grid, bullet-only experience. Rendered by `build.js`. Best for most roles, especially contract or keyword-heavy ones.
+- **Format B — Narrative / hybrid (story style).** Recent roles (roughly the last six years) are told as a short background paragraph + a `Challenge & Impact` (Problem/Solution) block + `Key Contributions` bullets; older roles stay as plain bullets. Rendered by `build-narrative.js`. Best for senior roles where judgement and narrative carry weight, or when the user wants to stand out from lookalike resumes.
+
+Use Format A unless the user asks for the narrative/story format (or the role clearly benefits from it). If unsure, ask.
+
+### Format A — Standard (bullet points)
 
 ```
 # Alan Soto
@@ -82,6 +89,70 @@ linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
 - **Core skills**: each line is `Label: item · item · item` — not a grid, not a bullet list.
 - **Education**: each line is `qualification · org · note` using ` · ` as the separator.
 - Do NOT use `## Professional Summary`, `## Core Competencies`, or `## Employment History` — these are not recognised by `build.js`.
+
+### Format B — Narrative / hybrid (story style)
+
+Rendered by `build-narrative.js`. Same preamble rules as Format A (name, role, location, email, linkedin — the role line becomes the PDF filename). Differences: skills is a plain `## Skills` bullet list (not `## Core skills`), and certifications get their own `## Certifications` section.
+
+```
+# Alan Soto
+{Role Title}
+Brisbane, QLD, Australia
+me@alansoto.info
+linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
+
+---
+
+## Profile
+
+{summary paragraph — plain prose}
+
+## Skills
+
+- {skill}
+- {skill}
+
+## Experience
+
+### {Recent Company} - {Role}
+{Start} - {End} · {Location}
+
+{Background: one or two label-less prose paragraphs, straight into the content — no heading}
+
+**Challenge & Impact**
+- **Problem:** {the core problem the role/program faced}
+- **Solution:** {what you did and the impact or result}
+
+**Key Contributions**
+- {supporting bullet}
+- {supporting bullet}
+
+### {Older Company} - {Role}
+{Start} - {End} · {Location}
+
+- {bullet}
+- {bullet}
+
+## Earlier
+
+{single prose paragraph for older, pre-cutoff roles}
+
+## Education
+
+{Qualification} · {Institution} · {Note}
+
+## Certifications
+
+{Name} · {Year}
+```
+
+Format B rules:
+- **Cutline** — roles within roughly the last six years (judge by today's date) use the narrative structure (background + `**Challenge & Impact**` + `**Key Contributions**`); older roles use plain `- ` bullets only. If a role sits on the boundary, state your call so the user can move it.
+- **Section markers** inside an experience entry must be exactly `**Challenge & Impact**` and `**Key Contributions**` — bold, each on its own line. Their presence is the signal `/render` uses to pick `build-narrative.js`, so do not rename them.
+- **Problem / Solution labels** — write the two Challenge & Impact bullets as `- **Problem:** ...` and `- **Solution:** ...`. The bold labels are deliberate structural labels — the one sanctioned exception to the `/resume-style` no-bold rule.
+- **Skills** — plain `## Skills` bullet list, one skill per line, no `Label:` prefixes.
+- **Certifications** — `## Certifications` section, each line `Name · Year`.
+- Keep each narrative role tight: a background paragraph, two Challenge & Impact bullets, two or three Key Contributions bullets. Aim the whole resume at 2-3 pages.
 
 ### Content rules
 

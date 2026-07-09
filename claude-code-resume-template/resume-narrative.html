@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume</title>
+
+<!--
+  ============================================================================
+  NARRATIVE RESUME TEMPLATE  (portable, single-file, no build step)
+  ----------------------------------------------------------------------------
+  A second, alternative layout that renders the "story" resume format:
+  each role is told as BACKGROUND -> WHAT I DID -> ACHIEVEMENTS in prose,
+  instead of bullet points. This does NOT replace resume.html (the bullet
+  template) — both live side by side so you can pick a format per application.
+
+  - Content comes from `window.RESUME` (loaded from resume-narrative-data.js).
+    If that file is missing, the inline SAMPLE below is used instead.
+  - A small JS paginator flows the prose into A4 sheets at paragraph
+    granularity, so any resume length paginates without hand-placed breaks:
+      * Page 1  -> two columns (sidebar: contact/skills/education | main: profile + experience)
+      * Page 2+ -> single full-width column ("Employment history (continued)")
+  ============================================================================
+-->
+
+<style>
+/* Self-hosted fonts (latin, woff2) — no network needed at render time. */
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/HankenGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/HankenGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/HankenGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/HankenGrotesk-700.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/SpaceGrotesk-400.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500;font-display:swap;src:url('fonts/SpaceGrotesk-500.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('fonts/SpaceGrotesk-600.woff2') format('woff2');}
+@font-face{font-family:'Space Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/SpaceGrotesk-700.woff2') format('woff2');}
+</style>
+
+<style>
+  :root{
+    --ink:        #111111;
+    --ink-2:      #1a1a1a;
+    --muted:      #444444;
+    --muted-2:    #666666;
+    --muted-3:    #777777;
+    --muted-4:    #999999;
+    --rule:       #dcdcdc;
+    --rule-strong:#111111;
+    --desk:       #ECEAE3;
+
+    --font-head: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-body: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--desk);
+    font-family:var(--font-body);
+    color:var(--ink-2);
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .stage{ display:flex; flex-direction:column; align-items:center; gap:30px; padding:40px 24px 80px; }
+  .page{
+    position:relative;
+    width:794px;            /* A4 width  @96dpi */
+    height:1123px;          /* A4 height @96dpi */
+    background:#fff;
+    box-shadow:0 12px 44px rgba(0,0,0,.13);
+    border-radius:3px;
+    padding:54px 56px;
+    overflow:hidden;
+  }
+
+  /* ---- header ---- */
+  .r-header{ border-bottom:2px solid var(--rule-strong); padding-bottom:13px; margin-bottom:18px; }
+  .r-name{ margin:0; font-family:var(--font-head); font-weight:700; font-size:42px; line-height:.95; letter-spacing:-.02em; color:var(--ink); }
+  .r-title{ margin:11px 0 0; font-family:var(--font-head); font-weight:500; font-size:13px; line-height:1; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); }
+
+  /* ---- columns ---- */
+  .cols{ display:flex; gap:38px; align-items:flex-start; }
+  .aside{ width:206px; flex:none; }
+  .maincol{ flex:1; min-width:0; }
+  .flowcol{ width:100%; }
+
+  /* ---- section label ---- */
+  .label{ font-family:var(--font-head); font-weight:600; font-size:10.5px; line-height:1; letter-spacing:.2em; text-transform:uppercase; color:var(--ink); border-bottom:1px solid var(--rule); padding-bottom:7px; margin-bottom:12px; }
+
+  .block{ margin-bottom:18px; }
+  .aside .block{ margin-bottom:24px; }
+  .aside .block:last-child{ margin-bottom:0; }
+
+  /* ---- contact ---- */
+  .contact-line{ font-size:13px; line-height:1.65; color:var(--muted); }
+  .contact-line a{ color:var(--ink); text-decoration:none; }
+
+  /* ---- skills (narrative: clean list, no bars) ---- */
+  .skill-list{ margin:0; padding:0; list-style:none; }
+  .skill-list li{ position:relative; padding-left:14px; font-size:12.5px; line-height:1.5; color:var(--muted-2); margin-bottom:5px; }
+  .skill-list li::before{ content:""; position:absolute; left:0; top:7px; width:4px; height:4px; background:var(--ink); }
+
+  /* ---- education ---- */
+  .edu-item{ margin-bottom:10px; }
+  .edu-item:last-child{ margin-bottom:0; }
+  .edu-q{ font-weight:600; font-size:12.5px; line-height:1.35; color:var(--ink); }
+  .edu-meta{ font-size:11.5px; line-height:1.4; color:var(--muted-3); }
+
+  /* ---- profile ---- */
+  .profile-text{ margin:0; font-size:13px; line-height:1.5; color:#333; text-wrap:pretty; }
+
+  /* ---- experience (narrative) ---- */
+  .n-block{ break-inside:avoid; }
+  .n-head{ display:flex; justify-content:space-between; align-items:baseline; gap:14px; margin-top:4px; }
+  .n-company{ margin:0; font-family:var(--font-head); font-weight:600; font-size:16px; line-height:1.2; color:var(--ink); }
+  .n-dates{ font-family:var(--font-head); font-weight:500; font-size:11px; line-height:1.2; letter-spacing:.05em; color:var(--muted-3); white-space:nowrap; }
+  .n-role{ font-weight:600; font-size:13px; line-height:1.3; color:var(--muted); margin:3px 0 0; }
+  .n-meta{ font-size:11.5px; line-height:1.4; color:var(--muted-4); margin:2px 0 7px; }
+  .n-subhead{ font-family:var(--font-head); font-weight:600; font-size:9.5px; line-height:1; letter-spacing:.16em; text-transform:uppercase; color:var(--muted-3); margin:9px 0 4px; }
+  .n-para{ margin:0 0 7px; font-size:12.5px; line-height:1.5; color:#333; text-wrap:pretty; }
+  .n-block:not(:last-child) .n-para:last-child{ margin-bottom:0; }
+  .n-entrygap{ height:14px; }
+
+  /* ---- experience (bullet roles: older/shorter) ---- */
+  .bullets{ margin:6px 0 0; padding:0; list-style:none; }
+  .bullets li{ position:relative; padding-left:16px; font-size:12.5px; line-height:1.45; color:#333; margin-bottom:3px; text-wrap:pretty; }
+  .bullets li:last-child{ margin-bottom:0; }
+  .bullets li::before{ content:""; position:absolute; left:0; top:8px; width:5px; height:5px; background:var(--ink); }
+
+  .earlier-text{ margin:0; font-size:12px; line-height:1.55; color:var(--muted-2); text-wrap:pretty; }
+
+  @media print{
+    @page{ size:A4; margin:0; }
+    html,body{ background:#fff; }
+    .stage{ padding:0; gap:0; }
+    .page{ box-shadow:none; border-radius:0; break-after:page; }
+    .page:last-child{ break-after:auto; }
+  }
+</style>
+</head>
+<body>
+
+<div class="stage" id="stage"></div>
+
+<script src="resume-narrative-data.js" onerror="console.warn('resume-narrative-data.js not found; using inline SAMPLE')"></script>
+
+<script>
+const CONFIG = { pageH: 1123, padBottom: 54, safety: 10 };
+
+/* ============================ SAMPLE ============================ */
+const SAMPLE = {
+  name: 'Alan Soto',
+  title: 'Senior Project Manager',
+  location: 'Brisbane, QLD, Australia',
+  email: 'me@alansoto.info',
+  phone: '04 3040 4307',
+  linkedinLabel: 'linkedin.com/in/alansoto',
+  linkedinUrl: 'https://www.linkedin.com/in/alansoto/',
+  summary: 'Senior technology project manager with 15+ years delivering complex software and platform programs in enterprise and vendor environments.',
+  skills: ['Technology project and program delivery', 'Hybrid delivery: Scrum, Kanban, Agile, Waterfall', 'Vendor, partner and client management'],
+  experience: [
+    { company:'Xero', role:'Lead Technical Program Manager', dates:'Mar 2022 — Present', place:'Brisbane, AU',
+      intro:['Xero is a global cloud accounting platform with over 4,500 employees. I direct some of its largest technical programs.'],
+      sections:[
+        { label:'Challenge & Impact', paras:[], bullets:['<strong>Problem:</strong> No single team could see the end-to-end migration path.','<strong>Solution:</strong> Built the Unified Burndown to consolidate division plans into one launch schedule.'] },
+        { label:'Key Contributions', paras:[], bullets:['Aligned dozens of autonomous teams without direct authority.'] }
+      ], bullets:[] },
+    { company:'2sol Software Studios', role:'Projects Lead', dates:'Nov 2012 — Jan 2017', place:'Brisbane, AU',
+      intro:[], sections:[], bullets:['Owned end-to-end delivery of Flight Centre’s hotel platform generating $5M+ monthly revenue.'] }
+  ],
+  earlier: 'Before 2012 I spent a decade as a software engineer and systems architect in Canada, Peru and Australia.',
+  education: [
+    { qualification:'Masters of Project Management', org:'Queensland University of Technology', note:'2012-2013 · Dean’s Award, 7.0 GPA' }
+  ],
+  certifications: [
+    { qualification:'Certified ScrumMaster (Scrum Alliance)', note:'2012' }
+  ]
+};
+
+/* ============================ helpers ============================ */
+function el(tag, cls, html){
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (html != null) n.innerHTML = html;
+  return n;
+}
+function esc(s){
+  return String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+function escMd(s){
+  return esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+}
+function joinDot(parts){ return parts.filter(Boolean).join(' · '); }
+
+/* ============================ builders ============================ */
+function buildHeader(d){
+  const h = el('div','r-header');
+  h.appendChild(el('h1','r-name', esc(d.name)));
+  if (d.title) h.appendChild(el('p','r-title', esc(d.title)));
+  return h;
+}
+
+function buildSidebar(d){
+  const aside = el('div','aside');
+
+  // contact
+  const c = el('div','block');
+  c.appendChild(el('div','label','Details'));
+  if (d.phone)    c.appendChild(el('div','contact-line', esc(d.phone)));
+  if (d.email)    c.appendChild(el('div','contact-line', '<a href="mailto:'+esc(d.email)+'">'+esc(d.email)+'</a>'));
+  if (d.location) c.appendChild(el('div','contact-line', esc(d.location)));
+  if (d.linkedinUrl || d.linkedinLabel){
+    const label = esc(d.linkedinLabel || d.linkedinUrl);
+    const href  = esc(d.linkedinUrl || ('https://'+d.linkedinLabel));
+    c.appendChild(el('div','contact-line', '<a href="'+href+'">'+label+'</a>'));
+  }
+  aside.appendChild(c);
+
+  // skills
+  if (d.skills && d.skills.length){
+    const s = el('div','block');
+    s.appendChild(el('div','label','Skills'));
+    const ul = el('ul','skill-list');
+    d.skills.forEach(k => ul.appendChild(el('li', null, esc(k))));
+    s.appendChild(ul);
+    aside.appendChild(s);
+  }
+
+  // education
+  if (d.education && d.education.length){
+    const e = el('div','block');
+    e.appendChild(el('div','label','Education'));
+    d.education.forEach(ed=>{
+      const item = el('div','edu-item');
+      item.appendChild(el('div','edu-q', esc(ed.qualification)));
+      const meta = joinDot([ed.org, ed.note]);
+      if (meta) item.appendChild(el('div','edu-meta', esc(meta)));
+      e.appendChild(item);
+    });
+    aside.appendChild(e);
+  }
+
+  // certifications
+  if (d.certifications && d.certifications.length){
+    const e = el('div','block');
+    e.appendChild(el('div','label','Certifications'));
+    d.certifications.forEach(ed=>{
+      const item = el('div','edu-item');
+      item.appendChild(el('div','edu-q', esc(ed.qualification)));
+      const meta = joinDot([ed.org, ed.note]);
+      if (meta) item.appendChild(el('div','edu-meta', esc(meta)));
+      e.appendChild(item);
+    });
+    aside.appendChild(e);
+  }
+
+  return aside;
+}
+
+function buildProfile(d){
+  const b = el('div','block');
+  b.appendChild(el('div','label','Profile'));
+  b.appendChild(el('p','profile-text', esc(d.summary)));
+  return b;
+}
+
+function entryHeadHtml(job){
+  let html = '<div class="n-head"><h3 class="n-company">'+esc(job.company)+'</h3>';
+  if (job.dates) html += '<span class="n-dates">'+esc(job.dates)+'</span>';
+  html += '</div>';
+  if (job.role) html += '<div class="n-role">'+esc(job.role)+'</div>';
+  if (job.place) html += '<div class="n-meta">'+esc(job.place)+'</div>';
+  return html;
+}
+
+function sectionHtml(sec){
+  let html = '';
+  if (sec.label) html += '<div class="n-subhead">'+esc(sec.label)+'</div>';
+  (sec.paras || []).forEach(p => html += '<p class="n-para">'+escMd(p)+'</p>');
+  if ((sec.bullets || []).length){
+    html += '<ul class="bullets">';
+    sec.bullets.forEach(b => html += '<li>'+escMd(b)+'</li>');
+    html += '</ul>';
+  }
+  return html;
+}
+
+/* Flatten experience into atomic, non-breaking flow blocks. Narrative roles
+   render label-less intro paragraphs (each its own block, so long intros can
+   break across a page) followed by one block per labelled section (label kept
+   with its bullets). The first block of a role carries the company header so a
+   role never starts orphaned at a page bottom. Older bullet-only roles render
+   as a single header + bullet-list block. */
+function buildExperienceNodes(d){
+  const nodes = [];
+  (d.experience || []).forEach((job, ji) => {
+    if (ji > 0) nodes.push(el('div','n-entrygap'));
+
+    const intro    = job.intro || [];
+    const sections = job.sections || [];
+    const bullets  = job.bullets || [];
+    let firstOfJob = true;
+
+    if (intro.length || sections.length){
+      intro.forEach(para => {
+        let html = '';
+        if (firstOfJob) html += entryHeadHtml(job);
+        html += '<p class="n-para">'+escMd(para)+'</p>';
+        nodes.push(el('div','n-block', html));
+        firstOfJob = false;
+      });
+      sections.forEach(sec => {
+        let html = '';
+        if (firstOfJob) html += entryHeadHtml(job);
+        html += sectionHtml(sec);
+        nodes.push(el('div','n-block', html));
+        firstOfJob = false;
+      });
+    } else if (bullets.length){
+      let html = entryHeadHtml(job) + '<ul class="bullets">';
+      bullets.forEach(b => html += '<li>'+escMd(b)+'</li>');
+      html += '</ul>';
+      nodes.push(el('div','n-block', html));
+    } else {
+      nodes.push(el('div','n-block', entryHeadHtml(job)));
+    }
+  });
+  return nodes;
+}
+
+/* ============================ paginator ============================ */
+function pageBottomLimit(pageEl){
+  return pageEl.getBoundingClientRect().top + CONFIG.pageH - CONFIG.padBottom - CONFIG.safety;
+}
+function overflows(node, pageEl){
+  return node.getBoundingClientRect().bottom > pageBottomLimit(pageEl);
+}
+
+async function paginate(){
+  const d = (window.RESUME && typeof window.RESUME === 'object') ? window.RESUME : SAMPLE;
+  document.title = (d.name ? d.name + ' — ' : '') + 'Resume';
+
+  if (document.fonts && document.fonts.ready) { try { await document.fonts.ready; } catch(e){} }
+
+  const stage = document.getElementById('stage');
+  stage.innerHTML = '';
+  const newPage = ()=>{ const p = el('div','page'); stage.appendChild(p); return p; };
+
+  // ---- PAGE 1: header + (sidebar | main) ----
+  let page = newPage();
+  page.appendChild(buildHeader(d));
+  const cols = el('div','cols');
+  cols.appendChild(buildSidebar(d));
+  let col = el('div','maincol');
+  cols.appendChild(col);
+  page.appendChild(cols);
+
+  if (d.summary) col.appendChild(buildProfile(d));
+  col.appendChild(el('div','label','Employment history'));
+
+  // Build all flow nodes: experience blocks, then the "Earlier" note.
+  const nodes = buildExperienceNodes(d);
+  if (d.earlier){
+    nodes.push(el('div','n-entrygap'));
+    const note = el('div','n-block');
+    note.appendChild(el('div','n-subhead','Earlier'));
+    note.appendChild(el('p','earlier-text', escMd(d.earlier)));
+    nodes.push(note);
+  }
+
+  const startContinuation = ()=>{
+    page = newPage();
+    col = el('div','flowcol'); page.appendChild(col);
+    col.appendChild(el('div','label','Employment history (continued)'));
+  };
+
+  let i = 0;
+  // fill page 1 main column
+  for (; i < nodes.length; i++){
+    col.appendChild(nodes[i]);
+    if (overflows(nodes[i], page)){ col.removeChild(nodes[i]); break; }
+  }
+
+  // continuation pages
+  if (i < nodes.length){
+    startContinuation();
+    for (; i < nodes.length; i++){
+      // don't lead a fresh page with a spacer
+      if (nodes[i].className === 'n-entrygap' && col.childNodes.length === 1) continue;
+      col.appendChild(nodes[i]);
+      if (overflows(nodes[i], page)){
+        col.removeChild(nodes[i]);
+        startContinuation();
+        if (!(nodes[i].className === 'n-entrygap')) col.appendChild(nodes[i]);
+      }
+    }
+  }
+
+  window.__paginated = true;
+  document.documentElement.dataset.paginated = 'true';
+}
+
+window.addEventListener('load', paginate);
+</script>
+</body>
+</html>

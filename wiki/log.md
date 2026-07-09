@@ -642,3 +642,58 @@ Expert (current).
   desirable qualification).
 - Not yet rendered or finalised.
 - Pages touched: none of the core wiki pages yet (draft stage); log only.
+
+## [2026-07-09] apply (draft) — Lab3 Senior Project Manager (Brisbane, hybrid, permanent)
+- Created `applications/2026-07-09-lab3-senior-project-manager/` with job-description.md (verbatim),
+  gap-analysis.md, jd-analysis.md, resume-draft.md, cover-letter-draft.md.
+- Lab3 is an Azure engineering consultancy (Cloud & DevOps, Data, IoT & AI, Security, Network).
+  Permanent, vendor/consultancy-side Senior PM delivering complex client tech projects; onsite 2
+  days/week in Brisbane. First narrative-format (Format B / build-narrative.js) resume in the wiki.
+- Fit: Strong. Four "ideal candidate" hard signals all directly evidenced — complex enterprise
+  governance, Jira + burn-down competency (Unified Burndown, Jira Data Quality Score), agile/hybrid/
+  waterfall + **DevOps** (Code Red / DORA — unusually strong here), and **vendor-to-client delivery**
+  (2sol as Flight Centre's primary delivery partner is the literal anchor). Only real gap:
+  Azure/Terraform/IaC, flagged "highly beneficial" not required — bridged via Code Red DevOps +
+  infrastructure-adjacent coordination. Budget/project-finances is the soft spot among the *required*
+  items (financial forecasting unevidenced) — framed via 2sol $5M+/mo commercial ownership, not
+  fabricated tool hours.
+- Resume (narrative): headline "Senior Project Manager". Narrative treatment (Challenge & Impact +
+  Key Contributions) for Xero, Go1, Suncorp; plain-bullet full entries for Virgin, intelliHR,
+  Console/Reapit, and 2sol (in chronological order — corrected after first draft wrongly demoted
+  Virgin/intelliHR/Console to "Earlier" even though they postdate 2sol); Earlier now holds only
+  Emedia + early Canada/Peru. **Cutline call:** Suncorp (Nov 2019–Nov 2020) narrated despite
+  sitting just outside the strict ~6-year cutline, because it's the primary regulated-enterprise +
+  vendor/offshore + infrastructure anchor for this role — easy to demote to plain bullets if Alan
+  prefers.
+- Cover letter: pain-point/problem-framing opener (FinXL device) + three role bullets (Xero
+  governance+DevOps+Jira/burndown; Suncorp regulated enterprise + vendors/offshore + infra/security;
+  2sol literal vendor-to-client + $5M+ commercial ownership) + synthesis sentence + light
+  Azure/Terraform gap pivot to DevOps/software-engineer background + low-pressure close.
+- Pages touched: [[log]] only (draft stage).
+
+## [2026-07-09] apply (finalised) — Lab3 Senior Project Manager
+- Proofread via resume-proofreader subagent (no leaked markers): fixed a Go1 "Solution" sentence
+  fragment/comma splice (rewrote as two clean sentences, no dashes) and a double space in the
+  Education line. User had made manual edits before finalise (reworded profile/intelliHR bullet,
+  added Universidad de Lima + Peru to the BSc, reordered Certifications to PMP-first, reworded the
+  cover-letter opener to first-person value + added a "Re:" subject line, trimmed the gap paragraph).
+- PDFs generated via /render using **build-narrative.js** (first narrative-format resume taken to
+  finalise; company name passed explicitly as "Lab3"). Resume renders clean at 3 pages, correct
+  reverse-chronological order (Xero → Go1 → Suncorp → Virgin → intelliHR → Console/Reapit → 2sol →
+  Earlier). Files: `Alan Soto - Senior Project Manager - Lab3 - Resume.pdf` + `... - Cover Letter.pdf`.
+- Archived markdown sources to raw/resumes/ (…-Lab3-Senior-Project-Manager-Resume.md + …-Cover-Letter.md);
+  ingested both (derived from wiki, no new biographical facts).
+- Wrote meta.md (status: Ready to send) and appended an outputs/tracker.md row.
+- **Flagged to user:** the manually-edited Certifications section lists "Project Management
+  Professional (PMP)" with no year/lapsed qualifier — [[education]] records PMP as lapsed (~2025);
+  suggested "PMP (2012)" but left the user's edit as-is pending their call.
+- Ingest captured: new "Senior PM at a vendor/consultancy (Azure/cloud delivery)" cheat-sheet entry
+  + narrative-format note in [[positioning]]; Lab3 gap-watch entry in [[keywords]] (Azure/Terraform
+  "highly beneficial" not required; budget/project-finances soft spot; vendor-to-client cleanly
+  evidenced via 2sol); new [[cover-letter-examples]] entry (pain-point opener reframed to first-person
+  value + "Re:" subject line; named-tool Azure/Terraform gap pivot).
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]], [[log]]
+
+## [2026-07-09] status update — Lab3, Senior Project Manager application submitted
+- Alan confirmed the Lab3 Senior Project Manager application has been submitted.
+- Updated `status: Submitted` / `outcome: Awaiting response` in meta.md and the outputs/tracker.md row.

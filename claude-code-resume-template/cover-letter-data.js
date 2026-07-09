@@ -5,21 +5,22 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Program Analyst",
-  "date": "7 July 2026",
+  "title": "Senior Project Manager",
+  "date": "9 July 2026",
   "recipient": {},
-  "salutation": "Dear Anita,",
+  "salutation": "Dear Lab3 Hiring Team,\nRe: Senior Project Manager role application",
   "paragraphs": [
-    "I am applying for the Program Analyst role with the Delivery Office you're recruiting for.",
-    "A lot of this role comes down to keeping the numbers, schedules, and project artefacts clean and current, so program and project managers can spend their time on decisions rather than admin. That is exactly the kind of work I gravitate toward.",
+    "Getting complex technology projects across the line inside a large enterprise, with all its layers of process, governance, and competing stakeholders, usually comes with a lot of friction. Keeping project delivery predictable while managing complex governance and technical teams is where I bring the most value.",
+    "Here is how my background maps to the role:",
     [
-      "At Xero, I personally built automated SQL-backed reporting dashboards tracking delivery metrics, and led a Jira optimisation initiative that produced a division-wide Jira Data Quality Score, turning inconsistent reporting into a reliable, trusted data source.",
-      "I also built the Unified Burndown at Xero, a single integrated schedule tracking cross-domain plans, owners, and dependencies across every major engineering division, the artefact leadership uses to track progress and make decisions.",
-      "At Suncorp Group, I supported a large-scale, compliance-critical platform migration, coordinating four teams including offshore contractors, and verifying technical solutions against data governance standards while working directly with Infrastructure, Security, and external vendors.",
-      "I'm hands-on across the Atlassian suite, including Jira, Jira Analytics, and Confluence, and comfortable working within PMBoK and Scrum-based delivery frameworks."
+      "At Xero I run company-wide programs across dozens of engineering teams, reporting up to EGM-level leadership. I built the Unified Burndown and the Jira dashboards leadership uses to track delivery, and I did hands-on DevOps uplift as part of a division-wide CI/CD program, DORA metrics, observability, SLOs, and progressive delivery. Governance, agile, and DevOps in the same delivery.",
+      "At Suncorp, an ASX-listed financial services group, I delivered a compliance-critical telephony and data platform migration across four engineering teams, offshore contractors, and multiple vendors, coordinating directly with Infrastructure and Security through COVID-19 and a shifting regulatory environment. High governance, high complexity, no room to slip.",
+      "At 2sol I was the vendor. As Flight Centre's primary delivery partner, I owned end-to-end delivery of their hotel booking platform, a business generating $5M+ every month, managing the client relationship, absorbing changing priorities, and delivering within commercials."
     ],
-    "If this sounds like a good fit, I'd welcome the chance to connect and learn more about the role."
+    "In short, my contribution would be holding the governance, the delivery cadence, and the client relationship together, so complex projects land on time and at quality with everyone able to see where things stand.",
+    "I have not run Azure infrastructure projects with Terraform specifically. But I have spent years on the delivery and DevOps side of cloud platforms, CI/CD, observability, and infrastructure and security coordination, and I came up as a software engineer and systems architect, so the technical side is where I am comfortable.",
+    "If this alignment sounds like what you're looking for, I would welcome the chance to connect and learn more about the role."
   ],
-  "signOff": "Regards,",
+  "signOff": "Kind regards,",
   "signature": ""
 };

@@ -210,6 +210,21 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   scale. Headline: "Senior Product Owner - Delivery Lead" (hyphen not slash — slash breaks filenames
   on Windows). Summary: see "PO / Delivery Lead" angle above. Do not use Head-of or TPM framings.
 
+- **Senior PM at a vendor/consultancy (Azure/cloud delivery to external clients) role** (Lab3
+  2026-07-09) → lead Xero *API Program* (governance at scale, EGM-level, Unified Burndown + Jira
+  dashboards) reframed to foreground the **Code Red DevOps/CI/CD/DORA** work, since "DevOps
+  frameworks" and "Jira + burn down reports" are named JD requirements + Suncorp *regulated-enterprise
+  migration* (four teams incl. offshore + Infrastructure/Security + vendors = the complex-governance
+  anchor) + **2sol as the literal vendor-to-client anchor** (agency delivering to Flight Centre as a
+  paying client, $5M+/mo commercial ownership — the cleanest "vendor background" evidence in the
+  wiki; lead into it, don't bury it). Headline: "Senior Project Manager". **Rendered in the narrative
+  format (Format B / build-narrative.js) — first narrative resume taken to finalise.** Gaps:
+  Azure/Terraform/IaC is "highly beneficial" not required — acknowledge in one light cover-letter line
+  and pivot to the DevOps + infrastructure-adjacent delivery + software-engineer background; do NOT
+  claim Azure/Terraform hands-on. Budget/project-finances is the soft spot among the *required* items
+  (financial forecasting unevidenced) — frame via 2sol's $5M+ commercial ownership, don't claim formal
+  budget tooling.
+
 ## Performance review insights (Xero, 2026-06)
 
 Source: formal Xero performance review provided 2026-06-19. Useful for self-awareness in

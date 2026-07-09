@@ -6,7 +6,10 @@
       "Bash(node *)",
       "Bash(git *)",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "PowerShell(node claude-code-resume-template/build-narrative.js \"prototypes/lab3-senior-pm-narrative/\" \"Lab3\")",
+      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-09-lab3-senior-project-manager/ \"Lab3\")",
+      "Bash(git add *)"
     ],
     "additionalDirectories": [
       "c:\\repos\\job-hunting\\**"
