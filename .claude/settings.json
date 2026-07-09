@@ -5,7 +5,6 @@
       "Bash(copy *)",
       "Bash(ls *)",
       "Bash(Remove-Item *)",
-      "Bash(git *)",
       "PowerShell(Copy-Item *)",
       "PowerShell(New-Item *)",
       "PowerShell(Remove-Item *)",
