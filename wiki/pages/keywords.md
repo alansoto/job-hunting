@@ -193,3 +193,16 @@ Engineering · bilingual (English/Spanish) · full working rights.
 > Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks, MS Project,
 > SharePoint, formal procurement process ownership, financial/budget forecasting (as distinct from
 > delivery/capacity forecasting).
+
+- **2026-07-09 — Karmo (Engineering Delivery Manager, car-subscription scale-up, Brisbane):**
+  - `automotive` / `mobility` / `fleet` industry experience — flagged "highly regarded," NOT
+    required. Genuinely new vertical, no bridge attempted (JD's own tone signals openness).
+    Acknowledged plainly in the cover letter rather than stretched via a loose analogy.
+  - `QA team members` (coaching/performance management of QA specifically) — engineering coaching
+    is deeply evidenced; QA-specific people leadership is not separately named anywhere in the
+    wiki. Low severity, bundled under general team-lead/coaching evidence.
+  - One of the cleanest matches to date otherwise: multi-squad delivery leadership, hands-on
+    hiring/onboarding/performance management (Go1), offshore/distributed team leadership
+    (Suncorp — direct, literal match), Jira/Confluence + DORA reporting, scale-up/high-growth
+    experience (Go1), and AI-tool exposure (Copilot/Claude/Gemini) all directly evidenced, not
+    bridged.

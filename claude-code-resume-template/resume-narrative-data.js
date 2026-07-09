@@ -1,11 +1,11 @@
 window.RESUME = {
   "name": "Alan Soto",
-  "title": "Senior Project Manager",
+  "title": "Engineering Delivery Manager",
   "location": "Brisbane, QLD, Australia",
   "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
-  "summary": "Senior Project Manager with 15+ years delivering complex technology programs across regulated enterprise, cloud SaaS, and vendor-to-client environments. I take fast-moving, high-governance programs and give teams the structure, cadence, and reporting they need to deliver predictably. Currently Lead Technical Program Manager at Xero, directing large-scale programs across dozens of engineering teams with EGM-level visibility, embedding Scrum, Kanban, and DevOps practices, and building the Jira burndowns and dashboards leadership uses to track delivery. I started as a software engineer and systems architect, so I read technical and architectural detail directly and translate it into business outcomes.",
+  "summary": "Engineering Delivery Manager with 15+ years of experience leading software delivery across fast-moving scale-ups and enterprise platforms. Grounded in a foundational background as a software engineer and systems architect, I move seamlessly between technical details and business priorities. Most recently at Xero, I coached engineering managers and tech leads across 10+ squads to optimise sprint rhythms, capacity planning, and delivery metrics (including Jira dashboards and DORA metrics). Known for leading distributed and offshore squads, untangling delivery bottlenecks, and providing leadership with clear, predictable visibility into progress.",
   "skills": [],
   "experience": [
     {
@@ -14,23 +14,23 @@ window.RESUME = {
       "dates": "Mar 2022 — Present",
       "place": "Brisbane, QLD",
       "intro": [
-        "Xero is a global cloud accounting platform serving over 3 million customers. I lead company-wide delivery programs that span dozens of engineering teams, reporting to General Managers, Heads of Product, and EGM-level leadership."
+        "Xero is a global cloud accounting platform serving over 3 million customers. I lead program delivery across dozens of engineering teams, and coach engineering managers and tech leads who run them day to day, reporting to General Managers, Heads of Product, and EGM-level leadership."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** Xero needed to deliver a federated API modernisation initiative and retire legacy infrastructure (APIs, databases) across every engineering division, with no shared view of scope, dependencies, or schedule to run it as one program.",
-            "**Solution:** I built the program's governance layer, a Unified Burndown covering all major divisions, a cross-domain dependency intake, and the milestone reporting EGM leadership uses to track launch and retirement, turning a platform initiative into an executable, trackable migration program."
+            "**Problem:** Xero needed to migrate dozens of teams off legacy APIs and databases onto a new federated API platform, but no domain team knew what was actually in scope for their part of the migration or how to sequence it, so the program had no shared roadmap and engineering managers and tech leads had no consistent cadence for capacity planning or delivery reporting.",
+            "**Solution:** I worked with domain teams to scope their piece of the migration and define a workable sequence for moving each API and database, then coached engineering managers and tech leads across 10+ teams on cycle time, capacity planning, and delivery cadence. That scoping work became the Unified Burndown, a cross-division roadmap and reporting layer that turned a fuzzy migration into a program leadership could plan against and see progress on."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Embedded in a division-wide \"Code Red\" DevOps and CI/CD uplift: implemented observability tooling and personally built automated dashboards tracking DORA metrics (Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore), and facilitated sessions establishing SLOs, on-call practices, and progressive delivery.",
-            "Launched a Xero-wide Jira optimisation initiative, achieving consistent Jira use at initiative and epic level, health dashboards, and a division-wide Jira Data Quality Score, reducing planning and reporting toil across the division.",
-            "Coached engineering managers and tech leads across 10+ teams on cycle time, capacity planning, forecasting, and delivery cadence, driving alignment through influence rather than direct authority."
+            "Personally built automated dashboards tracking DORA metrics (Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore) and facilitated engineering-practice sessions establishing SLOs, on-call practices, and progressive delivery as part of a division-wide CI/CD uplift.",
+            "Launched a Xero-wide Jira optimisation initiative, achieving consistent Jira use at initiative and epic level and a division-wide Jira Data Quality Score dashboard, cutting planning and reporting toil across the organisation.",
+            "Partnered with Product Owners and Heads of Product to shape backlogs and align delivery roadmaps with business priorities."
           ],
           "paras": []
         }
@@ -43,22 +43,23 @@ window.RESUME = {
       "dates": "Nov 2020 — Mar 2022",
       "place": "Brisbane, QLD",
       "intro": [
-        "Go1 is a global e-learning SaaS platform that was scaling fast and messily. I led a cross-functional squad of 8 (6 engineers, 1 designer, 1 product owner) as team lead and Scrum Master, owning a new content-creator product end-to-end."
+        "Go1 is a global e-learning SaaS company in hyper-growth, chaotic and fast-moving at every level. As team lead and Scrum Master, I owned a cross-functional squad of 8 (6 engineers, 1 designer, 1 product owner) end to end, including the people side: hiring, onboarding, coaching, and performance."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** The squad was delivering into a chaotic, hyper-growth environment with no consistent delivery rhythm, so stakeholders had little confidence in pace or predictability.",
-            "**Solution:** I established a common operating model that standardised sprint practices, planning rhythms, backlog refinement, and delivery reporting. It lifted delivery pace and gave stakeholders a clear, predictable view of progress."
+            "**Problem:** The squad was standing up a brand-new content-creator product inside a hyper-growth company with no established delivery rhythm, and needed both a technical delivery lead and a hands-on people manager to onboard, and develop the team while the company scaled around them.",
+            "**Solution:** I took ownership of both sides - running onboarding, coaching engineers through day-to-day direction and performance, and establishing a common operating model (sprint practices, planning rhythms, backlog refinement, delivery reporting) that lifted delivery pace and gave stakeholders confidence in quality and predictability."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Ran all Scrum ceremonies end-to-end (planning, standups, reviews, retrospectives) and owned the full delivery lifecycle from discovery through to production.",
-            "Managed complex cross-team dependencies and integration challenges, keeping engineering, product, data, and marketing aligned through structured coordination."
+            "Owned the full delivery lifecycle from discovery through production: scoped MVPs, managed technical trade-offs, ran planning and backlog refinement, coordinated releases.",
+            "Ran an internal incubator with a designer, product manager, and commercial lead, using prototypes and technical spikes to validate ideas before committing to build.",
+            "Managed complex dependencies across distributed teams, keeping engineering, product, data, and marketing aligned through structured coordination."
           ],
           "paras": []
         }
@@ -71,22 +72,22 @@ window.RESUME = {
       "dates": "Nov 2019 — Nov 2020",
       "place": "Brisbane, QLD",
       "intro": [
-        "Suncorp is an ASX-listed financial services and insurance group operating in a highly regulated environment. Embedded in Data Engineering, I ran delivery for a large-scale telephony and data platform migration across the entire organisation and its affiliate brands."
+        "Suncorp is one of Australia's largest financial services and insurance groups. Embedded in Data Engineering, I ran delivery for a large-scale telephony and data platform migration across the organisation and its affiliate brands."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** A compliance-critical platform migration had to land across four engineering teams, offshore contractors, and multiple vendors, through COVID-19, corporate restructuring, and a shifting regulatory environment.",
-            "**Solution:** I introduced delivery governance, dependency management, cross-team communication patterns, visual progress reporting, and delivery rhythms; and kept the program on track while verifying every solution met data-governance and compliance standards."
+            "**Problem:** A compliance-critical migration had to land across four engineering teams, including offshore contractors, plus Infrastructure, Security, and external vendors, through COVID-19, corporate restructuring, and a shifting regulatory environment.",
+            "**Solution:** I introduced delivery governance frameworks, dependency management, cross-team communication patterns, and delivery rhythms, coordinating the distributed and offshore engineering teams directly to keep the program on track and compliant."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Coordinated four engineering teams including offshore contractors, working directly with Infrastructure, Security, business units, and external vendors.",
-            "Mapped data lifecycles and dependencies with visual artefacts (user journeys, architecture diagrams, user story maps) to build shared understanding across technical and business stakeholders."
+            "Coordinated four engineering teams, including offshore contractors, working directly with Infrastructure, Security, business units, and external vendors.",
+            "Verified technical solutions met data-governance and compliance standards, identifying and escalating risks early."
           ],
           "paras": []
         }
@@ -113,8 +114,8 @@ window.RESUME = {
       "intro": [],
       "sections": [],
       "bullets": [
-        "Built the product management function from scratch and led a small cross-functional team of 5 (product management, data engineering, design).",
-        "Facilitated executive and board-level strategy planning to define business-level functional and non-functional requirements. Introduced behavioural analytics (Pendo, FullStory) to move decisions from assumption-driven to evidence-driven."
+        "Built the product management function from scratch and directly managed a team of 5 (product managers, designer, data engineer), establishing discovery rhythms, roadmapping, and prioritisation frameworks.",
+        "Partnered with engineering to design and deliver AI-powered people-analytics features using natural language processing, running internal pilots before external launch."
       ]
     },
     {
@@ -126,7 +127,7 @@ window.RESUME = {
       "sections": [],
       "bullets": [
         "Led a cross-functional engineering team to deliver a new payments capability with a deep integration to an external payments provider, from scope shaping through to release.",
-        "Coached product owners to run customer interviews and discovery workshops, and owned the team's ways of working and agile ceremonies."
+        "Coached product owners and designers to run customer interviews and discovery workshops, and owned the team's agile ceremonies and ways of working."
       ]
     },
     {
@@ -137,9 +138,8 @@ window.RESUME = {
       "intro": [],
       "sections": [],
       "bullets": [
-        "As the primary engineering and delivery partner to Flight Centre Travel Group, owned end-to-end delivery of its online hotel and accommodation booking platform, a core digital business generating $5M+ in monthly revenue.",
-        "Delivered to the client as a vendor: managed the client relationship with senior stakeholders, absorbed changing priorities, and directly led a team of 5 developers across 10+ customer-facing products and 20+ APIs.",
-        "Ran a multi-year transformation across technical excellence (CI/CD, automated testing, pair programming, code review), ways of working (Kanban, planning, backlogs, delivery metrics), and product development - turning a reactive team into a predictable one."
+        "Directly led a team of 5 developers delivering Flight Centre's online hotel and accommodation booking platform, a core digital business generating $5M+ in monthly revenue across 10+ products and 20+ APIs.",
+        "Ran a three-stage technical transformation: modern source control, automated testing, CI/CD, pair programming, and code review; then delivery rhythms and Kanban; then a shift from feature factory to outcome-driven product teams."
       ]
     }
   ],
@@ -159,12 +159,12 @@ window.RESUME = {
   "certifications": [
     {
       "qualification": "Project Management Professional (PMP)",
-      "org": "",
+      "org": "2012",
       "note": ""
     },
     {
       "qualification": "Certified ScrumMaster (CSM)",
-      "org": "",
+      "org": "2012",
       "note": ""
     }
   ],

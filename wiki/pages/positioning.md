@@ -34,6 +34,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Senior Product Owner / Delivery Lead (insurance) | Senior Product Owner - Delivery Lead                     | Product definition + delivery execution intersection; intelliHR (built PM function from scratch, product+engineering intersection) as primary PO anchor; Go1 (PO+Scrum Master in one person, end-to-end backlog); Suncorp (regulated financial services/insurance) for domain credibility; Xero API Program for delivery at scale                                                                                                         |
 | Technology Delivery Manager (media/broadcast)    | Technology Delivery Manager                              | Data + software delivery with offshore/vendor coordination; Suncorp as the offshore + vendor + data-platform anchor (one role covering all three JD priorities); Xero API Program for delivery scale + governance cadence; 2sol for end-to-end ownership + quality/release readiness; Emedia kept full for high-availability content/entertainment-events adjacency. Senior-manager altitude (reports to Head of Technology), NOT Head-of |
 | PMO / Delivery Office analyst (contract, support-level) | Program Analyst                                     | Deliberate *downward* altitude shift — the one framing so far that undersells rather than oversells seniority. Leads with hands-on analytical/reporting artefacts (self-built SQL dashboards, Jira Data Quality Score, Unified Burndown as integrated schedule) rather than "led dozens of teams / EGM-level" scale claims, to avoid reading as overqualified for an analyst/support role reporting into PMs |
+| Engineering delivery leadership (scale-up, permanent) | Engineering Delivery Manager | Multi-squad delivery + direct people leadership in one role — coaching *and* hiring/onboarding/performance management, not just delivery coordination. Leads with Go1 (hands-on EM-style people ownership through hyper-growth) and Xero (coaching 10+ teams' cadence/capacity at scale). Distinct from the "Head of Delivery" and "Software Engineering Manager" framings in tone: states a genuine personal preference for scale-up pace over enterprise bureaucracy rather than just claiming adaptability to either. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
 
@@ -130,6 +131,15 @@ Supporting statement variants (individual):
   objectives into clear backlogs, keeping delivery moving through complex dependencies, and giving
   stakeholders at every level the visibility they need to make decisions with confidence."
 
+## Personal preference note (confirmed 2026-07-09, Karmo cover letter)
+
+Alan stated a genuine personal preference in the Karmo cover letter, not just an adaptability claim:
+smaller, fast-paced scale-up companies are his "real sweet spot," preferred over large enterprise
+environments (Xero, Suncorp) for the ability to skip bureaucracy, work closely with people, and
+build momentum quickly. Useful signal for any future scale-up application — this can be stated
+directly rather than framed as "I can adapt to either." Don't overuse it for enterprise/regulated
+applications where the opposite framing (comfort with governance and complexity) is the better fit.
+
 ## Years-of-experience note
 Summaries use both **"10+ years"** and **"15+ years."** The engineering career started in **2003**
 (~23 years to 2026), so 15+ is the total-career figure; 10+ counts delivery-leadership years (from
@@ -224,6 +234,21 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   claim Azure/Terraform hands-on. Budget/project-finances is the soft spot among the *required* items
   (financial forecasting unevidenced) — frame via 2sol's $5M+ commercial ownership, don't claim formal
   budget tooling.
+
+- **Engineering Delivery Manager role at a scale-up (Karmo 2026-07-09)** → lead Go1 *hyper-growth
+  squad of 8* (direct hiring/onboarding/coaching/performance-management ownership, not just
+  delivery coordination) as the primary people-leadership anchor + Xero *coaching 10+ teams* on
+  cadence/capacity/DORA reporting as the multi-squad, leadership-visible-metrics anchor + Suncorp
+  *offshore/distributed team coordination* as the literal match for "including offshore or
+  distributed teams" + 2sol *technical transformation* (CI/CD, testing, pair programming, code
+  review) for the "technical background in Software Engineering" highly-regarded item. Headline:
+  "Engineering Delivery Manager". Cover letter: Amber-style hook (name the challenge, ground
+  immediately in company examples) rather than the "JD interpretation + match claim" senior
+  formula — better suited to the JD's energetic, non-corporate scale-up tone. Automotive/mobility/
+  fleet industry is a genuine, unbridged gap (JD flags it "highly regarded," not required) —
+  acknowledge plainly (Amber's "curious and honest" device), don't force an analogy. AI-tool
+  exposure (Copilot/Claude/Gemini) is a real strength here, not a gap — name it directly via Xero
+  AI for Customers + intelliHR NLP analytics + current daily use of AI coding tools.
 
 ## Performance review insights (Xero, 2026-06)
 
@@ -320,3 +345,16 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
   interpretation + match claim" and "When I read..." — those lead with the role or a JD signal; this
   leads with the friction. Good fit for mid-level contract/execution roles where the value is
   unblocking delivery. Keep it short — pairs well with a tight three-bullet body and no gap paragraph.
+- **Direct scale-up preference + immediate-availability close** (used in Karmo cover letter): rather
+  than only proving fit against enterprise experience, state a genuine personal preference for
+  smaller, fast-paced companies up front ("my real sweet spot, and personal preference, is within
+  smaller, fast-paced companies... I thrive in scale-up environments where I can skip the
+  bureaucracy"), pairing enterprise anchors (Xero, Suncorp) as proof of range rather than the main
+  pitch. Closes with a direct statement of immediate availability instead of the standard
+  low-pressure "I'd welcome the chance to connect" close. Structural format for this letter:
+  "Re:" subject line under the salutation (same device as Lab3) + casual exclamation-point greeting
+  ("Greetings Karmo Team!") + a bolded-label bullet block ("Squad leadership & coaching:",
+  "Delivery optimisation & metrics:", "Modern AI workflows:") rather than plain bullets or prose —
+  more scannable, matches the JD's own emoji-header, high-energy scale-up tone. Use when the target
+  company's JD voice is casual/energetic and the role genuinely matches the candidate's stated
+  preference — don't force the preference-statement device onto enterprise/regulated applications.

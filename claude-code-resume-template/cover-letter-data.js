@@ -5,21 +5,21 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Senior Project Manager",
+  "title": "Engineering Delivery Manager",
   "date": "9 July 2026",
   "recipient": {},
-  "salutation": "Dear Lab3 Hiring Team,\nRe: Senior Project Manager role application",
+  "salutation": "Re: Application for Engineering Delivery Manager\nGreetings Karmo Team!",
   "paragraphs": [
-    "Getting complex technology projects across the line inside a large enterprise, with all its layers of process, governance, and competing stakeholders, usually comes with a lot of friction. Keeping project delivery predictable while managing complex governance and technical teams is where I bring the most value.",
-    "Here is how my background maps to the role:",
+    "I’ve spent my career helping engineering teams ship great software predictably without sacrificing team culture. While my recent work includes enterprise environments like Xero and Suncorp, my real sweet spot, and personal preference, is within smaller, fast-paced companies. I thrive in scale-up environments where I can skip the bureaucracy, work closely with people, and help teams build real momentum.",
+    "My background bridges hands-on tech and delivery leadership. I started as a software engineer and systems architect before moving into delivery roles, which means I speak the same language as your developers and can easily balance technical constraints with product priorities.",
+    "A few things I’d bring to the role:",
     [
-      "At Xero I run company-wide programs across dozens of engineering teams, reporting up to EGM-level leadership. I built the Unified Burndown and the Jira dashboards leadership uses to track delivery, and I did hands-on DevOps uplift as part of a division-wide CI/CD program, DORA metrics, observability, SLOs, and progressive delivery. Governance, agile, and DevOps in the same delivery.",
-      "At Suncorp, an ASX-listed financial services group, I delivered a compliance-critical telephony and data platform migration across four engineering teams, offshore contractors, and multiple vendors, coordinating directly with Infrastructure and Security through COVID-19 and a shifting regulatory environment. High governance, high complexity, no room to slip.",
-      "At 2sol I was the vendor. As Flight Centre's primary delivery partner, I owned end-to-end delivery of their hotel booking platform, a business generating $5M+ every month, managing the client relationship, absorbing changing priorities, and delivering within commercials."
+      "Squad leadership & coaching: At Go1 during hyper-growth, I led an 8-person squad end-to-end—handling hiring, onboarding, and coaching alongside sprint planning and daily delivery.",
+      "Delivery optimisation & metrics: At Xero, I coached EMs and tech leads across 10+ teams to streamline sprint rhythms, capacity planning, cycle time, and delivery metrics (e.g. DORA).",
+      "Modern AI workflows: I regularly use AI coding and delivery tools in my day-to-day work, so that side of your tech stack is already part of how I operate."
     ],
-    "In short, my contribution would be holding the governance, the delivery cadence, and the client relationship together, so complex projects land on time and at quality with everyone able to see where things stand.",
-    "I have not run Azure infrastructure projects with Terraform specifically. But I have spent years on the delivery and DevOps side of cloud platforms, CI/CD, observability, and infrastructure and security coordination, and I came up as a software engineer and systems architect, so the technical side is where I am comfortable.",
-    "If this alignment sounds like what you're looking for, I would welcome the chance to connect and learn more about the role."
+    "I don’t come from an automotive or fleet background, but I’ve repeatedly stepped into new domains, from e-learning and HR SaaS to fintech, and quickly built the delivery structures teams need to move fast and maintain quality.",
+    "I’m based in Brisbane and immediately available to start. I’d love the opportunity to connect, learn more about Karmo’s roadmap, and discuss how I can help your squads hit their stride."
   ],
   "signOff": "Kind regards,",
   "signature": ""

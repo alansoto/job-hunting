@@ -697,3 +697,63 @@ Expert (current).
 ## [2026-07-09] status update — Lab3, Senior Project Manager application submitted
 - Alan confirmed the Lab3 Senior Project Manager application has been submitted.
 - Updated `status: Submitted` / `outcome: Awaiting response` in meta.md and the outputs/tracker.md row.
+
+## [2026-07-09] apply (draft) — Karmo Engineering Delivery Manager
+- Permanent role at Karmo (Australia's largest car subscription provider), Brisbane CBD hybrid.
+  Reports to Director of Engineering; partners with CPO/Head of Product/Engineering Leaders.
+- Gap analysis: one of the cleanest matches to date. Multi-squad delivery leadership (Xero, Go1,
+  Suncorp), hands-on people leadership incl. hiring/onboarding/performance management (Go1,
+  intelliHR, 2sol), offshore/distributed team coordination (Suncorp — direct, literal match),
+  deep Jira/Confluence + DORA-metrics reporting practice, genuine software-engineering technical
+  background (2sol transformation, Emedia), hyper-growth scale-up experience (Go1), and real
+  AI-tool exposure (Xero AI for Customers, intelliHR NLP analytics, daily use of AI coding tools)
+  all directly evidenced, not bridged. Only real gap: automotive/mobility/fleet industry
+  experience, which the JD itself flags "highly regarded," not required.
+- Resume (narrative): headline "Engineering Delivery Manager". Narrative treatment (Challenge &
+  Impact + Key Contributions) for Xero, Go1, Suncorp — same cutline call as Lab3 (Suncorp narrated
+  despite sitting just outside the strict ~6-year window, because it's the direct
+  offshore/distributed-team evidence this JD explicitly asks for); plain-bullet entries for
+  Virgin, intelliHR, Console/Reapit, 2sol; Earlier holds Emedia + early Canada/Peru.
+- Cover letter: Amber-style hook (name the challenge of leading squads through fast growth, ground
+  immediately in Go1 + Xero examples) rather than the senior "JD interpretation + match claim"
+  formula — better suited to Karmo's energetic, non-corporate scale-up tone. Three bullets
+  (Suncorp offshore/distributed teams; 2sol technical background; AI-tool exposure) + synthesis
+  sentence + plain automotive/mobility gap acknowledgement (curious-and-honest device, no forced
+  bridge) + low-pressure close.
+- Ingest captured: new "Engineering Delivery Manager role at a scale-up" cheat-sheet entry in
+  [[positioning]]; Karmo gap-watch entry in [[keywords]] (automotive/mobility/fleet gap;
+  QA-specific coaching minor gap; otherwise a clean match).
+- Pages touched: [[positioning]], [[keywords]], [[log]] (draft stage — awaiting finalise).
+
+## [2026-07-09] ingest — Karmo Engineering Delivery Manager (resume + cover letter)
+- Resume: derived from the wiki, no new biographical facts. Reframed the Xero Unified Burndown
+  story per user edit to foreground migration scoping/roadmap-building ahead of coaching. Added
+  "Engineering Delivery Manager" cheat-sheet entry and a "Personal preference note" (genuine
+  scale-up-vs-enterprise preference, not just adaptability) to [[positioning]]; Karmo gap-watch
+  entry (automotive/mobility/fleet gap, QA-specific coaching minor gap) to [[keywords]].
+- Cover letter: user substantially rewrote the draft. Captured a new hook pattern — preference-
+  statement opener (states a genuine scale-up preference rather than proving pure adaptability) —
+  plus a new structural device (bolded-label bullet block + "Re:" subject line + casual greeting +
+  immediate-availability close instead of the standard low-pressure close). Added "Direct scale-up
+  preference + immediate-availability close" to [[positioning]] tailoring devices; new entry added
+  to [[cover-letter-examples]]. User confirmed what worked: the preference framing, casual tone,
+  subject-line + bullet structure, and the direct-gap-plus-availability close.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[index]], [[processed]]
+
+## [2026-07-09] apply (finalised) — Karmo Engineering Delivery Manager
+- Proofread via resume-proofreader subagent: found 4 small issues (US spelling "optimize" in both
+  the resume Profile and a cover-letter bullet, a missing terminal period in the resume Profile,
+  and a number-agreement error in the Suncorp descriptor line — "financial services and insurance
+  group" -> "groups"). No leaked internal markers. All four fixed before rendering.
+- PDFs generated via **build-narrative.js** (narrative format). Files: `Alan Soto - Engineering
+  Delivery Manager - Karmo - Resume.pdf` + `... - Cover Letter.pdf`, both in the application folder.
+- Archived markdown sources to raw/resumes/ (…-Karmo-Engineering-Delivery-Manager-Resume.md +
+  …-Cover-Letter.md); ingested both (see ingest entry above — no new biographical facts from the
+  resume; cover letter contributed a new hook pattern and structural device).
+- Wrote meta.md (status: Ready to send) and appended an outputs/tracker.md row.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[index]], [[processed]],
+  [[log]]
+
+## [2026-07-09] status update — Karmo, Engineering Delivery Manager application submitted
+- Alan confirmed the Karmo Engineering Delivery Manager application has been submitted.
+- Updated `status: Submitted` / `outcome: Awaiting response` in meta.md and the outputs/tracker.md row.
