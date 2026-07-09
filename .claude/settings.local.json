@@ -3,19 +3,10 @@
     "allow": [
       "Bash(echo *)",
       "Bash(mkdir *)",
-      "Bash(node *)",
-      "Bash(git *)",
-      "Skill(update-config)",
-      "Skill(update-config:*)",
-      "PowerShell(node claude-code-resume-template/build-narrative.js \"prototypes/lab3-senior-pm-narrative/\" \"Lab3\")",
-      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-09-lab3-senior-project-manager/ \"Lab3\")",
+      "Skill(update-config*)",
+      "PowerShell(node claude-code-resume-template/build-narrative.js *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)",
-      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-09-karmo-engineering-delivery-manager/)"
-    ],
-    "additionalDirectories": [
-      "c:\\repos\\job-hunting\\**",
-      "c:\\repos\\job-hunting\\applications"
+      "Bash(git commit *)"
     ]
   }
 }

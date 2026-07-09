@@ -4,27 +4,18 @@
       "Bash(node *)",
       "Bash(copy *)",
       "Bash(ls *)",
-      "Bash(mkdir *)",
       "Bash(Remove-Item *)",
       "Bash(git *)",
       "PowerShell(Copy-Item *)",
       "PowerShell(New-Item *)",
       "PowerShell(Remove-Item *)",
       "PowerShell(python *)",
-      "Edit(c:\\repos\\job-hunting\\*)",
-      "Write(c:\\repos\\job-hunting\\*)",
-      "Skill(update-config)",
       "Skill(update-config:*)",
       "WebFetch(domain:careers.arn.com.au)",
       "WebFetch(domain:www.linkedin.com)",
       "WebFetch(domain:au.linkedin.com)",
-      "Edit(/.claude/skills/apply/**)",
-      "PowerShell(& \"C:\\\\Users\\\\AlanSoto\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" *)",
-      "Read(//c/repos/job-hunting/applications/**)"
-    ],
-    "additionalDirectories": [
-      "c:\\repos\\job-hunting\\.claude\\commands",
-      "c:\\repos\\job-hunting\\.claude\\skills"
+      "Edit(/**)",
+      "PowerShell(& \"C:\\\\Users\\\\AlanSoto\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe\" *)"
     ]
   }
 }
