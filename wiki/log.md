@@ -757,3 +757,9 @@ Expert (current).
 ## [2026-07-09] status update — Karmo, Engineering Delivery Manager application submitted
 - Alan confirmed the Karmo Engineering Delivery Manager application has been submitted.
 - Updated `status: Submitted` / `outcome: Awaiting response` in meta.md and the outputs/tracker.md row.
+
+---
+
+## [2026-07-10] outcome — Magentus, Senior Delivery Lead: Rejected
+- Application submitted 2026-06-23; rejection received 2026-07-10.
+- `meta.md` and `outputs/tracker.md` updated to Closed / Rejected.

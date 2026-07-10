@@ -73,7 +73,7 @@ Feb 2017 - Feb 2018 · Brisbane, QLD
 - Coached product owners and designers to run customer interviews and discovery workshops, and owned the team's agile ceremonies and ways of working.
 
 ### 2sol Software Studios - Projects Lead
-Nov 2012 - Jan 2017 · Brisbane, QLD
+Nov 2012 - Jan 2017 · Brisbane, QLD 
 
 - Directly led a team of 5 developers delivering Flight Centre's online hotel and accommodation booking platform, a core digital business generating $5M+ in monthly revenue across 10+ products and 20+ APIs.
 - Ran a three-stage technical transformation: modern source control, automated testing, CI/CD, pair programming, and code review; then delivery rhythms and Kanban; then a shift from feature factory to outcome-driven product teams.
