@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-18
-source-count: 24
+last-updated: 2026-07-10
+source-count: 26
 ---
 
 # Keywords
@@ -32,7 +32,9 @@ enterprise system replacement · system replacement · infrastructure programme 
 data migration delivery · data migration governance · migration sequencing · compliance-critical delivery · vendor oversight ·
 APRA compliance · APRA audit · APRA-adjacent ·
 RAID management · website redevelopment · digital platform delivery · CMS platform · platform implementation ·
-product ownership · outcome-driven delivery · adviser platforms · customer-adviser platforms · business and technology bridging · intersection of product and delivery
+product ownership · outcome-driven delivery · adviser platforms · customer-adviser platforms · business and technology bridging · intersection of product and delivery ·
+discovery to embedment · embedment · structuring ambiguous problems · delivery discipline · pace and momentum ·
+customer and operational outcomes · Strategic Growth · fit-for-purpose governance
 
 ## Agile / ways of working
 Agile · Scrum · Kanban · sprint planning · standups · reviews · retrospectives · backlog
@@ -53,7 +55,7 @@ ticketing systems · e-commerce · security protocols · capacity planning · pe
 DORA metrics · Deployment Frequency · Lead Time for Changes · Change Failure Rate ·
 Time to Restore · observability · SLOs (Service Level Objectives) · on-call practices ·
 progressive delivery · developer experience (DX) · developer productivity · system health ·
-Code Red · CI/CD capability uplift · engineering practice uplift.
+Code Red · CI/CD capability uplift · engineering practice uplift · DevSecOps · security-aware delivery.
 
 ## GraphQL / Supergraph / API platform
 Supergraph · federated graph · subgraph · graph contract · GraphQL · domain modelling ·
@@ -103,7 +105,8 @@ events ticketing · regulated enterprise · hyper-growth scale-up · advice indu
 energy tech · home energy automation · IoT · Health IT · clinical software · clinical SaaS ·
 on-premises to cloud migration · on-premises to SaaS transformation · SaaS transformation · speed-to-market ·
 state government · government ICT modernisation · fines and penalty debt systems · cross-agency data sources ·
-enterprise data and integration platform *(2026-07-06)*.
+enterprise data and integration platform *(2026-07-06)* · mining · mining technology *(2026-06-25, early-career
+bridge via Barrick Gold only — not a core domain)*.
 
 ## Certifications / credentials (ATS-valuable)
 PMP · Certified ScrumMaster (CSM) · Masters of Project Management · Bachelor of Systems
@@ -138,6 +141,31 @@ Engineering · bilingual (English/Spanish) · full working rights.
 - **2026-06-16 — Halosoft (Head of Delivery):**
   - `mobile app delivery` — preferred experience. Not evidenced in wiki. No direct bridge.
   - `QA / quality assurance` — "software delivery and QA understanding" required. Implied by delivery practice (Console/Reapit "reliable and secure"; Go1 production releases) but never named as a standalone skill in any resume.
+
+- **2026-06-25 — Mining Tech / Clicks IT recruiter (Scrum Master, DevSecOps):**
+  - `mining` / `mining technology` industry — no current-career evidence. Bridge: early-career Software Engineer at Barrick Gold Corp, Canada (2003) — named directly in the cover letter. Thin bridge; do not overstate.
+  - `SAFe` / `SAFe SSM` — JD/recruiter context implied SAFe familiarity. Only CSM held. Bridged via Xero's scaled cross-team coordination experience ("I already speak the language"), not a certification claim.
+
+- **2026-06-22 — Auto & General (Development Manager):**
+  - `MySQL` — named relational database. No evidence beyond generic SQL (Emedia/Xero).
+  - `Splunk`, `New Relic` — named monitoring/observability tools. No named-tool evidence; only generic observability/DORA-metrics practice (Xero Code Red).
+
+- **2026-06-23 — Magentus (Senior Delivery Lead):**
+  - `GitHub` — named explicitly ("GitHub workflows"). No evidence; wiki only names Jira/Confluence/Asana/Miro as tools.
+  - `TDD`, `BDD` — named test practices. Adjacent via generic "automated testing" (2sol), not named specifically.
+  - `JPD` (Jira Product Discovery), `Compass` — specific Atlassian products beyond plain Jira. No evidence.
+
+- **2026-06-16 — Stake (Engineering Technical Lead - Payments):**
+  - Investment/trading platform domain (ASX-listed brokerage) — genuine new vertical. Adjacent via "fintech-adjacent" tag and Xero payments (US Bills) work, but no direct wealth/trading-platform evidence.
+
+- **2026-07-06 / 2026-07-07 — Karlka & Glen Fisk (Data Platform and Integration PM, same government program):**
+  - `CRM` (Customer Relationship Management) — named explicitly and repeatedly; also recurs in the Resolution Life and BlackRoc JDs. No named CRM platform experience anywhere in the wiki. Adjacent via API/integration delivery work at Xero. Recurring enough across JDs to track as its own gap.
+
+- **2026-07-07 — Paxus (Program Analyst):**
+  - `PMBoK`, `BABoK`, `MSP`, `MoP` — named delivery-framework acronyms alongside Scrum/SAFe/Prince2. Only Agile/Scrum/Kanban are evidenced as named frameworks (Prince2 already tracked above under Best Practice Software).
+
+- **2026-06-24 — Lime Recruitment (Delivery Lead, HR Transformation):**
+  - `HRIS` / payroll systems — named specifically as "highly regarded." Adjacent via existing HR SaaS domain evidence (intelliHR); not a hard gap, but the specific system terms aren't named anywhere in the wiki.
 
 - **2026-06-16–17 — Randstad Digital (Project Manager):**
   - `Prince2` — required as the named formal methodology. Not held (PMP lapsed; Prince2 not mentioned in any resume). Bridge: PMP + Masters of Project Management as equivalent frameworks. Acknowledge gap and frame PMP + Masters as substitute.

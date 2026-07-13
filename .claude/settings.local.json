@@ -8,7 +8,9 @@
       "Bash(git*)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(awk '/^## /{if\\(name\\)print name\": \"count\" bullets\"; name=$0; count=0; next} /^- /{count++} END{print name\": \"count\" bullets\"}' wiki/pages/experience.md)",
+      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-07-homerepair-program-delivery-lead/ \"HomeRepair\")"
     ]
   }
 }

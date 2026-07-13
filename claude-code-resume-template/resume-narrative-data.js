@@ -1,36 +1,36 @@
 window.RESUME = {
   "name": "Alan Soto",
-  "title": "Engineering Delivery Manager",
+  "title": "Program Delivery Lead",
   "location": "Brisbane, QLD, Australia",
   "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
-  "summary": "Engineering Delivery Manager with 15+ years of experience leading software delivery across fast-moving scale-ups and enterprise platforms. Grounded in a foundational background as a software engineer and systems architect, I move seamlessly between technical details and business priorities. Most recently at Xero, I coached engineering managers and tech leads across 10+ squads to optimise sprint rhythms, capacity planning, and delivery metrics (including Jira dashboards and DORA metrics). Known for leading distributed and offshore squads, untangling delivery bottlenecks, and providing leadership with clear, predictable visibility into progress.",
+  "summary": "Program delivery lead with 15+ years turning ambiguous, complex initiatives into structured, governed programs that deliver measurable outcomes. Currently Lead Technical Program Manager at Xero, where I own end-to-end delivery across dozens of teams and build the integrated delivery plans, governance frameworks, and executive reporting that keep a company-wide transformation program moving. I've also delivered inside Suncorp Group directly, coordinating a compliance-critical transformation across the whole organisation through major disruption - so I already know the environment HomeRepair sits inside.",
   "skills": [],
   "experience": [
     {
       "company": "Xero",
       "role": "Lead Technical Program Manager",
-      "dates": "Mar 2022 — Present",
+      "dates": "Mar 2022 — Jul 2026",
       "place": "Brisbane, QLD",
       "intro": [
-        "Xero is a global cloud accounting platform serving over 3 million customers. I lead program delivery across dozens of engineering teams, and coach engineering managers and tech leads who run them day to day, reporting to General Managers, Heads of Product, and EGM-level leadership."
+        "Xero is a global cloud accounting platform serving over 3 million customers. I own end-to-end delivery of a company-wide transformation program spanning dozens of engineering teams, from discovery and scoping through implementation and embedment, reporting to General Managers, Heads of Product, and EGM-level leadership."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** Xero needed to migrate dozens of teams off legacy APIs and databases onto a new federated API platform, but no domain team knew what was actually in scope for their part of the migration or how to sequence it, so the program had no shared roadmap and engineering managers and tech leads had no consistent cadence for capacity planning or delivery reporting.",
-            "**Solution:** I worked with domain teams to scope their piece of the migration and define a workable sequence for moving each API and database, then coached engineering managers and tech leads across 10+ teams on cycle time, capacity planning, and delivery cadence. That scoping work became the Unified Burndown, a cross-division roadmap and reporting layer that turned a fuzzy migration into a program leadership could plan against and see progress on."
+            "**Problem:** Xero needed to run a federated API platform modernisation across every engineering division with no shared view of scope, dependencies, or schedule, so there was no real visibility of program delivery status.",
+            "**Solution:** I built the program's governance layer, a Unified Burndown covering every major division, a cross-domain dependency intake, and the milestone reporting EGM leadership uses, turning a strategic initiative into an executable, trackable program with a clear owner for every piece of it."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Personally built automated dashboards tracking DORA metrics (Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore) and facilitated engineering-practice sessions establishing SLOs, on-call practices, and progressive delivery as part of a division-wide CI/CD uplift.",
-            "Launched a Xero-wide Jira optimisation initiative, achieving consistent Jira use at initiative and epic level and a division-wide Jira Data Quality Score dashboard, cutting planning and reporting toil across the organisation.",
-            "Partnered with Product Owners and Heads of Product to shape backlogs and align delivery roadmaps with business priorities."
+            "Translated an ambiguous, cross-domain problem into a structured delivery plan: defined the thin-slice entry point that took the platform to its first production use, then sequenced the dependent migrations as concrete work packages, sessions, and dates.",
+            "Embedded governance and reporting standards across the program, including automated delivery dashboards and a division-wide Jira Data Quality Score that cut reporting toil.",
+            "Proactively managed risk, issues, and dependencies across a federated model of dozens of teams, holding senior stakeholders accountable without direct authority."
           ],
           "paras": []
         }
@@ -43,23 +43,22 @@ window.RESUME = {
       "dates": "Nov 2020 — Mar 2022",
       "place": "Brisbane, QLD",
       "intro": [
-        "Go1 is a global e-learning SaaS company in hyper-growth, chaotic and fast-moving at every level. As team lead and Scrum Master, I owned a cross-functional squad of 8 (6 engineers, 1 designer, 1 product owner) end to end, including the people side: hiring, onboarding, coaching, and performance."
+        "Go1 is a global e-learning SaaS platform that was scaling very fast and messily. I led a cross-functional squad of 8 (6 engineers, 1 designer, 1 product owner), taking end-to-end ownership of a new content-creator product."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** The squad was standing up a brand-new content-creator product inside a hyper-growth company with no established delivery rhythm, and needed both a technical delivery lead and a hands-on people manager to onboard, and develop the team while the company scaled around them.",
-            "**Solution:** I took ownership of both sides - running onboarding, coaching engineers through day-to-day direction and performance, and establishing a common operating model (sprint practices, planning rhythms, backlog refinement, delivery reporting) that lifted delivery pace and gave stakeholders confidence in quality and predictability."
+            "**Problem:** The squad was delivering into a chaotic, hyper-growth environment with no consistent delivery rhythm, so stakeholders had little confidence in pace or predictability.",
+            "**Solution:** I established a common operating model, sprint practices, planning rhythms, backlog refinement, and delivery reporting, that lifted delivery pace and gave stakeholders a clear, predictable view of progress and quality."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Owned the full delivery lifecycle from discovery through production: scoped MVPs, managed technical trade-offs, ran planning and backlog refinement, coordinated releases.",
-            "Ran an internal incubator with a designer, product manager, and commercial lead, using prototypes and technical spikes to validate ideas before committing to build.",
-            "Managed complex dependencies across distributed teams, keeping engineering, product, data, and marketing aligned through structured coordination."
+            "Owned the full delivery lifecycle from discovery through production and embedment: scoped the MVP, managed trade-offs, and coordinated releases.",
+            "Ran an internal incubator using prototypes and technical spikes to structure ambiguous ideas and validate them before committing to build."
           ],
           "paras": []
         }
@@ -68,26 +67,26 @@ window.RESUME = {
     },
     {
       "company": "Suncorp Group",
-      "role": "Delivery Coach",
+      "role": "Iteration Manager / Delivery Coach",
       "dates": "Nov 2019 — Nov 2020",
       "place": "Brisbane, QLD",
       "intro": [
-        "Suncorp is one of Australia's largest financial services and insurance groups. Embedded in Data Engineering, I ran delivery for a large-scale telephony and data platform migration across the organisation and its affiliate brands."
+        "The same parent group HomeRepair sits under today. Embedded in Data Engineering, I ran delivery for a large-scale platform transformation project across the entire organisation and its affiliate brands."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** A compliance-critical migration had to land across four engineering teams, including offshore contractors, plus Infrastructure, Security, and external vendors, through COVID-19, corporate restructuring, and a shifting regulatory environment.",
-            "**Solution:** I introduced delivery governance frameworks, dependency management, cross-team communication patterns, and delivery rhythms, coordinating the distributed and offshore engineering teams directly to keep the program on track and compliant."
+            "**Problem:** A compliance-critical transformation had to land across four engineering teams, offshore contractors, and multiple vendors, through COVID-19, a corporate restructure, and a shifting regulatory environment, with no consistent governance or reporting rhythm in place.",
+            "**Solution:** I created artefacts aligned with Suncorp's delivery governance frameworks, dependency management, delivery rhythms, and progress reporting, and kept it on track and accountable through every disruption, while verifying every solution met data-governance and compliance standards."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Coordinated four engineering teams, including offshore contractors, working directly with Infrastructure, Security, business units, and external vendors.",
-            "Verified technical solutions met data-governance and compliance standards, identifying and escalating risks early."
+            "Coordinated four engineering teams including offshore contractors, working directly with Infrastructure, Security, business units, and external vendors to keep the program moving.",
+            "Built shared understanding across technical and business stakeholders using visual artefacts, user journeys, architecture diagrams, and story maps, to map data lifecycles and surface dependencies early."
           ],
           "paras": []
         }
@@ -114,8 +113,8 @@ window.RESUME = {
       "intro": [],
       "sections": [],
       "bullets": [
-        "Built the product management function from scratch and directly managed a team of 5 (product managers, designer, data engineer), establishing discovery rhythms, roadmapping, and prioritisation frameworks.",
-        "Partnered with engineering to design and deliver AI-powered people-analytics features using natural language processing, running internal pilots before external launch."
+        "Built the product delivery function from scratch and directly managed a cross-functional team of 5, establishing discovery rhythms, roadmapping, and prioritisation frameworks.",
+        "Facilitated executive and board-level strategy workshops (Blue Ocean Framework), then translated the resulting strategy into a structured, prioritised delivery plan; partnered across design, customer success, sales, and engineering to drive adoption of new capabilities."
       ]
     },
     {
@@ -127,7 +126,7 @@ window.RESUME = {
       "sections": [],
       "bullets": [
         "Led a cross-functional engineering team to deliver a new payments capability with a deep integration to an external payments provider, from scope shaping through to release.",
-        "Coached product owners and designers to run customer interviews and discovery workshops, and owned the team's agile ceremonies and ways of working."
+        "Coached product owners to run customer interviews and discovery workshops, and owned the team's ways of working and agile ceremonies."
       ]
     },
     {
@@ -138,15 +137,15 @@ window.RESUME = {
       "intro": [],
       "sections": [],
       "bullets": [
-        "Directly led a team of 5 developers delivering Flight Centre's online hotel and accommodation booking platform, a core digital business generating $5M+ in monthly revenue across 10+ products and 20+ APIs.",
-        "Ran a three-stage technical transformation: modern source control, automated testing, CI/CD, pair programming, and code review; then delivery rhythms and Kanban; then a shift from feature factory to outcome-driven product teams."
+        "As the primary delivery partner to Flight Centre Travel Group, owned end-to-end delivery of its online hotel and accommodation booking platform, a core digital business generating $5M+ in monthly revenue.",
+        "Directly led a team of 5 developers across 10+ customer-facing products and 20+ APIs, and ran a multi-year transformation across technical excellence, ways of working, and product development that turned a reactive team into a predictable one."
       ]
     }
   ],
-  "earlier": "I began my career as a software engineer and systems architect. At Emedia Campaigns (2006-2012) I designed and maintained high-availability ticketing, booking, and payment systems for major events (V8 Supercars, Byron Bay Blues Festival, Bridge to Brisbane), engineered for stability under heavy simultaneous traffic, and wrote and optimised the production SQL behind them. Earlier still, I worked as a software engineer in Canada (including Barrick Gold) and Peru. This is where I learned to read architecture and infrastructure directly.",
+  "earlier": "I began my career as a software engineer and systems architect. At Emedia Campaigns (2006 - 2012) I designed and maintained high-availability ticketing, booking, and payment systems for major events (V8 Supercars, Byron Bay Blues Festival, Bridge to Brisbane), engineered for stability under heavy simultaneous traffic, and wrote and optimised the production SQL behind them. Earlier still, I worked as a software engineer in Canada (including Barrick Gold) and Peru.",
   "education": [
     {
-      "qualification": "Masters of Project Management",
+      "qualification": "Master of Project Management",
       "org": "Queensland University of Technology",
       "note": "Dean's Award, 7.0 GPA"
     },

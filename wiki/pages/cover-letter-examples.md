@@ -170,3 +170,25 @@ Entry format is maintained by `/ingest`.
 **Tone markers:** "so I can skip the bureaucracy, work closely with people, and help teams build real momentum" — casual, direct language matching Karmo's own emoji-header JD tone. "so that side of your tech stack is already part of how I operate" — closes the AI-tools bullet by mapping directly onto Karmo's "highly regarded" AI-exposure ask. "I'm based in Brisbane and immediately available to start" — a harder, more concrete close than the standard low-pressure "I'd welcome the chance to connect."
 **Gap acknowledgement:** Automotive/fleet industry gap stated in one plain sentence ("I don't come from an automotive or fleet background"), immediately pivoted to a track record of repeatedly entering new domains (e-learning, HR SaaS, fintech) and building delivery structure fast. Standard [[positioning]] "new-industry gap + environment match pivot" device, compressed to one sentence, paired with the immediate-availability close rather than a soft "welcome the chance to connect" line.
 **What worked:** User confirmed — the scale-up preference framing, the casual tone/greeting, the subject-line + bolded-label bullet structure, and the direct gap acknowledgement paired with an immediate-availability close (rather than the standard low-pressure close). See [[positioning]] "Direct scale-up preference + immediate-availability close" device.
+
+---
+
+### HomeRepair (Suncorp Group subsidiary) — Program Delivery Lead (2026-07-10)
+
+**Role level:** senior (Strategic Growth team, business-wide transformation program)
+**Hook pattern:** "Re:" subject line under the salutation (Lab3/Karmo device) + a one-line role statement, then a direct parent-company hook naming the Suncorp Group connection plainly ("I have already delivered projects within Suncorp Group... this gives me a solid head start on the delivery standards and organisational context.") before any JD-interpretation paragraph. The parent-company fact does the hook's work instead of a JD-interpretation or pain-point framing.
+**Body format:** Role statement + parent-company hook paragraph + one-line JD-interpretation/match-claim paragraph + transition line ("Here is how my background maps to what you are looking for:") + three prose paragraphs, one per company (Suncorp, Xero, Go1), each ending on a forward-looking sentence + closing synthesis line + one-sentence gap acknowledgement + immediate-availability close. ~280 words, prose throughout rather than bullets.
+**Tone markers:** Casual and direct - "Ultimately, my strength is keeping things organised and moving forward, making sure big plans actually turn into delivered outcomes." "I've learned to drive accountability by being genuinely useful to them rather than just policing deadlines." Close: "I am available to start immediately. If this sounds like the right fit for the role, I would love to connect..." - states availability plainly per the wiki's Availability note rather than as a scale-up-specific tone device.
+**Gap acknowledgement:** Technology-led vs. business/operational-transformation framing stated in one plain sentence, no separate pivot paragraph - severity is low given the direct Suncorp employment history already closes most of the gap.
+**What worked:** User confirmed - the casual tone throughout, and the immediate-availability close.
+
+---
+
+### Mining Tech (via Clicks IT recruiter) — Scrum Master, DevSecOps (2026-06-25)
+
+**Role level:** mid/senior (recruiter-placed, mining technology organisation, early-stage DevSecOps practice)
+**Hook pattern:** Context-setting opener naming the exact recruiter/JD framing ("stuck in reactive mode, juggling manual processes, inconsistent environments, and early-stage DevSecOps practices"), then a one-line personal-fit claim before moving straight into evidence.
+**Body format:** One-line role statement + JD-pain-point paragraph + transition line ("Three engagements are directly relevant:") + three bullets (Xero coaching/DORA dashboards; Go1 delivery-model-from-scratch + Virgin Australia pattern-match aside; Suncorp four-team offshore/compliance migration) + synthesis line + one gap paragraph (mining domain + SAFe vs CSM) + low-pressure close. ~230 words.
+**Tone markers:** "the contribution was the same: not more process, but clearer cadence, better visibility, and genuine ownership embedded in the team" — synthesis line tying the three bullets together. "Mining is not entirely new to me either. I started my professional engineering journey with Barrick Gold in Canada." — industry-gap bridge via early-career fact already in [[experience]].
+**Gap acknowledgement:** Two gaps named in the same short paragraph: mining-industry unfamiliarity (bridged via Barrick Gold Canada, 2003) and SAFe SSM vs held CSM certification (bridged by claiming the scaled-program experience at Xero as equivalent fluency). Directly stated, not hedged.
+**What worked:** n/a — backfilled via `/lint` on 2026-07-10 (file existed in `raw/` but was missed by `/ingest` at the time); user had no strong preference when asked retroactively.

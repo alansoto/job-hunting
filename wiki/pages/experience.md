@@ -19,8 +19,9 @@ same history is reframed under different target titles, [[skills]] for the skill
 
 ---
 
-## Xero — Mar 2022 to Present
+## Xero — Mar 2022 to Jul 2026
 **Location:** Brisbane (remote) *(confirmed 2026-06-16; the Melbourne entries on two resumes are errors).*
+**Employment ended:** July 2026 *(confirmed 2026-07-10)* — Alan is available immediately for new roles. See [[positioning]] "Availability note" for how to state this in cover letters.
 **Company:** Global cloud accounting software platform; ~4,500+ employees.
 **Official title:** **Lead Technical Program Manager** — this is the *only* actual title held at
 Xero *(confirmed 2026-06-16)*. Every other label seen on the resumes — Senior Agile Coach, Staff

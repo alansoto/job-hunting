@@ -5,21 +5,21 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Engineering Delivery Manager",
-  "date": "9 July 2026",
+  "title": "Program Delivery Lead",
+  "date": "10 July 2026",
   "recipient": {},
-  "salutation": "Re: Application for Engineering Delivery Manager\nGreetings Karmo Team!",
+  "salutation": "Re: Program Delivery Lead application\nDear Hiring Team,",
   "paragraphs": [
-    "I’ve spent my career helping engineering teams ship great software predictably without sacrificing team culture. While my recent work includes enterprise environments like Xero and Suncorp, my real sweet spot, and personal preference, is within smaller, fast-paced companies. I thrive in scale-up environments where I can skip the bureaucracy, work closely with people, and help teams build real momentum.",
-    "My background bridges hands-on tech and delivery leadership. I started as a software engineer and systems architect before moving into delivery roles, which means I speak the same language as your developers and can easily balance technical constraints with product priorities.",
-    "A few things I’d bring to the role:",
-    [
-      "Squad leadership & coaching: At Go1 during hyper-growth, I led an 8-person squad end-to-end—handling hiring, onboarding, and coaching alongside sprint planning and daily delivery.",
-      "Delivery optimisation & metrics: At Xero, I coached EMs and tech leads across 10+ teams to streamline sprint rhythms, capacity planning, cycle time, and delivery metrics (e.g. DORA).",
-      "Modern AI workflows: I regularly use AI coding and delivery tools in my day-to-day work, so that side of your tech stack is already part of how I operate."
-    ],
-    "I don’t come from an automotive or fleet background, but I’ve repeatedly stepped into new domains, from e-learning and HR SaaS to fintech, and quickly built the delivery structures teams need to move fast and maintain quality.",
-    "I’m based in Brisbane and immediately available to start. I’d love the opportunity to connect, learn more about Karmo’s roadmap, and discuss how I can help your squads hit their stride."
+    "I am applying for the Program Delivery Lead role on your Strategic Growth team.",
+    "I have already delivered projects within Suncorp Group (Data Engineering), coordinating a critical compliance transformation; this gives me a solid head start on the delivery standards and organisational context.",
+    "To me, this role is about taking big, ambiguous strategic goals and turning them into clear, structured delivery plans. That is exactly the kind of work I have built my career on.",
+    "Here is how my background maps to what you are looking for:",
+    "At Suncorp Group, I led the delivery of a large-scale telephony platform transformation. This meant coordinating four different engineering teams, offshore contractors, and external vendors through both the pandemic and a major corporate restructure. I set up the basic governance and progress reporting from scratch aligned with larger corporate delivery frameworks, giving stakeholders a clear, simple view of risks before they became issues.",
+    "At Xero, I led end-to-end delivery for a company-wide API modernisation program involving dozens of teams. To keep everyone aligned, I built an integrated delivery plan that maps out milestones, owners, and dependencies across our engineering divisions. Because I don't have direct authority over these teams, I've learned to drive accountability by being genuinely useful to them rather than just policing deadlines.",
+    "At Go1, I owned a new creator product from initial discovery right through to launch. I built the planning rhythms and delivery standards from the ground up, taking a fast, messy startup environment and making it predictable and steady.",
+    "Ultimately, my strength is keeping things organised and moving forward, making sure big plans actually turn into delivered outcomes.",
+    "While most of my transformation experience has been on the technology side rather than operational programs, the core discipline is very similar: structuring ambiguity, building the plan, and keeping people accountable.",
+    "I am available to start immediately. If this sounds like the right fit for the role, I would love to connect and learn more about what the Strategic Growth team is tackling next."
   ],
   "signOff": "Kind regards,",
   "signature": ""

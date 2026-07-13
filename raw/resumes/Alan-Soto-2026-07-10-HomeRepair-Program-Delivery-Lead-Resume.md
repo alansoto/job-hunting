@@ -8,14 +8,14 @@ linkedin.com/in/alansoto - https://www.linkedin.com/in/alansoto/
 
 ## Profile
 
-Program delivery lead with 15+ years turning ambiguous, complex initiatives into structured, governed programs that deliver measurable outcomes. Most recently Lead Technical Program Manager at Xero, where I owned end-to-end delivery across dozens of teams and built the integrated delivery plans, governance frameworks, and executive reporting that kept a company-wide transformation program moving. I've also delivered inside Suncorp Group directly, coordinating a compliance-critical transformation across the whole organisation through major disruption - so I already know the environment HomeRepair sits inside.
+Program delivery lead with 15+ years turning ambiguous, complex initiatives into structured, governed programs that deliver measurable outcomes. Currently Lead Technical Program Manager at Xero, where I own end-to-end delivery across dozens of teams and build the integrated delivery plans, governance frameworks, and executive reporting that keep a company-wide transformation program moving. I've also delivered inside Suncorp Group directly, coordinating a compliance-critical transformation across the whole organisation through major disruption - so I already know the environment HomeRepair sits inside.
 
 ## Experience
 
 ### Xero - Lead Technical Program Manager
 Mar 2022 - Jul 2026 · Brisbane, QLD
 
-Xero is a global cloud accounting platform serving over 3 million customers. I owned end-to-end delivery of a company-wide transformation program spanning dozens of engineering teams, from discovery and scoping through implementation and embedment, reporting to General Managers, Heads of Product, and EGM-level leadership.
+Xero is a global cloud accounting platform serving over 3 million customers. I own end-to-end delivery of a company-wide transformation program spanning dozens of engineering teams, from discovery and scoping through implementation and embedment, reporting to General Managers, Heads of Product, and EGM-level leadership.
 
 **Challenge & Impact**
 - **Problem:** Xero needed to run a federated API platform modernisation across every engineering division with no shared view of scope, dependencies, or schedule, so there was no real visibility of program delivery status.

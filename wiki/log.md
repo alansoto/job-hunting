@@ -24,6 +24,23 @@ resolved (see lint log entry below). Remaining open items:
 **Raw-file housekeeping:**
 - `Alan-Soto-Lead Technical Program Manager.pdf` and `…(1).pdf` are byte-identical duplicates.
   Safe to delete one (left in place — `raw/` is never edited without explicit say-so).
+- **University name contradiction in two raw resumes.** Every other resume (20+) and
+  `wiki/pages/education.md` say **Universidad de Lima, Peru**. Two raw files diverge from their own
+  application-folder draft (which correctly says Universidad de Lima) and from each other:
+  `raw/resumes/Alan-Soto-2026-06-25-Mining-Tech-Scrum-Master-DevSecOps-Resume.md` says
+  "Universidad Nacional de Ingeniería, Peru"; `raw/resumes/Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md`
+  says "Pontificia Universidad Católica del Perú". Both look like accidental edits made before those
+  two were sent (not reflected in the matching `applications/*/resume-draft.md` copies). Wiki was
+  **not** updated to match either — `Universidad de Lima` kept as canonical. Flagging for Alan to
+  confirm which university is actually correct, and whether either submitted resume needs a
+  correction note for future reference.
+- **Auto & General — Development Manager (submitted 2026-06-23) was never folded back into the
+  wiki.** `applications/2026-06-22-auto-and-general-development-manager/resume-draft.md` exists and
+  `outputs/tracker.md` shows it as Submitted, but there is no `raw/resumes/` copy, no `/ingest` log
+  entry, and no `/apply` log entry with "pages touched" — only a one-line status update in
+  `wiki/log.md` (2026-06-23). Checked the draft content: it appears fully derived from the existing
+  wiki with no new biographical facts, so likely low-risk, but the hard rule ("every Apply must
+  append a log entry") wasn't followed for this one. Flagging so the gap doesn't repeat.
 - **Karlka resume (2026-07-06) was submitted with internal 🚩 gap-analysis flag markers leaking
   into three job-title headers** — e.g. "Xero - Lead Technical Program Manager (🚩 Data Platform
   and Integration Experience)" — in both `resume-draft.md` and the PDF actually sent to the
@@ -643,6 +660,41 @@ Expert (current).
 - Not yet rendered or finalised.
 - Pages touched: none of the core wiki pages yet (draft stage); log only.
 
+## [2026-07-10] apply (redo) — HomeRepair Program Delivery Lead
+- Alan pasted the same HomeRepair Program Delivery Lead JD again (word-for-word identical to the
+  2026-07-07 save). Found the existing draft folder already had a complete but unfinalised set
+  (gap-analysis, jd-analysis, resume-draft, cover-letter-draft) — the 2026-07-07 application was
+  never rendered or submitted (no tracker.md row, no "submitted" log entry).
+- Alan chose to redo the gap analysis and drafts rather than resume the existing ones. Re-read the
+  full wiki fresh (no material new facts since 2026-07-07 relevant to this role) and rewrote
+  gap-analysis.md, jd-analysis.md, and cover-letter-draft.md — content and fit assessment are
+  materially the same as the 2026-07-07 versions (Strong fit; Suncorp-subsidiary hook; light
+  technology-vs-operational-transformation gap sentence).
+- Resume-draft.md switched from Format A (standard bullets) to Format B (narrative/hybrid,
+  build-narrative.js) at Alan's request — first HomeRepair-specific change. Narrative treatment
+  (background + Challenge & Impact + Key Contributions) applied to Xero, Suncorp, and Go1 (all
+  within/at the ~6-year cutline, same boundary call made for Suncorp as the 2026-07-09 Lab3
+  application); intelliHR, Console/Reapit, and 2sol kept as plain bullets; Emedia + early career
+  collapsed into Earlier. Suncorp's Challenge & Impact block was written to lead with the
+  parent-company connection explicitly in the background paragraph, not just the cover letter.
+- Not yet rendered or finalised.
+- Pages touched: none of the core wiki pages; log only.
+
+## [2026-07-10] ingest — Alan-Soto-2026-07-10-HomeRepair-Program-Delivery-Lead-Resume.md / -Cover-Letter.md
+- Resume: no new biographical facts (derived from wiki as required); captured the "Suncorp
+  parent-company named directly in the resume background paragraph" device and the combined
+  "Iteration Manager / Delivery Coach" Suncorp title variant as a new headline-table row in
+  [[positioning]]. Added new ATS terms to [[keywords]]: embedment, discovery to embedment,
+  structuring ambiguous problems, delivery discipline, pace and momentum, customer and operational
+  outcomes, Strategic Growth, fit-for-purpose governance.
+- Cover letter: added a new entry to [[cover-letter-examples]] — parent-company-direct hook (Suncorp
+  Group), "Re:" subject line, prose-paragraph body, immediate-availability close per the wiki's
+  Availability note. User confirmed what worked: the casual tone and the immediate-availability
+  close.
+- Updated [[index]] entry counts (cover-letter-examples 16 → 17, positioning headline variants 22+ →
+  23+) and most-recent-entry summary.
+- Pages touched: [[keywords]], [[positioning]], [[cover-letter-examples]], [[index]]
+
 ## [2026-07-09] apply (draft) — Lab3 Senior Project Manager (Brisbane, hybrid, permanent)
 - Created `applications/2026-07-09-lab3-senior-project-manager/` with job-description.md (verbatim),
   gap-analysis.md, jd-analysis.md, resume-draft.md, cover-letter-draft.md.
@@ -763,3 +815,69 @@ Expert (current).
 ## [2026-07-10] outcome — Magentus, Senior Delivery Lead: Rejected
 - Application submitted 2026-06-23; rejection received 2026-07-10.
 - `meta.md` and `outputs/tracker.md` updated to Closed / Rejected.
+
+---
+
+## [2026-07-10] ingest (backfill) — Mining Tech Scrum Master DevSecOps (resume + cover letter)
+- Found during `/lint` step 1: both files existed in `raw/resumes/` since 2026-06-25 but were never
+  recorded in `wiki/processed.md` — first `/lint` run to catch a missed `/ingest`.
+- Resume: no new biographical facts (content overlaps fully with existing Xero/Go1/Suncorp/Virgin
+  entries). Added new "Scrum Master - DevSecOps" headline variant to [[positioning]]; added
+  DevSecOps · security-aware delivery to [[keywords]] DevOps section; added mining · mining
+  technology to [[keywords]] Domains (thin bridge via early-career Barrick Gold only).
+- Cover letter: new entry added to [[cover-letter-examples]] — double gap acknowledgement (mining
+  industry + SAFe SSM vs held CSM) in one short paragraph, bridged via the Barrick Gold Canada fact.
+  User had no strong "what worked" preference when asked retroactively.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]]
+
+## [2026-07-10] lint — 1 missed ingest backfilled, 2 new findings, 8 new gap-watch entries recorded
+- Auto-fixed: backfilled the missed Mining Tech resume + cover letter ingest (see entry above).
+- Auto-fixed: scanned all 22 `applications/*/job-description.md` files against [[keywords]] and
+  recorded 8 new gap-watch entries for terms that recur in JDs but aren't evidenced anywhere in the
+  wiki (Auto & General Dev Manager — MySQL/Splunk/New Relic; Magentus — GitHub/TDD/BDD/JPD/Compass;
+  Stake — investment/trading platform domain; Karlka & Glen Fisk — CRM, recurring across multiple
+  JDs; Paxus — PMBoK/BABoK/MSP/MoP; Lime Recruitment — HRIS/payroll systems).
+- Checked: no orphan pages, no thin roles (all 9 experience.md roles have 4+ bullets), no new
+  unmetric'd achievements beyond what's already tracked in [[achievements]]'s existing lint note, no
+  newly-unevidenced [[skills]] entries.
+- Flagged for review: 2 items added to `## Open lint findings` above — a university-name
+  contradiction in two raw resumes (Mining Tech: Universidad Nacional de Ingeniería; FinXL:
+  Pontificia Universidad Católica del Perú — both diverge from the canonical Universidad de Lima
+  used everywhere else including their own application-folder drafts), and the Auto & General
+  Development Manager application (submitted 2026-06-23) never having a proper `/apply` log entry
+  or wiki backfill.
+
+## [2026-07-10] ingest (fact update) — Xero employment ended, available immediately
+- Not a file ingest — a direct fact update from Alan: Xero employment ended **July 2026**. Alan is
+  available to start a new role **immediately**.
+- [[experience]] — Xero entry date range changed from "Mar 2022 to Present" to "Mar 2022 to Jul
+  2026"; added an "Employment ended" line.
+- [[positioning]] — new "Availability note" section: future cover letters should state immediate
+  availability plainly (no longer just the Karmo-style scale-up tone device — it's now a fact for
+  every application). Added a tense-note caveat above "Professional-summary angles" flagging that
+  several reusable summary openers use present tense ("Currently Lead Technical Program Manager at
+  Xero") and need converting to past tense when reused going forward.
+- Pages touched: [[experience]], [[positioning]], [[index]], [[log]]
+
+## [2026-07-10] apply (finalised + submitted) — HomeRepair Program Delivery Lead
+- Proofread via resume-proofreader subagent: 10 issues found (US/AU spelling inconsistencies —
+  artifacts/artefacts, organized/organised; a tense mismatch; a comma splice; missing hyphens in
+  compound modifiers "large scale"/"end to end"/"company wide"; "Masters of" → "Master of"; "a right
+  fit" → "the right fit"). Alan confirmed fix-then-render; all 10 applied before build.
+- PDFs generated via `build-narrative.js` (company name passed explicitly as "HomeRepair"):
+  `Alan Soto - Program Delivery Lead - HomeRepair - Resume.pdf` and `…- Cover Letter.pdf`. No leaked
+  internal markers (🚩/🔴) found on inspection.
+- Archived resume and cover letter to `raw/resumes/Alan-Soto-2026-07-10-HomeRepair-Program-Delivery-
+  Lead-Resume.md` and `…-Cover-Letter.md`; ingested both (see ingest entry above).
+- Wrote `meta.md` and appended an `outputs/tracker.md` row; Alan confirmed the application was
+  already submitted, so status was set directly to Submitted / Awaiting response (skipping the
+  intermediate "Ready to send" state).
+- **Known inconsistency in the submitted documents:** the "Xero employment ended July 2026" fact
+  (see the ingest fact-update entry above) was confirmed only *after* this application had already
+  been rendered and sent. The submitted PDF's Xero entry is dated "Mar 2022 - Jul 2026" but its
+  Profile paragraph and Xero background text still say "Currently Lead Technical Program Manager at
+  Xero" / "I own end-to-end delivery..." in the present tense — an internal contradiction that went
+  out uncorrected, the same class of issue as the 2026-07-06 Karlka 🚩-leak. The repo copy of
+  `resume-draft.md` has since been corrected to past tense for future reference; nothing to do
+  retroactively about the copy already sent to HomeRepair.
+- Pages touched: [[log]], [[processed]], [[tracker]]

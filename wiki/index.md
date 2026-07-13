@@ -21,13 +21,19 @@ Catalog of every wiki page. Updated on every Ingest. Entry format: `[[page-name]
 ---
 
 **Subject:** Alan Soto — Brisbane, QLD · Technical Program / Delivery / Engineering leader.
-**State (2026-07-09):** 58+ raw files ingested (18 resume variants + 18 tailored resumes + 16 cover
-letters + 8 other). [[cover-letter-examples]] holds 15 entries, most recent: Karmo Engineering
+**State (2026-07-10):** Xero employment ended July 2026 — Alan is available immediately; see
+[[positioning]] "Availability note" and [[experience]] Xero entry. New cover letters should state
+immediate availability plainly and use past tense for the Xero role. 60+ raw files ingested (18
+resume variants + 18 tailored resumes + 17 cover
+letters + 8 other, incl. a 2026-06-25 Mining Tech resume + cover letter backfilled via `/lint` on
+2026-07-10). [[cover-letter-examples]] holds 17 entries, most recent: HomeRepair Program
+Delivery Lead (Suncorp Group subsidiary — direct parent-company employment used as the hook rather
+than a bridged analogue; second narrative-format resume to finalise, after Lab3), Karmo Engineering
 Delivery Manager (preference-statement opener — states a genuine scale-up preference rather than
 pure adaptability; bolded-label bullet block; immediate-availability close), Lab3 Senior Project
 Manager (first narrative-format resume to finalise; pain-point opener reframed to first-person value
 + "Re:" subject line), and Paxus Program Analyst (first application targeting *below* Alan's usual
-altitude — deliberately undersells scale to avoid overqualification). [[positioning]] holds 21+
+altitude — deliberately undersells scale to avoid overqualification). [[positioning]] holds 23+
 headline variants, 15 tailoring devices, the "operating system builder" framing block, a "Personal
 preference note" (genuine scale-up-vs-enterprise preference, confirmed 2026-07-09), and a
 "Performance review insights" section (validated strengths, honest growth areas, level calibration

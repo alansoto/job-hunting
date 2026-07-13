@@ -26,10 +26,10 @@ Pull from the wiki to write `resume-draft.md`. First choose a format, then write
 
 ### Choosing a format
 
-- **Format A — Standard (bullet points).** The default. Clean, ATS-friendly, one skill grid, bullet-only experience. Rendered by `build.js`. Best for most roles, especially contract or keyword-heavy ones.
-- **Format B — Narrative / hybrid (story style).** Recent roles (roughly the last six years) are told as a short background paragraph + a `Challenge & Impact` (Problem/Solution) block + `Key Contributions` bullets; older roles stay as plain bullets. Rendered by `build-narrative.js`. Best for senior roles where judgement and narrative carry weight, or when the user wants to stand out from lookalike resumes.
+- **Format B — Narrative / hybrid (story style).** The default (confirmed 2026-07-10). Recent roles (roughly the last six years) are told as a short background paragraph + a `Challenge & Impact` (Problem/Solution) block + `Key Contributions` bullets; older roles stay as plain bullets. Rendered by `build-narrative.js`. Best for senior roles where judgement and narrative carry weight, or when the user wants to stand out from lookalike resumes.
+- **Format A — Standard (bullet points).** Clean, ATS-friendly, one skill grid, bullet-only experience. Rendered by `build.js`. Use for contract or heavily keyword-screened roles where a plain ATS-parseable structure matters more than narrative, or whenever the user explicitly asks for it.
 
-Use Format A unless the user asks for the narrative/story format (or the role clearly benefits from it). If unsure, ask.
+Use Format B unless the role is contract/keyword-heavy (favour Format A there) or the user asks for the standard format. If unsure, ask.
 
 ### Format A — Standard (bullet points)
 

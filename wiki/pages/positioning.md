@@ -35,6 +35,8 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Technology Delivery Manager (media/broadcast)    | Technology Delivery Manager                              | Data + software delivery with offshore/vendor coordination; Suncorp as the offshore + vendor + data-platform anchor (one role covering all three JD priorities); Xero API Program for delivery scale + governance cadence; 2sol for end-to-end ownership + quality/release readiness; Emedia kept full for high-availability content/entertainment-events adjacency. Senior-manager altitude (reports to Head of Technology), NOT Head-of |
 | PMO / Delivery Office analyst (contract, support-level) | Program Analyst                                     | Deliberate *downward* altitude shift — the one framing so far that undersells rather than oversells seniority. Leads with hands-on analytical/reporting artefacts (self-built SQL dashboards, Jira Data Quality Score, Unified Burndown as integrated schedule) rather than "led dozens of teams / EGM-level" scale claims, to avoid reading as overqualified for an analyst/support role reporting into PMs |
 | Engineering delivery leadership (scale-up, permanent) | Engineering Delivery Manager | Multi-squad delivery + direct people leadership in one role — coaching *and* hiring/onboarding/performance management, not just delivery coordination. Leads with Go1 (hands-on EM-style people ownership through hyper-growth) and Xero (coaching 10+ teams' cadence/capacity at scale). Distinct from the "Head of Delivery" and "Software Engineering Manager" framings in tone: states a genuine personal preference for scale-up pace over enterprise bureaucracy rather than just claiming adaptability to either. |
+| Scrum Master / DevSecOps (recruiter, technical credibility angle) | Scrum Master - DevSecOps | Agile facilitation framing led with technical/engineering credibility ("former software engineer and systems architect") rather than pure people/process coaching; Xero DORA-metrics/CI/CD-uplift work as the DevSecOps anchor; Suncorp offshore/compliance coordination as secondary evidence. Backfilled 2026-07-10 from the 2026-06-25 Mining Tech application (via Clicks IT). |
+| Program Delivery Lead (insurance parent-company subsidiary) | Program Delivery Lead | Business-wide transformation delivery for a Suncorp Group subsidiary. Suncorp direct-employment history used as the primary hook rather than a bridged analogue - the rare case where the "regulated enterprise" evidence is the literal parent company, not just an adjacent industry. Xero Unified Burndown as the integrated-delivery-plan anchor; Go1 as the end-to-end discovery-to-embedment anchor. First application rendered in narrative format (Format B) with the parent-company connection stated directly in the resume's Suncorp background paragraph, not only in the cover letter. HomeRepair, 2026-07-10. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
 
@@ -75,6 +77,12 @@ Supporting statement variants (individual):
 
 ## Professional-summary angles (reusable openers)
 
+> **Tense note (2026-07-10):** several angles below use present tense ("Currently Lead Technical
+> Program Manager at Xero", "At Xero, I am currently driving...") because they were written while
+> Alan was still employed there. Employment ended July 2026 — when reusing these for new
+> applications, convert to past tense ("Most recently, as Lead Technical Program Manager at
+> Xero...") and pair with the immediate-availability close from the "Availability note" above.
+
 - **TPM / 15+ years:** "Technical Program Manager with 15+ years delivering high-complexity,
   cross-functional programs, including AI and data in the People Management space. Strong
   background in end-to-end program execution, stakeholder alignment, and risk management. Adept at
@@ -97,8 +105,8 @@ Supporting statement variants (individual):
   thinking with hands-on execution."
 - **Head of Delivery:** "Delivery leader with 15+ years of experience across SaaS, AI, and platform
   engineering. I specialise in taking fast-moving, complex environments and giving teams the clear
-  structure they need to ship software with confidence. Currently Lead Technical Program Manager at
-  Xero, directing large-scale programs across dozens of engineering teams — including a major AI
+  structure they need to ship software with confidence. Most recently Lead Technical Program Manager
+  at Xero, directing large-scale programs across dozens of engineering teams — including a major AI
   product program and the federated API initiative that powers Xero's AI-agent strategy."
 - **Platform / API program TPM:** "Technical Program Manager specialising in turning platform
   initiatives into executable adoption programs. At Xero, I am currently driving a company-wide
@@ -130,6 +138,15 @@ Supporting statement variants (individual):
   environments. Experienced operating across squads and programs simultaneously - converting business
   objectives into clear backlogs, keeping delivery moving through complex dependencies, and giving
   stakeholders at every level the visibility they need to make decisions with confidence."
+
+## Availability note (confirmed 2026-07-10)
+
+Alan's employment at Xero ended **July 2026**. He is **available to start immediately** — this is
+now a factual statement, not a preference/tone device. Going forward, cover letters should state
+immediate availability plainly, typically in the close. This supersedes the framing below where it
+was previously used as a tone choice tied to the "direct scale-up preference" device (Karmo,
+2026-07-09) — that close pattern is now simply accurate for every application, not just scale-up
+JDs. Do not say or imply Alan is "currently at Xero" in any new cover letter or resume summary.
 
 ## Personal preference note (confirmed 2026-07-09, Karmo cover letter)
 
@@ -250,6 +267,18 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   exposure (Copilot/Claude/Gemini) is a real strength here, not a gap — name it directly via Xero
   AI for Customers + intelliHR NLP analytics + current daily use of AI coding tools.
 
+- **Program Delivery Lead at a parent-company subsidiary (HomeRepair, Suncorp Group subsidiary,
+  2026-07-10)** → lead with the Suncorp direct-employment connection as the primary hook, stated in
+  both the resume (Suncorp background paragraph names HomeRepair's parent group directly) and the
+  cover letter opener, not bridged via analogy. Xero *Unified Burndown* for the "integrated delivery
+  plans: milestones, owners, dependencies" JD language; Go1 for the "discovery through implementation
+  and embedment" end-to-end pattern; Suncorp *Challenge & Impact* block for governance-frameworks-
+  from-scratch under compliance/COVID/restructure pressure. Headline: "Program Delivery Lead" (matches
+  JD title). Second application taken to finalise in narrative format (Format B / build-narrative.js),
+  after Lab3 (2026-07-09); narrative treatment applied to Xero, Go1, and Suncorp (Suncorp sits right at
+  the ~6-year cutline, same boundary call as Lab3). Gap: technology-led vs. business/operational
+  transformation framing — one light sentence, no real severity given the parent-company match.
+
 ## Performance review insights (Xero, 2026-06)
 
 Source: formal Xero performance review provided 2026-06-19. Useful for self-awareness in
@@ -345,7 +374,9 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
   interpretation + match claim" and "When I read..." — those lead with the role or a JD signal; this
   leads with the friction. Good fit for mid-level contract/execution roles where the value is
   unblocking delivery. Keep it short — pairs well with a tight three-bullet body and no gap paragraph.
-- **Direct scale-up preference + immediate-availability close** (used in Karmo cover letter): rather
+- **Direct scale-up preference + immediate-availability close** (used in Karmo cover letter; the
+  immediate-availability portion is now standard for all letters — see "Availability note" above):
+  rather
   than only proving fit against enterprise experience, state a genuine personal preference for
   smaller, fast-paced companies up front ("my real sweet spot, and personal preference, is within
   smaller, fast-paced companies... I thrive in scale-up environments where I can skip the
