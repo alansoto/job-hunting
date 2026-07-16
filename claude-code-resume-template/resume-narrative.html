@@ -302,29 +302,32 @@ function buildExperienceNodes(d){
     const bullets  = job.bullets || [];
     let firstOfJob = true;
 
-    if (intro.length || sections.length){
-      intro.forEach(para => {
-        let html = '';
-        if (firstOfJob) html += entryHeadHtml(job);
-        html += '<p class="n-para">'+escMd(para)+'</p>';
-        nodes.push(el('div','n-block', html));
-        firstOfJob = false;
-      });
-      sections.forEach(sec => {
-        let html = '';
-        if (firstOfJob) html += entryHeadHtml(job);
-        html += sectionHtml(sec);
-        nodes.push(el('div','n-block', html));
-        firstOfJob = false;
-      });
-    } else if (bullets.length){
-      let html = entryHeadHtml(job) + '<ul class="bullets">';
+    intro.forEach(para => {
+      let html = '';
+      if (firstOfJob) html += entryHeadHtml(job);
+      html += '<p class="n-para">'+escMd(para)+'</p>';
+      nodes.push(el('div','n-block', html));
+      firstOfJob = false;
+    });
+    sections.forEach(sec => {
+      let html = '';
+      if (firstOfJob) html += entryHeadHtml(job);
+      html += sectionHtml(sec);
+      nodes.push(el('div','n-block', html));
+      firstOfJob = false;
+    });
+    // Flat bullets render alongside intro/sections, not instead of them — a role
+    // may lead with prose and still carry a plain bullet list (e.g. a project entry).
+    if (bullets.length){
+      let html = '';
+      if (firstOfJob) html += entryHeadHtml(job);
+      html += '<ul class="bullets">';
       bullets.forEach(b => html += '<li>'+escMd(b)+'</li>');
       html += '</ul>';
       nodes.push(el('div','n-block', html));
-    } else {
-      nodes.push(el('div','n-block', entryHeadHtml(job)));
+      firstOfJob = false;
     }
+    if (firstOfJob) nodes.push(el('div','n-block', entryHeadHtml(job)));
   });
   return nodes;
 }
