@@ -10,6 +10,65 @@ and related wins in [[achievements]].
 
 ---
 
+## Nagare (nagare.com.au) — personal site and delivery-tools workshop *(added 2026-07-15)*
+**Role context:** Personal project, not employment. **Attribution confirmed 2026-07-15: this is
+Alan's project; Lisa contributes.** The site's own copy says "run by Lisa and Alan" — so do **not**
+use solo-founder phrasing ("I built", "my site" is fine; "I founded Nagare" alone is not). Alan
+described it as "a space where I can build small tools for people in similar roles to mine."
+**Commercial status: early and undecided** — free to use today, direction still open. Do **not**
+call it a business, a startup, or a venture, and do not imply revenue.
+
+Tagline: **"Software delivery, simplified."** Named for the Japanese word for *flow* / *stream* —
+a detail worth using where flow-based delivery is the subject. Audience is stated on the site as
+"delivery practitioners." About copy: "Twenty years inside technology teams — building products,
+leading change, and helping teams find their flow."
+
+**This is the only evidence in the wiki of Alan building software for himself in the present tense.**
+Everywhere else, the hands-on engineering evidence stops at Emedia (2012). That makes Nagare the
+strongest available answer to any JD asking for a leader who is "technically credible" or has kept
+their hands dirty, and it is recent rather than historical.
+
+### Tool: Delivery Date Forecaster — `https://nagare.com.au/delivery-date-forecaster/`
+Probabilistic delivery forecasting from a team's own historical throughput. **Method: Monte Carlo
+simulation — samples completed-work throughput over time and simulates the remaining work 10,000
+times.** Site copy, verbatim: *"we look at your completed work over time (throughput) and simulate
+your remaining work 10,000 times. This accounts for the natural fluctuations of software delivery,
+giving you a forecast based on probability."*
+
+- **Inputs:** CSV export of completed work (resolution dates, optional story points) from **Jira,
+  Asana, Linear, or Azure DevOps**; count of unfinished backlog items; an estimated percentage of
+  undiscovered scope; a start date; and capacity adjustments for holidays or reduced-capacity
+  periods (multipliers — 0 for a shutdown, 0.5 for a half team).
+- **Outputs:** three confidence-based completion dates — **P50** (internal targets), **P85**
+  (stakeholder commitments), **P95** (high-stakes deadlines) — plus a cumulative-probability-by-week
+  chart and a throughput distribution.
+- **Privacy:** *"Your data never leaves your browser"* — processing is entirely client-side.
+
+### Other tools on the site
+- **The Map** — an interactive graphical guide to software-delivery knowledge ("Knowledge, mapped
+  like a city").
+- **Operating Rhythm Builder** — a wizard for designing team meeting cadences and rhythms. Note the
+  direct line to the "operating system builder" framing in [[positioning]] and to the operating
+  models built at Go1, 2sol, and the Xero Quokkas team — this tool is that same thinking, productised.
+- **Feedback Coach** — a practice tool for preparing difficult conversations. **Coming soon / not
+  yet shipped** — do not claim it as delivered.
+
+**Started 2025** *(confirmed 2026-07-15 — "a year ago"; month unknown, so use the bare year)*, and
+still running. **Nagare therefore began while Alan was still at Xero** (Mar 2022 - Jul 2026), which
+is the more useful fact: it is something he built alongside a demanding Lead TPM role, not something
+he took up after that role ended. Say so where it helps — "started alongside my role at Xero" —
+because it pre-empts the obvious reading of a recent side project on the resume of someone who just
+left a job.
+
+### Open questions *(worth a prompt before the next application that uses this)*
+- **Lisa's surname and role are unknown**, as is whether she should be named in any application
+  document. Currently: don't name her, don't imply Alan worked alone.
+- **Usage evidence is unknown** — no user numbers, traffic, or adoption figures. Every claim in this
+  entry is about the artifact, not its reach. Do not invent traction.
+- **Azure DevOps nuance** — see [[keywords]]. The forecaster *imports Azure DevOps CSV exports*.
+  That is data-format familiarity, **not** experience delivering in Azure DevOps, and it does not
+  close the standing ADO gap from the Clipchamp and BlackRoc applications.
+
 ## Xero — API Program / Supergraph
 **Role context:** Lead Technical Program Manager (current focus). → [[experience]]
 Company-wide initiative to deliver a single, **federated API surface** across all of Xero's

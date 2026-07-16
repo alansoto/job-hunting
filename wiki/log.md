@@ -881,3 +881,273 @@ Expert (current).
   `resume-draft.md` has since been corrected to past tense for future reference; nothing to do
   retroactively about the copy already sent to HomeRepair.
 - Pages touched: [[log]], [[processed]], [[tracker]]
+
+## [2026-07-15] apply — Randstad Digital, Digital Solutions Delivery Lead (contract, Brisbane)
+- Created `applications/2026-07-15-randstad-digital-solutions-delivery-lead/` with
+  `job-description.md` (saved verbatim; recruiter Shauna Lawlor named in the ad), `gap-analysis.md`,
+  `jd-analysis.md`, `resume-draft.md`, `cover-letter-draft.md`.
+- Fit assessed **strong** — every hard requirement met. Degree requirement is a literal match
+  (Bachelor of Systems Engineering = information systems); PM qualification met twice over (Masters
+  of Project Management + PMP 2012, stated as "2012", never "active"); team-leader level, agile
+  team formation, complex/high-risk systems and data delivery, and stakeholder influence all
+  cleanly evidenced.
+- **New gap recorded: ITIL** — first JD in the wiki's history to name it. Unevidenced in
+  [[skills]], [[education]], and [[keywords]]. Bridged honestly in the cover letter via the
+  service-management practice underneath the framework (SLOs, on-call, incident response,
+  time-to-restore, release management, Suncorp governance frameworks) using the
+  capability-hierarchy reframe. Not claimed in the resume.
+- Procurement coordination (already tracked from Paxus 2026-07-07) and budget monitoring (tracked
+  from Lab3 2026-07-09) both recur here. Deliberately not raised in the letter — each is a single
+  clause inside one duty bullet, and the Lab3 precedent is to handle budget positively via 2sol's
+  $5M+/month commercial ownership rather than as a confession.
+- **Format B (narrative), confirmed by Alan.** Drafted first in Format A on the contract/keyword-heavy
+  carve-out (recruiter placement, requirements written as discrete screening criteria), then switched
+  at Alan's request. Narrative applied to Xero, Go1, and Suncorp — Suncorp again sits at the ~6-year
+  cutline (same call as Lab3 and HomeRepair) and is the primary anchor here, so it keeps the
+  Challenge & Impact block; Virgin Australia, intelliHR, and 2sol stay as plain bullets.
+  **First contract/recruiter-placed role to go narrative** — if that repeats, the contract carve-out
+  in `/apply` may want narrowing to genuinely ATS-heavy applications rather than all contract roles.
+- Cover letter follows the compressed Karlka (2026-07-06) structure Alan confirmed: one-line role
+  statement, one line naming the structural challenge, transition, three bullets (Suncorp, Xero,
+  Go1), synthesis sentence, one-paragraph ITIL gap, immediate-availability close. Salutation
+  addressed to the named recruiter.
+- Read on the client: JD vocabulary ("service streams", ITIL, procurement, "overarching digital
+  strategy") reads like local government, a council, or a utility. End client not named by Randstad.
+  Third+ Randstad application in the wiki (Project Manager 2026-06-16/17, FinXL Scrum Master
+  2026-07-02).
+- Pages touched: [[log]], [[keywords]]
+
+## [2026-07-15] ingest — Randstad Digital Digital Solutions Delivery Lead (resume + cover letter)
+- Ingested both archived sources from `raw/resumes/Alan-Soto-2026-07-15-Randstad-Digital-Solutions-
+  Delivery-Lead-{Resume,Cover-Letter}.md`.
+- **Three new certifications recorded — the first new biographical facts from an application in
+  weeks.** All three came from Alan's manual resume edits, not a confirmation pass:
+  **AWS Cloud Practitioner (2026)**, **AI Assisted Development (2026)**, and **LeanUX and Product
+  Discovery for Agile Teams (2018)**. → [[education]]
+- **AWS Cloud Practitioner partially closes a long-standing lint finding.** "No AWS/Azure/GCP named
+  anywhere in the wiki" has been open since the first full lint; this is the first named cloud
+  platform. Rewrote the [[skills]] cloud lint note: the certification establishes AWS literacy and
+  is safe to claim by name, but it is *not* hands-on platform delivery evidence — the
+  "don't claim hands-on cloud-platform expertise" guidance stands.
+- **Worth Alan's attention:** the AWS cert would have changed the gap framing on two already-
+  submitted applications — Lab3 (2026-07-09, Azure/Terraform "highly beneficial") and FinXL
+  (2026-07-02, "Cloud Platforms portfolio projects"). Both letters understated the cloud position.
+  Nothing to do retroactively; flagged so future cloud-adjacent JDs use the credential.
+- Open questions logged in [[education]]: issuing body unrecorded for all three certifications; no
+  expiry known for the AWS credential (AWS certs typically run 3 years → ~2029); and this page's
+  canonical "Masters of Project Management" now disagrees with two submitted resumes that say
+  "Master of" (HomeRepair, Randstad Digital) following proofreader corrections.
+- New headline variant + role-emphasis cheat-sheet entry: "Digital Solutions Delivery Lead". Notable
+  as the rare JD where credentials are a literal match rather than something to bridge, and where
+  the strategy duty is scoped to "facilitate and coordinate" — Alan's actual altitude per the
+  performance-review calibration. → [[positioning]]
+- New cover-letter entry recording a **new hook device**: the soft "I saw the role and wanted to
+  reach out" opener paired with the "getting a digital strategy off the page" framing paragraph.
+  Alan confirmed the opener as what worked. Distinct from the pain-point and JD-interpretation
+  openers — it names the unglamorous reality of the work and quietly claims it as home turf. Also
+  records a recruiter-specific tweak worth reusing: the synthesis sentence addresses the recruiter
+  and names "your client" rather than the reader's own company. → [[cover-letter-examples]]
+- Pages touched: [[education]], [[skills]], [[keywords]], [[positioning]],
+  [[cover-letter-examples]], [[processed]], [[log]]
+
+## [2026-07-15] apply (finalised + submitted) — Randstad Digital Digital Solutions Delivery Lead
+- PDFs generated via `build-narrative.js` (company passed explicitly as "Randstad Digital"):
+  `Alan Soto - Digital Solutions Delivery Lead - Randstad Digital - Resume.pdf` and
+  `… - Cover Letter.pdf`. No leaked internal markers (🚩/🔴) found on inspection.
+- Proofread via resume-proofreader subagent: 6 items raised, **3 applied** ("Masters of" → "Master
+  of"; trailing whitespace on the AI Assisted Development cert line; em dash → spaced hyphen in the
+  cover letter, per the project's own no-em-dash style rule). **3 rejected as wrong:** the flagged
+  LinkedIn "duplicate" is the required `label - url` preamble format and fixing it would break the
+  parse; the dash-consistency fix was suggested in the wrong direction (proofreader proposed
+  standardising *on* em dashes, which [[resume-style]] bans); the date-range fix would have
+  damaged prose in the Earlier section. Recurring lesson: the proofreader does not know this
+  project's format spec or style rules — review its suggestions before relaying as fixes.
+- Alan's manual edits before render: removed the `## Skills` section entirely (verified safe — the
+  narrative template guards with `if (d.skills && d.skills.length)` and skips the block rather than
+  emitting an empty heading); added the three new certifications; grouped certifications under
+  "Project Management:" / "Other:" labels; rewrote the Suncorp descriptor; and moved 2sol from
+  Experience into the Earlier prose paragraph (post-render, re-rendered).
+- **Known cosmetic issue in the submitted PDF:** `parseEducation` treats every non-empty line in
+  `## Certifications` as an entry, so the "Project Management:" and "Other:" group labels render in
+  the sidebar as certifications with empty year fields, styled identically to the real ones. Alan
+  was shown the exact rendering before the build and chose to keep the labels. Not a defect to fix
+  retroactively — but if grouped certifications recur, `build-narrative.js` would need a label
+  convention (e.g. treat a trailing-colon line with no ` · ` as a subheading).
+- Resume shape at submission: Xero, Go1, Suncorp as narrative (Challenge & Impact + Key
+  Contributions); Virgin Australia and intelliHR as plain bullets; Console/Reapit, 2sol, and Emedia
+  compressed into the Earlier paragraph. 2sol's $5M+/month figure and team-of-5 preserved there —
+  it is the only bridge for the JD's "monitor delivery against budget" duty.
+- Alan confirmed the application was already submitted, so `meta.md` and the `outputs/tracker.md`
+  row were written straight to Submitted / Awaiting response, skipping "Ready to send" (same as
+  HomeRepair 2026-07-10).
+- Pages touched: [[log]], [[processed]], [[tracker]]
+
+## [2026-07-15] apply (draft) — Opengear (Digi International), Engineering Manager, Squad-Based Delivery
+- Permanent, Brisbane-based, hybrid. Opengear builds the Network Resilience Platform (Smart Out of
+  Band); owned by Digi International; offices Brisbane + Sandy, Utah. Role is the central leadership
+  position in their squad-based model: 6-9 engineers across 2-3 domain squads. Reports alongside a
+  Solutions PO and peer EMs.
+- Gap analysis: **Strong** — one of the two or three cleanest matches in the wiki. Every core ask is
+  directly evidenced: small-team people leadership (Go1 squad of 8, intelliHR team of 5, 2sol team
+  of 5), Kanban/flow at Expert level, flow metrics used to manage rather than report (Xero Code Red
+  DORA + Lead Time for Changes dashboards), backlog refinement (Go1, Xero PO partnership),
+  coaching toward self-organisation (Virgin tell-show-do-review, Xero 10+ teams), technical
+  credibility (8 yrs software engineer / systems architect). Notably the JD requires **no named
+  tool, framework, or certification** — a first among recent applications.
+- Two honest soft spots, both handled by evidence rather than argument: (1) **multi-squad line
+  management** — Alan has line-managed one squad at a time and covered multiple teams through
+  coaching/program roles (Xero 10+, Suncorp 4), never both at once; (2) **recency** — last direct
+  people-management role ended Mar 2022. JD says "demonstrated track record," not "current."
+  Deliberately not raised in the letter; instead the resume leads with people leadership over
+  program scale.
+- Only real gap: **networking / out-of-band infrastructure domain** (Lighthouse, NGCS, OGCS, OEM),
+  which the JD flags "Desired But Not Required." Bridged via Suncorp's telephony platform
+  replacement (nearest thing in the wiki to network infrastructure) + Emedia capacity planning +
+  software-engineering background.
+- Resume (narrative, Format B): headline "Engineering Manager". Narrative treatment for Xero, Go1,
+  Suncorp — **Suncorp sits right on the ~6-year cutline, same boundary call as Lab3, HomeRepair, and
+  Karmo**; plain bullets for Virgin, intelliHR, Console/Reapit, 2sol; Earlier holds Emedia + early
+  Canada/Peru. Virgin kept in Experience rather than Earlier despite being a five-month engagement —
+  it is the most literal "coach squads until they run ceremonies without you" evidence in the wiki.
+- Cover letter: **new hook device — the "invisible job" framing.** Opens by naming what makes the
+  role hard rather than what makes it appealing ("The hardest part of running squads well is that
+  most of the job is invisible... very little appears to be happening. That is the point."), then
+  names the JD line it answers. Same family as the Randstad "unglamorous reality" framing, but the
+  claim is inverted: it defines success as absence, which is this JD's central idea. "Re:" subject
+  line (Lab3/Karmo/HomeRepair device) + three labelled prose blocks ("At Go1:", "At Xero:", "At
+  Virgin Australia:") mapped one-to-one onto the JD's three stated priorities + synthesis sentence +
+  one-paragraph domain gap + immediate-availability close. ~330 words.
+- Karmo (2026-07-09) is the closest prior analogue by role shape, but its scale-up-preference opener
+  was deliberately **not** reused: Opengear/Digi is a global company serving 75% of the Fortune 500
+  and the JD's tone is measured and deliberate, not high-energy scale-up. Useful counter-example for
+  the [[positioning]] note warning against overusing that device.
+- Pages touched: [[log]] (draft stage — awaiting finalise).
+
+## [2026-07-15] ingest (fact update) — Nagare (nagare.com.au), personal delivery-tools site
+- Not a file ingest and not a resume or cover letter — a direct fact from Alan, surfaced while
+  drafting the Opengear application because that JD asks for flow-metrics exposure. Followed the
+  "fact update" shape used for the 2026-07-10 Xero employment-end entry; nothing added to `raw/`,
+  nothing recorded in [[processed]] (no source file exists).
+- Content verified by fetching `nagare.com.au` and the forecaster page directly rather than relying
+  on Alan's one-line description — which turned out to understate it substantially.
+- **What Nagare is:** personal site, tagline "Software delivery, simplified.", named for the
+  Japanese word for *flow*. Audience: "delivery practitioners." Hosts **The Map** (interactive
+  guide to delivery knowledge), the **Delivery Date Forecaster**, an **Operating Rhythm Builder**,
+  and a **Feedback Coach** marked coming soon (not shipped — do not claim it).
+- **Delivery Date Forecaster:** Monte Carlo simulation — samples historical throughput and runs the
+  remaining work 10,000 times to produce **P50 / P85 / P95** completion dates. Imports CSV from
+  Jira, Asana, Linear, and Azure DevOps; accounts for undiscovered scope and reduced-capacity
+  periods; renders cumulative-probability and throughput-distribution charts; runs entirely
+  client-side ("Your data never leaves your browser").
+- **Why this matters beyond one application.** Two structural changes to the wiki:
+  1. **Probabilistic forecasting is a new skill** ([[skills]], *Experienced*, built not just
+     practised) and is distinct from the deterministic capacity/delivery forecasting already
+     claimed. New [[keywords]] section for the vocabulary (Monte Carlo, throughput sampling,
+     P50/P85/P95, queue depth, confidence intervals).
+  2. **It is the only present-tense hands-on engineering evidence in the wiki.** Every other build
+     claim stops at Emedia (2012). [[skills]] "Software Development — Expert" annotated accordingly.
+     This is now the best answer to any JD wanting a technically credible leader.
+- **Azure DevOps nuance recorded, gap deliberately NOT closed.** The forecaster ingests ADO CSV
+  exports, which is data-format familiarity, not delivery experience. [[keywords]] Tools section and
+  the standing gap-watch line both annotated with safe/unsafe phrasings. Same discipline as the AWS
+  Cloud Practitioner call on 2026-07-15 — a credential/artifact is not delivery evidence.
+- **Attribution confirmed by Alan:** his project, Lisa contributes. The site says "run by Lisa and
+  Alan", so solo-founder phrasing is banned. **Commercial status: early and undecided** — free
+  today; "business", "startup", "venture", and any revenue implication are banned.
+- [[positioning]] — new "Nagare as evidence" section (what it changes, guardrails, and a tone
+  caution: reads as craft to engineering-leadership audiences, as distraction to
+  government/PMO/enterprise panels — lead with it for the former, cut it for the latter). New
+  **"Built-the-tool proof"** tailoring device: where a JD asks for *exposure* to something Alan has
+  built tooling for, name the artifact rather than claim the skill.
+- **Open questions worth a prompt** (recorded in [[projects]]): Nagare's start date is unknown, so
+  no resume line should carry a date; Lisa's surname/role and whether to name her are unknown; no
+  usage, traffic, or adoption figures exist, so no traction claims. Also worth asking whether
+  earlier applications understated the hands-on/technical-credibility angle — the Karmo
+  (2026-07-09) Engineering Delivery Manager letter leaned on 2sol's CI/CD transformation for the
+  "technical background" ask when Nagare was likely already live and is far stronger evidence.
+- Pages touched: [[projects]], [[skills]], [[keywords]], [[positioning]], [[index]], [[log]]
+
+## [2026-07-15] ingest (fact update) — Nagare start date confirmed
+- Alan confirmed Nagare started **2025** ("a year ago"). Month unknown — use the bare year, not a
+  `YYYY-MM-DD` date. This closes the first of the three open questions logged against [[projects]]
+  earlier today; Lisa's naming and the absence of usage figures remain open.
+- **The load-bearing implication is not the date itself but the overlap:** Nagare began while Alan
+  was still at Xero (Mar 2022 - Jul 2026). It is a project he sustained alongside a demanding Lead
+  TPM role, not something started after that role ended. Given his employment ended two weeks ago
+  (2026-07-10 fact update), that distinction matters — without it, a recent side project on the
+  resume of someone just out of a job reads as filling time. Recommended phrasing recorded in
+  [[projects]]: "started alongside my role at Xero".
+- Opengear resume updated: Nagare promoted from a Profile mention to a full `## Experience` entry,
+  `### Nagare - Personal Project`, `2025 - Present · nagare.com.au`, listed **first** (chronologically
+  correct — it is the only ongoing entry). Deliberately written as **plain bullets, not the narrative
+  Challenge & Impact treatment**, despite sitting well inside the ~6-year cutline: the cutline rule
+  governs *roles*, and a compact bullet entry keeps a personal project from visually outweighing the
+  Xero entry directly beneath it. Profile and Skills mentions trimmed so Nagare is not claimed three
+  times in one document.
+- **Template constraint discovered and worth remembering:** `build-narrative.js` only parses
+  `profile`, `skills`, `experience`, `earlier`, `education`, `certifications` (see
+  `parseResumeDraft`). A `## Projects` section is collected into `sections['projects']` and then
+  **silently dropped** — no error, no warning, it simply never reaches the template. Adding real
+  Projects support would mean touching `resume-narrative.html`'s flow-node builder and pagination
+  logic, which is why Nagare went into Experience instead. If personal projects recur across
+  applications, that template change is the proper fix.
+- Pages touched: [[projects]], [[log]]
+
+## [2026-07-16] outcome — HomeRepair (Suncorp Group subsidiary), Program Delivery Lead: Rejected
+- Application submitted 2026-07-10; unsuccessful outcome advised 2026-07-16.
+- `meta.md` and `outputs/tracker.md` updated to Closed / Rejected.
+
+---
+
+## [2026-07-16] apply (finalised) — Opengear (Digi International), Engineering Manager, Squad-Based Delivery
+- PDFs generated via `/render` (narrative format, `build-narrative.js`); archived resume and cover
+  letter to `raw/resumes/`. Application drafted 2026-07-15, finalised 2026-07-16 — raw filenames and
+  `meta.md` use the 2026-07-15 drafting date to match the application folder.
+- Proofread gate flagged five items. Alan's call: fixed "montecarlo" → "Monte Carlo simulations" and
+  a curly apostrophe in the cover letter; **deliberately left** the resume Profile's "self-organizing"
+  (US spelling), its sentence fragment ("Proficient use of flow metrics…"), and the "strong optimizer
+  of team processes" quote from the Xero performance review as written.
+- Ingested both markdown sources. No new biographical facts — the resume is derived from the wiki,
+  and Nagare's start date was already confirmed in [[projects]] on 2026-07-15.
+- **First application to use Nagare as evidence in a submitted document**, and the first tailored
+  resume to carry it as an Experience entry. Alan confirmed the Nagare paragraph — the
+  "built-the-tool proof" device — as what worked in the letter.
+- New cover-letter device: the **invisible-work opener** (squad work done well *looks* like nothing
+  is happening; that is the point). Deliberately diverged from Karmo's scale-up-preference opener
+  despite the near-identical role shape — Opengear's JD tone is measured, not energetic.
+- Notable: **first JD in the wiki to require no named tool, framework, or certification at all.**
+  Only gap raised was networking / out-of-band infrastructure ("Desired But Not Required"), bridged
+  via Suncorp's telephony platform replacement and the systems-architect background.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[index]], [[processed]],
+  [[log]]
+
+---
+
+## [2026-07-16] template fix — narrative resume silently dropped flat bullets
+- **Symptom:** the Opengear resume's Nagare entry lost all three of its tool bullets in the PDF. The
+  markdown and the parser were both fine — `parseExperience` reads label-less bullets into
+  `cur.bullets` correctly.
+- **Cause:** `resume-narrative.html` `buildExperienceNodes` chose *one* render style per role:
+  `if (intro.length || sections.length) { … } else if (bullets.length) { … }`. A role with intro
+  prose **and** flat bullets rendered the prose and silently discarded the bullets. Any entry that
+  leads with a line of context and then lists items — a project entry, most obviously — hit this.
+- **Fix:** intro, sections, and flat bullets now all render, in that order, each as its own flow
+  block. Bullets get the entry header only if no intro/section already claimed it, so bullet-only
+  roles (2sol, Virgin, intelliHR) render byte-identically to before. Verified against the paginated
+  DOM, not just the exit code: all three Nagare bullets land as `<li>` items and the following Go1
+  entry is untouched.
+- Same class of silent-drop bug as the `## Projects` section noted in the 2026-07-15 entry above —
+  the template fails quietly rather than erroring when content does not match its expected shape.
+  **That `## Projects` gap is still open**; this fix does not address it. Worth remembering that the
+  narrative template's failure mode is silence, so check rendered output, not just build success.
+- Files touched: `claude-code-resume-template/resume-narrative.html`. Opengear PDFs re-rendered.
+
+---
+
+## [2026-07-16] submitted — Opengear (Digi International), Engineering Manager, Squad-Based Delivery
+- Application sent 2026-07-16 (drafted 2026-07-15). `meta.md` and `outputs/tracker.md` updated to
+  Submitted / Awaiting response.
+- Raw filenames keep the 2026-07-15 drafting date to stay aligned with the application folder;
+  `date_applied` and the tracker's Date sent record the actual send date.
+
+---

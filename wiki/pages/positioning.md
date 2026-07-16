@@ -36,6 +36,8 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | PMO / Delivery Office analyst (contract, support-level) | Program Analyst                                     | Deliberate *downward* altitude shift — the one framing so far that undersells rather than oversells seniority. Leads with hands-on analytical/reporting artefacts (self-built SQL dashboards, Jira Data Quality Score, Unified Burndown as integrated schedule) rather than "led dozens of teams / EGM-level" scale claims, to avoid reading as overqualified for an analyst/support role reporting into PMs |
 | Engineering delivery leadership (scale-up, permanent) | Engineering Delivery Manager | Multi-squad delivery + direct people leadership in one role — coaching *and* hiring/onboarding/performance management, not just delivery coordination. Leads with Go1 (hands-on EM-style people ownership through hyper-growth) and Xero (coaching 10+ teams' cadence/capacity at scale). Distinct from the "Head of Delivery" and "Software Engineering Manager" framings in tone: states a genuine personal preference for scale-up pace over enterprise bureaucracy rather than just claiming adaptability to either. |
 | Scrum Master / DevSecOps (recruiter, technical credibility angle) | Scrum Master - DevSecOps | Agile facilitation framing led with technical/engineering credibility ("former software engineer and systems architect") rather than pure people/process coaching; Xero DORA-metrics/CI/CD-uplift work as the DevSecOps anchor; Suncorp offshore/compliance coordination as secondary evidence. Backfilled 2026-07-10 from the 2026-06-25 Mining Tech application (via Clicks IT). |
+| Digital delivery leadership (contract, recruiter-placed, likely government/council/utility) | Digital Solutions Delivery Lead | Digital strategy facilitation + complex/high-risk systems and data delivery. Suncorp as the primary high-risk/compliance anchor; Xero Unified Burndown for interdependencies at scale and influence without authority; Go1 for forming and leading the agile team. Qualifications do unusually heavy lifting here (Bachelor of Systems Engineering is a literal "information systems degree" match; Master of Project Management + PMP cover the PM-qualification requirement twice over). First contract/recruiter-placed role rendered in narrative format (Format B). Randstad Digital, 2026-07-15. |
+| Engineering Manager / squad-based delivery (network hardware, permanent) | Engineering Manager | People-and-flow EM framing, not a delivery-coordination one: self-organising squads, backlog quality to a "squad-ready" bar, and Kanban flow metrics used to *steer* rather than report. The rare JD where the ask is explicitly to be *less* present — "leading without being in every meeting" — which makes Xero's coach-10+-teams-without-owning-any pattern the literal match rather than a stretch. Go1 supplies the direct people-ownership evidence the JD leads with; Nagare's forecaster over-answers the flow-metrics nice-to-have. Profile written in first person and opens on self-organising squads. Opengear (Digi International), 2026-07-15. |
 | Program Delivery Lead (insurance parent-company subsidiary) | Program Delivery Lead | Business-wide transformation delivery for a Suncorp Group subsidiary. Suncorp direct-employment history used as the primary hook rather than a bridged analogue - the rare case where the "regulated enterprise" evidence is the literal parent company, not just an adjacent industry. Xero Unified Burndown as the integrated-delivery-plan anchor; Go1 as the end-to-end discovery-to-embedment anchor. First application rendered in narrative format (Format B) with the parent-company connection stated directly in the resume's Suncorp background paragraph, not only in the cover letter. HomeRepair, 2026-07-10. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
@@ -279,6 +281,55 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   the ~6-year cutline, same boundary call as Lab3). Gap: technology-led vs. business/operational
   transformation framing — one light sentence, no real severity given the parent-company match.
 
+- **Digital Solutions Delivery Lead / digital strategy + service-managed org (Randstad Digital,
+  2026-07-15)** → lead with Suncorp (compliance-critical telephony/data platform migration across an
+  entire enterprise and all affiliate brands — hits "complex and high-risk systems, data and
+  information projects", "business data needs across service streams", and vendor coordination in a
+  single role) + Xero *Unified Burndown* (interdependencies across every engineering division,
+  EGM-level reporting, and the strategy-to-executable-migration story the JD's "facilitate and
+  coordinate the digital strategy" duty is really asking for) + Go1 (forming and leading an agile
+  squad, operating model from scratch, growth culture). Headline: "Digital Solutions Delivery Lead"
+  (the JD's own title).
+  - **Read the strategy duty carefully.** The JD says "facilitate and coordinate" the digital
+    strategy, not own it — which is exactly Alan's altitude per the performance-review calibration
+    below. Don't inflate this into enterprise-strategy ownership, and don't treat it as a gap either.
+  - **Lead with qualifications for once.** This is the rare JD where the credential requirements are
+    a clean, literal match rather than something to bridge: Bachelor of Systems Engineering *is* an
+    information-systems degree, and Master of Project Management + PMP (2012) satisfy the
+    PM-qualification line twice over. The JD's "or a demonstrable understanding of their practical
+    application" makes PMP currency irrelevant.
+  - **ITIL gap** — see [[keywords]]. First JD to name it. One honest paragraph bridging to the
+    service-management practice underneath the framework (SLOs, on-call, incident response,
+    time-to-restore, release management, Suncorp governance frameworks), closed with the
+    capability-hierarchy reframe. Do not claim the certification or the branded vocabulary.
+  - **Don't raise procurement or budget.** Both are single clauses inside one duty bullet. Raising
+    them manufactures doubt where the JD signals none — same call as Lab3's budget handling.
+  - Vocabulary signal: "service streams", ITIL, procurement coordination, "overarching digital
+    strategy" reads like local government, a council, or a utility. End client not named by the
+    recruiter. If the sector surfaces at interview, Suncorp is the usual regulated-enterprise bridge.
+
+- **Engineering Manager / squad-based delivery at a network-hardware company (Opengear / Digi
+  International, 2026-07-15)** → lead with **Xero coaching EMs and tech leads across 10+ teams while
+  owning none of them** — the JD's "comfortable leading without being in every meeting… not dependency
+  on your presence" is not a paraphrasable stretch here, it is the literal shape of that role, and the
+  performance review's "force multiplier" / "strong optimizer of team processes" / "improves cycle
+  time" language is third-party proof of it. Pair with **Go1** (squad of 8, direct ownership of
+  onboarding, coaching, performance, team health through hyper-growth) for the people-leadership the
+  JD leads with, and **Virgin Australia** (tell-show-do-review coaching four POs until they ran their
+  own ceremonies without him) as the cleanest evidence of coaching teams to self-sufficiency
+  specifically — the JD's central ask. **2sol** covers the technical-credibility item (assessing
+  complexity, challenging sizing) via the CI/CD and engineering-practice transformation.
+  - **The flow-metrics nice-to-have is an over-answer, not a gap.** The JD asks for *exposure* to
+    cycle time, throughput, queue depth, and forecasting; Alan built the Monte Carlo forecaster. Use
+    the "built-the-tool proof" device below — this is the application that device was written for.
+  - **Don't reuse Karmo's scale-up-preference opener** despite the near-identical role shape. Opengear's
+    JD is measured, deliberate, and self-aware — no emoji, no growth-rocket language, and Digi is a
+    global company. The preference device would read as tonally wrong.
+  - **Networking / out-of-band infrastructure gap** (Lighthouse, NGCS, OGCS, OEM) is flagged "Desired
+    But Not Required" — one short paragraph, bridged via Suncorp's telephony platform replacement and
+    the systems-architect background. Nothing else in the JD needs acknowledging: **no named tool,
+    framework, or certification is required, a first among recent applications.**
+
 ## Performance review insights (Xero, 2026-06)
 
 Source: formal Xero performance review provided 2026-06-19. Useful for self-awareness in
@@ -318,6 +369,30 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
 
 ---
 
+## Nagare as evidence (added 2026-07-15)
+
+Alan runs **Nagare** (nagare.com.au), a personal site where he builds small browser-based tools for
+delivery practitioners — most notably a **Monte Carlo Delivery Date Forecaster**. Full detail,
+including attribution and open questions, lives in [[projects]]. What it changes about positioning:
+
+- **It converts three long-standing "claimed" skills into "built" ones.** Flow metrics, throughput
+  analysis, and delivery forecasting were previously evidenced by practice and coaching (Xero DORA
+  dashboards, cycle-time coaching across 10+ teams). Now there is a shipped artifact. When a JD asks
+  for flow-metrics *exposure*, this over-answers it.
+- **It is the only present-tense hands-on engineering evidence in the wiki.** The rest stops at
+  Emedia (2012). Use it wherever a JD wants a leader who is still technically credible — it beats the
+  "started as a software engineer 20 years ago" line, which is true but ageing.
+- **The Operating Rhythm Builder is the "operating system builder" framing, productised.** If that
+  framing is being used (see block above), this tool is its proof.
+- **Guardrails.** Attribution: Alan's project, Lisa contributes — never solo-founder phrasing.
+  Commercial status: early and undecided — never "business", "startup", "venture", or any revenue
+  implication. No traction or usage claims exist. Start date unconfirmed, so avoid dates.
+
+**Tone caution:** a personal side project reads as *craft* to an engineering-leadership audience and
+as *distraction* to a risk-averse enterprise or government panel. Lead with it for EM / delivery /
+agile roles at product companies. Leave it out, or drop it to a single line, for
+government/contract/PMO applications where the reader wants focus, not hobbies.
+
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.
 - Adding company descriptors (e.g., "Global cloud accounting software, 4,500+ employees") for
@@ -343,6 +418,12 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
 - **"JD interpretation + match claim" opener** (used in Robert Walters cover letter): Two-paragraph hook. Para 1 names the role and states you are applying. Para 2 paraphrases what the role actually requires in your own words, then claims direct alignment ("That's exactly the profile I've spent most of my career building."). Shows comprehension before claiming fit — more grounded than a mission-first opener. Works well for contract/execution roles where the brief is concrete and narrow.
 - **Capability-hierarchy gap reframe** (used in Robert Walters cover letter): When acknowledging a tool or platform gap, contrast what is easy to acquire (the specific tool) against what takes years to build (delivery mechanics, alignment, project execution). "I can pick up the specifics of a new CMS in no time; it's the ability to actually drive a project and keep everyone aligned that takes years to learn." Distinct from the "technical domain gap + delivery-focus pivot" — this one makes an explicit hierarchy argument, not just a pivot. Use when the gap is a named tool/platform and the core delivery competency is strong.
 - **Synthesis sentence after bullet block** (used in Robert Walters cover letter): After listing role-specific evidence as bullets, add one sentence naming the specific contribution before moving to the gap or close. "In essence, my key contribution will be bridging the gap between business, tech, and outside vendors to deliver the website." Gives the bullet list a landing point and frames the value-add explicitly.
+- **Built-the-tool proof** (new 2026-07-15, first used for Opengear): when a JD asks for familiarity
+  or "exposure" to a practice Alan has actually built tooling for, name the artifact instead of
+  claiming the skill. "Your ad asks for exposure to flow metrics and forecasting. I build tools for
+  this: [name it, one clause on the method]." Over-answers the requirement and demonstrates rather
+  than asserts. Only reach for it where the tool genuinely matches the ask — see [[projects]] Nagare
+  for the tools available and the guardrails on how to describe them.
 - **Curious-and-honest gap play** (used in Amber cover letter): when there is a genuine domain gap
   with no adjacent bridge, acknowledge it plainly and reframe it as a character trait rather than a
   capability gap. "I don't have a background in [domain], and I want to be straightforward about

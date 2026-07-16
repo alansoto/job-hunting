@@ -27,6 +27,10 @@ Resumes use a 3-tier self-rating: **Expert** > **Experienced** > **Skillful**.
   Evidence: 2sol transformation, Go1 common operating system, Xero ways-of-working program.
 - **Software Development** — *Expert*. 8 yrs as software engineer / systems architect.
   Evidence: Emedia, 2sol, early Peru/Canada engineering. → [[experience]]
+  *(Updated 2026-07-15: this is no longer purely historical. Alan builds and ships browser-based
+  delivery tools on his own site, Nagare — including a client-side Monte Carlo forecaster. Use this
+  when a JD asks for a leader who is "technically credible" or still hands-on; it is the only
+  present-tense build evidence in the wiki. → [[projects]])*
 - **Kanban and Scrum** — *Expert*. CSM-certified. Flow, WIP limits, cycle time, throughput,
   visualisation, delivery forecasting. Ceremonies: planning, standups, reviews, retrospectives.
 - **Team Leadership** — *Expert* in later resumes, *Experienced* in earlier ones. Directly
@@ -37,6 +41,14 @@ Resumes use a 3-tier self-rating: **Expert** > **Experienced** > **Skillful**.
 - **Building self-organising, effective engineering teams** — *Expert*.
 - **Improving team flow & delivery practices** (cycle time, capacity planning, forecasting,
   healthy delivery rhythms) — *Expert*.
+- **Probabilistic / Monte Carlo delivery forecasting** — *Experienced*, hands-on and built, not just
+  practised. *(New 2026-07-15.)* Alan built the **Delivery Date Forecaster** on [[projects]] Nagare:
+  it samples a team's historical throughput and runs 10,000 Monte Carlo simulations of the remaining
+  work to produce **P50 / P85 / P95** completion dates, with allowances for undiscovered scope and
+  reduced-capacity periods. Distinct from the "delivery forecasting" already claimed above, which is
+  the deterministic/capacity-based kind — this is the probabilistic kind, and it is a genuinely
+  differentiating skill. Also covers **throughput distribution analysis** and **confidence-interval
+  communication to stakeholders** (the P85-for-commitments, P50-for-internal-targets distinction).
 - **Coaching engineering & product leaders** (EMs, tech leads, POs) — *Expert*.
 - **Engineering strategy & roadmapping**, **service stability & operational excellence**,
   **CI/CD & engineering process improvement**, **capacity planning & forecasting** — claimed at
@@ -115,9 +127,12 @@ mining (Barrick Gold, early career). Regulated/enterprise and hyper-growth scale
 > later (engineering-manager) resumes claim Expert with direct people-management evidence (squads
 > of 5–10, hiring/performance). Treat Expert as current.
 >
-> **Lint note:** "Cloud-based systems — Experienced" is only *thinly* evidenced (Xero = cloud
-> accounting; Emedia = high-availability e-commerce); no specific cloud platform (AWS/Azure/GCP) is
-> named in any resume. Don't claim hands-on cloud-platform expertise without confirmation. Likewise
+> **Lint note (updated 2026-07-15):** "Cloud-based systems — Experienced" is only *thinly* evidenced
+> (Xero = cloud accounting; Emedia = high-availability e-commerce). **Alan holds an AWS Cloud
+> Practitioner certification (2026)** — see [[education]] — which is the first named cloud platform
+> anywhere in the wiki. It is a foundational credential, not delivery evidence: it establishes AWS
+> literacy and vocabulary, not hands-on platform experience. Claim the certification by name; still
+> don't claim hands-on cloud-platform expertise without confirmation. Likewise
 > the engineering-leadership cluster (engineering strategy, service stability, operational
 > excellence) is evidenced indirectly via 2sol/Emedia rather than named as a standalone role
 > responsibility — frame as transferable, not as a titled mandate.

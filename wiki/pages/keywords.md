@@ -65,6 +65,14 @@ burndown plan · deprecation plan · Unified Burndown · domain engagement timel
 migration deprecation · domain dependency intake · onboarding readiness · API platform adoption ·
 consumer migration · domain migration sequencing.
 
+## Flow metrics & probabilistic forecasting *(new 2026-07-15 — via [[projects]] Nagare)*
+Monte Carlo simulation · probabilistic forecasting · probabilistic delivery forecasting ·
+throughput sampling · throughput distribution · confidence intervals · P50 / P85 / P95 ·
+cumulative probability · queue health · queue depth · flow metrics · flow-based delivery ·
+undiscovered scope · capacity adjustment · delivery date forecasting.
+Note: these are **built, not just practised** — Alan wrote the forecaster that does this. Distinct
+from the deterministic capacity/delivery forecasting already listed under Program / delivery above.
+
 ## AI / data
 AI · machine learning (ML) · AI for Customers · AI agents · NLP (natural language processing) ·
 AI-powered people analytics · AI-powered video · data scientists · ML engineers · AI & data governance ·
@@ -91,6 +99,11 @@ coordination · emotional intelligence.
 
 ## Tools
 Jira · Jira Analytics · Confluence · Pendo · FullStory · Asana · Miro.
+*(2026-07-15)* **Linear** and **Azure DevOps** now appear as supported CSV import sources in Alan's
+own Delivery Date Forecaster ([[projects]] Nagare) — meaning he has worked with their exported data
+formats. This is **not** evidence of delivering work in either tool and does **not** close the
+standing Azure DevOps gap below. Safe: "built tooling that ingests Jira, Asana, Linear, and Azure
+DevOps exports". Unsafe: "experienced with Azure DevOps".
 
 ## Delivery tooling / governance
 Jira Data Quality Score · Jira health dashboards · tooling standardisation · delivery tooling ·
@@ -106,11 +119,15 @@ energy tech · home energy automation · IoT · Health IT · clinical software �
 on-premises to cloud migration · on-premises to SaaS transformation · SaaS transformation · speed-to-market ·
 state government · government ICT modernisation · fines and penalty debt systems · cross-agency data sources ·
 enterprise data and integration platform *(2026-07-06)* · mining · mining technology *(2026-06-25, early-career
-bridge via Barrick Gold only — not a core domain)*.
+bridge via Barrick Gold only — not a core domain)* · network hardware · network resilience ·
+out-of-band management *(2026-07-15, Opengear — JD vocabulary only, see gap-watch below; not evidenced)*.
 
 ## Certifications / credentials (ATS-valuable)
-PMP · Certified ScrumMaster (CSM) · Masters of Project Management · Bachelor of Systems
-Engineering · bilingual (English/Spanish) · full working rights.
+PMP · Certified ScrumMaster (CSM) · Master of Project Management · Bachelor of Systems
+Engineering · AWS Cloud Practitioner *(2026)* · AI Assisted Development *(2026)* · LeanUX and
+Product Discovery for Agile Teams *(2018)* · bilingual (English/Spanish) · full working rights.
+Note: AWS Cloud Practitioner is a foundational certification — safe as an ATS keyword and a named
+credential, not as evidence of hands-on AWS delivery. See [[education]].
 
 ---
 
@@ -217,10 +234,61 @@ Engineering · bilingual (English/Spanish) · full working rights.
   - `Jira`, `burn down reports`, `Scrum/Agile/Kanban/DevOps`, `functional & non-functional requirements
     workshops`, `complex enterprise governance` — all cleanly evidenced. No gap on the core requirements.
 
-> Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP), Azure DevOps,
-> Dynamics 365/Power Platform, SAFe, specific languages/frameworks, OKRs, Databricks, MS Project,
-> SharePoint, formal procurement process ownership, financial/budget forecasting (as distinct from
-> delivery/capacity forecasting).
+- **2026-07-15 — Randstad Digital (Digital Solutions Delivery Lead, contract, Brisbane):**
+  - `ITIL` — named as a required "working understanding" alongside agile methodologies. **First JD
+    to date to name ITIL**; unevidenced anywhere in [[skills]], [[education]], or this page. Bridge:
+    the service-management practice underneath the framework, all genuinely evidenced — SLOs,
+    on-call practices, incident response and Time to Restore (Xero Code Red), release management,
+    and the delivery-governance frameworks built at Suncorp. Acknowledge plainly and use the
+    capability-hierarchy reframe ("the framework's vocabulary is the easy part"); do not claim the
+    certification or the branded vocabulary, and do not put ITIL in the resume.
+  - `coordinate procurement processes` — recurrence of the Paxus (2026-07-07) gap. Vendor and
+    contractor coordination is well evidenced (Suncorp offshore contractors + vendors;
+    Console/Reapit external payments provider; 2sol as the delivery vendor itself); ownership of a
+    procurement *process* is not. One clause inside one duty bullet — low severity.
+  - `monitor delivery against budget` — recurrence of the Lab3 (2026-07-09) financial-forecasting
+    gap. Same treatment: frame via 2sol's $5M+/month commercial ownership, don't raise as a gap.
+  - `overarching digital strategy and vision` — met at the "facilitate and coordinate" altitude the
+    JD actually asks for (Xero API/AI roadmap with executive leadership; org-wide ways-of-working
+    program; intelliHR board-level Blue Ocean strategy), not at enterprise-strategy-ownership
+    altitude. Consistent with the performance-review level calibration in [[positioning]].
+  - `service streams` · `digital strategy` · `customer-centric` — the JD's vocabulary, plus ITIL and
+    procurement coordination, reads like local government, a council, or a utility. End client not
+    named. If the sector surfaces at interview, bridge via Suncorp (ASX-listed, APRA-adjacent,
+    compliance-critical) as usual.
+  - Everything else (degree, PM qualification, team-leader level, agile team formation,
+    complex/high-risk systems and data delivery, interdependencies, stakeholder influence, Brisbane
+    + working rights) cleanly evidenced. One of the cleanest matches in the wiki.
+
+> Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP — but note the
+> AWS Cloud Practitioner cert, 2026), Azure DevOps (*partially softened 2026-07-15 — see Tools: the
+> Nagare forecaster imports ADO CSV exports, which is data-format familiarity only, not delivery
+> experience*), Dynamics 365/Power Platform, SAFe, ITIL, specific languages/frameworks, OKRs,
+> Databricks, MS Project, SharePoint, formal procurement process ownership, financial/budget
+> forecasting (as distinct from delivery/capacity forecasting).
+
+- **2026-07-15 — Opengear / Digi International (Engineering Manager, Squad-Based Delivery, Brisbane):**
+  - `Lighthouse` · `NGCS` · `OGCS` · `OEM` — Opengear's own product domains, flagged "Desired But Not
+    Required". No evidence; these are company-specific products, not transferable technologies.
+  - `network resilience` / `out-of-band management` / `console servers` / `independent management
+    plane` — genuine new technical domain. Bridge: Suncorp's enterprise telephony and data platform
+    replacement (the closest infrastructure analogue in the wiki) plus the early systems-architect
+    background. Acknowledged in one short cover-letter paragraph; do not claim networking depth.
+  - `squad-ready` / `backlog quality` / `feature refinement to a squad-ready bar` — the JD's own
+    vocabulary for a practice that is deeply evidenced (backlog refinement at Go1, Xero PO
+    partnership, Jira Data Quality Score as a literal work-entering-the-queue quality bar), but the
+    phrase itself is new to the wiki. Worth borrowing verbatim.
+  - `support rotation` / `rotation scheduling` — squad-level operational scheduling around support
+    cycles. Not named anywhere in the wiki; adjacent via on-call practices (Xero Code Red). Low
+    severity, not raised in the letter.
+  - `queue health` · `queue depth` · `flow-based delivery models` · `delivery forecasting` — asked
+    for as *exposure* (nice-to-have) and **over-answered** via [[projects]] Nagare: Alan built the
+    Monte Carlo forecaster that does this. See the "Flow metrics & probabilistic forecasting" section
+    above — built, not just practised.
+  - Everything else — leading small high-performing teams, autonomy over presence, technical
+    credibility to challenge sizing, developing engineers toward tech lead, cross-context
+    communication, retrospective facilitation — cleanly evidenced. **The first JD in the wiki to name
+    no required tool, framework, or certification at all**, and among the cleanest matches to date.
 
 - **2026-07-09 — Karmo (Engineering Delivery Manager, car-subscription scale-up, Brisbane):**
   - `automotive` / `mobility` / `fleet` industry experience — flagged "highly regarded," NOT
