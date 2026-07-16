@@ -53,6 +53,26 @@ giving you a forecast based on probability."*
 - **Feedback Coach** — a practice tool for preparing difficult conversations. **Coming soon / not
   yet shipped** — do not claim it as delivered.
 
+### Stack and how it is built *(confirmed 2026-07-16)*
+Nagare is built in **React and TypeScript**. **Critical nuance, stated by Alan directly:** he does
+not hand-write much of this code — he uses **Claude Code to produce it**, and describes his own
+level as *"a high-level understanding of the framework but definitely not proficient."*
+
+This makes Nagare the first **named front-end stack** anywhere in the wiki, and it is genuinely
+useful — but the framing guardrail is strict:
+
+- **Safe:** "builds and ships React/TypeScript tools", "AI-assisted development", "designs and ships
+  browser-based tools in React and TypeScript". Pairs naturally with the **AI Assisted Development**
+  certification (2026) in [[education]] and the daily Copilot/Claude/Gemini use noted in the Karmo
+  application.
+- **Unsafe — do not write, on any document:** "proficient in React", "proficient in
+  TypeScript", "strong JavaScript/TypeScript skills", or any phrasing implying hands-on
+  fluency. Alan has explicitly disclaimed proficiency. A JD asking for *proficiency* in JS/TS/React
+  (e.g. Digital Native Engineering Lead, 2026-07-16) is **not** met by this evidence — it is
+  softened, not closed.
+- This is architect-level literacy plus AI-assisted delivery, not practitioner fluency. Frame it as
+  *what he can build*, never as *what he can code*.
+
 **Started 2025** *(confirmed 2026-07-15 — "a year ago"; month unknown, so use the bare year)*, and
 still running. **Nagare therefore began while Alan was still at Xero** (Mar 2022 - Jul 2026), which
 is the more useful fact: it is something he built alongside a demanding Lead TPM role, not something

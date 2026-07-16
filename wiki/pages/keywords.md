@@ -125,7 +125,11 @@ out-of-band management *(2026-07-15, Opengear — JD vocabulary only, see gap-wa
 ## Certifications / credentials (ATS-valuable)
 PMP · Certified ScrumMaster (CSM) · Master of Project Management · Bachelor of Systems
 Engineering · AWS Cloud Practitioner *(2026)* · AI Assisted Development *(2026)* · LeanUX and
-Product Discovery for Agile Teams *(2018)* · bilingual (English/Spanish) · full working rights.
+Product Discovery for Agile Teams *(2018)* · React Nanodegree *(2017)* · bilingual
+(English/Spanish) · full working rights.
+Note: React Nanodegree *(added 2026-07-16)* is the only formal front-end credential in the wiki —
+valuable as an ATS keyword, but nine years old and not evidence of current React proficiency. See
+the guardrail in [[skills]] and [[projects]].
 Note: AWS Cloud Practitioner is a foundational certification — safe as an ATS keyword and a named
 credential, not as evidence of hands-on AWS delivery. See [[education]].
 
@@ -263,9 +267,13 @@ credential, not as evidence of hands-on AWS delivery. See [[education]].
 > Still unevidenced across all JDs to date: specific cloud platforms (AWS/Azure/GCP — but note the
 > AWS Cloud Practitioner cert, 2026), Azure DevOps (*partially softened 2026-07-15 — see Tools: the
 > Nagare forecaster imports ADO CSV exports, which is data-format familiarity only, not delivery
-> experience*), Dynamics 365/Power Platform, SAFe, ITIL, specific languages/frameworks, OKRs,
-> Databricks, MS Project, SharePoint, formal procurement process ownership, financial/budget
-> forecasting (as distinct from delivery/capacity forecasting).
+> experience*), Dynamics 365/Power Platform, SAFe, ITIL, specific languages/frameworks
+> (*partially softened 2026-07-16 — React and TypeScript are now named via Nagare, but AI-assisted
+> and explicitly not at proficiency; see [[projects]] and [[skills]] before answering any front-end
+> requirement*), OKRs, Databricks, MS Project, SharePoint, formal procurement process ownership,
+> financial/budget forecasting (as distinct from delivery/capacity forecasting), named test
+> frameworks (Playwright/Selenium/Jest/TDD/BDD), container and IaC tooling (Kubernetes/Docker/
+> Terraform), Git hosting platforms (GitHub/GitLab).
 
 - **2026-07-15 — Opengear / Digi International (Engineering Manager, Squad-Based Delivery, Brisbane):**
   - `Lighthouse` · `NGCS` · `OGCS` · `OEM` — Opengear's own product domains, flagged "Desired But Not
@@ -289,6 +297,46 @@ credential, not as evidence of hands-on AWS delivery. See [[education]].
     credibility to challenge sizing, developing engineers toward tech lead, cross-context
     communication, retrospective facilitation — cleanly evidenced. **The first JD in the wiki to name
     no required tool, framework, or certification at all**, and among the cleanest matches to date.
+
+- **2026-07-16 — Digital Native recruiter / unnamed Brisbane tech company (Engineering Lead, likely
+  intelligent transport systems):**
+  - `JavaScript` · `TypeScript` · `React` — **named as an ESSENTIAL requirement ("Proficiency in
+    JavaScript/TypeScript and React"), and genuinely unmet.** First JD to name a front-end stack,
+    and the first time an application has proceeded against an unmet *essential*. Nagare *is* React +
+    TypeScript, but Alan produces the code with Claude Code and disclaims proficiency outright — see
+    the guardrail in [[projects]] and [[skills]]. Safe: "builds and ships React/TypeScript tools,
+    AI-assisted". **Unsafe on any document: proficient / fluent / strong in JS/TS/React.** Softened,
+    not closed.
+  - `hands-on contribution to design, development, test automation and maintenance` — the role is an
+    engineer who leads, reporting to an Engineering Manager. Alan's last decade is delivery and
+    program leadership; he shapes practice and coaches engineers but does not ship production code.
+    The Xero performance review names this exact edge ("gap at complex cross-domain technical
+    alignment"). Roughly 40% of the JD as written; not bridgeable, only contextualised.
+  - `Kubernetes` · `Docker` · `Terraform` — nice-to-have, no evidence anywhere, no bridge. Do not
+    claim. (Terraform is a recurrence of the Lab3 2026-07-09 IaC gap.)
+  - `GitLab` — nice-to-have, not evidenced; recurrence of the Magentus (2026-06-23) GitHub gap. Jira
+    and Confluence in the same JD bullet are deeply evidenced.
+  - `gRPC` · `Protobuf` — nice-to-have, not evidenced. `REST` / `JSON` / API integration are strong
+    (Xero API Program, Console/Reapit, 2sol's 20+ APIs) and GraphQL is a genuine strength via
+    Supergraph — those carry the bullet.
+  - `PostgreSQL` — nice-to-have. SQL is hands-on (Emedia production queries, Xero DORA dashboards);
+    PostgreSQL specifically is not named. Same shape as the standing MySQL gap (Auto & General).
+  - `Playwright` · `Selenium` · `Jest` — nice-to-have. Automated testing is evidenced as a practice
+    introduced (2sol) and championed (Xero Code Red); no named framework anywhere in the wiki.
+    Recurrence of the Magentus TDD/BDD gap.
+  - `transportation` · `intelligent systems` · `infrastructure-driven environments` — nice-to-have,
+    new domain. Bridges: Suncorp's enterprise telephony platform replacement (closest
+    infrastructure-driven analogue) and Emedia's high-availability event systems (failure immediate
+    and public). Virgin Australia is transport-*adjacent* (aviation) but was a five-month coaching
+    engagement, not platform work — do not oversell it.
+  - `psychological safety` · `stretch opportunities` · `trio` (Engineering Lead + PM + Designer) ·
+    `co-owning outcomes` — the JD's vocabulary for practices deeply evidenced (Go1's squad of 8
+    contained a designer and a PO; Virgin's tell-show-do-review; the performance review's "force
+    multiplier"). Worth borrowing verbatim.
+  - Everything else — agile/Scrum team leadership, coaching and mentoring, cloud-native SaaS,
+    CI/CD/DevOps/SRE (Code Red is close to a verbatim match), modular/scalable/resilient
+    architecture, system integration, ambiguous problems into sequenced increments, commercial
+    balance, Jira/Confluence, Software Engineering degree — cleanly evidenced.
 
 - **2026-07-09 — Karmo (Engineering Delivery Manager, car-subscription scale-up, Brisbane):**
   - `automotive` / `mobility` / `fleet` industry experience — flagged "highly regarded," NOT

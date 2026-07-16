@@ -32,6 +32,15 @@ Degrees, certifications, and courses for **Alan Soto**. Cross-referenced from [[
 - **AI Assisted Development** — **2026.** *(New 2026-07-15.)* Pairs with the already-evidenced
   daily use of AI coding tools (Copilot/Claude/Gemini) noted in the Karmo application, and with the
   AI delivery evidence in [[experience]] (Xero AI for Customers, intelliHR NLP analytics).
+- **React Nanodegree** — **2017.** *(New 2026-07-16, surfaced via Alan's manual edits to the Digital
+  Native Engineering Lead resume.)* Issuing body unrecorded — the name matches Udacity's Nanodegree
+  programs; **confirm with Alan.** This is the **first and only formal front-end credential anywhere
+  in the wiki**, and it partly answers the standing "no specific languages/frameworks" lint finding.
+  Read alongside the hard guardrail in [[projects]] and [[skills]]: Alan confirmed on 2026-07-16 that
+  he builds Nagare's React/TypeScript with Claude Code and is **"definitely not proficient."** So the
+  credential evidences *training*, not current proficiency, and it is nine years old. Safe: list it
+  under Certifications; "React Nanodegree (2017)". Unsafe: treating it as evidence of current React
+  proficiency, or as closing a JD's "proficiency in React" requirement.
 - **LeanUX and Product Discovery for Agile Teams** — **2018.** *(New 2026-07-15.)* Formalises the
   product-discovery skills already evidenced at intelliHR and Console/Reapit (discovery workshops,
   user story maps, prototyping, user testing) — [[skills]] rates Product Discovery only *Skillful*

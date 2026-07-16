@@ -31,6 +31,16 @@ Resumes use a 3-tier self-rating: **Expert** > **Experienced** > **Skillful**.
   delivery tools on his own site, Nagare — including a client-side Monte Carlo forecaster. Use this
   when a JD asks for a leader who is "technically credible" or still hands-on; it is the only
   present-tense build evidence in the wiki. → [[projects]])*
+
+- **React / TypeScript** — *not proficient; AI-assisted build capability only* **(confirmed
+  2026-07-16 — read this before answering any front-end requirement)**. Nagare is built in React and
+  TypeScript, but Alan produces the code with **Claude Code** and describes himself as having "a
+  high-level understanding of the framework but definitely not proficient." Claim as *"builds and
+  ships React/TypeScript tools, AI-assisted"* — **never** as proficiency, fluency, or strength. A JD
+  requiring *proficiency* in JavaScript/TypeScript/React is **not met** by this. → [[projects]]
+  *(2026-07-16: Alan also holds a **React Nanodegree (2017)** — see [[education]]. It is the only
+  formal front-end credential in the wiki and it is worth listing, but it is nine years old and
+  evidences training rather than current proficiency. It does not change the guardrail above.)*
 - **Kanban and Scrum** — *Expert*. CSM-certified. Flow, WIP limits, cycle time, throughput,
   visualisation, delivery forecasting. Ceremonies: planning, standups, reviews, retrospectives.
 - **Team Leadership** — *Expert* in later resumes, *Experienced* in earlier ones. Directly

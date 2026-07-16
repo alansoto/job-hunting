@@ -1151,3 +1151,54 @@ Expert (current).
   `date_applied` and the tracker's Date sent record the actual send date.
 
 ---
+
+## [2026-07-16] apply — Engineering Lead, Brisbane tech company (via Digital Native, Aaron Thomas)
+- Folder: `applications/2026-07-16-digitalnative-engineering-lead/`. JD saved verbatim.
+  $175-185k + super, permanent, inner-city Brisbane hybrid, reporting to an Engineering Manager.
+- **Employer not named by the recruiter.** Signals (Brisbane, well-established tech company,
+  "mission-critical software platform that keeps major cities moving", transportation / intelligent
+  systems, cloud-native SaaS) point at an intelligent transport systems vendor - **Transmax**
+  (inner-city Brisbane, owns the STREAMS traffic platform) is the best guess, Q-Free secondary.
+  Unconfirmed; worth asking Aaron before interview.
+- **New confirmed fact — Nagare's stack, with a hard guardrail.** Nagare is built in **React and
+  TypeScript**, but Alan produces the code with **Claude Code** and explicitly disclaims
+  proficiency: *"a high-level understanding of the framework but definitely not proficient."*
+  Recorded in [[projects]] (new "Stack and how it is built" block) and [[skills]] (new React /
+  TypeScript entry). Safe framing: "builds and ships React/TypeScript tools, AI-assisted". Unsafe on
+  any document: proficiency, fluency, or strength in JS/TS/React. This is the **first named
+  front-end stack anywhere in the wiki** and it closes nothing - it softens.
+- **Gap of record: "Proficiency in JavaScript/TypeScript and React" is an ESSENTIAL JD requirement
+  and is genuinely unmet.** First application in the wiki's history to proceed against an unmet
+  *essential* (not nice-to-have) requirement. Alan's call, made 2026-07-16 with the gap stated
+  plainly: **apply and downplay** - no gap paragraph in the cover letter, no apology, let the
+  leadership evidence carry it and handle the stack question honestly at interview. Documented as a
+  presentation choice that does **not** license a proficiency claim; no such claim appears in either
+  document.
+- Fit: **moderate**. The JD splits in two. Leadership half (coaching, mentoring, psychological
+  safety, trio partnership, CI/CD/DevOps/SRE, architecture at the system level, sequencing
+  increments) is an over-answer - the "makes the people around them better / mentors generously"
+  language is near-verbatim the Xero performance review, and the CI/CD-DevOps-SRE bullet describes
+  Code Red almost exactly. Bachelor of Systems Engineering matches the qualification line literally.
+  Hands-on half (~40% of the role as written) is a decade behind him.
+- Positioning: new framing added - **Engineering Lead (hands-on ITS / cloud-native SaaS)**. Hook is
+  the JD's own anti-hoarding line ("This isn't a role for someone who wants to hoard the hard
+  problems") answered with the **Practice-domain handover** - bootstrapped the subgraph, got UK Tax
+  live as the first GA production query, then deliberately handed the domain to its owning team with
+  pair programming. Giving away the most interesting problem in the program is the literal answer to
+  their literal ask. Paired with Xero coach-10+-teams-owning-none, Go1 (squad of 8 *containing* a
+  designer and a PO = the closest literal trio evidence in the wiki), and Virgin (tell-show-do-review
+  until four POs ran their own ceremonies).
+- Format B (narrative). Narrative treatment on Xero and Go1 only; Suncorp given plain bullets despite
+  sitting at the ~6-year cutline - a deliberate departure from Lab3/HomeRepair, which gave it the
+  narrative block. Reason: this is an engineering-leadership pitch and the two narrative slots are
+  worth more spent on the engineering-team stories. **Nagare included as its own labelled
+  experience entry** (intro + flat bullets), placed after Xero and dated 2025 - Present; it is where
+  the React/TypeScript and Monte Carlo evidence lives. Depends on the flat-bullet render fix logged
+  earlier today - check the rendered PDF, not just the build exit code.
+- Gaps not raised (all nice-to-have): Kubernetes/Docker/Terraform (no evidence, no bridge), GitLab
+  (recurrence of the standing GitHub gap), gRPC/Protobuf (REST/JSON/GraphQL carry the bullet),
+  transport domain.
+- Pages touched: [[projects]] (Nagare stack + guardrail), [[skills]] (React/TypeScript entry),
+  [[keywords]] (gap-watch entry).
+
+---

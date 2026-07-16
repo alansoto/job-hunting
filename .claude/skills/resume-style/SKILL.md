@@ -99,6 +99,32 @@ Back every claim with a specific number, example, or name.
 - "Many people think..." -> "A survey found that 73% of users..."
 - "Significant improvements" -> "Improvements of 23-47%"
 
+### 6b. Insider Vocabulary (added 2026-07-16)
+
+The reader has never worked at your previous companies. Any name that only means something inside
+one of them - project codenames, internal team names, product areas, in-house tooling, domain
+jargon - lands as noise, and the reader cannot tell whether the thing was a major achievement or a
+footnote. This is the opposite failure mode to vague language: the sentence is highly specific and
+still communicates nothing.
+
+The wiki is written for completeness and is full of these names. They will leak into drafts unless
+you strip them deliberately.
+
+- "I defined the Practice-domain thin slice and got UK Tax Capital Allowances live as the first GA
+  production query" -> "I found the smallest slice of real functionality that could prove the
+  platform and took it to production for a real customer-facing team"
+- "unblocked BlueNav's migration off GSD" -> "used a second, high-traffic team as the scale test"
+- "built the Unified Burndown" -> "built the single company-wide view of every division's migration
+  and retirement plan"
+- "Code Red" -> "a division-wide CI/CD uplift" (name it only if the surrounding sentence already
+  explains what it was)
+
+Test: could a reader who has never heard of the company tell what happened, and how hard it was?
+If the name is load-bearing, replace it with the plain description. If it is decoration, cut it.
+
+Industry-standard terms are fine and often desirable - federated API, DORA metrics, Monte Carlo,
+SLOs, CI/CD. The line is whether the term is portable outside the company that coined it.
+
 ### 7. Too Many Transition Words
 
 Limit transitions to: but, and, so, then, because.
