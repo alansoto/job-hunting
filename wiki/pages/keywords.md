@@ -124,18 +124,30 @@ out-of-band management *(2026-07-15, Opengear — JD vocabulary only, see gap-wa
 
 ## Certifications / credentials (ATS-valuable)
 PMP · Certified ScrumMaster (CSM) · Master of Project Management · Bachelor of Systems
-Engineering · AWS Cloud Practitioner *(2026)* · AI Assisted Development *(2026)* · LeanUX and
+Engineering · AWS Cloud Practitioner *(in progress, exam ~7 Aug 2026 - NOT yet held)* · AI Assisted Development *(2026)* · LeanUX and
 Product Discovery for Agile Teams *(2018)* · React Nanodegree *(2017)* · bilingual
 (English/Spanish) · full working rights.
 Note: React Nanodegree *(added 2026-07-16)* is the only formal front-end credential in the wiki —
 valuable as an ATS keyword, but nine years old and not evidence of current React proficiency. See
 the guardrail in [[skills]] and [[projects]].
-Note: AWS Cloud Practitioner is a foundational certification — safe as an ATS keyword and a named
-credential, not as evidence of hands-on AWS delivery. See [[education]].
+Note: AWS Cloud Practitioner is NOT yet held (in progress, exam ~7 Aug 2026 — corrected 2026-07-20
+during the Bay Technologies finalise; the earlier "2026 / held" record was wrong). Until earned,
+frame as "in progress", never as a held/dated credential. It is a foundational certification in any
+case — literacy, not evidence of hands-on AWS delivery. See [[education]].
 
 ---
 
 ## Keywords seen in JDs but NOT yet evidenced (gap-watch)
+
+- **2026-07-20 — Bay Technologies (Engineering Manager, govt-software SME, permanent, Brisbane):**
+  - `.NET / C#` — named in the required stack ("practical leadership experience across .NET/C#...") and the team is described as ".NET development". **Genuine gap — not evidenced anywhere in the wiki, not claimed.** First JD to name .NET/C#. Bridge is only language-agnostic engineering leadership + a real software-engineer foundation that ramps on a new stack fast; the JD frames the ask as *leadership across* a stack plus *credibility to guide/coach*, with hands-on code "from time to time" — that framing is what makes it contextualisable rather than disqualifying. Do not claim .NET/C#.
+  - `Python` — same as .NET/C#: named in the required stack, unevidenced, not claimed.
+  - `SQL Server` — SQL is hands-on (Emedia production SQL; Xero DORA dashboards) but **SQL Server specifically** is unnamed. Safe to claim SQL; don't claim the SQL Server product specifically.
+  - `ISO 27001` / `ASD ISM` — named secure-development frameworks; no direct evidence. First JD to name either. Bridge to the *practice* underneath (Emedia secure payment systems, Suncorp compliance-critical governance, secure-coding standards/code-review culture built from scratch) — same treatment as the ITIL gap (Randstad Digital 2026-07-15). Do not claim the branded frameworks.
+  - `GitHub Actions` / `GitLab CI/CD` — recurrence of the standing Git-hosting-platform gap (Magentus GitHub, Digital Native GitLab). **CI/CD as a practice is strongly evidenced** (2sol built it from scratch; Xero Code Red DORA/pipeline uplift); the gap is the specific platform brand. "Or equivalent delivery pipelines" gives room — frame via CI/CD practice ownership, don't name a platform not used.
+  - `Azure-hosted SaaS` / `Azure Solutions Architect` — "highly regarded", not required. Standing Azure gap; AWS Cloud Practitioner is *in progress* (see Certifications note above — NOT held). JD offers on-the-job Azure cert support. Bridge via the DevOps/observability/DORA work; do not claim Azure hands-on.
+  - `Australian government / regulated customers` — "highly regarded". Standing government-sector gap; Suncorp (ASX-listed, APRA-regulated, compliance-critical) is the usual bridge.
+  - Everything else — lead/coach a multidisciplinary team, Agile delivery, PR discipline/test automation/CI-CD/release readiness, application & cloud architecture guidance, DevOps + SaaS reliability, AI-first development (over-answered: AI for Customers + Nagare built with Claude Code + daily AI coding tools), secure-development *practice*, tertiary qualification, 7+ yrs eng incl. 3+ yrs leadership, stakeholder communication — cleanly evidenced.
 
 - **2026-07-02 — FinXL by Randstad Digital (Scrum Master, infrastructure/cloud/database/storage, banking & finance):**
   - `Cloud Platforms portfolio projects` — no named cloud infra platform (AWS/Azure/GCP) evidenced. Bridge: Xero (cloud-native platform, dozens of teams); Suncorp (coordinated Infrastructure/Security on a data platform migration). Low severity for a Scrum Master facilitation role — do not claim hands-on cloud architecture.
@@ -273,7 +285,9 @@ credential, not as evidence of hands-on AWS delivery. See [[education]].
 > requirement*), OKRs, Databricks, MS Project, SharePoint, formal procurement process ownership,
 > financial/budget forecasting (as distinct from delivery/capacity forecasting), named test
 > frameworks (Playwright/Selenium/Jest/TDD/BDD), container and IaC tooling (Kubernetes/Docker/
-> Terraform), Git hosting platforms (GitHub/GitLab).
+> Terraform), Git hosting platforms (GitHub/GitLab), **.NET/C# and Python (named 2026-07-20, Bay —
+> genuine language gaps, not claimed), SQL Server specifically (SQL is evidenced; the product is
+> not), and named secure-development frameworks (ISO 27001 / ASD ISM, named 2026-07-20, Bay)**.
 
 - **2026-07-15 — Opengear / Digi International (Engineering Manager, Squad-Based Delivery, Brisbane):**
   - `Lighthouse` · `NGCS` · `OGCS` · `OEM` — Opengear's own product domains, flagged "Desired But Not

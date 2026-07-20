@@ -138,11 +138,11 @@ mining (Barrick Gold, early career). Regulated/enterprise and hyper-growth scale
 > of 5–10, hiring/performance). Treat Expert as current.
 >
 > **Lint note (updated 2026-07-15):** "Cloud-based systems — Experienced" is only *thinly* evidenced
-> (Xero = cloud accounting; Emedia = high-availability e-commerce). **Alan holds an AWS Cloud
-> Practitioner certification (2026)** — see [[education]] — which is the first named cloud platform
+> (Xero = cloud accounting; Emedia = high-availability e-commerce). **Alan is completing an AWS Cloud
+> Practitioner certification (in progress, exam ~7 Aug 2026 — corrected 2026-07-20; NOT yet held)** — see [[education]] — which is the first named cloud platform
 > anywhere in the wiki. It is a foundational credential, not delivery evidence: it establishes AWS
-> literacy and vocabulary, not hands-on platform experience. Claim the certification by name; still
-> don't claim hands-on cloud-platform expertise without confirmation. Likewise
+> literacy and vocabulary, not hands-on platform experience. Until the exam is passed, frame it as "in
+> progress", never as a held/dated credential; still don't claim hands-on cloud-platform expertise. Likewise
 > the engineering-leadership cluster (engineering strategy, service stability, operational
 > excellence) is evidenced indirectly via 2sol/Emedia rather than named as a standalone role
 > responsibility — frame as transferable, not as a titled mandate.

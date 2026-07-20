@@ -22,13 +22,16 @@ Degrees, certifications, and courses for **Alan Soto**. Cross-referenced from [[
   implying a live credential. Resumes that say "active" or "2012–2025" are inaccurate.
 - **Certified ScrumMaster (CSM)** — Scrum Alliance. **2012.** No expiry listed (CSM was a lifetime
   credential historically; modern CSM requires renewal — verify if a role hinges on it).
-- **AWS Cloud Practitioner** — **2026.** *(New 2026-07-15, surfaced via Alan's manual edits to the
-  Randstad Digital resume.)* Foundational AWS credential. **This is a certification, not hands-on
-  platform experience** — it partially closes the long-standing "no AWS/Azure/GCP named anywhere"
-  lint finding (see [[skills]]), but do not upgrade it into a claim of hands-on cloud-platform
-  delivery without confirming with Alan. Safe framings: list it under Certifications; say
-  "AWS Cloud Practitioner certified". Unsafe: "experienced with AWS", "delivered AWS
-  infrastructure projects".
+- **AWS Cloud Practitioner** — **IN PROGRESS; exam booked ~7 Aug 2026** *(corrected 2026-07-20 by
+  Alan during the Bay Technologies finalise — supersedes the earlier "2026 / held" record, which was
+  inferred from a resume edit and was wrong).* **The certification is not yet earned.** Do **not**
+  list it as a held/dated credential. Safe framings: "AWS Cloud Practitioner (in progress, exam Aug
+  2026)", "currently certifying on AWS". Unsafe: "AWS Cloud Practitioner certified" / "AWS Cloud
+  Practitioner · 2026" / "experienced with AWS". It is a foundational credential in any case
+  (literacy, not hands-on platform delivery). **Consequence for earlier applications:** because the
+  cert was *not* actually held, the cloud-gap framing on Lab3 (2026-07-09, Azure/Terraform) and FinXL
+  (2026-07-02, cloud platforms) was correct as written — the earlier lint worry that they understated
+  the gap is now moot.
 - **AI Assisted Development** — **2026.** *(New 2026-07-15.)* Pairs with the already-evidenced
   daily use of AI coding tools (Copilot/Claude/Gemini) noted in the Karmo application, and with the
   AI delivery evidence in [[experience]] (Xero AI for Customers, intelliHR NLP analytics).

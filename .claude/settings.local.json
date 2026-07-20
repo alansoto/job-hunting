@@ -13,7 +13,9 @@
       "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-07-homerepair-program-delivery-lead/ \"HomeRepair\")",
       "WebFetch(domain:nagare.com.au)",
       "PowerShell(Copy-Item *)",
-      "PowerShell(git *)"
+      "PowerShell(git *)",
+      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-20-bay-technologies-engineering-manager/ \"Bay Technologies\")",
+      "Bash(node claude-code-resume-template/build-narrative.js applications/2026-07-20-bay-technologies-engineering-manager/)"
     ]
   }
 }

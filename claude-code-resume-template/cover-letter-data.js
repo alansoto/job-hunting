@@ -5,22 +5,20 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Engineering Lead",
-  "date": "16 July 2026",
+  "title": "Engineering Manager",
+  "date": "20 July 2026",
   "recipient": {},
-  "salutation": "Dear Aaron,\nRe: Engineering Lead, Brisbane",
+  "salutation": "Greetings Bay Technologies team!",
   "paragraphs": [
-    "Your ad caught my attention with one specific line: this isn't a role for someone who wants to hoard the hard problems. That mindset is central to how I lead.",
-    "At Xero, I tackled one of our biggest technical hurdles: moving the company onto a single federated API. Instead of holding onto the work, I identified the scope and minimal slice needed to prove the platform, led the team to get it live as the first features the API ever served, and then handed domain ownership back to the team that should own it, coaching them through the handover to ensure a smooth adoption.",
-    "Here is how that translates to what I can bring to the role:",
-    [
-      "Trio and people leadership: At Go1, I led a squad of eight (engineers, designer, product) taking a new product from discovery to production. I built our operating model and handled the people aspects like onboarding, performance, and coaching through constant organisational change.",
-      "Modern engineering practice: I helped lead Xero's division-wide CI/CD uplift, building automated DORA metric dashboards and facilitating the process that moved teams onto SLOs, on-call practices, and progressive delivery.",
-      "Deep technical foundations: Before moving into delivery leadership, I spent nine years as a software engineer and systems architect building high-availability ticketing and payment systems. I still keep my hands on the build side today, designing and shipping browser-based delivery tools, including a Monte Carlo forecaster that simulates team throughput."
-    ],
-    "I am Brisbane-based, available to start immediately, and do my best work partnering closely with Product and Design to build great software and stronger engineers.",
-    "If this sounds like the lead you are looking for, I'd welcome the chance to connect."
+    "I understand Bay Technologies is looking for a pragmatic, people-focused leader who can guide a small team, modernise your mature software products, and strengthen secure delivery - while practically introducing modern practices like AI. That balance of hands-on coaching, software modernisation, and stable, real-world delivery is exactly where my background sits.",
+    "With fifteen years leading software teams, and a background as a systems architect, here is how my experience maps directly to your key priorities:",
+    "Guiding and Coaching Small Teams: At Go1, I managed a multidisciplinary squad of eight - engineers, a designer, and a product owner - owning everything from hiring and coaching to setting the team's operating rhythm. That five-to-eight-person multidisciplinary shape is exactly the kind of close-knit team you are looking to guide at Bay.",
+    "Modernising Product Portfolios: At Xero, I worked closely with product and engineering leads to modernise legacy platforms and coordinate migrations. Alongside this, I coached engineering managers across ten teams to help them improve cycle times and predictability, and personally built the automated dashboards to track DORA metrics and establish practical release practices.",
+    "Secure and Compliant Delivery: My career began with building secure, high-availability ticketing and payment systems, and at Suncorp I ran a compliance-critical migration in a highly regulated enterprise. I have built secure coding standards and code-review cultures from scratch, which directly translates to owning and maintaining Bay's Secure Development Policy for government clients.",
+    "Practical AI Integration: To help Bay shape an AI-first capability, I bring real, day-to-day experience. This means I understand how to establish a governed, human-in-the-loop AI approach in practice, not just in theory.",
+    "My engineering foundation is language-agnostic, and I pick up new environments quickly. Because this role focuses on guiding architecture, supporting code reviews, and coaching - with hands-on coding from time to time rather than daily - I can step in and provide technical direction from day one. I am also currently preparing to obtain the AWS Cloud Practitioner certification (expected 7 August), and would gladly take up your offer to certify on Azure.",
+    "I am based in Brisbane and available to start immediately. If this sounds like the pragmatic, balanced leadership you need, I would love to connect."
   ],
-  "signOff": "Sincerely,",
+  "signOff": "Kind regards,",
   "signature": ""
 };
