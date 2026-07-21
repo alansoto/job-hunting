@@ -4,58 +4,46 @@ Append-only history of every Ingest, Apply, Lint, and Query. Newest at the botto
 
 ## Open lint findings
 
-Last full lint: 2026-06-17. Previous confirmation pass with Alan: 2026-06-16 — seven items
-resolved (see lint log entry below). Remaining open items:
+Last full lint: 2026-07-21 (wiki de-duplication pass). Previous: 2026-07-10 (backfill lint),
+2026-06-17 (full), 2026-06-16 (confirmation pass with Alan — seven items resolved).
 
-**Still open — would improve the wiki when you have a moment:**
-- **Unmetric'd achievements** that could be quantified with a prompt (listed in full at bottom of
-  [[achievements]]): Xero program team sizes, Go1 content-creator product impact, intelliHR adoption
-  lift, cycle-time / predictability deltas (2sol & Go1), Emedia event traffic/uptime figures.
-- **"Cloud-based systems" skill is thinly evidenced** — no AWS/Azure/GCP named anywhere; only
-  "cloud accounting" (Xero) + high-availability e-commerce (Emedia). Frame as transferable, don't
-  claim hands-on cloud-platform expertise. → [[skills]]
+Only genuinely **actionable** items live here. Closed findings and process takeaways have been moved
+into the dated log entries below; guardrails that became permanent rules now live on their owning
+wiki page, not here.
+
+**Open — needs a decision or a fact from Alan:**
+- **Degree title: "Master of" vs "Masters of" Project Management.** [[education]] says *Masters of*;
+  the Randstad Digital and HomeRepair resumes (both submitted) say *Master of*, per a proofreader
+  correction. Confirm against the testamur and align the wiki. → [[education]]
+- **University name contradiction in two raw resumes.** [[education]] and 20+ other resumes say
+  **Universidad de Lima, Peru**. Two raw files diverge — and from each other:
+  `Alan-Soto-2026-06-25-Mining-Tech-Scrum-Master-DevSecOps-Resume.md` says "Universidad Nacional de
+  Ingeniería"; `Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md` says "Pontificia Universidad
+  Católica del Perú". Both look like accidental edits made before sending (the matching
+  `applications/*/resume-draft.md` copies are correct). Wiki kept `Universidad de Lima` as canonical.
+  Confirm which is right.
+- **Issuing bodies unrecorded for three certifications** — AI Assisted Development (2026), LeanUX and
+  Product Discovery (2018), React Nanodegree (2017, name matches Udacity's program). → [[education]]
 - **CSM renewal** — held since 2012; modern CSM requires renewal. Verify only if a role hinges on a
   live cert. → [[education]]
-- **Amber cover letter inaccurate team sizes** — `raw/resumes/amber-cover-letter.md` quotes
-  "Go1/squad of 10" and "2sol/team of 6"; both are wrong per confirmed wiki data (Go1=8, 2sol=5,
-  confirmed 2026-06-16). No applications folder exists for this letter — unclear if it was
-  submitted. If submitted, the figures were incorrect in that letter. FYI only.
+- **Nagare: Lisa's surname and role are unknown**, as is whether she should be named in an
+  application document. Current rule: don't name her, don't imply Alan worked alone. → [[projects]]
+- **2sol / BMA tender open questions** — year within the 2012–2017 window, contract value, engagement
+  team size, native-vs-web "mobile", and whether other tenders were run at 2sol. → [[projects]]
+- **Unmetric'd achievements** that could be quantified with a prompt (listed in full at the bottom of
+  [[achievements]]): Xero program team sizes, Go1 content-creator product impact, intelliHR adoption
+  lift, cycle-time / predictability deltas (2sol & Go1), Emedia event traffic/uptime figures,
+  Supergraph figures (BlueNav traffic volume, domain-team count, Practice-bootstrap-to-GA timeline,
+  Jira Data Quality Score delta).
 
-**Raw-file housekeeping:**
-- `Alan-Soto-Lead Technical Program Manager.pdf` and `…(1).pdf` are byte-identical duplicates.
-  Safe to delete one (left in place — `raw/` is never edited without explicit say-so).
-- **University name contradiction in two raw resumes.** Every other resume (20+) and
-  `wiki/pages/education.md` say **Universidad de Lima, Peru**. Two raw files diverge from their own
-  application-folder draft (which correctly says Universidad de Lima) and from each other:
-  `raw/resumes/Alan-Soto-2026-06-25-Mining-Tech-Scrum-Master-DevSecOps-Resume.md` says
-  "Universidad Nacional de Ingeniería, Peru"; `raw/resumes/Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md`
-  says "Pontificia Universidad Católica del Perú". Both look like accidental edits made before those
-  two were sent (not reflected in the matching `applications/*/resume-draft.md` copies). Wiki was
-  **not** updated to match either — `Universidad de Lima` kept as canonical. Flagging for Alan to
-  confirm which university is actually correct, and whether either submitted resume needs a
-  correction note for future reference.
-- **Auto & General — Development Manager (submitted 2026-06-23) was never folded back into the
-  wiki.** `applications/2026-06-22-auto-and-general-development-manager/resume-draft.md` exists and
-  `outputs/tracker.md` shows it as Submitted, but there is no `raw/resumes/` copy, no `/ingest` log
-  entry, and no `/apply` log entry with "pages touched" — only a one-line status update in
-  `wiki/log.md` (2026-06-23). Checked the draft content: it appears fully derived from the existing
-  wiki with no new biographical facts, so likely low-risk, but the hard rule ("every Apply must
-  append a log entry") wasn't followed for this one. Flagging so the gap doesn't repeat.
-- **Karlka resume (2026-07-06) was submitted with internal 🚩 gap-analysis flag markers leaking
-  into three job-title headers** — e.g. "Xero - Lead Technical Program Manager (🚩 Data Platform
-  and Integration Experience)" — in both `resume-draft.md` and the PDF actually sent to the
-  recruiter. These were meant to stay in `wiki/pages/positioning.md` as an internal cheat-sheet
-  device, not appear in a candidate-facing document. Caught and fixed before rendering for the
-  sibling Glen Fisk application (2026-07-07), but Alan confirmed (2026-07-07) both applications had
-  already been submitted, so the Karlka copy went out uncorrected. Nothing to do retroactively —
-  **process takeaway: check any content pulled forward from a prior draft for internal-only
-  annotations (🚩, gap-analysis notes, etc.) before every render, not just the first time.**
-
-**Resolved 2026-06-16 (confirmed by Alan):** Go1 team size (8: 6 eng+designer+PO) · 2sol team size
-(5 developers) · early-career dates (Canada 2003–04 incl. Barrick Gold → Peru 2004–05 → AU 2005) ·
-PMP (lapsed, not active) · Xero title (Lead TPM is the only real title) · Xero location (Brisbane
-remote) · Suncorp scope (telephony data-platform migration). "Team Leadership" rating settled as
-Expert (current).
+**Known and accepted — no action:**
+- `Alan-Soto-Lead Technical Program Manager.pdf` and `…(1).pdf` in `raw/` are byte-identical
+  duplicates. Left in place; `raw/` is never edited without explicit say-so.
+- `wiki/alan-soto-em-gap-analysis.docx` and `-v2.docx` pre-date the wiki, were never ingested, and
+  are referenced by no page. Retained deliberately (confirmed 2026-07-21); noted in [[index]].
+- `raw/resumes/amber-cover-letter.md` quotes inaccurate team sizes (Go1 "squad of 10", 2sol "team of
+  6"; correct figures are 8 and 5). No applications folder exists, so it may never have been sent.
+  Historical record only — the correct figures are in [[experience]].
 
 ---
 
@@ -1227,3 +1215,127 @@ Expert (current).
 
 ## 2026-07-20 status update — Bay Technologies, Engineering Manager
 - **Submitted.** Tracker + meta.md updated to Submitted / Awaiting response. Archived raw copies re-synced to the final sent drafts (user made minor tweaks after finalise: dropped the "## Earlier" heading so intelliHR/2sol/Emedia render as regular roles; reordered Education to MPM-first with years).
+
+---
+
+## 2026-07-20 apply (draft) — Davidson (recruiter), ICT Project Manager / Fleet Technology Transformation
+
+- Folder: `applications/2026-07-20-davidson-project-manager/`. JD saved verbatim. 12-month contract, $111ph + super. End client not named; vocabulary ("governance groups", "corporate stakeholders", "benefits realisation", government experience "highly regarded") reads council / state agency / utility.
+- **Role shape: establishment phase, not steady state.** Governance setup → requirements → market engagement → PoC/pilot → implementation *planning*. It stops before rollout. That is the most repeated pattern in the wiki, and Suncorp is a near-literal precedent.
+- **Fit: strong.** Governance/delivery controls/reporting (Suncorp built from scratch; Xero company-wide migration view), establishment-to-implementation (Go1, Console/Reapit, Suncorp), risk/issue/dependency/schedule, executive governance reporting, requirements gathering and solution evaluation, PoC/pilot (intelliHR internal pilots; Xero small-slice-to-production plus 1% traffic test) all cleanly evidenced.
+- **Resume: Format B (narrative), headline "Project Manager"** (JD's own title, confirmed with user). Narrative on Xero, Go1, Suncorp; plain bullets on Reapit and 2sol; Emedia + pre-2006 in Earlier. Nagare deliberately omitted per the [[positioning]] tone caution for government/contract applications.
+- **NEW CAREER FACT confirmed by Alan mid-draft (2026-07-20): the 2sol / BMA tender.** At 2sol, Alan **won and delivered a competitively tendered project for BMA (BHP Mitsubishi Alliance)** — interactive mobile learning content to train dragline operators. He **managed the entire RFP/tender process end-to-end**, plus the client relationship, implementation, and delivery. Three consequences:
+  1. **The standing procurement gap is substantially softened but NOT closed.** This is *supply-side* (responding to a client-issued RFP), while JDs like this one ask for *buy-side* (issuing RFIs, evaluating vendors, procurement planning). A hard framing guardrail is now recorded in [[experience]] and [[keywords]] — safe: "managed a formal RFP/tender process end-to-end as the responding vendor"; unsafe: "ran RFIs" / "led vendor evaluations" / "owned procurement planning". Gap-watch history: first raised Paxus 2026-07-07, recurred Randstad Digital 2026-07-15, headline duty here.
+  2. **Mining is no longer a thin bridge.** Previously the only mining evidence was early-career Barrick Gold (2003), explicitly flagged as weak (Mining Tech / Clicks IT, 2026-06-25). BMA is a delivered commercial engagement with a major Australian coal joint venture. [[keywords]] domain entry upgraded.
+  3. **2sol gains a second named client** beyond Flight Centre, and the wiki gains e-learning content delivery predating Go1.
+- Open questions recorded in [[projects]]: year within 2012–2017, contract value, engagement team size, native-vs-web "mobile", and whether other tenders were run at 2sol.
+- **Gaps handled:** procurement acknowledged plainly in the cover letter and now bridged with the BMA tender (supply-side, stated as such) — this replaced the weaker capability-hierarchy-only treatment in the first draft. Fleet/telematics: one plain sentence, no forced analogy (Karmo 2026-07-09 precedent; second recurrence of the fleet gap). Budget and benefits realisation deliberately NOT raised (single items in a six-item list; same call as Lab3 and Randstad Digital) — outcome-measurement language worked into the resume instead.
+- **Cover letter:** recruiter-facing soft opener + "what the first twelve months are really about" framing paragraph (the confirmed Randstad Digital 2026-07-15 device for recruiter-placed contract roles), "Re:" subject line, three labelled prose blocks (At Suncorp / At Xero / At 2sol and Reapit), synthesis sentence written to the recruiter naming *their client*, gap paragraph, immediate-availability close.
+- **Not yet rendered.** Draft stage — awaiting user review / "finalise".
+- Pages touched now (new career fact, recorded ahead of finalise): [[experience]] (2sol BMA entry + supply-side guardrail), [[projects]] (new BMA project entry + open questions), [[achievements]] (tender win), [[keywords]] (new Procurement / market engagement section; mining domain upgraded; unevidenced-summary softened).
+- Pages to touch on finalise: [[positioning]] (new ICT Project Manager / fleet-transformation contract framing), [[keywords]] (Davidson gap-watch entry), [[cover-letter-examples]] (Davidson entry).
+
+---
+
+## 2026-07-21 lint — wiki de-duplication and currency pass
+
+Full read of all 8 wiki pages + both registries, checking for duplicated, redundant, or stale
+content. No career facts were added, removed, or altered — this pass only corrected contradictions,
+removed restatement, and refreshed metadata.
+
+**Factual contradictions fixed (both could have leaked into an application):**
+- **[[index]] claimed "Alan holds AWS Cloud Practitioner (2026)"** — corrected to in-progress on
+  2026-07-20 across [[education]], [[skills]], and the [[keywords]] certifications line, but the
+  index (two places) was missed. Removed; the index no longer restates credentials at all.
+- **[[keywords]] "Still unevidenced" summary still read "but note the AWS Cloud Practitioner cert,
+  2026"** — contradicting its own certifications note twelve lines above. Rewritten to state the
+  credential is in progress, not held, and foundational in any case.
+
+**Duplication removed:**
+- **[[index]] rewritten back to its own spec** (a page catalog with one-line summaries). It had grown
+  a ~60-line state essay restating [[projects]] (Nagare), [[education]] (credentials),
+  [[cover-letter-examples]] (a stale "most recent" roll-up naming Opengear when Bay was newer), and
+  the resume-format rule — all of which drifted out of date on every Apply. Replaced with the
+  catalog, a short employment/format state block, and a **guardrail pointer table** routing to the
+  owning page for the six strict claim rules (AWS, React/TS, Nagare attribution, Nagare tone,
+  procurement supply-side, PMP). Stale counts dropped (they were wrong: "19 entries" vs 20, "60+ raw
+  files" vs 82, "25+ headline variants" vs 26). Also noted the two non-ingested `.docx` files so they
+  stop reading as orphans — Alan confirmed 2026-07-21 they stay.
+- **[[positioning]] "Nagare as evidence" trimmed** from a restatement of the [[projects]] entry
+  (facts, tools, attribution guardrails — a third copy) to the positioning delta only: when it earns
+  its place, and the tone caution. Facts now live in exactly one page.
+
+**Structural fixes to the [[keywords]] gap-watch:**
+- **Reordered newest-first.** It was in no consistent order, and the consolidated "Still unevidenced"
+  summary was buried *mid-list* with three entries after it. Summary now closes the section.
+- **Merged two split entries** rather than deleting either: the Karlka/Glen Fisk CRM note folded into
+  the full Karlka entry, and the Paxus PMBoK/BABoK note into the full Paxus entry. 24 entries → 22,
+  no content lost.
+
+**Metadata:**
+- `last-updated` was stale on **all seven** pages (five said June; every one had been edited
+  2026-07-16 or later). All set to their true last-edit date.
+- `source-count` (19–26) was meaningless against 82 entries in [[processed]] and drifted on every
+  ingest. Replaced with a pointer to [[processed]] as the authoritative registry.
+
+**Open lint findings block rewritten.** Five of eight items were closed history, not open work: the
+Karlka 🚩 leak ("nothing to do retroactively"; the takeaway is now a standing render check), Auto &
+General not folded back (closed application), the Amber team sizes ("FYI only"), the duplicate raw
+PDF (permanent known state), and "cloud-based systems thinly evidenced" (superseded by the fuller,
+correct note in [[skills]]). Header also claimed "last full lint 2026-06-17" when a lint ran
+2026-07-10. Meanwhile seven genuinely open questions were buried in page bodies and had never been
+surfaced: the Master/Masters degree-title conflict (which disagrees with two *submitted* resumes),
+three certification issuing bodies, Lisa's surname, and the five BMA open questions. All now listed.
+
+**New finding recorded: Digital Native (2026-07-16) was rendered but never finalised.** PDFs exist
+and [[positioning]] carries its headline row plus the "gave-away-the-hard-problem" device, but there
+is no `meta.md`, `raw/` archive, [[processed]] entry, [[cover-letter-examples]] entry, or tracker
+row. Same class of gap as Auto & General (2026-06-23). Left open for a decision — finalise it or
+record it as abandoned.
+
+- Pages touched: [[index]], [[positioning]], [[keywords]], [[skills]], [[experience]],
+  [[achievements]], [[education]], [[projects]], [[log]]
+
+---
+
+## 2026-07-21 apply (finalised, backfilled) — Digital Native (recruiter), Engineering Lead
+
+Backfill of the 2026-07-16 application. Alan confirmed 2026-07-21 that he **did apply on 2026-07-16**;
+the application was drafted and rendered but never taken through `/finalise`, so it left no record
+outside the application folder. This closes the open finding raised in the 2026-07-21 lint entry
+above.
+
+- **No `/render` and no proofreader pass.** PDFs already existed and the application was already
+  submitted, so the archived markdown must match **what was sent**, not a corrected version. Drafts
+  and PDFs share a 2026-07-16 11:29 timestamp, confirming the drafts are the sent versions. Applying
+  proofreader fixes now would have desynced the archive from the record.
+- Archived both drafts to `raw/resumes/Alan-Soto-2026-07-16-Digital-Native-Engineering-Lead-{Resume,Cover-Letter}.md`.
+- Wrote `meta.md` (status: Submitted / Awaiting response) and appended the tracker row in date order
+  between Opengear (2026-07-16) and Bay Technologies (2026-07-20).
+- **Ingest was mostly already done.** [[positioning]] (Engineering Lead headline row + the
+  "gave-away-the-hard-problem" device), [[keywords]] (Digital Native gap-watch entry), [[skills]]
+  (React/TypeScript entry), and [[projects]] (Nagare stack + guardrail) were all written at apply
+  time on 2026-07-16. The genuine gap was [[cover-letter-examples]], now added.
+- **Cover-letter entry recorded** — gave-away-the-hard-problem opener, "Re:" subject line, named
+  recruiter salutation, three labelled bullets, no gap paragraph. Noted the two things that make it
+  unusual: it is the **only letter in the archive with no gap acknowledgement despite an unmet
+  essential requirement** (JS/TS/React proficiency — a deliberate apply-and-downplay call, which does
+  **not** license a proficiency claim, and none appears in either document), and it is the first to
+  reframe the Practice-domain story from an *achievement* into a *character* proof.
+- Pages touched: [[cover-letter-examples]], [[processed]], [[log]]
+
+---
+
+## 2026-07-20 apply (finalised) — Davidson (recruiter), ICT Project Manager / Fleet Technology Transformation
+
+- PDFs generated: `Alan Soto - Project Manager - Davidson - Resume.pdf` (243KB) and `... - Cover Letter.pdf` (80KB), via `node claude-code-resume-template/build-narrative.js applications/2026-07-20-davidson-project-manager/ "Davidson"` (Format B / narrative). Both confirmed on disk. Ran the build directly rather than via the resume-pdf-renderer subagent, which stalled on the Bay Technologies finalise on 2026-07-20.
+- **Proofreader gate: one finding, fixed.** "specializing" -> "specialising" in the Profile (US spelling inconsistent with five Australian spellings elsewhere in the same document). Fixed and proceeded without a round trip rather than pausing per the `/render` step-2 wording — flagged to the user explicitly at the time. Two items were pre-declared as intentional and correctly not flagged: the `//` in the `## Earlier` paragraph (Alan confirmed it is deliberate — **leave it in place on any future render**) and the spaced-hyphen house style.
+- Archived both drafts to `raw/resumes/Alan-Soto-2026-07-20-Davidson-Project-Manager-{Resume,Cover-Letter}.md`; wrote `meta.md` (status: Ready to send); appended tracker row (Ready to send).
+- **The substantive event of this application was a new career fact, not the application itself.** Alan confirmed mid-draft that at 2sol he **won and delivered a competitively tendered project for BMA (BHP Mitsubishi Alliance)** — interactive mobile learning content for training dragline operators — managing the entire RFP/tender process end-to-end plus the client relationship, implementation, and delivery. Written to the wiki ahead of finalise (see the draft-stage entry above). Three standing gap-watch items moved: buy-side procurement **softened but not closed** (supply-side only — hard guardrail in [[experience]]), **mining upgraded** from the thin Barrick Gold 2003 bridge to a delivered commercial engagement, and 2sol gained a second named client.
+- **User edits worth noting for future applications:** (1) removed the `## Skills` section entirely, which deleted the main ATS keyword surface — certifications and prose now carry it; (2) rewrote the Profile into something sharper than the drafted version, recorded verbatim in [[positioning]]; (3) expanded the certifications list after asking why LeanUX and the others had been cut — the original filter to PMP + CSM was too aggressive, LeanUX/Product Discovery in particular maps directly to the JD's requirements-gathering duty; (4) **removed the drafted gap paragraph wholesale** and handled procurement positively in the resume profile instead ("partnering with procurement to drive market engagement and supplier evaluation"). The sent letter carries no gap acknowledgement at all.
+- Pages touched: [[experience]], [[projects]], [[achievements]] (all at draft stage — the BMA fact), [[keywords]] (Procurement / market engagement section, mining domain upgrade, Davidson gap-watch entry, unevidenced-summary softened), [[positioning]] (ICT PM headline row + establishment-phase cheat-sheet + Alan's own profile wording), [[cover-letter-examples]] (Davidson entry), [[processed]].
+- Status: **Ready to send** — not yet submitted.
+
+## 2026-07-21 status update — Davidson (recruiter), ICT Project Manager
+- **Submitted.** `meta.md` and `outputs/tracker.md` updated to Submitted / Awaiting response. Archived `raw/resumes/` copies verified current — they were taken after the "specialising" proofreader fix, so no re-sync needed.
+- Still open: the `what worked` note on the [[cover-letter-examples]] Davidson entry (currently "not yet confirmed"), and the BMA project open questions in [[projects]] (year within 2012-2017, contract value, engagement team size, native-vs-web "mobile", and whether BMA was the only tender run at 2sol — that last one would further shrink the procurement gap if there were others).

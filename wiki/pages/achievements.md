@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-18
-source-count: 20
+last-updated: 2026-07-20
+sources: see [[processed]] for the authoritative ingest registry
 ---
 
 # Achievements
@@ -101,6 +101,11 @@ Each ties back to a role in [[experience]]. Metrics in **bold**.
 - Led design and delivery of **AI-powered people-analytics features using NLP** and advanced
   visualisations for HR leaders; ran internal pilots and ensured ethical/compliance guardrails.
   → intelliHR
+- **Won a competitive tender with BMA (BHP Mitsubishi Alliance)** — managed the entire RFP/tender
+  process end-to-end as the responding vendor, then owned the client relationship, implementation,
+  and delivery of interactive mobile learning content for training dragline operators. *(Confirmed
+  2026-07-20.)* Only formal tender evidence in the wiki; supply-side, not buy-side — see the
+  guardrail in [[experience]]. → 2sol
 - Delivered a **new payments capability with a deep external payments-provider integration**,
   reliable and secure, scope-to-release. → Console/Reapit
 - Drove a **major payments platform integration** (US Bills) aligning product, engineering, and

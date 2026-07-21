@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-18
-source-count: 20
+last-updated: 2026-07-20
+sources: see [[processed]] for the authoritative ingest registry
 ---
 
 # Projects
@@ -208,6 +208,33 @@ of 5 developers. Ran a multi-year transformation: technical excellence (CI/CD, a
 pair programming, code review) → ways of working (operating rhythms, Kanban, planning, backlogs,
 metrics) → product development (feature factory → outcome-driven). Stack/domain: travel,
 hotel/accommodation booking marketplace.
+
+## 2sol — BMA (BHP Mitsubishi Alliance) dragline operator training *(added 2026-07-20)*
+**Role context:** Projects Lead. → [[experience]]
+Won and delivered a **formal competitive tender** for BMA (BHP Mitsubishi Alliance) to build
+**interactive mobile learning content for training dragline operators**. Alan **managed the entire
+RFP/tender process end-to-end** as the responding vendor, then owned the **client relationship,
+implementation, and delivery** of the project.
+
+Why this entry matters, beyond the project itself:
+- **It is the only formal RFI/RFP/tender evidence in the wiki.** Procurement and market engagement
+  has been a standing gap-watch item since Paxus (2026-07-07) and recurred at Randstad Digital
+  (2026-07-15) and Davidson (2026-07-20). Read the **supply-side guardrail** in [[experience]] before
+  using it — Alan ran the *responding* side, not the buying side.
+- **It is real mining-industry evidence.** Until now the only mining bridge in the wiki was
+  early-career Barrick Gold (2003), explicitly flagged as thin. BMA is a major Australian coal joint
+  venture and this was a delivered commercial engagement, not an early-career job. It materially
+  strengthens any mining or resources application (see the Mining Tech / Clicks IT entry, 2026-06-25,
+  where only the thin Barrick bridge was available).
+- **It adds a second named 2sol client.** 2sol was previously represented almost entirely by Flight
+  Centre. BMA shows the agency won and delivered competitively tendered work for more than one major
+  corporate client.
+- **It is e-learning content delivery predating Go1** — worth noting where a JD wants learning,
+  training, or content-production experience.
+
+**Open questions** *(worth a prompt before the next application that leans on this)*: the year within
+the 2012–2017 window; contract value; team size on the engagement; whether the "mobile" content was
+native app or web; and whether other tenders were run at 2sol or this was the only one.
 
 ## Emedia — Event ticketing & booking systems
 **Role context:** Systems Architect / Software Engineer. → [[experience]]

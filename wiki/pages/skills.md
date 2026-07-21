@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-16
-source-count: 19
+last-updated: 2026-07-20
+sources: see [[processed]] for the authoritative ingest registry
 ---
 
 # Skills

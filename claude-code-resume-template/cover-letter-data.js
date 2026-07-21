@@ -5,20 +5,21 @@ window.COVER_LETTER = {
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
   "location": "Brisbane, QLD, Australia",
-  "title": "Engineering Manager",
-  "date": "20 July 2026",
+  "title": "Project Manager",
+  "date": "21 July 2026",
   "recipient": {},
-  "salutation": "Greetings Bay Technologies team!",
+  "salutation": "Dear Davidson team,",
   "paragraphs": [
-    "I understand Bay Technologies is looking for a pragmatic, people-focused leader who can guide a small team, modernise your mature software products, and strengthen secure delivery - while practically introducing modern practices like AI. That balance of hands-on coaching, software modernisation, and stable, real-world delivery is exactly where my background sits.",
-    "With fifteen years leading software teams, and a background as a systems architect, here is how my experience maps directly to your key priorities:",
-    "Guiding and Coaching Small Teams: At Go1, I managed a multidisciplinary squad of eight - engineers, a designer, and a product owner - owning everything from hiring and coaching to setting the team's operating rhythm. That five-to-eight-person multidisciplinary shape is exactly the kind of close-knit team you are looking to guide at Bay.",
-    "Modernising Product Portfolios: At Xero, I worked closely with product and engineering leads to modernise legacy platforms and coordinate migrations. Alongside this, I coached engineering managers across ten teams to help them improve cycle times and predictability, and personally built the automated dashboards to track DORA metrics and establish practical release practices.",
-    "Secure and Compliant Delivery: My career began with building secure, high-availability ticketing and payment systems, and at Suncorp I ran a compliance-critical migration in a highly regulated enterprise. I have built secure coding standards and code-review cultures from scratch, which directly translates to owning and maintaining Bay's Secure Development Policy for government clients.",
-    "Practical AI Integration: To help Bay shape an AI-first capability, I bring real, day-to-day experience. This means I understand how to establish a governed, human-in-the-loop AI approach in practice, not just in theory.",
-    "My engineering foundation is language-agnostic, and I pick up new environments quickly. Because this role focuses on guiding architecture, supporting code reviews, and coaching - with hands-on coding from time to time rather than daily - I can step in and provide technical direction from day one. I am also currently preparing to obtain the AWS Cloud Practitioner certification (expected 7 August), and would gladly take up your offer to certify on Azure.",
-    "I am based in Brisbane and available to start immediately. If this sounds like the pragmatic, balanced leadership you need, I would love to connect."
+    "Re: ICT Project Manager - Fleet Technology Transformation",
+    "I saw the ICT Project Manager contract advertised through Davidson and wanted to get in touch.",
+    "The first twelve months of a project like this are rarely about the technology. They are about getting operational people, ICT specialists, and corporate stakeholders to agree on what the capability actually needs to do, standing up governance and reporting that senior leaders will trust, and proving the thing works at small scale before anyone commits to a full rollout. That establishment work is what I have spent most of my career doing.",
+    "Here is how my background maps to what your client is looking for:",
+    "At Xero: I led a company-wide platform replacement spanning dozens of engineering teams, and built the single view of every division's migration plan, with owners, statuses, and target quarters. It became the agreed schedule and the artefact executives used to make decisions. I also de-risked the largest cutover by proving the new platform on one small slice of real functionality in production, then running a one-percent traffic test before the full switch. That is a proof of concept and pilot by another name.",
+    "At Suncorp: I ran delivery for an enterprise telephony and data platform replacement across an ASX-listed financial services group and all of its affiliate brands. The governance did not exist when I arrived, so I built it - dependency management, cross-team communication patterns, visual progress reporting, and delivery rhythms - across four engineering teams, offshore contractors, external vendors, and the Infrastructure, Security, and Business units. It was compliance-critical, and it stayed on track through COVID-19 and a corporate restructure.",
+    "At 2sol Software: I managed a competitive tender with BMA, the BHP Mitsubishi Alliance, from the RFP process through to award, then owned the client relationship and delivered the project - interactive mobile learning content for training dragline operators. I have also delivered deep supplier integrations elsewhere, including a payments capability at Reapit built end to end with an external provider.",
+    "In short, my contribution would be holding the governance, the requirements, and the supplier coordination together so your client reaches the implementation decision with evidence behind it.",
+    "I am based in Brisbane and available to start immediately. If this sounds like the right fit, I would welcome the chance to connect."
   ],
-  "signOff": "Kind regards,",
+  "signOff": "Sincerely,",
   "signature": ""
 };

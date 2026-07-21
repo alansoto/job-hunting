@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-18
-source-count: 20
+last-updated: 2026-07-20
+sources: see [[processed]] for the authoritative ingest registry
 ---
 
 # Experience
@@ -253,6 +253,21 @@ Linked: [[projects]] (Console payments integration), [[achievements]].
   delivery metrics; (3) **product development process** — from "feature factory" to outcome-driven
   product teams.
 - Ran fast technical experiments and prototypes to de-risk new ideas early.
+- **BMA (BHP Mitsubishi Alliance) — won and delivered a formal tender** *(confirmed 2026-07-20)*.
+  **Managed the entire RFP/tender process end-to-end** as the responding vendor, then owned the
+  client relationship, implementation, and delivery of the resulting project: **interactive mobile
+  learning content to train dragline operators**. This is the only formal RFI/RFP/tender evidence
+  anywhere in the wiki — see the framing guardrail below and in [[keywords]].
+
+> **Guardrail — which side of the procurement process this is.** Alan ran the **supply side**: he
+> responded to a client-issued RFP, managed the submission and the tender process through to award,
+> and then delivered. He has **not** issued an RFI, run a buy-side vendor evaluation, or owned
+> procurement planning for a purchasing organisation. Safe: "managed a formal RFP/tender process
+> end-to-end as the responding vendor", "has been through competitive tender from the supplier side",
+> "knows what a good evaluation looks like from the inside". **Unsafe:** "ran RFIs", "led vendor
+> evaluations", "owned procurement planning" — those are buy-side claims this evidence does not
+> support. When a JD asks for buy-side market engagement, this **softens** the gap substantially;
+> it does not close it.
 
 Linked: [[projects]] (Flight Centre hotel platform), [[achievements]] ($5M+ revenue, 10+ products).
 

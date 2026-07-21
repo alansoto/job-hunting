@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-06-18
-source-count: 24
+last-updated: 2026-07-20
+sources: see [[processed]] for the authoritative ingest registry
 ---
 
 # Positioning
@@ -40,6 +40,7 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Engineering Manager / squad-based delivery (network hardware, permanent) | Engineering Manager | People-and-flow EM framing, not a delivery-coordination one: self-organising squads, backlog quality to a "squad-ready" bar, and Kanban flow metrics used to *steer* rather than report. The rare JD where the ask is explicitly to be *less* present — "leading without being in every meeting" — which makes Xero's coach-10+-teams-without-owning-any pattern the literal match rather than a stretch. Go1 supplies the direct people-ownership evidence the JD leads with; Nagare's forecaster over-answers the flow-metrics nice-to-have. Profile written in first person and opens on self-organising squads. Opengear (Digi International), 2026-07-15. |
 | Engineering Lead (hands-on, cloud-native SaaS / intelligent transport systems) | Engineering Lead | The first application to proceed against an **unmet essential requirement** (proficiency in JS/TS/React — see [[keywords]] and the guardrail in [[projects]]). Framing answers the JD's own anti-hoarding line with the Practice-domain *handover* rather than the Practice-domain *achievement*: the proof of a leader who develops engineers is the hard problem he gave away. Xero coach-10+-teams-owning-none as the mentoring anchor; Go1's squad of 8 (containing a designer and a PO) as the closest literal trio evidence in the wiki; Code Red as a near-verbatim match for the CI/CD-DevOps-SRE bullet; Nagare as its own labelled experience entry carrying the React/TypeScript evidence. Digital Native (recruiter), 2026-07-16. |
 | Engineering Manager (AI-first, government-software SME) | Engineering Manager | People-and-AI EM framing for a mature govt-software vendor modernising its portfolio. Marquee match is **AI-first engineering as *built* evidence, not a claim** — Nagare (React/TS shipped with Claude Code) + Xero AI for Customers + daily AI coding tools over-answer the JD's headline ask. Go1 supplies the literal five-to-eight-person multidisciplinary team shape; Emedia/Suncorp carry the secure-delivery + regulated thread; 2sol carries the engineering-practice (CI/CD, code review, coding standards) transformation. **Nagare placed second in Experience (after Xero) as its own labelled narrative entry** — deliberate for an AI-first JD. Prescribed hands-on stack (.NET/C#, SQL Server, JS/TS, Python) handled with the honest named-stack pivot, NOT stretched (.NET/C# and Python are genuine unclaimed gaps). First application where AI-first is the JD's marquee requirement. Bay Technologies (Constellation Software / Vela APAX subsidiary), 2026-07-20. |
+| ICT Project Manager (fleet technology transformation, government/utility contract) | Project Manager | Establishment-phase framing: the value is standing a program up, not running it for years. Leads with "arriving before there is a set structure" and covers the JD's own arc - governance and delivery controls, requirements across operational/ICT/corporate stakeholders, market engagement, PoC and pilot, implementation planning. **First application to use the 2sol/BMA tender as procurement evidence** (see [[projects]]) - supply-side, and stated as such. Suncorp as the governance-from-scratch anchor; Xero for the small-slice-to-production plus 1% traffic test as a literal PoC/pilot pattern. Nagare deliberately omitted per the tone caution below. Davidson (recruiter), 2026-07-20. |
 | Program Delivery Lead (insurance parent-company subsidiary) | Program Delivery Lead | Business-wide transformation delivery for a Suncorp Group subsidiary. Suncorp direct-employment history used as the primary hook rather than a bridged analogue - the rare case where the "regulated enterprise" evidence is the literal parent company, not just an adjacent industry. Xero Unified Burndown as the integrated-delivery-plan anchor; Go1 as the end-to-end discovery-to-embedment anchor. First application rendered in narrative format (Format B) with the parent-company connection stated directly in the resume's Suncorp background paragraph, not only in the cover letter. HomeRepair, 2026-07-10. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
@@ -142,6 +143,50 @@ Supporting statement variants (individual):
   environments. Experienced operating across squads and programs simultaneously - converting business
   objectives into clear backlogs, keeping delivery moving through complex dependencies, and giving
   stakeholders at every level the visibility they need to make decisions with confidence."
+
+- **ICT Project Manager, establishment-phase contract (Davidson, 2026-07-20)** → the JD's arc is
+  governance setup -> requirements -> market engagement -> PoC/pilot -> implementation *planning*,
+  and it stops before rollout. Lead with **Suncorp** (enterprise telephony/data platform replacement
+  where the governance did not exist and Alan built it, across four teams plus offshore contractors,
+  vendors, and Infrastructure/Security/Business - one engagement covering the JD's top two
+  priorities) + **Xero** (company-wide migration view with owners, statuses, and target quarters as
+  the executive decision artefact; the small-slice-to-production plus 1% traffic test reframed as a
+  literal proof-of-concept-then-pilot pattern) + **2sol** (the BMA tender, plus Reapit's external
+  supplier integration folded into the same block).
+  - **The procurement duty is now answerable.** The 2sol/BMA tender ([[projects]], added 2026-07-20)
+    is the wiki's only formal RFP evidence. It is **supply-side** - read the guardrail in
+    [[experience]] before writing anything. Safe on a resume: "managed a competitive tender end to
+    end", "competitive tender processes". Unsafe: "ran RFIs", "led vendor evaluations", "owned
+    procurement planning".
+  - **Leave Nagare out.** Government/utility contract - see the tone caution below. Done here.
+  - **Fleet/telematics is a genuine gap** and the second recurrence after Karmo (2026-07-09). The JD
+    asks for "complex operational environments", never for fleet. No forced analogy - do not stretch
+    Suncorp's telephony work or Virgin's aviation engagement into one.
+  - **Budget and benefits realisation deliberately not raised** (single items in a six-item list;
+    same call as Lab3 and Randstad Digital). Benefits realisation is the first time any JD has named
+    it - outcome-measurement language in the resume covers it without a claim.
+
+## Profile angle - ICT PM, establishment phase *(Alan's own wording, 2026-07-20)*
+
+Alan rewrote the drafted profile for the Davidson application into something sharper than the
+generated version. Worth reusing verbatim or near-verbatim for any establishment-phase PM contract:
+
+> "My strength is arriving before there is a set structure, building the governance, schedules, and
+> delivery controls required to make an idea executable, and then driving it through to
+> implementation. I focus on keeping frontline operations staff, technical engineers, and corporate
+> executives aligned, partnering with procurement to drive market engagement and supplier
+> evaluation, and translating technical risks into straightforward choices for steering committees."
+
+Second paragraph, for roles with a pilot or field-deployment phase:
+
+> "Having spent much of my career leading discovery, prototyping, and pilot phases, I focus on
+> getting technology into the field early, ensuring operational readiness, training, and deployment
+> support are proven before handing over a practical roadmap for the full-scale rollout."
+
+Note the deliberate framing choices: "partnering with procurement" rather than owning it (honest to
+the supply-side guardrail), "steering committees" as government/utility vocabulary, and
+"straightforward choices" rather than "decision-ready recommendations" - plainer than the JD's own
+phrasing while still hitting the duty.
 
 ## Availability note (confirmed 2026-07-10)
 
@@ -373,27 +418,24 @@ ecosystem-level technical fluency and senior-stakeholder communication density.
 
 ## Nagare as evidence (added 2026-07-15)
 
-Alan runs **Nagare** (nagare.com.au), a personal site where he builds small browser-based tools for
-delivery practitioners — most notably a **Monte Carlo Delivery Date Forecaster**. Full detail,
-including attribution and open questions, lives in [[projects]]. What it changes about positioning:
+**All facts, tool descriptions, attribution rules, and claim guardrails live in [[projects]] — read
+that entry before writing anything about Nagare.** This section covers only *when to use it*.
 
-- **It converts three long-standing "claimed" skills into "built" ones.** Flow metrics, throughput
-  analysis, and delivery forecasting were previously evidenced by practice and coaching (Xero DORA
-  dashboards, cycle-time coaching across 10+ teams). Now there is a shipped artifact. When a JD asks
-  for flow-metrics *exposure*, this over-answers it.
-- **It is the only present-tense hands-on engineering evidence in the wiki.** The rest stops at
-  Emedia (2012). Use it wherever a JD wants a leader who is still technically credible — it beats the
+**When it earns its place:**
+- **A JD asks for flow metrics, throughput, queue health, or forecasting.** Alan built the tool that
+  does this, so it over-answers a nice-to-have. Reach for the "built-the-tool proof" device below.
+- **A JD wants a leader who is still technically credible.** It is the only present-tense hands-on
+  engineering evidence in the wiki — everything else stops at Emedia (2012) — and it beats the
   "started as a software engineer 20 years ago" line, which is true but ageing.
-- **The Operating Rhythm Builder is the "operating system builder" framing, productised.** If that
-  framing is being used (see block above), this tool is its proof.
-- **Guardrails.** Attribution: Alan's project, Lisa contributes — never solo-founder phrasing.
-  Commercial status: early and undecided — never "business", "startup", "venture", or any revenue
-  implication. No traction or usage claims exist. Start date unconfirmed, so avoid dates.
+- **The "operating system builder" framing is in play.** The Operating Rhythm Builder is that
+  framing productised; it is the proof for the block above.
+- **AI-first is a marquee JD requirement.** Built with Claude Code — evidence, not a claim (Bay
+  Technologies, 2026-07-20).
 
 **Tone caution:** a personal side project reads as *craft* to an engineering-leadership audience and
 as *distraction* to a risk-averse enterprise or government panel. Lead with it for EM / delivery /
-agile roles at product companies. Leave it out, or drop it to a single line, for
-government/contract/PMO applications where the reader wants focus, not hobbies.
+agile roles at product companies (Opengear, Bay). Leave it out entirely for government/contract/PMO
+applications where the reader wants focus, not hobbies (Davidson, 2026-07-20).
 
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.

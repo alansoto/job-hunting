@@ -1,37 +1,39 @@
 window.RESUME = {
   "name": "Alan Soto",
-  "title": "Engineering Manager",
+  "title": "Project Manager",
   "location": "Brisbane, QLD, Australia",
   "email": "me@alansoto.info",
   "linkedinLabel": "linkedin.com/in/alansoto",
   "linkedinUrl": "https://www.linkedin.com/in/alansoto/",
-  "summary": "Engineering leader with 15+ years leading multidisciplinary teams, backed by a hands-on foundation as a systems architect. I focus on coaching small engineering teams, modernising software portfolios, and keeping delivery predictable and sustainable. I’m deeply familiar with AI-assisted delivery in practice, using AI coding tools to ship production-level software with proper human oversight. My background includes building secure, high-availability systems in regulated environments and guiding platform modernisations. Brisbane based. Available now.",
+  "summary": "ICT Project Manager specialising in end-to-end delivery within large, complex operational environments. My strength is arriving before there is a set structure, building the governance, schedules, and delivery controls required to make an idea executable, and then driving it through to implementation. I focus on keeping frontline operations staff, technical engineers, and corporate executives aligned, partnering with procurement to drive market engagement and supplier evaluation, and translating technical risks into straightforward choices for steering committees. Having spent much of my career leading discovery, prototyping, and pilot phases, I focus on getting technology into the field early, ensuring operational readiness, training, and deployment support are proven before handing over a practical roadmap for the full-scale rollout.",
   "skills": [],
   "experience": [
     {
       "company": "Xero",
       "role": "Lead Technical Program Manager",
       "dates": "Mar 2022 — Jul 2026",
-      "place": "Brisbane (remote)",
+      "place": "Brisbane, QLD",
       "intro": [
-        "Global cloud accounting platform; 4,500+ employees.",
-        "Led delivery across two of Xero's largest engineering initiatives: a program embedding AI and machine-learning capabilities into products used by more than three million customers, and a company-wide modernisation program to move to a federated API surface. Both spanned dozens of engineering teams with visibility up to executive GM/CTO level."
+        "Xero is a global cloud accounting platform with around 4,500 employees. I led company-wide technology programs spanning dozens of engineering teams, reporting to General Managers, Heads of Product, and executive leadership.",
+        "My work covered the full arc of a large ICT program: shaping the initial case and scope, standing up the governance and reporting, sequencing the delivery, and keeping executives supplied with the information they needed to make decisions."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** Xero needed to embed AI into core products responsibly and modernise a large legacy platform, while raising engineering discipline across many teams that owned their own delivery.",
-            "**Solution:** I aligned ML engineers, data scientists, and product teams to ship AI features with the right usability and ethical guardrails, and I built the operating machinery - a single company-wide view of every division's migration and retirement plan, dependency intake, and a simplified onboarding model - that turned a platform initiative into an executable, team-by-team program."
+            "**Problem:** A company-wide program to replace an ageing set of APIs with a single modern platform reached across virtually every engineering division. No one could see the whole picture. Each division had its own plan, the dependencies between them were undocumented, and leadership had no reliable answer to what would land when, or what it would cost to retire the old systems.",
+            "**Solution:** I built the single company-wide view of every division's migration and retirement plan, with named owners, statuses, and target quarters. General Managers submitted their plans into it and it became the agreed launch schedule and the tracker for decommissioning legacy systems. Alongside it I ran a formal dependency intake so cross-division blockers surfaced as dated commitments rather than open discussions, and reported progress, risks, and trade-offs to executive-level stakeholders."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Coached engineering managers and their teams across 10+ teams on cycle time, capacity planning, forecasting and healthy delivery rhythms, improving flow and predictability without owning their technical delivery.",
-            "Embedded in a division-wide CI/CD uplift: stood up observability for DORA metrics, personally built the automated Lead Time for Changes dashboards, and facilitated sessions establishing SLOs, on-call practices and progressive delivery.",
-            "Applied technical judgement to architecture and system-level trade-offs, surfacing scale and security concerns early and making concise recommendations to senior leadership."
+            "De-risked the highest-volume system cutover in the program by proving the new platform on a deliberately small slice of real functionality first, taking it to production for a live customer-facing team, then proposing a one-percent traffic test before the full switch.",
+            "Directed the data pipeline and ETL delivery underpinning a program that embedded AI and machine learning into products used by over 3 million customers, coordinating machine learning engineers, data scientists, and product teams.",
+            "Coached engineering managers and technical leads across 10+ teams on cycle time, capacity planning, forecasting, and delivery rhythms, improving flow and predictability without adding process.",
+            "Built automated delivery-metrics dashboards as part of a division-wide CI/CD uplift, tracking deployment frequency, lead time, change failure rate, and time to restore, and facilitated sessions establishing service level objectives and on-call practices.",
+            "Launched an organisation-wide initiative to standardise delivery tooling and reporting, including a division-wide data quality score that cut planning and reporting effort across teams."
           ],
           "paras": []
         }
@@ -39,45 +41,29 @@ window.RESUME = {
       "bullets": []
     },
     {
-      "company": "Nagare (nagare.com.au)",
-      "role": "Personal project",
-      "dates": "2025 — present",
-      "place": "Brisbane",
-      "intro": [
-        "At Nagare I build practical tools for software delivery practitioners. I use AI and keep hands-on with modern software delivery practices, including CI/CD and DevOps automation."
-      ],
-      "sections": [],
-      "bullets": [
-        "**Problem:** I wanted a hands-on way to keep building software and to test what modern AI-assisted development can actually produce for a working practitioner.",
-        "**Tools shipped:**",
-        "Monte Carlo delivery-date forecaster: Samples a team's historical throughput, runs 10,000 simulations of the remaining work, and returns forecast completion dates.",
-        "Operating Rhythm Builder: Turn scattered meetings and check-ins into one deliberate system.",
-        "Map: An interactive graphical guide to every area of software delivery."
-      ]
-    },
-    {
       "company": "Go1",
       "role": "Technical Program Manager",
       "dates": "Nov 2020 — Mar 2022",
-      "place": "Brisbane",
+      "place": "Brisbane, QLD",
       "intro": [
-        "Global e-learning SaaS platform; hyper-growth scale-up.",
-        "Led a cross-functional product squad of eight - six engineers, a designer and a product owner - as team lead and Scrum Master, with end-to-end ownership of a new content-creator product."
+        "Go1 is a global e-learning platform that was in hyper-growth when I joined, with the pace and ambiguity that comes with it."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** A new product had to go from idea to production inside a fast-moving, frequently reorganising company, with a team that needed direction, coaching and a stable way of working.",
-            "**Solution:** I owned the full lifecycle - direction setting, coaching, ceremony facilitation, hiring, onboarding, performance and team health - and stood up a common operating model (sprint practices, planning rhythms, backlog refinement, delivery reporting) that lifted delivery pace and gave stakeholders confidence in quality and predictability."
+            "**Problem:** The business had committed to a new product for content creators but had no delivery structure behind it, no agreed scope, no planning rhythm, and no way for stakeholders to judge whether it was on track or how good it would be when it arrived.",
+            "**Solution:** I led a cross-functional squad of 8 through the full lifecycle, from discovery to production, and established a common operating model across the squad and the wider organisation: sprint practices, planning rhythms, backlog refinement, and delivery reporting. Pace of delivery went up, and stakeholders had a basis for confidence in both quality and timing."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Managed a genuinely multidisciplinary team through rapid organisational change, keeping engineering, product, design, data and marketing aligned.",
-            "Ran an internal incubator (designer, product manager, commercial lead) using prototypes and technical spikes to validate ideas before committing to build."
+            "Ran an internal incubator with a designer, product manager, and commercial lead, using mockups, prototypes, and technical spikes to validate ideas and assess options before committing to build.",
+            "Scoped the minimum viable product, managed the technical trade-offs, and coordinated releases through to production.",
+            "Managed dependencies and integration challenges across distributed teams, keeping engineering, product, data, and marketing aligned.",
+            "Owned direction setting, coaching, hiring, onboarding, and team health through rapid organisational change."
           ],
           "paras": []
         }
@@ -88,24 +74,26 @@ window.RESUME = {
       "company": "Suncorp Group",
       "role": "Delivery Coach",
       "dates": "Nov 2019 — Nov 2020",
-      "place": "Brisbane",
+      "place": "Brisbane, QLD",
       "intro": [
-        "ASX-listed financial services and insurance; highly regulated."
+        "Suncorp is one of Australia's largest finance services and insurance groups. I was embedded in the Data Engineering area, running delivery for an enterprise telephony and data platform replacement that reached across the whole organisation and every affiliate brand."
       ],
       "sections": [
         {
           "label": "Challenge & Impact",
           "bullets": [
-            "**Problem:** A compliance-critical telephony and data-platform migration had to run across the entire organisation and all its brands, coordinating multiple teams under real regulatory and governance obligations - during COVID-19 and a corporate restructure.",
-            "**Solution:** I coordinated four engineering teams including offshore contractors, worked hand in hand with Infrastructure, Security, business units and external vendors, and introduced the delivery governance - dependency management, visual progress reporting, delivery rhythms - that kept the program on track through the disruption."
+            "**Problem:** A compliance-critical platform replacement with four engineering teams, offshore contractors, external vendors, and Infrastructure, Security, and Business units all in scope, and no consistent way of tracking dependencies or reporting progress across them. COVID-19, a corporate restructure, and a shifting regulatory environment landed on it mid-flight.",
+            "**Solution:** I established the delivery governance from scratch: dependency management, cross-team communication patterns, visual progress reporting, and delivery rhythms the teams would actually keep to. I verified that technical solutions met data governance standards, identified data risks, and escalated them early. The program stayed on track through all three disruptions."
           ],
           "paras": []
         },
         {
           "label": "Key Contributions",
           "bullets": [
-            "Owned data-governance and compliance verification: checked that technical solutions met governance standards, identified data risks and escalated issues.",
-            "Mapped data lifecycles and dependencies with architectural diagrams, user journeys and story maps to build shared understanding across technical and business stakeholders."
+            "Coordinated four engineering teams including offshore contractors, alongside Infrastructure, Security, Business units, and external vendors.",
+            "Built shared understanding between business and technical stakeholders using user journeys, architecture diagrams, story maps, and prototypes to map data lifecycles and surface dependencies.",
+            "Owned the data governance and compliance line of the migration, from verification of solutions through to risk escalation.",
+            "Coached teams through ambiguity and embedded lean delivery practices that improved cross-functional alignment and delivery predictability."
           ],
           "paras": []
         }
@@ -113,85 +101,83 @@ window.RESUME = {
       "bullets": []
     },
     {
-      "company": "intelliHR",
-      "role": "Head of Product",
-      "dates": "Feb 2018 — Jun 2019",
-      "place": "Brisbane",
+      "company": "Reapit (formerly Console Group)",
+      "role": "Iteration Manager",
+      "dates": "Feb 2017 — Feb 2018",
+      "place": "Brisbane, QLD",
       "intro": [],
       "sections": [],
       "bullets": [
-        "Built the product function from scratch and directly managed a team of five (three product managers, a designer, a data engineer), establishing discovery, roadmapping and prioritisation.",
-        "Led design and delivery of AI-powered people-analytics features using natural language processing, partnering with engineers and data scientists to align AI capability with customer value, usability and ethical considerations; ran internal pilots before external launch."
+        "Led a cross-functional engineering team to deliver a new payments capability, including a deep integration with an external payments provider, owned from scope through to release.",
+        "Worked directly with the external supplier, architects, and engineers to resolve technical issues early and keep the integration reliable and secure.",
+        "Ran requirements and discovery work with customers, including interviews and workshops, and translated the output into user story maps and journeys the whole team could work from.",
+        "Used prototypes, user testing, and technical spikes to validate options before investing in a production build.",
+        "Owned scope shaping, timelines, capacity planning, and release coordination."
       ]
     },
     {
       "company": "2sol Software Studios",
       "role": "Projects Lead",
       "dates": "Nov 2012 — Jan 2017",
-      "place": "Brisbane",
-      "intro": [
-        "Primary engineering partner to Flight Centre Travel Group."
-      ],
+      "place": "Brisbane, QLD",
+      "intro": [],
       "sections": [],
       "bullets": [
-        "Directly managed a team of five developers delivering Flight Centre's online hotel and accommodation platform - $5M+ in monthly revenue, 10+ customer-facing products and 20+ APIs - balancing operational stability against new-feature work.",
-        "Ran a multi-year engineering-practice transformation from the ground up: modern source control, automated testing, CI/CD, pair programming, code review and coding standards - turning a reactive team into a predictable one.",
-        "Shifted the team from a feature factory to outcome-driven product delivery."
-      ]
-    },
-    {
-      "company": "Emedia Campaigns",
-      "role": "Systems Architect / Software Engineer",
-      "dates": "Feb 2006 — Jul 2012",
-      "place": "Brisbane",
-      "intro": [
-        "Earlier still: Software Engineer in Canada (including Barrick Gold, 2003) and Peru, specialising in high-availability, high-demand e-commerce systems, before emigrating to Australia."
-      ],
-      "sections": [],
-      "bullets": [
-        "Designed and maintained secure, high-availability ticketing, booking and payment architecture for major events, engineered for stability under very high simultaneous traffic (V8 Supercars, Byron Bay Blues Festival, Bridge to Brisbane).",
-        "Led development of secure e-commerce and transaction systems with security hardening, performance tuning and capacity planning; established coding standards and release patterns across the team.",
-        "Wrote and optimised the production SQL queries powering the ticketing, booking and payment systems."
+        "Owned end-to-end delivery of Flight Centre's online hotel and accommodation booking platform, a core digital business generating over $5M in monthly revenue, as their primary external delivery partner.",
+        "Managed a competitive tender with BMA (BHP Mitsubishi Alliance) end to end, from the RFP process through to award, then owned the client relationship, implementation, and delivery of interactive mobile learning content used to train dragline operators.",
+        "Managed a portfolio of 10+ customer-facing products and 20+ APIs while directly leading a team of 5 developers, balancing operational stability against new delivery.",
+        "Acted as the main delivery and technical contact for major corporate clients, working with senior stakeholders on scope, priorities, and commercial trade-offs.",
+        "Ran a multi-year improvement program covering engineering practice, ways of working, and product development, turning a reactive team into a predictable one."
       ]
     }
   ],
-  "earlier": "",
+  "earlier": "**Systems Architect at Emedia Campaigns (2006-2012)**, a Brisbane digital agency and online ticketing company, designing and maintaining high-availability ticketing, booking, and payment systems for major events including V8 Supercars, the Byron Bay Blues Festival, and Bridge to Brisbane, with responsibility for capacity planning, security hardening, and failure-risk reduction. // **Software Engineer (2003-2005)** in Canada and Peru, including Barrick Gold Corporation.",
   "education": [
     {
       "qualification": "Master of Project Management",
       "org": "Queensland University of Technology",
-      "note": "Dean's Award, 7.0 GPA · 2012"
+      "note": "Dean's Award, 7.0 GPA"
     },
     {
       "qualification": "Bachelor of Systems Engineering",
-      "org": "Universidad de Lima, Peru",
-      "note": "2002"
+      "org": "Universidad de Lima",
+      "note": ""
     }
   ],
   "certifications": [
+    {
+      "qualification": "**Project/Delivery Management**",
+      "org": "",
+      "note": ""
+    },
+    {
+      "qualification": "Project Management Professional (PMP)",
+      "org": "2012",
+      "note": ""
+    },
     {
       "qualification": "Certified ScrumMaster (CSM)",
       "org": "2012",
       "note": ""
     },
     {
-      "qualification": "PMP (Project Management Professional)",
-      "org": "2012",
+      "qualification": "**Other**",
+      "org": "",
       "note": ""
     },
     {
-      "qualification": "React Nanodegree",
-      "org": "2017",
+      "qualification": "LeanUX and Product Discovery for Agile Teams",
+      "org": "2018",
+      "note": ""
+    },
+    {
+      "qualification": "AI Assisted Development",
+      "org": "2026",
       "note": ""
     },
     {
       "qualification": "AWS Cloud Practitioner (in progress)",
-      "org": "expected Aug 2026",
-      "note": ""
-    },
-    {
-      "qualification": "AI Assisted Development with Claude Code",
-      "org": "2026",
+      "org": "August 2026",
       "note": ""
     }
   ],
