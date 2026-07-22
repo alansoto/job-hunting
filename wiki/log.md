@@ -1339,3 +1339,94 @@ above.
 ## 2026-07-21 status update — Davidson (recruiter), ICT Project Manager
 - **Submitted.** `meta.md` and `outputs/tracker.md` updated to Submitted / Awaiting response. Archived `raw/resumes/` copies verified current — they were taken after the "specialising" proofreader fix, so no re-sync needed.
 - Still open: the `what worked` note on the [[cover-letter-examples]] Davidson entry (currently "not yet confirmed"), and the BMA project open questions in [[projects]] (year within 2012-2017, contract value, engagement team size, native-vs-web "mobile", and whether BMA was the only tender run at 2sol — that last one would further shrink the procurement gap if there were others).
+
+---
+
+## 2026-07-21 apply (draft) — Concentrix Catalyst, Project Manager (digital consultancy, Native Mobile named)
+
+- Folder: `applications/2026-07-21-concentrix-catalyst-project-manager/`. Saved `job-description.md`
+  verbatim; wrote `gap-analysis.md`, `jd-analysis.md`, `resume-draft.md` (Format B / narrative),
+  `cover-letter-draft.md`. Headline: "Project Manager" (the JD's own title).
+- **Fit: strong.** The closest role-shape match to 2sol anywhere in the wiki. The JD's headline duty
+  — multiple concurrent projects for one client, PM as single point of contact — is literally what
+  2sol/Flight Centre was for five years. Kanban is named specifically and is Expert-rated, not
+  bridged. Offshore/global/remote team leadership is a direct Suncorp match. Diverse teams of UX/UI +
+  engineers + analysts is met by Go1 (6 eng, 1 designer, 1 PO) and intelliHR (3 PMs, designer, data
+  engineer).
+- **First application to lead with 2sol as the primary anchor.** Lab3 (2026-07-09) named 2sol as the
+  vendor-to-client evidence but led with Xero. Here 2sol opens the cover letter and gets a full
+  narrative Experience block despite sitting well outside the ~six-year narrative cutline — a
+  deliberate exception, flagged in the gap analysis so Alan can reverse it.
+- **Native Mobile is the one real gap** and is a *stated expertise requirement*, not a nice-to-have.
+  Second recurrence of the mobile gap after Halosoft (2026-06-16). Handled with the
+  capability-hierarchy reframe in the letter; **not** claimed anywhere in the resume. Explicitly did
+  not stretch the 2sol/BMA "interactive mobile learning content" into a native-app claim — the
+  native-vs-web question is still open in [[projects]] and answering it would materially shrink this
+  gap. Same for whether any Flight Centre products were native apps. Both worth a prompt.
+- Smartsheet: not evidenced, not claimed, not raised (recurrence of the MS Project gap, Paxus
+  2026-07-07). Google Suite: not evidenced, generic, not raised — same call as SharePoint/Office 365.
+- **Nagare deliberately omitted** — client-services PM role where the reader wants client focus;
+  neutral at best. Consistent with the tone caution in [[positioning]].
+- Cover letter: prose paragraphs (senior/client-facing, per `/resume-style`), 2sol hook with no
+  throat-clearing, "predictability is what wins the client relationship" as the through-line, honest
+  Native Mobile paragraph, immediate-availability close.
+- Not yet finalised. Wiki pages not yet updated — [[positioning]] headline row, [[keywords]]
+  gap-watch entry, and [[cover-letter-examples]] to be written at finalise.
+
+## [2026-07-21] apply (finalised) — Machines4U (carsales) Engineering Manager
+
+- Applied for the Engineering Manager role at Machines4U, the machinery marketplace inside carsales
+  (ACIL team, permanent, hybrid). Fit assessed **strong** — marketplace/B2B SaaS product-led
+  leadership, legacy-to-modern modernisation, and the coding-standards-through-to-senior-leadership
+  operating range are all directly evidenced rather than bridged.
+- The ad body never stated a title. Drafted as "Engineering Lead", corrected to **Engineering
+  Manager** on Alan's confirmation; application folder renamed accordingly.
+- PDFs generated via `/render` (build-narrative.js); archived resume and cover letter to
+  `raw/resumes/`; both ingested.
+- **Two factual overclaims caught by Alan mid-draft, both the same failure mode — work he *led*
+  written as work he *did*:**
+  1. "Bootstrapped a new domain's API" → Alan managed the team that bootstrapped it, and *planned*
+     the handover rather than personally pair programming through it. The source of this error was
+     the **[[positioning]] "gave-away-the-hard-problem" device wording**, stored 2026-07-16, which
+     had it in the first person. Device wording corrected; the device itself is unaffected.
+     **Consequence: the Digital Native cover letter (submitted 2026-07-16) used the overclaiming
+     version.** Flagged in [[positioning]] in case that conversation progresses.
+  2. The **1% traffic trial** was attached to the thin slice in Alan's edited cover letter. It
+     belongs to the *second*, high-volume BlueNav cutover, and [[projects]] records it as
+     **proposed**, not executed. Corrected before render.
+  - Both now carry explicit guardrails on the [[projects]] API Program entry. Worth noting as a
+    pattern: the wiki's achievement-oriented phrasing invites this drift, and engineering-leadership
+    JDs are where it does the most damage.
+- **First resume in the repo with no `## Skills` section at all.** Alan removed it, leaving profile
+  plus narrative experience only. ATS keywords now ride entirely on experience prose — worth watching
+  whether this becomes the new default or was specific to this application.
+- Virgin Australia was initially demoted to `## Earlier` for length, then restored inline at Alan's
+  prompting: removing it left an unexplained Jun–Nov 2019 hole between intelliHR and Suncorp. **New
+  rule of thumb — never demote a role to Earlier if doing so opens a visible gap in the recent
+  timeline**, regardless of how short or tangential the engagement was.
+- Nagare listed with all three shipped tools for the first time (Operating Rhythm Builder, Delivery
+  Date Forecaster, The Map); Feedback Coach correctly excluded as not yet shipped. Alan's own name
+  for it is "operational rhythm builder" — the site says **Operating** Rhythm Builder; the site
+  wording was used. Worth confirming.
+- Gap raised in the letter: last decade has been engineering leadership rather than daily production
+  code, handled against the JD's own lower bar ("hands-on enough to review architecture, unblock
+  engineers"). No React/TypeScript proficiency claim on either document. CRM, marketing/reporting
+  platforms, budget, and the machinery domain deliberately not raised.
+- **CRM is now a confirmed standing gap** — fourth JD to name it (Resolution Life, BlackRoc, Karlka,
+  Machines4U) with no named platform anywhere in the wiki.
+- Pages touched: [[positioning]], [[projects]], [[keywords]], [[cover-letter-examples]], [[processed]].
+- Open, not applied: proofreader flagged the Go1 line "a cross-functional squad of eight, six
+  engineers, a designer, and a product owner" as ambiguous. A colon after "eight" fixes it; would
+  require a re-render.
+
+## [2026-07-21] apply (finalised) — Concentrix Catalyst Project Manager
+- PDFs generated via /render (narrative Format B, build-narrative.js); archived resume and cover letter to raw/resumes/.
+- Proofreader gate run before render; user's manual edits already in place. Fixed before final render: leaked "//" editing artefact + sentence fragment in the Earlier block, "AI-Assisted" hyphenation, trailing whitespace, and a dangling modifier in the cover letter ("20+ APIs turning over $5M+/mo" → "...on a platform turning over..."). Left defensible stylistic choices (bolded bullet labels, the Go1 comma-list) alone.
+- Ingested both markdown sources. Client-partner / single-point-of-contact PM framing; 2sol/Flight Centre as the literal match. **First application to surface a native mobile (iOS/Android) app-build gap** — handled with a dive-in-and-learn pivot, not a claim.
+- Two of Alan's manual edits recorded: experience reordered into strict reverse-chronological order (was scrambled: 2sol before intelliHR/Reapit/Virgin), and the Xero thin-slice bullet reworded from "Took the smallest slice / got it live" to "Led the team that delivered..." so it stops reading as individual-contributor implementation. Same attribution-drift pattern flagged on Machines4U.
+- **Factual note (not corrected — Alan's explicit call 2026-07-22):** the resume ships with `AWS Cloud Practitioner · 2026` in Certifications, listed as a held/dated credential. The standing rule (in progress, exam ~7 Aug 2026, NOT held; never list as dated) is unchanged for future applications; recorded in [[keywords]] under the Concentrix gap-watch entry so it is traceable.
+- Pages touched: [[positioning]], [[keywords]], [[cover-letter-examples]], [[processed]].
+
+## [2026-07-22] submitted — Concentrix Catalyst Project Manager
+- Alan confirmed the application was submitted. Tracker + meta status moved Ready to send → Submitted (Awaiting response).
+- Drafted a form-field answer ("what skills and experience you could bring") in-chat: 2sol/Flight Centre single-point-of-contact hook, scaled to Xero/Suncorp/Go1, Kanban+Scrum, adaptability line as a soft nod to the native-mobile gap without raising it. Not saved to the folder.
