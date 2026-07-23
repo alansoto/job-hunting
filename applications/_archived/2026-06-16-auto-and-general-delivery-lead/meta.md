@@ -7,7 +7,7 @@
 - **Date finalised:** 2026-06-16
 - **Date submitted:** 2026-06-16
 - **Status:** Submitted — awaiting response
-- **Fit score:** ~9.0 / 10 (very strong — see [gap-analysis.md](gap-analysis.md))
+- **Fit score:** ~9.0 / 10 (very strong — see [gap-analysis.md](applications/_archived/2026-06-16-auto-and-general-delivery-lead/gap-analysis.md))
 
 ## Files
 

@@ -122,6 +122,22 @@ executable multi-domain migration program. Key deliverables:
 Teams influenced: API Platform / Tech Strategy API Program, UK Tax, BlueNav / Patronus,
 Practice team leadership and engineering, broader domain leadership across Xero.
 
+> **Two attribution guardrails on this project** *(added 2026-07-21, both caught during the
+> Machines4U draft)*:
+> 1. **Alan led the team that bootstrapped the Practice subgraph; he did not build it himself**, and
+>    he **planned** the handover rather than personally pair programming through it. Write it in the
+>    leading voice. Safe: "led the team that bootstrapped a new domain's API and got it live, then
+>    planned the handover to the team who should own it long term". Unsafe: "I bootstrapped the
+>    subgraph", "I pair programmed through the handover". See the corrected device wording in
+>    [[positioning]].
+> 2. **The 1% traffic trial belongs to BlueNav, not to the thin slice**, and it was **proposed**, not
+>    confirmed as executed. These are two separate pieces of work: the thin slice was proved via the
+>    UK Tax production query; the 1% test was the de-risking proposal for the *second*, high-volume
+>    cutover off GSD. Do not compress them into one sentence — a draft that says "found the smallest
+>    slice and de-risked it with a 1% traffic trial" is wrong on both counts. Safe: "found the
+>    smallest slice to prove the platform in production, then used a second high-traffic team as the
+>    scale test, de-risking that cutover with a 1% traffic trial".
+
 ## Xero — Code Red (CI/CD Capability Uplift)
 **Role context:** Lead Technical Program Manager. → [[experience]]
 Division-wide initiative to increase organisational CI/CD capabilities. Embedded in the program

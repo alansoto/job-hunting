@@ -153,6 +153,82 @@ case — literacy, not evidence of hands-on AWS delivery. See [[education]].
 Ordered **newest first** — the most recent JDs are the most useful signal. The consolidated
 standing-gaps summary sits at the **end** of this section.
 
+- **2026-07-22 — Davidson (recruiter; end client unnamed) — Technical Project Manager, enterprise SAP SuccessFactors / LMS transformation, contract, Brisbane hybrid:**
+  - `SAP SuccessFactors` / `SAP` — **first JD in the wiki to name SAP or SuccessFactors.** Not
+    evidenced; "highly regarded", not required. **But the gap is unusually soft** because SuccessFactors
+    is an HR/Payroll/Learning suite and all three domains are separately evidenced (see below). Raised
+    once in the letter, plainly, with the capability-hierarchy reframe (domain known, product a fast
+    ramp). Do not claim SAP SuccessFactors experience.
+  - `Learning Management` / `LMS` / `e-learning` — **not a gap, one of the strongest domain matches in
+    the wiki.** Go1 is a global e-learning / learning management platform (led end-to-end squad
+    delivery on its learning network); the 2sol/BMA interactive mobile *learning content* for dragline
+    operators is a second, older datapoint. Lead with Go1.
+  - `HR` / `Payroll` platforms — also directly evidenced: intelliHR (HR SaaS) and the Xero Quokkas
+    (Payroll / Connected Workplaces) operating-model work. Together with LMS this is the **domain
+    trifecta** that made this application a strong fit — SuccessFactors touches learning + HR + payroll,
+    and Alan has delivered in each.
+  - `PRINCE2 or comparable` — recurrence of the standing PRINCE2 gap (Randstad Digital 2026-06). The
+    "or comparable" wording makes Master of Project Management + PMP (2012) a clean substitution. Not
+    raised as a gap; not claimed as PRINCE2.
+  - `benefits realisation` — **second JD ever to name it** (after Davidson 2026-07-20). Still not a
+    formal named discipline; adjacent via feature-factory→outcome shifts, Pendo/FullStory adoption
+    measurement, and DORA before/after metrics. Single item bundled with risk/issue/dependency — not
+    raised; outcome-measurement language in the resume covers it.
+  - Everything else — end-to-end enterprise delivery, project governance/reporting/schedules/controls,
+    establishment through implementation and transition, multidisciplinary technical team coordination
+    (architecture/engineering/testing/data), risk/issue/dependency management, senior-stakeholder
+    influence, business case support — cleanly evidenced. Among the closest role-shape matches in the
+    wiki.
+
+- **2026-07-21 — Concentrix Catalyst (Project Manager, digital agency, client-facing delivery):**
+  - `native mobile` / `iOS` / `Android` app development — **first JD in the wiki to name native
+    mobile app delivery**, and a genuine gap. Alan has delivered mobile learning content and web
+    booking platforms but has not led a dedicated native iOS/Android build. Raised plainly in the
+    letter (respect-the-craft beat + dive-in-and-learn pivot), not claimed. A capability gap, not an
+    industry one. No bridge beyond the general "picks up new technical domains fast" argument.
+  - `single point of contact` / `client-partner` / `multiple concurrent projects for one client` —
+    **not a gap, the strongest match in the wiki.** 2sol/Flight Centre is the literal evidence (every
+    project on one client's platform, single technical/delivery contact, 10+ products, 20+ APIs,
+    $5M+/mo). Lead with it.
+  - `Kanban` — named specifically; rated Expert in [[skills]]. Virgin physical Kanban boards + 2sol
+    digital/physical boards as the direct evidence.
+  - Everything else — Agile/Scrum delivery, stakeholder management, concurrent project coordination,
+    governance and predictability, Confluence/Jira — cleanly evidenced. One of the closest
+    role-shape matches for the agency client-partner PM framing.
+  - **Note:** this application shipped with `AWS Cloud Practitioner · 2026` listed as a held/dated
+    credential in the resume Certifications block — contrary to the standing rule (in progress, exam
+    ~7 Aug 2026, NOT held). Alan's explicit call on 2026-07-22 to leave it as-is for this send; the
+    rule is unchanged for future applications.
+
+- **2026-07-21 — Machines4U / carsales (Engineering Manager, ACIL team, permanent, hybrid):**
+  - `CRM` — named as one of six integration surfaces to oversee. **Fourth JD to name CRM**
+    (Resolution Life 2026-06-17, BlackRoc 2026-07-03, Karlka 2026-07-06) with still no named CRM
+    platform anywhere in the wiki. Now firmly a standing gap rather than a one-off. Bridge:
+    integration delivery as a discipline is deeply evidenced (external payments provider at
+    Console/Reapit, US Bills at Xero, 20+ APIs at 2sol, cross-domain dependency intake at Xero). Not
+    raised in the letter — the JD asks for oversight of the interfaces, not CRM expertise.
+  - `marketing platforms` / `reporting integrations` — named in the same integration bullet as CRM.
+    Reporting/analytics is evidenced (self-built SQL and DORA dashboards, Pendo, FullStory);
+    marketing platforms are not. Low severity, not raised.
+  - `modern web stacks (backend and frontend)` — the JD is unusual in naming **no specific stack**,
+    which leaves room the Bay (.NET/C#/Python) and Digital Native (JS/TS/React) ads did not. Still
+    the weakest of the eight selection criteria: the honest position is architecture-level judgement
+    plus AI-assisted building, not practitioner fluency. Read the React/TypeScript guardrail in
+    [[projects]] and [[skills]] before writing anything here. Raised once in the letter, plainly.
+  - `cloud infrastructure` — recurrence of the standing named-cloud-platform gap. AWS Cloud
+    Practitioner remains **in progress** (exam ~7 Aug 2026, NOT held). Bridge via the DevOps /
+    observability / DORA work and Emedia's capacity planning; do not claim hands-on platform work.
+  - `automotive` / `machinery` / `heavy equipment` — new vertical, and the **third automotive-adjacent
+    recurrence** after Karmo (2026-07-09) and Davidson (2026-07-20). Materially softer than those two:
+    the 2sol/BMA dragline-operator training project is genuine heavy-machinery client work, and
+    dragline operators are close to Machines4U's actual buyer. Low severity, not raised.
+  - Everything else — marketplace and B2B SaaS product-led leadership, engineering roadmaps tied to
+    commercial outcomes, mixed legacy/modern modernisation, platform integrations and third-party
+    dependencies, security/reliability/compliance practice, distributed and offshore team leadership,
+    coding standards through to senior-leadership risk and capacity updates, API design — cleanly
+    evidenced. Among the strongest role-shape matches in the wiki, and the JD's own "not everyone
+    will meet every requirement" close signals openness on the stack-depth criterion.
+
 - **2026-07-20 — Davidson (recruiter) (ICT Project Manager, fleet technology transformation,
   12-month contract, end client unnamed):**
   - `fleet` / `telematics` / `fleet visibility, safety, compliance` — genuine new domain, and the

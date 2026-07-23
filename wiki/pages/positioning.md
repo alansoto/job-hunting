@@ -41,7 +41,10 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Engineering Lead (hands-on, cloud-native SaaS / intelligent transport systems) | Engineering Lead | The first application to proceed against an **unmet essential requirement** (proficiency in JS/TS/React — see [[keywords]] and the guardrail in [[projects]]). Framing answers the JD's own anti-hoarding line with the Practice-domain *handover* rather than the Practice-domain *achievement*: the proof of a leader who develops engineers is the hard problem he gave away. Xero coach-10+-teams-owning-none as the mentoring anchor; Go1's squad of 8 (containing a designer and a PO) as the closest literal trio evidence in the wiki; Code Red as a near-verbatim match for the CI/CD-DevOps-SRE bullet; Nagare as its own labelled experience entry carrying the React/TypeScript evidence. Digital Native (recruiter), 2026-07-16. |
 | Engineering Manager (AI-first, government-software SME) | Engineering Manager | People-and-AI EM framing for a mature govt-software vendor modernising its portfolio. Marquee match is **AI-first engineering as *built* evidence, not a claim** — Nagare (React/TS shipped with Claude Code) + Xero AI for Customers + daily AI coding tools over-answer the JD's headline ask. Go1 supplies the literal five-to-eight-person multidisciplinary team shape; Emedia/Suncorp carry the secure-delivery + regulated thread; 2sol carries the engineering-practice (CI/CD, code review, coding standards) transformation. **Nagare placed second in Experience (after Xero) as its own labelled narrative entry** — deliberate for an AI-first JD. Prescribed hands-on stack (.NET/C#, SQL Server, JS/TS, Python) handled with the honest named-stack pivot, NOT stretched (.NET/C# and Python are genuine unclaimed gaps). First application where AI-first is the JD's marquee requirement. Bay Technologies (Constellation Software / Vela APAX subsidiary), 2026-07-20. |
 | ICT Project Manager (fleet technology transformation, government/utility contract) | Project Manager | Establishment-phase framing: the value is standing a program up, not running it for years. Leads with "arriving before there is a set structure" and covers the JD's own arc - governance and delivery controls, requirements across operational/ICT/corporate stakeholders, market engagement, PoC and pilot, implementation planning. **First application to use the 2sol/BMA tender as procurement evidence** (see [[projects]]) - supply-side, and stated as such. Suncorp as the governance-from-scratch anchor; Xero for the small-slice-to-production plus 1% traffic test as a literal PoC/pilot pattern. Nagare deliberately omitted per the tone caution below. Davidson (recruiter), 2026-07-20. |
+| Engineering Manager (marketplace inside a larger group, legacy-to-modern modernisation) | Engineering Manager | Modernisation-first EM framing for a small business unit sitting inside a big group. Leads on the insight that migrating a live platform is a **sequencing** problem, not a technology one - which is the altitude Alan actually operates at and the JD's hardest ask. Xero API Program as the legacy-retirement anchor (thin slice to prove, second high-traffic team as the scale test, executive-facing migration schedule); **2sol/Flight Centre as the literal marketplace + commercial + direct-people-leadership match in one engagement** ($5M+/mo, team of five, engineering practice built from nothing); Go1 for people leadership; Emedia + Code Red paired for the high-availability, security, and SLO/incident bullet. **First resume in the repo to ship with no `## Skills` section at all** - profile plus narrative experience only. Machines4U (carsales), 2026-07-21. |
 | Program Delivery Lead (insurance parent-company subsidiary) | Program Delivery Lead | Business-wide transformation delivery for a Suncorp Group subsidiary. Suncorp direct-employment history used as the primary hook rather than a bridged analogue - the rare case where the "regulated enterprise" evidence is the literal parent company, not just an adjacent industry. Xero Unified Burndown as the integrated-delivery-plan anchor; Go1 as the end-to-end discovery-to-embedment anchor. First application rendered in narrative format (Format B) with the parent-company connection stated directly in the resume's Suncorp background paragraph, not only in the cover letter. HomeRepair, 2026-07-10. |
+| Project Manager (digital agency / client-partner, concurrent projects for one client) | Project Manager | Client-partner framing: the value is being a single point of contact running many concurrent projects for one demanding client. **2sol/Flight Centre is the literal match** - every project on one client's platform, single technical/delivery contact, 10+ products and 20+ APIs, $5M+/mo. Profile leads on "being the one person the client can call". Xero (internal teams as clients that had to be sold, not mandated) as the scale analogue. First application to surface a **native mobile (iOS/Android) app-build gap** - handled with the honest "dive in and learn the domain fast" pivot, not a claim. Rendered narrative format (Format B). Concentrix Catalyst, 2026-07-21. |
+| Technical Project Manager (enterprise SAP SuccessFactors / LMS transformation, contract) | Technical Project Manager | **Domain trifecta framing** — SuccessFactors spans learning, HR, and payroll simultaneously, and each is separately evidenced: Go1 (global e-learning/LMS platform, the anchor pulled up in emphasis) + intelliHR (HR SaaS) + Xero Quokkas (Payroll/Connected Workplaces operating model). Suncorp carries the establishment-phase governance-from-scratch anchor under compliance/COVID/restructure pressure. SAP SuccessFactors the specific product is a named-once "highly regarded" gap, not required — bridged with the capability-hierarchy reframe (domain fluency stated directly, product treated as a fast ramp), not claimed. PRINCE2 "or comparable" answered by Master of PM + PMP, same as the standing PRINCE2 gap. Rendered in narrative format (Format B) — see the format-override note below. Davidson (recruiter; end client unnamed), 2026-07-22. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
 
@@ -437,6 +440,17 @@ as *distraction* to a risk-averse enterprise or government panel. Lead with it f
 agile roles at product companies (Opengear, Bay). Leave it out entirely for government/contract/PMO
 applications where the reader wants focus, not hobbies (Davidson, 2026-07-20).
 
+## Format override: user preference beats the contract/keyword-heavy heuristic (confirmed a third time, 2026-07-23)
+
+The Davidson SAP SuccessFactors/LMS application (2026-07-22) was drafted in **Format A** per the
+standard contract/keyword-heavy heuristic (recruiter "submit your CV" posting, ATS-parseable
+structure favoured). Alan later asked, unprompted, for it to be redone in **Format B (narrative)**
+regardless — no new information changed the fit assessment, this was a stated stylistic preference.
+This is the third time this exact pattern has happened (see [[index]] resume-format note: Randstad
+Digital 2026-07-15, Davidson ICT PM 2026-07-20, this one 2026-07-22) — treat the Format A
+contract/keyword-heavy carve-out as effectively retired. Default to Format B for every new
+application, contract or otherwise, and only use Format A if Alan explicitly asks for it up front.
+
 ## Known tailoring devices observed (use judiciously, keep truthful)
 - "🔴 relevant experience" inline flags next to roles matching the JD.
 - Adding company descriptors (e.g., "Global cloud accounting software, 4,500+ employees") for
@@ -472,9 +486,18 @@ applications where the reader wants focus, not hobbies (Davidson, 2026-07-20).
   Lead): when a JD asks for a leader who develops people rather than hoarding the interesting work,
   do not claim generosity as a trait — name the specific hard problem and the moment it was handed
   over. "The most interesting technical problem I had at Xero was defining the Practice-domain thin
-  slice… I bootstrapped the subgraph, got UK Tax live as the first GA production query, and then
-  handed the domain to the team that should own it, pair programming through the handover so it
-  stuck. Giving it away was the point." Pairs naturally with the Xero coach-10+-teams-owning-none
+  slice… I led the team that bootstrapped the subgraph and got UK Tax live as the first GA
+  production query, and then planned the handover of the domain to the team that should own it,
+  including the pair programming that made it stick. Giving it away was the point."
+  > **Attribution corrected 2026-07-21 (Alan, during the Machines4U draft).** The wording stored here
+  > until then read "*I* bootstrapped the subgraph, got UK Tax live… and then handed the domain…",
+  > which overclaims. **Alan managed the team that bootstrapped it; he did not build it himself**, and
+  > [[experience]] has always said so ("bootstrapped the initial Practice subgraph **via the API
+  > Program team**, then **planned** ownership handover"). The device is unaffected — the handover is
+  > still the point — but write it in the leading voice, not the building voice. Note that the
+  > Digital Native cover letter (submitted 2026-07-16) used the overclaiming version; be ready for it
+  > if that conversation progresses.
+  Pairs naturally with the Xero coach-10+-teams-owning-none
   pattern ("the work I am proudest of is the work other people can now do without me"). Same
   demonstrate-don't-assert family as the built-the-tool proof above.
 - **Curious-and-honest gap play** (used in Amber cover letter): when there is a genuine domain gap

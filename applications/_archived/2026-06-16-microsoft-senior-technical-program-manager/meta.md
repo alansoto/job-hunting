@@ -6,7 +6,7 @@
 - **Date finalised:** 2026-06-16
 - **Date submitted:** 2026-06-16
 - **Status:** Submitted — awaiting response
-- **Fit score:** 9.0 / 10 (see [gap-analysis.md](gap-analysis.md))
+- **Fit score:** 9.0 / 10 (see [gap-analysis.md](applications/_archived/2026-06-16-microsoft-senior-technical-program-manager/gap-analysis.md))
 
 ## Files
 

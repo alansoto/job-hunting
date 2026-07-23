@@ -582,7 +582,7 @@ wiki page, not here.
   "led dozens of teams / EGM-level" scale claims.
 - Genuine partial gaps noted: no wiki evidence of financial/budget forecasting or procurement
   process ownership specifically, and MS Project/SharePoint are not named tools (Jira/Confluence
-  are). None treated as deal-breakers — see [[gap-analysis]] in the application folder.
+  are). None treated as deal-breakers — see [[applications/2026-07-03-blackroc-scrum-master/gap-analysis]] in the application folder.
 - User confirmed hands-on proficiency with **Jira Analytics** specifically (not previously captured
   in [[skills]]/[[keywords]] — worth folding into the wiki on next Ingest).
 - Cover letter uses the FinXL-style compressed bullet format (named recruiter salutation, one-line
@@ -1430,3 +1430,26 @@ above.
 ## [2026-07-22] submitted — Concentrix Catalyst Project Manager
 - Alan confirmed the application was submitted. Tracker + meta status moved Ready to send → Submitted (Awaiting response).
 - Drafted a form-field answer ("what skills and experience you could bring") in-chat: 2sol/Flight Centre single-point-of-contact hook, scaled to Xero/Suncorp/Go1, Kanban+Scrum, adaptability line as a soft nod to the native-mobile gap without raising it. Not saved to the folder.
+
+## [2026-07-22] apply (drafted) — Technical Project Manager | SAP SuccessFactors / LMS
+- Contract (1-month initial + extension to 31 Oct 2026), Brisbane hybrid, $850-920 p/h + super. Recruiter posting, end client unnamed; large/complex ICT program running an enterprise Learning Management System (SuccessFactors) transformation. Vocabulary reads large corporate or government.
+- Fit: STRONG. Marquee angle is the **domain trifecta** — SuccessFactors spans learning + HR + payroll, and Alan has delivered in all three as separate SaaS engagements: Go1 (global e-learning / LMS platform), intelliHR (HR SaaS), Xero Quokkas (Payroll / Connected Workplaces). The specific SAP product is unevidenced but "highly regarded", not required. First JD in the wiki where the HR/Payroll/LMS domains line up this cleanly against one platform.
+- Format A (standard/bullet, build.js) — contract + keyword-heavy (SAP SuccessFactors, PRINCE2, LMS, ICT) + "submit your CV" ATS screen. Headline "Technical Project Manager" (JD's own title). Lead order Xero → Go1 (LMS anchor pulled up in emphasis) → Suncorp → Virgin → intelliHR → Reapit → 2sol; Emedia + pre-Australia to Earlier. Full timeline kept continuous per the "don't demote roles that open gaps" guardrail (Virgin fills intelliHR→Suncorp; Reapit fills 2sol→intelliHR).
+- Cover letter: domain-trifecta hook (learning/HR/payroll, all three delivered) + establishment/governance framing + three labelled prose blocks (Go1 LMS, Suncorp enterprise-migration-governance-from-scratch, Xero governance-at-scale) + one light SAP-platform gap sentence (domain known, product a fast ramp; capability-hierarchy reframe) + immediate-availability close. Recruiter-facing "Dear Hiring Team" (no named contact).
+- Gaps assessed: SAP SuccessFactors platform (low-mod, "highly regarded", raised lightly); PRINCE2 ("or comparable" → Master of PM + PMP, not raised as gap); benefits realisation (2nd JD ever to name it after Davidson, single item, not raised — outcome-measurement language in resume covers it). No unmet essential.
+- Nagare deliberately omitted (enterprise/possible-government tone caution in [[positioning]]).
+- Pages touched: [[keywords]] (LMS/SuccessFactors gap-watch), [[processed]] pending finalise.
+
+## [2026-07-22] apply (finalised) — Davidson (recruiter) Technical Project Manager | SAP SuccessFactors / LMS
+- Resume redrafted from Format A to Format B (narrative) at Alan's explicit request after the initial draft — third confirmed instance of the contract/keyword-heavy carve-out being overridden; carve-out now treated as retired. See [[positioning]] "Format override" note and [[index]] resume-format note.
+- Company identified as **Davidson** (recruiter; end client still unnamed) — corrected from "unnamed" in [[keywords]] and gap-analysis.md.
+- Proofreader gate found 3 minor grammar issues (adverb form, two comma-splice-to-colon fixes); Alan chose to fix before rendering.
+- PDFs generated via /render (build-narrative.js; Puppeteer timed out once, succeeded on retry) and archived resume + cover letter to raw/resumes/.
+- Ingested both markdown sources.
+- Pages touched: [[positioning]] (new Technical Project Manager headline row; Format override note), [[keywords]] (company correction), [[cover-letter-examples]] (new entry), [[index]] (resume-format note), [[processed]].
+
+## [2026-07-23] submitted — Davidson (recruiter) Technical Project Manager | SAP SuccessFactors / LMS
+- Alan confirmed the application was submitted. meta.md + tracker status moved Ready to send → Submitted (Awaiting response).
+
+## [2026-07-24] outcome — Bay Technologies Engineering Manager
+- Alan reported the application was rejected. meta.md + tracker status moved Submitted (Awaiting response) → Closed (Rejected).

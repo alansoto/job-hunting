@@ -1,0 +1,11 @@
+# JD Analysis — Technical Project Manager | SAP SuccessFactors / LMS
+
+1. **Primary pain point:** They need a technical PM who can take an enterprise Learning Management System (SuccessFactors) transformation from establishment through implementation inside a large, complex ICT program - standing up governance and delivery controls and keeping multidisciplinary technical teams and senior stakeholders aligned. The underlying need is enterprise-software-implementation delivery discipline, not SAP product configuration.
+
+2. **Top 3 priorities:** (1) end-to-end delivery of complex enterprise technology projects with governance, reporting, schedules, and controls; (2) coordinating multidisciplinary technical teams (architecture, engineering, testing, data) and managing risk/issue/dependency; (3) demonstrated enterprise software implementation, with SAP SuccessFactors / HR / Payroll / LMS "highly regarded".
+
+3. **Culture signals:** Formal, enterprise. "Project governance", "benefits realisation", "steering"-adjacent language, PRINCE2, "business case development" - reads large corporate or government ICT program. Measured and professional, not scale-up. No emoji, no growth language. Tone should match: professional, direct, confident.
+
+4. **Best hook angle:** The domain trifecta. SuccessFactors sits across learning, HR, and payroll simultaneously, and Alan has delivered in all three as separate SaaS engagements - Go1 (global e-learning / LMS platform), intelliHR (HR SaaS), Xero (Payroll / Connected Workplaces operating model). This is the single most specific, genuine connection to the JD's "highly regarded" line and its LMS focus. Pair with the establishment-phase governance strength (Suncorp built governance from scratch; Xero company-wide migration schedule). Reference: Davidson (establishment-phase framing) + Randstad/Davidson labelled-block structure for recruiter-placed contract roles.
+
+5. **Gap trigger:** Yes, but light. SAP SuccessFactors *the specific platform* is not evidenced - but it is "highly regarded", not required, and the three domains it spans are all covered. One light sentence: name the domain fluency, treat the SAP product as a fast ramp. PRINCE2 is "or comparable" - Master of PM + PMP cover it, not worth a gap paragraph. Benefits realisation: single item, not raised.

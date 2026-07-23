@@ -37,9 +37,11 @@ letters state immediate availability plainly and use past tense for the Xero rol
 
 **Resume format:** Format B (narrative) is the default. The Format A (standard bullets) carve-out for
 contract/keyword-heavy roles is now effectively dead — Randstad Digital was drafted in Format A and
-switched to narrative at Alan's request (2026-07-15), and Davidson (2026-07-20), a 12-month
+switched to narrative at Alan's request (2026-07-15), Davidson's ICT PM role (2026-07-20), a 12-month
 recruiter-placed government-flavoured contract, went straight to Format B and was chosen by Alan when
-asked. **Stop offering Format A for contract roles; use Format B unless Alan explicitly asks
+asked, and the Davidson SAP SuccessFactors/LMS role (2026-07-22) was drafted in Format A per the
+contract/keyword-heavy heuristic and again switched to Format B at Alan's request after drafting. Three
+for three. **Stop offering Format A for contract roles; use Format B unless Alan explicitly asks
 otherwise.**
 
 **Where the strict guardrails live** — read the owning page before writing any claim in these areas:
