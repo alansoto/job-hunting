@@ -137,6 +137,15 @@ Practice team leadership and engineering, broader domain leadership across Xero.
 >    slice and de-risked it with a 1% traffic trial" is wrong on both counts. Safe: "found the
 >    smallest slice to prove the platform in production, then used a second high-traffic team as the
 >    scale test, de-risking that cutover with a 1% traffic trial".
+>
+> **Recurrence warning (added 2026-07-24, caught a third time on the etrainu draft):** the
+> Challenge & Impact **Solution** bullet for this project gets copy-pasted resume-to-resume, and
+> guardrail #1 keeps getting applied to the separate "Key Contributions" bullet (which already says
+> "led the team that bootstrapped...") while the Solution bullet itself is left in first person
+> ("I found the smallest slice... I then built..."). Both bullets describe the same body of work and
+> both need the leading voice. When reusing this paragraph, check the Solution bullet specifically —
+> it is the one that drifts. Safe pattern: "I led the team that found the smallest slice... then used
+> a second high-traffic team as the scale test, proposing a 1% traffic trial to de-risk the cutover."
 
 ## Xero — Code Red (CI/CD Capability Uplift)
 **Role context:** Lead Technical Program Manager. → [[experience]]

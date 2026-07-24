@@ -15,13 +15,14 @@ wiki page, not here.
 - **Degree title: "Master of" vs "Masters of" Project Management.** [[education]] says *Masters of*;
   the Randstad Digital and HomeRepair resumes (both submitted) say *Master of*, per a proofreader
   correction. Confirm against the testamur and align the wiki. → [[education]]
-- **University name contradiction in two raw resumes.** [[education]] and 20+ other resumes say
-  **Universidad de Lima, Peru**. Two raw files diverge — and from each other:
+- **University name contradiction in a raw resume — CONFIRMED 2026-07-24.** Alan confirmed
+  `Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md`'s "Pontificia Universidad Católica del Perú"
+  was a hallucination/mistake, not fact. `Universidad de Lima, Peru` remains canonical (per
+  [[education]] and 20+ other resumes, including the FinXL application's own
+  `applications/2026-07-02-finxl-randstad-scrum-master/resume-draft.md`). `raw/` is read-only so the
+  source file itself is not corrected — this note is the permanent record. Still open:
   `Alan-Soto-2026-06-25-Mining-Tech-Scrum-Master-DevSecOps-Resume.md` says "Universidad Nacional de
-  Ingeniería"; `Alan-Soto-2026-07-02-FinXL-Scrum-Master-Resume.md` says "Pontificia Universidad
-  Católica del Perú". Both look like accidental edits made before sending (the matching
-  `applications/*/resume-draft.md` copies are correct). Wiki kept `Universidad de Lima` as canonical.
-  Confirm which is right.
+  Ingeniería" — unconfirmed, same likely cause.
 - **Issuing bodies unrecorded for three certifications** — AI Assisted Development (2026), LeanUX and
   Product Discovery (2018), React Nanodegree (2017, name matches Udacity's program). → [[education]]
 - **CSM renewal** — held since 2012; modern CSM requires renewal. Verify only if a role hinges on a
@@ -1453,3 +1454,31 @@ above.
 
 ## [2026-07-24] outcome — Bay Technologies Engineering Manager
 - Alan reported the application was rejected. meta.md + tracker status moved Submitted (Awaiting response) → Closed (Rejected).
+
+## [2026-07-24] apply (drafted) — etrainu Engineering Manager
+- Permanent, B2B SaaS LMS/e-learning platform (sport, disability, aged care, corporate sectors). Direct posting, JD names no required tool, framework, or certification at all — second JD in the wiki after Opengear (2026-07-15) to do this.
+- Fit: STRONG, one of the closest domain matches in the wiki. Go1 is a direct precedent (global e-learning SaaS platform, content-creator product), not a bridged analogue — the marquee angle. JD's most-repeated theme is AI-enabled tools/agentic workflows (named in all three responsibility clusters); over-answered via Nagare (built, not claimed) + Xero AI for Customers. No unmet requirement identified; only soft spot is the named customer verticals (sport/disability/aged care), which the JD doesn't actually ask for as experience.
+- Resume: Format B (narrative), profile leads with the Go1 e-learning match, Nagare placed second (AI-first emphasis, same device as Bay Technologies).
+- **Attribution drift caught a third time.** The Xero API Program Challenge & Impact "Solution" bullet, reused from the Machines4U draft, still read in first person ("I found the smallest slice... I then built...") despite the guardrail added 2026-07-21 — that guardrail had only been applied to the separate Key Contributions bullet, not this one. Alan flagged it; corrected to leading voice ("I led the team that found the smallest slice..."). Added a recurrence warning directly on the guardrail in [[projects]] naming the Solution bullet specifically, since this is the second resume (after Machines4U/Concentrix) where the same paragraph needed the same fix.
+- Alan rewrote the cover letter substantially: addressed to a named contact ("Dear Nicola"), casual "I'm very interested..." opener, reused the Karmo-style scale-up/smaller-company preference device (not originally drafted for this application), bolded evidence labels, and a domain-fit + AI-adoption bullet structure. Resume profile also independently rewritten by Alan (tightened to "15+ years", plainer AI-adoption line).
+- Pages touched: [[projects]] (recurrence warning on the API Program attribution guardrail), [[processed]] pending finalise.
+
+## [2026-07-24] apply (finalised) — etrainu Engineering Manager
+- Proofreader gate run before render: flagged the LinkedIn preamble line as a false positive (confirmed intentional house format) and the Go1 "squad of eight" comma ambiguity as a real issue. Alan asked for a fix without hyphens/dashes; applied a colon instead ("a cross-functional squad of eight: six engineers, a designer, and a product owner").
+- PDFs generated via /render (narrative Format B, build-narrative.js); archived resume and cover letter to raw/resumes/.
+- Ingested both markdown sources after Alan's manual edits. Notable: Alan independently rewrote the Xero Challenge & Impact Solution bullet into a fully jargon-free, leading-voice version (no Practice domain / BlueNav / GSD / 1%-trial naming) — recorded as a reusable template in [[positioning]]. Also added "with Claude" to the AI Assisted Development certification (new detail, recorded in [[education]]). Cover letter addressed to a named contact ("Nicola") and reuses the Karmo scale-up-preference device on a JD that didn't explicitly ask for it.
+- Pages touched: [[positioning]] (new Engineering Manager / e-learning SaaS headline row + cheat-sheet entry), [[education]] (certification detail), [[cover-letter-examples]] (new entry), [[processed]].
+
+## [2026-07-24] apply (post-finalise edit) — etrainu Engineering Manager
+- Alan asked to fold 2sol Software Studios and Emedia Campaigns into the Earlier section for length, after the application had already been finalised. Condensed both into prose paragraphs retaining the key quantified facts (2sol: $5M+/mo, 10+ products/20+ APIs, team of five, BMA tender; Emedia: high-availability ticketing for major events) with explicit date ranges (2012-2017, 2006-2012) so the timeline stays continuous back to Console/Reapit (ends Feb 2018) and into the pre-2005 Canada/Peru paragraph — no visible gap opened, per the standing "don't demote roles that open gaps" rule.
+- Re-rendered PDFs and re-synced the archived copy in raw/resumes/ so both stay consistent with the edited draft.
+
+## [2026-07-24] outcome — Concentrix Catalyst Project Manager
+- Alan reported the application was rejected on the basis of salary. meta.md + tracker status moved Submitted (Awaiting response) → Closed (Rejected — salary).
+
+## [2026-07-24] apply (finalised) — Future Secure AI Technical Program Manager
+- Enterprise AI platform / customer-implementation TPM role at a fast-moving, high-growth company. One of the cleanest fit scores in the wiki: Xero API Program/Supergraph is a direct precedent (federated API platform built explicitly to enable AI agents), not a bridged analogue, for the JD's core "enterprise AI platform" ask; Xero AI for Customers covers the AI-embedded-product half. No named tool, platform, or certification gap anywhere in the JD.
+- Proofreader gate run before render: flagged three issues in resume-draft.md (duplicated LinkedIn header line, a curly-vs-straight apostrophe inconsistency, a semicolon followed by a sentence fragment). All three fixed directly in the draft before rendering.
+- PDFs generated via /render (narrative Format B, build-narrative.js); archived resume and cover letter to raw/resumes/.
+- Ingested both markdown sources. No new biographical facts — resume and cover letter both derived cleanly from existing wiki content.
+- Pages touched: [[positioning]] (new Technical Program Manager / enterprise AI platform headline row + role-emphasis cheat-sheet entry), [[keywords]] (release planning · production deployments · go-live · enterprise AI platform · customer implementations), [[cover-letter-examples]] (new entry), [[processed]].

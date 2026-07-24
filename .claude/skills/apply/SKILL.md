@@ -27,9 +27,9 @@ Pull from the wiki to write `resume-draft.md`. First choose a format, then write
 ### Choosing a format
 
 - **Format B — Narrative / hybrid (story style).** The default (confirmed 2026-07-10). Recent roles (roughly the last six years) are told as a short background paragraph + a `Challenge & Impact` (Problem/Solution) block + `Key Contributions` bullets; older roles stay as plain bullets. Rendered by `build-narrative.js`. Best for senior roles where judgement and narrative carry weight, or when the user wants to stand out from lookalike resumes.
-- **Format A — Standard (bullet points).** Clean, ATS-friendly, one skill grid, bullet-only experience. Rendered by `build.js`. Use for contract or heavily keyword-screened roles where a plain ATS-parseable structure matters more than narrative, or whenever the user explicitly asks for it.
+- **Format A — Standard (bullet points).** Clean, ATS-friendly, one skill grid, bullet-only experience. Rendered by `build.js`. Use only whenever the user explicitly asks for it.
 
-Use Format B unless the role is contract/keyword-heavy (favour Format A there) or the user asks for the standard format. If unsure, ask.
+If unsure about format, ask.
 
 ### Format A — Standard (bullet points)
 
@@ -208,6 +208,6 @@ Rules:
 - Structure: hook → strongest evidence → gap acknowledgement (if any) → close (3-4 paragraphs)
 - Apply `/resume-style` rules to every paragraph
 
-## Step 5 — Finalise
+## Step 5 — Render 
 
-When the user says "finalise", invoke `/finalise`.
+When the user says "render", invoke `/render`.

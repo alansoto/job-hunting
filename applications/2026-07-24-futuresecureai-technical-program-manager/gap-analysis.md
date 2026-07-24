@@ -1,0 +1,32 @@
+# Gap Analysis — Future Secure AI, Technical Program Manager (2026-07-24)
+
+## Strong matches
+
+- **6+ years TPM / Technical Project Management / Delivery Leadership** — Alan has 15+ years total career, 10+ years in delivery-leadership roles, with **Technical Program Management** rated Expert on every resume in the wiki. Direct, substantial overmatch. → [[skills]], [[experience]]
+- **Leading end-to-end delivery of multiple concurrent technical programs** — Xero ran **API Program/Supergraph, AI for Customers, US Bills Integration, and Xero Partner Hub concurrently** across a multi-year tenure; Go1 ran a full-lifecycle product squad simultaneously with an internal incubator. This is one of the closest literal matches to "multiple concurrent technical programs" in the wiki. → [[experience]] Xero
+- **Developer platforms / APIs / AI platforms / engineering enablement programs** — this is near-verbatim the Xero **API Program / Supergraph**: a company-wide initiative to deliver a **federated API surface enabling AI agents and third parties** to access Xero's product capabilities. This is the single strongest anchor available for an "enterprise AI platform" TPM role — not a bridge, a direct precedent. → [[projects]] Xero API Program/Supergraph
+- **Coordinating engineering, architecture, deployment, and platform teams to deliver enterprise AI solutions** — Xero AI for Customers (coordinated ML engineers, data scientists, and product teams across business areas; 3M+ customers) plus the API Program's cross-division coordination (API Platform, UK Tax, BlueNav/Patronus, Practice team). → [[experience]], [[projects]]
+- **Driving release planning, production deployments, and go-live activities across multiple teams** — UK Tax Capital Allowances as the first GA production Supergraph query; the Unified Burndown as the agreed cross-division launch/retirement schedule; Suncorp's compliance-critical migration go-live. → [[achievements]]
+- **Managing delivery schedules, risks, dependencies, and technical blockers** — core recurring responsibility across every Xero program; explicitly evidenced via the BlueNav dependency-conversion work and the Unified Burndown. → [[experience]]
+- **Facilitating Agile ceremonies (sprint planning, stand-ups, retrospectives, roadmap reviews)** — Kanban and Scrum rated Expert, CSM-certified; Go1 (Scrum Master for a squad of 8), Virgin Australia (coached 4 POs on ceremonies), Suncorp (embedded delivery rhythms). → [[skills]]
+- **Working with engineering leaders, architects, PMs, and executive stakeholders to align priorities** — EGM-level stakeholder visibility at Xero across all programs; GM/Head-of-Product level stakeholder management. → [[skills]], [[experience]]
+- **Establishing delivery governance, reporting, and operating rhythms** — this is Alan's signature strength (the "operating system builder" framing): Unified Burndown, Jira Data Quality Score/optimisation initiative, Quokkas ways-of-working, Go1's common operating system, Suncorp's governance-from-scratch. → [[positioning]] "operating system builder"
+- **Translating business objectives into executable technical delivery plans** — Xero's AI roadmap alignment with executive leadership; the Practice-domain thin-slice as a literal example of translating a platform concept into an executable migration program. → [[experience]], [[projects]]
+- **Continuously improving delivery processes and execution quality** — Code Red CI/CD capability uplift, DORA metrics dashboards (Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore), Jira optimisation initiative. → [[achievements]]
+
+## Partial matches
+
+- **"Enterprise AI platform" as the company's core product** — Alan has delivered *within* an AI platform program (AI for Customers, embedding ML/AI into products used by 3M+ customers) and a platform *enabling AI agents* (Supergraph), but has not been TPM for a company whose sole product *is* an AI platform sold to enterprises. Frame as: direct experience with both halves (AI-embedded product delivery, and API/platform infrastructure built to enable AI agents) rather than a single company doing exactly this — arguably stronger than a single-company match since it covers both angles named in the JD.
+- **"Fast-moving, high-growth company"** — Go1 (hyper-growth e-learning scale-up, explicitly described as "chaotic, messy, excitement and uncertainty at all levels") is the direct analogue; Xero's scale is enterprise rather than high-growth-startup. Lead with Go1 for the culture/pace match, Xero for the technical/scale match. Also aligns with Alan's stated personal preference for smaller, fast-paced companies (see [[positioning]] "Karmo" scale-up device) — worth considering for the cover letter tone if the company's size/stage warrants it.
+
+## Gaps
+
+None significant. This is one of the cleanest role-shape matches in the wiki — every named duty and requirement has direct, not bridged, evidence. No named tool, platform, or certification gap in the JD (it's outcome/practice-framed throughout, not tool-framed), so there is nothing to acknowledge or bridge in the cover letter.
+
+## ATS keywords
+
+Technical Program Manager · Technical Project Management · Delivery Leadership · delivery governance · program operating rhythms · release planning · production deployments · go-live · enterprise AI platform · customer implementations · engineering, architecture, deployment, and platform teams · delivery schedules · risks · dependencies · technical blockers · Agile ceremonies · sprint planning · stand-ups · retrospectives · roadmap reviews · engineering leaders · architects · product managers · executive stakeholders · reporting · operating rhythms · business objectives · technical delivery plans · developer platforms · APIs · AI platforms · engineering enablement · Scrum · concurrent projects · competing priorities · cross-functional coordination · enterprise software releases.
+
+## Fit score
+
+**Strong.** Among the closest matches in the wiki to date — the Xero API Program/Supergraph (a federated API surface built explicitly to enable AI agents) is a near-literal precedent for "enterprise AI platform," not an adjacent bridge, and the AI for Customers program covers the AI-embedded-product half of the same ask. Every named duty (governance, operating rhythms, release/go-live, cross-functional coordination, Agile/Scrum, translating strategy into execution) has direct evidence. No unmet requirements to acknowledge.

@@ -41,6 +41,7 @@ enterprise system replacement · system replacement · infrastructure programme 
 data migration delivery · data migration governance · migration sequencing · compliance-critical delivery · vendor oversight ·
 APRA compliance · APRA audit · APRA-adjacent ·
 RAID management · website redevelopment · digital platform delivery · CMS platform · platform implementation ·
+release planning · production deployments · go-live · enterprise AI platform · customer implementations *(added 2026-07-24, Future Secure AI)* ·
 product ownership · outcome-driven delivery · adviser platforms · customer-adviser platforms · business and technology bridging · intersection of product and delivery ·
 discovery to embedment · embedment · structuring ambiguous problems · delivery discipline · pace and momentum ·
 customer and operational outcomes · Strategic Growth · fit-for-purpose governance

@@ -45,6 +45,8 @@ facts live in [[experience]]; this page is about *angle and emphasis*, not new h
 | Program Delivery Lead (insurance parent-company subsidiary) | Program Delivery Lead | Business-wide transformation delivery for a Suncorp Group subsidiary. Suncorp direct-employment history used as the primary hook rather than a bridged analogue - the rare case where the "regulated enterprise" evidence is the literal parent company, not just an adjacent industry. Xero Unified Burndown as the integrated-delivery-plan anchor; Go1 as the end-to-end discovery-to-embedment anchor. First application rendered in narrative format (Format B) with the parent-company connection stated directly in the resume's Suncorp background paragraph, not only in the cover letter. HomeRepair, 2026-07-10. |
 | Project Manager (digital agency / client-partner, concurrent projects for one client) | Project Manager | Client-partner framing: the value is being a single point of contact running many concurrent projects for one demanding client. **2sol/Flight Centre is the literal match** - every project on one client's platform, single technical/delivery contact, 10+ products and 20+ APIs, $5M+/mo. Profile leads on "being the one person the client can call". Xero (internal teams as clients that had to be sold, not mandated) as the scale analogue. First application to surface a **native mobile (iOS/Android) app-build gap** - handled with the honest "dive in and learn the domain fast" pivot, not a claim. Rendered narrative format (Format B). Concentrix Catalyst, 2026-07-21. |
 | Technical Project Manager (enterprise SAP SuccessFactors / LMS transformation, contract) | Technical Project Manager | **Domain trifecta framing** — SuccessFactors spans learning, HR, and payroll simultaneously, and each is separately evidenced: Go1 (global e-learning/LMS platform, the anchor pulled up in emphasis) + intelliHR (HR SaaS) + Xero Quokkas (Payroll/Connected Workplaces operating model). Suncorp carries the establishment-phase governance-from-scratch anchor under compliance/COVID/restructure pressure. SAP SuccessFactors the specific product is a named-once "highly regarded" gap, not required — bridged with the capability-hierarchy reframe (domain fluency stated directly, product treated as a fast ramp), not claimed. PRINCE2 "or comparable" answered by Master of PM + PMP, same as the standing PRINCE2 gap. Rendered in narrative format (Format B) — see the format-override note below. Davidson (recruiter; end client unnamed), 2026-07-22. |
+| Engineering Manager (B2B LMS / e-learning SaaS, permanent) | Engineering Manager | **Direct product-category match, not a bridge.** etrainu builds an LMS/course-content platform; Go1 is a literal precedent (global e-learning SaaS, content-creator product) rather than an adjacent-industry analogue — the closest domain match in the wiki. Layered onto the JD's own marquee, repeated-three-times requirement (practical AI-enabled tools and agentic workflows), which Nagare and Xero AI for Customers over-answer with built evidence. Xero supplies the multi-stream delivery and reliability-coaching (Code Red DORA/SLOs) anchors; Go1 and intelliHR supply hiring/capacity-planning evidence. JD names no required tool, framework, or certification at all — second JD in the wiki to do this after Opengear (2026-07-15). etrainu, 2026-07-24. |
+| Technical Program Manager (enterprise AI platform, high-growth) | Technical Program Manager | **Direct precedent on both halves of the JD, not a bridge.** Xero's API Program/Supergraph is a company-wide federated API platform built explicitly to enable AI agents and third-party access — a near-literal match for "enterprise AI platform," not an adjacent analogue. Paired with Xero AI for Customers (ML/AI embedded into products for 3M+ users) for the AI-embedded-product half. Go1's hyper-growth squad supplies the "fast-moving, high-growth company" culture match (Xero's scale is enterprise, not startup-fast). One of the cleanest fit scores in the wiki — no named tool, platform, or certification gap to acknowledge. Future Secure AI, 2026-07-24. |
 
 ## "Operating system builder" framing (verbatim, from 2026-06-18 Xero achievement evidence)
 
@@ -319,6 +321,24 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
   exposure (Copilot/Claude/Gemini) is a real strength here, not a gap — name it directly via Xero
   AI for Customers + intelliHR NLP analytics + current daily use of AI coding tools.
 
+- **Engineering Manager at an e-learning/LMS SaaS company (etrainu, 2026-07-24)** → lead with **Go1**
+  as a direct product-category precedent, not a bridge — both companies build e-learning/LMS
+  platforms, so the domain-match sentence in the profile and cover-letter hook can state it plainly
+  rather than pivot from an adjacent industry. Pair with **Xero** (multi-stream delivery accountability,
+  coaching 10+ teams, Code Red DORA/SLO reliability-coaching evidence) and **Nagare** (AI-enabled
+  tooling built, not claimed) for the JD's most-repeated theme. Headline: "Engineering Manager".
+  **Alan's manual edit to the Xero Challenge & Impact Solution bullet is worth reusing as a template:**
+  it rewrites the Supergraph story with no company-internal jargon at all (no "Practice domain",
+  "BlueNav", "GSD", or "1% traffic trial") — "I led discovery to ship a thin vertical slice to
+  production for a high-traffic team, proving the pattern and establishing the scale test. Using
+  these insights, I partnered with engineering leads across all divisions to create a unified
+  migration roadmap..." Shorter, fully in the leading voice, and passes the insider-vocabulary test
+  in [[resume-style]] cleanly — use this phrasing as the new default over the codename-heavy version
+  when a shorter or less Xero-specific telling is wanted. **Cover letter reused the Karmo-style
+  scale-up/smaller-company preference device** (see below) even though the target company's size
+  relative to Xero wasn't confirmed in the JD — reasonable inference from an LMS company of etrainu's
+  profile, but confirm before treating this as a new standing rule for SaaS-scale-up EM roles generally.
+
 - **Program Delivery Lead at a parent-company subsidiary (HomeRepair, Suncorp Group subsidiary,
   2026-07-10)** → lead with the Suncorp direct-employment connection as the primary hook, stated in
   both the resume (Suncorp background paragraph names HomeRepair's parent group directly) and the
@@ -379,6 +399,29 @@ Summaries use both **"10+ years"** and **"15+ years."** The engineering career s
     But Not Required" — one short paragraph, bridged via Suncorp's telephony platform replacement and
     the systems-architect background. Nothing else in the JD needs acknowledging: **no named tool,
     framework, or certification is required, a first among recent applications.**
+
+- **Technical Program Manager, enterprise AI platform / high-growth (Future Secure AI, 2026-07-24)**
+  → lead with **Xero API Program/Supergraph** stated plainly as a direct precedent: a company-wide
+  program to build a federated API platform explicitly to enable AI agents and third-party access —
+  not framed as an adjacent bridge, because it literally is the same category of work the JD
+  describes. Pair with **Xero AI for Customers** (ML/AI embedded into products for 3M+ customers) to
+  cover the AI-embedded-product half of the JD in the same company. **Go1's hyper-growth squad**
+  supplies the "fast-moving, high-growth company" culture/pace match — Xero's scale reads as
+  enterprise rather than startup-fast, so lean on Go1 if the culture-fit angle comes up at interview.
+  Headline: "Technical Program Manager" (the JD's own title).
+  - **No gap paragraph.** Gap analysis found no named tool, platform, or certification requirement in
+    the JD at all — it is outcome/practice-framed throughout (delivery governance, operating rhythms,
+    release/go-live, cross-functional coordination). This is one of the cleanest fit scores in the
+    wiki to date; nothing to acknowledge or bridge in the cover letter.
+  - **Manual edit reused as a template.** The Xero Challenge & Impact Solution bullet was rewritten to
+    strip all company-internal jargon (no "Practice domain", "BlueNav", "GSD", "1% traffic trial"):
+    "I led the team that delivered the first production-backed API functionality to establish the
+    tracer-bullet pattern, built a Master Program Migration tracker across all major engineering
+    divisions with EGM visibility..." — same device first used for etrainu (2026-07-24, same day);
+    treat this phrasing as the standing default over the codename-heavy version.
+  - Cover letter used a plain "JD interpretation + match claim" structure (paraphrase the role, map
+    three bullet anchors, close on immediate availability) rather than a scale-up-preference or
+    gap-acknowledgement device — appropriate given the clean fit and no gap to bridge.
 
 ## Performance review insights (Xero, 2026-06)
 

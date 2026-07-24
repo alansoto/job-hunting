@@ -6,6 +6,17 @@ Entry format is maintained by `/ingest`.
 
 ---
 
+### Future Secure AI — Technical Program Manager (2026-07-24)
+
+**Role level:** senior  
+**Hook pattern:** JD interpretation + match claim opener — names the role and states interest, then paraphrases what the role actually requires (turning complex cross-functional initiatives into predictable execution) before mapping directly to Xero experience. No gap paragraph — the fit was clean enough not to need one.  
+**Body format:** Prose intro + a bolded-label bullet block (3 anchors: Enterprise AI & Platform Delivery at Scale / Delivery Governance & Operating Rhythms / Agile Execution & Cross-Functional Alignment), ~280 words total  
+**Tone markers:** Xero Challenge & Impact bullet rewritten with no company-internal jargon ("led the team that delivered an initial thin slice to production to prove the pattern") while keeping scale metrics (3M+ customers, dozens of teams) intact — accurate without overclaiming individual authorship. Close states Brisbane location and immediate availability plainly, low-pressure.  
+**Gap acknowledgement:** None — gap analysis found no unmet requirement in the JD worth raising.  
+**What worked:** Clear, easy-to-read structure combining bullet punchiness with conversational narrative flow; accurate technical guardrails (correctly frames Xero contributions as team-led, not solo, while preserving scale metrics); direct coverage of the JD's named priorities (enterprise AI delivery, platform/API modernization, governance setup, Agile operating rhythms); clean low-pressure close confirming location and immediate availability.
+
+---
+
 ### Amber — Software Engineering Manager (2026-06-17)
 
 **Role level:** senior  
@@ -274,6 +285,18 @@ Entry format is maintained by `/ingest`.
 **Tone markers:** "so the client stopped chasing us for status updates and started building their commercial roadmap around our delivery" — turns the 2sol reactive-to-predictable story into a concrete client-outcome. "My strength as a delivery lead is diving in and understanding new technical domains quickly so I can support the team effectively" — the gap pivot doubles as a positive capability claim.
 **Gap acknowledgement:** **First application to surface a native mobile (iOS/Android) app-build gap.** Stated plainly ("I haven't led a dedicated native iOS or Android app build"), respect-the-craft beat ("I respect the depth required to get native mobile right"), then the standard dive-in-and-learn-fast pivot rather than a claim. A capability/domain gap, not an industry one. See [[positioning]] client-partner PM row.
 **What worked:** n/a — not yet confirmed. User made manual edits to both documents (reordered experience into strict reverse-chronological order; reworded the Xero thin-slice bullet from "Took the smallest slice / got it live" to "Led the team that delivered..." to stop it reading as individual-contributor implementation).
+
+---
+
+### etrainu — Engineering Manager (2026-07-24)
+
+**Role level:** senior (permanent, in-house EM; B2B SaaS LMS/e-learning platform serving sport, disability, aged care, and corporate sectors). Addressed to a named contact, "Dear Nicola" — confirm surname/title before reuse.
+**Hook pattern:** **Direct-enthusiasm opener, a new variant.** Opens with a plain statement of interest ("I'm very interested in the Engineering Manager role at etrainu, and I would love to learn more about it!") rather than a JD-interpretation, pain-point, or context-setting paragraph — the most casual and least devised opener in the wiki to date. The real hook lands in the next paragraph, which states the Go1/etrainu product-category match directly and plainly: "the e-learning and LMS space is very familiar territory for me. I understand the domain, the nuances of course content distribution, and what it takes to build and scale B2B SaaS platforms in this industry."
+**Body format:** Direct-enthusiasm opener + domain-match paragraph + a reused scale-up/smaller-company preference paragraph (the Karmo device, applied here without a JD signal explicitly asking for it) + transition line + two bolded-label bullets ("Reliability & Delivery Practice:", "Practical AI Adoption:") + casual close. ~260 words.
+**Tone markers:** "I love being close to the work" — personal, informal register throughout, more so than any prior senior letter. "In smaller teams, you can cut out unnecessary layers, move fast, and stay deeply connected to both the product and the people making it happen." — states the scale-up preference as a general belief rather than tying it to a specific JD line. Close: "I'd love to jump on a call to chat about..." — casual, low-pressure.
+**Gap acknowledgement:** None. The domain match is strong enough (Go1 as a direct e-learning/LMS precedent) that no gap paragraph was needed anywhere in the letter — consistent with the gap analysis, which found no unmet requirement.
+**Positioning note:** Reuses the Karmo "direct scale-up preference" device on a JD that never asked for it — worth watching whether this becomes a general-purpose device for any SaaS EM role rather than one reserved for JDs with an explicit scale-up/energetic tone. Also the source of a reusable jargon-free rewrite of the Xero Supergraph story — see [[positioning]] etrainu cheat-sheet entry and [[projects]] for the corrected phrasing.
+**What worked:** n/a — not yet confirmed; ask Alan what specifically landed (the direct-enthusiasm opener, the scale-up preference reuse, or the bolded two-item evidence block) next time this entry is revisited.
 
 ---
 

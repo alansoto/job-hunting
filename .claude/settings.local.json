@@ -34,7 +34,8 @@
       "PowerShell(git -C c:\\\\repos\\\\job-hunting diff wiki/log.md)",
       "PowerShell(git -C c:\\\\repos\\\\job-hunting add -A)",
       "PowerShell(git -C c:\\\\repos\\\\job-hunting commit -m \"Finalise Davidson ICT PM application; backfill Digital Native; lint wiki\" -m \"Adds the Davidson Project Manager application \\(2026-07-20\\) and its raw outputs, backfills the Digital Native Engineering Lead application \\(2026-07-16\\) that was submitted but never taken through finalise, and folds both into the wiki.\" -m \"Wiki also carries a de-duplication lint pass: open lint findings trimmed to genuinely actionable items, closed findings moved into dated log entries, and permanent guardrails relocated to their owning pages.\" -m \"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\")",
-      "Bash(awk -F'|' '{print $2}')"
+      "Bash(awk -F'|' '{print $2}')",
+      "Bash(python *)"
     ]
   }
 }

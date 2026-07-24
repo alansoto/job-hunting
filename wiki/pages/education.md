@@ -35,6 +35,10 @@ Degrees, certifications, and courses for **Alan Soto**. Cross-referenced from [[
 - **AI Assisted Development** — **2026.** *(New 2026-07-15.)* Pairs with the already-evidenced
   daily use of AI coding tools (Copilot/Claude/Gemini) noted in the Karmo application, and with the
   AI delivery evidence in [[experience]] (Xero AI for Customers, intelliHR NLP analytics).
+  *(2026-07-24, etrainu resume: Alan's manual edit named it "AI Assisted Development with Claude" —
+  first time the certification has been tied to a specific tool in any document. Consistent with
+  Nagare being built with Claude Code. Worth confirming whether "with Claude" is the credential's
+  actual title or just Alan's own gloss before reusing it verbatim elsewhere.)*
 - **React Nanodegree** — **2017.** *(New 2026-07-16, surfaced via Alan's manual edits to the Digital
   Native Engineering Lead resume.)* Issuing body unrecorded — the name matches Udacity's Nanodegree
   programs; **confirm with Alan.** This is the **first and only formal front-end credential anywhere
