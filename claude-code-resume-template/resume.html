@@ -112,6 +112,7 @@
 
   /* ---- experience ---- */
   .entry{ margin-bottom:11px; }
+  .entry-grouphead{ font-family:var(--font-head); font-weight:700; font-size:11px; line-height:1; letter-spacing:.14em; text-transform:uppercase; color:var(--ink); margin:0 0 11px; padding-bottom:6px; border-bottom:1px solid var(--rule); }
   .entry-head{ display:flex; justify-content:space-between; align-items:flex-start; gap:14px; }
   .entry-company{ margin:0; font-family:var(--font-head); font-weight:600; font-size:15.5px; line-height:1.25; color:var(--ink); }
   .entry-dates{ font-family:var(--font-head); font-weight:500; font-size:11px; line-height:1.25; letter-spacing:.06em; color:var(--muted-3); white-space:nowrap; }
@@ -290,8 +291,9 @@ function buildProfile(d){
   return b;
 }
 
-function buildEntry(job){
+function buildEntry(job, groupLabel){
   const e = el('div','entry');
+  if (groupLabel) e.appendChild(el('div','entry-grouphead', esc(groupLabel)));
   const head = el('div','entry-head');
   head.appendChild(el('h3','entry-company', esc(job.company)));
   if (job.dates) head.appendChild(el('span','entry-dates', esc(job.dates)));
@@ -340,7 +342,12 @@ async function paginate(){
   if (d.summary) col.appendChild(buildProfile(d));
   col.appendChild(el('div','label','Experience'));
 
-  const entries = (d.experience || []).map(buildEntry);
+  let lastGroup;
+  const entries = (d.experience || []).map(job => {
+    const showGroup = job.group != null && job.group !== lastGroup;
+    if (showGroup) lastGroup = job.group;
+    return buildEntry(job, showGroup ? job.group : null);
+  });
 
   // fill page 1 main column until the next entry would overflow
   let i = 0;

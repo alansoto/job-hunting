@@ -1,3 +1,8 @@
+---
+model: sonnet
+effort: medium
+---
+
 # Render
 
 Generate PDFs from markdown drafts in an application folder. Triggered by "render PDFs" or "generate PDFs", or called as a step inside `/finalise`.
@@ -95,4 +100,4 @@ Optional context line
 ## Education        ← each line: qualification · org · note
 ```
 
-The full format spec (with all rules) lives in `/apply` Step 3.
+The full format spec (with all rules) lives in `/apply` Step 3, including the optional pattern for splitting `## Experience` into labelled groups (e.g. "Directly Relevant Experience" / "Additional Experience") — supported by both `build.js` and `build-narrative.js`.

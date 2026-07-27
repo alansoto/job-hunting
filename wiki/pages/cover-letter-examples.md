@@ -26,38 +26,6 @@ Entry format is maintained by `/ingest`.
 **Gap acknowledgement:** Energy/IoT domain gap stated plainly and reframed as intellectual honesty + curiosity — not minimised or explained away. See [[positioning]] "curious-and-honest gap play" tailoring device.  
 **What worked:** structure, conversational/casual tone
 
----
-
-### Clipchamp (Microsoft) — Senior Technical Program Manager (2026-06-17)
-
-**Role level:** senior  
-**Hook pattern:** Mission-first opener — paraphrases the specific JD work ("bringing AI into a video product millions of people rely on"), then immediately bridges to current Xero role relevance. No direct JD-quoting.  
-**Body format:** Prose, 4 paragraphs, ~220 words  
-**Tone markers:** "I do most of this without direct authority, so I have learned to drive clarity and keep people aligned by being useful to each team rather than by sitting above them." — accountability-without-hierarchy framing; direct and memorable. Closing names city explicitly ("I am Brisbane based") to signal logistics awareness.  
-**Gap acknowledgement:** Video domain gap surfaced naturally mid-letter ("I have not worked in video specifically"), then neutralised through domain-hopping pattern (accounting → insurance → HR → e-learning) + Go1 content-creator adjacency.  
-**What worked:** structure, conversational/casual tone
-
----
-
-### Robert Walters — Senior Project Manager (2026-06-17)
-
-**Role level:** senior
-**Hook pattern:** Two-paragraph "JD interpretation + match claim" opener. Para 1 states the role plainly ("I am applying for the Project Manager role to lead a large website CMS rebuild."). Para 2 paraphrases what the role actually requires in Alan's own words, then directly claims alignment ("That's exactly the profile I've spent most of my career building."). Shows comprehension of the brief before claiming fit — more grounded than a mission-first or "When I read..." opener.
-**Body format:** Mixed — three role-specific bullets (one per relevant engagement: Xero, Suncorp, Console/Reapit), a synthesis sentence naming the specific contribution, then two prose paragraphs (gap acknowledgement + close). ~230 words.
-**Tone markers:** "In essence, my key contribution will be bridging the gap between business, tech, and outside vendors to deliver the website." — synthesis sentence after the bullet block; names the value-add directly before moving to the gap. "I want to be upfront: I haven't worked with Optimizely directly." — gap stated plainly with a colon, no softening. "it's the ability to actually drive a project and keep everyone aligned that takes years to learn." — capability-hierarchy reframe; contrasts what is easy to acquire (CMS specifics) against what takes years (delivery mechanics).
-**Gap acknowledgement:** Optimizely/CMS gap acknowledged plainly, then reframed via a capability-hierarchy argument: the gap is in the easy-to-learn thing; the candidate is strong in the hard-to-learn thing. See [[positioning]] "capability-hierarchy gap reframe" tailoring device.
-**What worked:** Two-paragraph opener (role statement + JD interpretation + match claim); synthesis sentence after bullets naming the contribution directly; plain gap acknowledgement with capability-hierarchy reframe; casual, simple tone throughout.
-
----
-
-### Stake — Engineering Technical Lead - Payments (draft) (2026-06-17)
-
-**Role level:** senior  
-**Hook pattern:** "When I read the description..." opener — names the specific JD signal (scaling payments while bridging engineering, product, and compliance), then immediately maps it to current Xero work (API Program + US Bills payments integration).  
-**Body format:** Prose, 4 paragraphs, ~200 words. Each paragraph owns one theme: (1) payments lifecycle ownership, (2) compliance/regulatory intersection, (3) people leadership and engineering culture, (4) brief close.  
-**Tone markers:** "I can help you scale Stake's payments infrastructure securely because I have owned this full lifecycle before." — opens a paragraph with a direct claim sentence then follows with evidence. Thematic one-claim-per-paragraph structure gives clear forward momentum.  
-**Gap acknowledgement:** None — framed as a direct match. Investment-platform domain gap not surfaced in this draft.  
-**What worked:** structure, conversational/casual tone
 
 ---
 
@@ -308,3 +276,26 @@ Entry format is maintained by `/ingest`.
 **Tone markers:** "The hardest part of a program like this is rarely the software itself." — reframes the JD's technical framing (SAP SuccessFactors) as a delivery problem, setting up the pivot away from the product gap. "I haven't run a SAP SuccessFactors rollout specifically. But I know the underlying domains inside out and pick up new platforms quickly." — gap stated in two short plain sentences, no hedging, immediately followed by the pivot.
 **Gap acknowledgement:** SAP SuccessFactors (the specific product) stated plainly as a direct gap, then bridged via domain fluency (the three domains it spans are each separately evidenced) rather than a capability-hierarchy argument. Low-severity gap since the JD lists it as "highly regarded," not required. See [[positioning]] domain trifecta framing.
 **What worked:** the domain trifecta hook; overall tone and brevity. This application was also the first to have its resume manually redirected from Format A (standard, the contract/keyword-heavy default) to Format B (narrative) at Alan's explicit request rather than a JD-driven call — see [[positioning]] "Format override" note.
+
+---
+
+### Bolton Clarke — Senior Project Manager, Residential Aged Care Technology Strategy (2026-07-27)
+
+**Role level:** senior/strategic (permanent, not-for-profit aged care provider; the role leads Residential Aged Care Technology Strategy, future-state blueprint, multi-year roadmaps, enterprise-wide transformation)
+**Hook pattern:** Named-contact soft opener — "RE:" subject line + "Dear Troy," (the JD's own listed contact, Troy Groves, rather than a recruiter consultant — the first application to source a named salutation directly from the JD's text). Opens with "I saw the Senior Project Manager role for Bolton Clarke's technology strategy, and knew immediately I wanted to get in touch" — a plain statement of interest, closest relative to etrainu's direct-enthusiasm opener, not a JD-interpretation or pain-point device.
+**Body format:** Soft opener + one prose paragraph naming the 15+/20-year technology-program background + transition line + four bolded-label bullets ("Building roadmaps people trust:", "Delivery in heavily regulated environments:", "Vendor and commercial ownership:", "Grounded project foundations:") + closing paragraph tying the pitch to the organisation's caring mission + immediate-availability close. ~280 words. The bolded-label bullet block is the Karmo/Bay device, reused here in a formal not-for-profit register rather than a casual scale-up one — first time this structural device has appeared outside an energetic/casual-tone letter.
+**Tone markers:** "What draws me to Bolton Clarke is the chance to apply this experience to work that directly affects people's lives and daily care. I pride myself on building genuine, honest relationships, stripping out friction, and keeping complex programs moving steadily forward." — closing paragraph naming the mission directly rather than treating it as a generic values statement.
+**Gap acknowledgement:** None in the sent version — the aged-care industry gap that the gap analysis recommended raising in one line was cut in Alan's manual edit; the letter proceeds on strategy/governance/vendor fit alone.
+**Caution:** the "Vendor and commercial ownership" bullet says "At Flight Centre, I managed core platforms..." — this misattributes employment. Alan was employed at 2sol Software Studios, Flight Centre's engineering partner; Flight Centre was the client. Flagged to Alan before rendering; he chose to send as-is. Do not reuse this specific phrasing — see the caution note in [[positioning]].
+**What worked:** User confirmed — the named-contact "RE:"/"Dear Troy" opener, the overall warm/human tone, and specifically the closing line connecting the work to residents' lives and daily care.
+
+---
+
+### Flight Centre Travel Group — Program Manager (2026-07-27)
+
+**Role level:** senior (in-house Corporate PMO Program Manager, matrixed global org)
+**Hook pattern:** **Direct former-client opener, a new variant.** Opens straight on the literal five-year 2sol/FCTG delivery relationship rather than a JD-interpretation or pain-point device — "Having spent five years owning the end-to-end delivery of Flight Centre's online accommodation platform, I bring a deep, existing understanding of the FCTG domain." Closest relative is HomeRepair's parent-company hook, but this one names the hiring company itself as the direct prior client, not an adjacent brand.
+**Body format:** Prose opener (2sol/FCTG history) + one-line transition + three bolded-label bullets ("Enterprise Program Delivery:", "Delivery Governance:", "Coaching and PMO Rhythms:") + immediate-availability close. No gap paragraph. ~230 words.
+**Tone markers:** "As Flight Centre's primary delivery partner at 2sol Software, I was the single point of contact running the hotel and accommodation booking ecosystem platform, generating over $5M a month across 10+ customer-facing products and 20+ APIs" — leads with the hard number and the direct-relationship framing in the same sentence. Labelled bullets read as a scannable capability list rather than narrative prose — Alan specifically liked this scanability, e.g. the Xero bullet ("Enterprise Program Delivery: Most recently, as Lead Technical Program Manager at Xero, I directed a company-wide federated API program spanning dozens of engineering teams across multiple regions, with executive-level visibility on milestones, trade-offs, and risk").
+**Gap acknowledgement:** None. Fit was clean enough (literal direct-employer history) that no gap paragraph was included — named PPM tools (MS Project/Planner/Smartsheet/Wrike) and ITIL/Prince2 left unraised as soft/nice-to-have only.
+**What worked:** the opening (direct 2sol/FCTG hook) and the scannability of the labelled capability bullets, specifically the Xero bullet's density (role, scope, and executive visibility in one sentence).

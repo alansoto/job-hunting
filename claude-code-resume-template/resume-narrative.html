@@ -117,6 +117,7 @@
   .n-role{ font-weight:600; font-size:13px; line-height:1.3; color:var(--muted); margin:3px 0 0; }
   .n-meta{ font-size:11.5px; line-height:1.4; color:var(--muted-4); margin:2px 0 7px; }
   .n-subhead{ font-family:var(--font-head); font-weight:600; font-size:9.5px; line-height:1; letter-spacing:.16em; text-transform:uppercase; color:var(--muted-3); margin:9px 0 4px; }
+  .n-grouphead{ font-family:var(--font-head); font-weight:700; font-size:11px; line-height:1; letter-spacing:.14em; text-transform:uppercase; color:var(--ink); margin:0 0 11px; padding-bottom:6px; border-bottom:1px solid var(--rule); }
   .n-para{ margin:0 0 7px; font-size:12.5px; line-height:1.5; color:#333; text-wrap:pretty; }
   .n-block:not(:last-child) .n-para:last-child{ margin-bottom:0; }
   .n-entrygap{ height:14px; }
@@ -265,6 +266,10 @@ function buildProfile(d){
   return b;
 }
 
+function groupHeadHtml(label){
+  return '<div class="n-grouphead">'+esc(label)+'</div>';
+}
+
 function entryHeadHtml(job){
   let html = '<div class="n-head"><h3 class="n-company">'+esc(job.company)+'</h3>';
   if (job.dates) html += '<span class="n-dates">'+esc(job.dates)+'</span>';
@@ -294,8 +299,16 @@ function sectionHtml(sec){
    as a single header + bullet-list block. */
 function buildExperienceNodes(d){
   const nodes = [];
+  let lastGroup;
   (d.experience || []).forEach((job, ji) => {
     if (ji > 0) nodes.push(el('div','n-entrygap'));
+
+    // A `group` label (e.g. "Directly Relevant Experience") is shown once,
+    // above the first entry of each run sharing that label — kept in the same
+    // flow block as the entry header so the two never separate across a page.
+    const showGroup = job.group != null && job.group !== lastGroup;
+    if (showGroup) lastGroup = job.group;
+    const headHtml = () => (showGroup ? groupHeadHtml(job.group) : '') + entryHeadHtml(job);
 
     const intro    = job.intro || [];
     const sections = job.sections || [];
@@ -304,14 +317,14 @@ function buildExperienceNodes(d){
 
     intro.forEach(para => {
       let html = '';
-      if (firstOfJob) html += entryHeadHtml(job);
+      if (firstOfJob) html += headHtml();
       html += '<p class="n-para">'+escMd(para)+'</p>';
       nodes.push(el('div','n-block', html));
       firstOfJob = false;
     });
     sections.forEach(sec => {
       let html = '';
-      if (firstOfJob) html += entryHeadHtml(job);
+      if (firstOfJob) html += headHtml();
       html += sectionHtml(sec);
       nodes.push(el('div','n-block', html));
       firstOfJob = false;
@@ -320,14 +333,14 @@ function buildExperienceNodes(d){
     // may lead with prose and still carry a plain bullet list (e.g. a project entry).
     if (bullets.length){
       let html = '';
-      if (firstOfJob) html += entryHeadHtml(job);
+      if (firstOfJob) html += headHtml();
       html += '<ul class="bullets">';
       bullets.forEach(b => html += '<li>'+escMd(b)+'</li>');
       html += '</ul>';
       nodes.push(el('div','n-block', html));
       firstOfJob = false;
     }
-    if (firstOfJob) nodes.push(el('div','n-block', entryHeadHtml(job)));
+    if (firstOfJob) nodes.push(el('div','n-block', headHtml()));
   });
   return nodes;
 }

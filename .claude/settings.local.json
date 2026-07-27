@@ -36,7 +36,22 @@
       "PowerShell(git -C c:\\\\repos\\\\job-hunting commit -m \"Finalise Davidson ICT PM application; backfill Digital Native; lint wiki\" -m \"Adds the Davidson Project Manager application \\(2026-07-20\\) and its raw outputs, backfills the Digital Native Engineering Lead application \\(2026-07-16\\) that was submitted but never taken through finalise, and folds both into the wiki.\" -m \"Wiki also carries a de-duplication lint pass: open lint findings trimmed to genuinely actionable items, closed findings moved into dated log entries, and permanent guardrails relocated to their owning pages.\" -m \"Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\")",
       "Bash(awk -F'|' '{print $2}')",
       "Bash(python *)",
-      "Bash(graphify query *)"
+      "Bash(graphify query *)",
+      "Bash(cp \"applications/2026-07-27-buildsafe-software-engineering-manager/resume-draft.md\" \"raw/resumes/Alan-Soto-2026-07-27-Buildsafe-Software-Engineering-Manager-Resume.md\")",
+      "Bash(cp \"applications/2026-07-27-buildsafe-software-engineering-manager/cover-letter-draft.md\" \"raw/resumes/Alan-Soto-2026-07-27-Buildsafe-Software-Engineering-Manager-Cover-Letter.md\")",
+      "Bash(cp \"applications/2026-07-27-flight-centre-travel-group-program-manager/resume-draft.md\" \"/c/Users/coala/AppData/Local/Temp/claude/C--repos-job-hunting/72ab91bf-dc85-4383-8b6f-b6bb2b6a52fa/scratchpad/resume-draft-backup.md\")",
+      "Bash(grep -v \"^#### \" \"applications/2026-07-27-flight-centre-travel-group-program-manager/resume-draft.md\")",
+      "Bash(mkdir -p \"/c/Users/coala/AppData/Local/Temp/claude/C--repos-job-hunting/72ab91bf-dc85-4383-8b6f-b6bb2b6a52fa/scratchpad/testapp\")",
+      "Bash(cp \"/c/Users/coala/AppData/Local/Temp/claude/C--repos-job-hunting/72ab91bf-dc85-4383-8b6f-b6bb2b6a52fa/scratchpad/resume-nogroups.md\" \"/c/Users/coala/AppData/Local/Temp/claude/C--repos-job-hunting/72ab91bf-dc85-4383-8b6f-b6bb2b6a52fa/scratchpad/testapp/resume-draft.md\")",
+      "Bash(mkdir -p __TRACKED_VAR__/testformata)",
+      "Bash(cp applications/2026-06-27-best-practice-software-project-manager/resume-draft.md __TRACKED_VAR__/testformata/resume-draft.md)",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\repos\\\\job-hunting\\\\wiki\\\\log.md' -Tail 40\")",
+      "Bash(powershell -Command \"\\(Get-Content 'C:\\\\repos\\\\job-hunting\\\\wiki\\\\pages\\\\cover-letter-examples.md' | Measure-Object -Line\\).Lines\")",
+      "PowerShell(Format-Hex *)",
+      "PowerShell($c = Get-Content -Raw 'C:\\\\repos\\\\job-hunting\\\\applications\\\\2026-07-27-bolton-clarke-senior-project-manager\\\\cover-letter-draft.md'; $i = $c.IndexOf\\('Management,'\\); $sub = $c.Substring\\($i+11,3\\); foreach \\($ch in $sub.ToCharArray\\(\\)\\) { '{0:X4}' -f [int]$ch })",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\repos\\\\job-hunting\\\\wiki\\\\log.md' -Tail 5\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\repos\\\\job-hunting\\\\wiki\\\\processed.md' -Tail 5\")"
     ]
-  }
+  },
+  "spinnerTipsEnabled": true
 }

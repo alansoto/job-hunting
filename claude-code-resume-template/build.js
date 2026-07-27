@@ -85,26 +85,43 @@ function parseResumeDraft(content) {
   const linkedinLabel = linkedinParts[0] || '';
   const linkedinUrl   = linkedinParts[1] || '';
 
-  // Collect lines per section (keyed by lowercase ## heading)
-  const sections = {};
-  let key   = null;
-  let block = [];
+  // Collect lines per section, preserving heading order and original case.
+  const sectionList = []; // { key: lowercase, raw: original text, lines: [] }
+  let cur = null;
   for (const l of lines) {
     if (l.startsWith('## ')) {
-      if (key !== null) sections[key] = block;
-      key   = l.replace(/^##\s*/, '').trim().toLowerCase();
-      block = [];
-    } else if (key !== null) {
-      block.push(l);
+      if (cur) sectionList.push(cur);
+      const raw = l.replace(/^##\s*/, '').trim();
+      cur = { key: raw.toLowerCase(), raw, lines: [] };
+    } else if (cur) {
+      cur.lines.push(l);
     }
   }
-  if (key !== null) sections[key] = block;
+  if (cur) sectionList.push(cur);
+
+  const sections = {};
+  sectionList.forEach(s => { sections[s.key] = s.lines; });
+
+  // Any ## section that isn't one of the fixed non-experience sections is
+  // treated as an experience group — this lets a resume split roles across
+  // several headings (e.g. "## Directly Relevant Experience" / "## Additional
+  // Experience") instead of a single "## Experience" section. Entries from
+  // such a section are tagged with the heading text as their `group`, unless
+  // the heading is literally "Experience" (kept ungrouped for backward compat).
+  const NON_EXPERIENCE_KEYS = new Set(['profile', 'core skills', 'earlier', 'education']);
+  let experience = [];
+  sectionList.forEach(s => {
+    if (NON_EXPERIENCE_KEYS.has(s.key)) return;
+    const entries = parseExperience(s.lines);
+    if (s.key !== 'experience') entries.forEach(e => { if (e.group == null) e.group = s.raw; });
+    experience = experience.concat(entries);
+  });
 
   return {
     name, title, location, email, linkedinLabel, linkedinUrl,
     summary:    parseProfile(sections['profile']     || []),
     skills:     parseSkills(sections['core skills']  || []),
-    experience: parseExperience(sections['experience'] || []),
+    experience,
     education:  parseEducation(sections['education'] || []),
     earlier:    parseEarlier(sections['earlier']     || []),
   };
@@ -138,8 +155,17 @@ function parseExperience(lines) {
   const entries = [];
   let cur   = null;
   let state = 0; // 0=await-meta  1=await-context  2=bullets
+  let currentGroup;
 
   for (const line of lines) {
+    // Optional `#### Group Label` heading — splits Experience into labelled
+    // subsections within a single "## Experience" section.
+    if (line.startsWith('#### ')) {
+      if (cur) entries.push(cur);
+      cur = null;
+      currentGroup = line.replace(/^####\s*/, '').trim();
+      continue;
+    }
     if (line.startsWith('### ')) {
       if (cur) entries.push(cur);
       const header = line.replace(/^###\s*/, '').trim();
@@ -148,7 +174,7 @@ function parseExperience(lines) {
       cur   = {
         company: m ? m[1].trim() : header,
         role:    m ? m[2].trim() : '',
-        dates: '', place: '', context: '', bullets: [],
+        dates: '', place: '', context: '', bullets: [], group: currentGroup,
       };
       state = 0;
       continue;

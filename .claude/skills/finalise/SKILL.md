@@ -1,3 +1,8 @@
+---
+model: sonnet
+effort: medium
+---
+
 # Finalise
 
 Export PDFs, archive sources, ingest, and update tracker. Triggered by "finalise" at the end of an apply flow.

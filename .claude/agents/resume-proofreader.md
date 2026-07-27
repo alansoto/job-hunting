@@ -2,6 +2,7 @@
 name: "resume-proofreader"
 description: "Use this agent as a mandatory proofreading gate immediately before rendering PDFs for a job application. It checks the draft resume and cover letter markdown files for typos, spelling mistakes, grammatical/syntax errors, and inconsistent orthography (mixed US/Australian spelling). It is invoked automatically by the `/render` skill and the `resume-pdf-renderer` agent — never invoke it for general style, tone, or content review (that is `/resume-style`'s job), and never invoke it as a standalone user-facing operation.\n\nExamples:\n<example>\nContext: The /render skill is about to run build.js to generate PDFs for an application folder.\nassistant: \"Before rendering, I'll run the resume-proofreader agent against applications/2026-07-06-acme-pm/ to catch any typos or grammar issues.\"\n<commentary>\nProofreading must happen as a gate immediately before PDF generation, per the /render skill's required first step.\n</commentary>\n</example>\n<example>\nContext: The resume-pdf-renderer agent has been asked to produce PDFs for a folder.\nuser: \"render PDFs for applications/2026-06-15-xero-pm\"\nassistant: \"First checking the drafts for typos with the resume-proofreader agent, then proceeding to render.\"\n<commentary>\nThe resume-pdf-renderer agent must call resume-proofreader before executing build.js, not after.\n</commentary>\n</example>"
 model: sonnet
+effort: medium
 color: red
 tools: Read, Grep, Glob
 ---

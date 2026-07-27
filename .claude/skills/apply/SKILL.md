@@ -164,6 +164,44 @@ Format B rules:
 - Keep to 1-2 pages unless the role explicitly calls for more
 - Apply `/resume-style` rules to every bullet and sentence
 
+### Optional: splitting Experience into labelled groups
+
+Both formats support splitting the flat Experience list into two or more labelled groups — e.g. **"Directly Relevant Experience"** and **"Additional Experience"** — when only some roles line up with the target JD and it's worth making that distinction visible rather than relying on ordering alone. Use this when a meaningful chunk of the history is tangential (a pivot, a consulting detour) but still worth keeping on the resume.
+
+Two ways to write it (both parse identically — pick whichever reads cleaner in the draft):
+
+- **Separate `##` headings** — replace the single `## Experience` heading with two or more headings of your own wording, each followed by its `### Company - Role` entries:
+  ```
+  ## Directly Relevant Experience
+
+  ### {Company} - {Role}
+  ...
+
+  ## Additional Experience
+
+  ### {Company} - {Role}
+  ...
+  ```
+- **`#### ` sub-headings inside one `## Experience` section** — same effect, kept under a single heading:
+  ```
+  ## Experience
+
+  #### Directly Relevant Experience
+
+  ### {Company} - {Role}
+  ...
+
+  #### Additional Experience
+
+  ### {Company} - {Role}
+  ...
+  ```
+
+Rules:
+- Every entry within a group stays in descending date order; groups themselves don't have to nest by date (relevance trumps chronology across groups).
+- The literal heading `## Experience` is never itself treated as a group label — only used to opt into the `####` sub-heading style above. Any other `##` heading (besides Profile/Skills/Core skills/Earlier/Education/Certifications) is treated as an experience group and its exact text becomes the printed group label.
+- This is optional — a single flat `## Experience` section (no grouping) remains the default and needs no special handling.
+
 ## Step 4 — Draft cover letter
 
 ### Before drafting — JD Analysis
